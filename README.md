@@ -20,3 +20,7 @@
 ||§ 2.2.2|exercise|[B. Clique Problem](http://codeforces.com/contest/528/problem/B)|||[区間スケジューリング問題に帰着](http://codeforces.com/contest/528/submission/78082567)|
 |o|§ 2.2.2|exercise|[D - プレゼント](https://atcoder.jp/contests/abc038/tasks/abc038_d)|||[LIS, セグメント木]()|
 ||§ 2.2.3|example|[Best Cow Line](http://poj.org/problem?id=3617)|||[予め反転した文字列も用意して貪欲法](./2.2.3/poj3617.c)|
+||§ 2.2.3|excercise|[C - Dubious Document 2](https://atcoder.jp/contests/abc076/tasks/abc076_c)|||[後ろから](https://atcoder.jp/contests/abc076/submissions/12324748)|
+||§ 2.2.3|excercise|[B - 辞書式順序](https://atcoder.jp/contests/abc007/tasks/abc007_2)|||['a' or -1を出力](https://atcoder.jp/contests/abc007/submissions/12324882)|
+||§ 2.2.3|excercise|[C - 辞書式順序ふたたび](https://atcoder.jp/contests/abc009/tasks/abc009_3)|||[]()|
+||§ 2.2.4|example|[Saruman's Army](http://poj.org/problem?id=3069)|||[昇順にソート->貪欲](./2.2.4/poj3069.c)|
