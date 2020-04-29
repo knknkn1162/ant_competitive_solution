@@ -69,19 +69,24 @@ int main(void) {
     dp[0][0] = 1;
     int num, sels;
     int arr[NUM_MAX];
+    static int cum[SELECT_MAX+2];
     get_int2(&num, &sels);
     fget_array(arr, num);
+    int j;
+    for(j = 1; j <= sels+1; j++) {
+        cum[j] = cum[j-1] + dp[0][j-1];
+    }
 
-    int i, cur, prev;
+    int i, cur;
     for(i = 1; i <= num; i++) {
         int limit = arr[i-1];
         for(cur = 0; cur <= sels; cur++) { // max: 1000
-            int res = 0;
-            // calc dp[i][j];
-            for(prev = max(0, cur-limit); prev <= cur; prev++) {
-                res = (res + dp[i-1][prev])%divisor;
-            }
-            dp[i][cur] = res;
+            // sum of [max(0, cur-limit), cur]
+            dp[i][cur] = (divisor + cum[cur+1] - cum[max(0, cur-limit)])%divisor;
+        }
+        memset(cum, 0, sizeof(int)*(NUM_MAX+2));
+        for(j = 1; j <= sels+1; j++) {
+            cum[j] = (cum[j-1] + dp[i][j-1])%divisor;
         }
     }
     printf("%d\n", dp[num][sels]);
