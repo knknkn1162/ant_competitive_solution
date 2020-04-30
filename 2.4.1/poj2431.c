@@ -21,12 +21,6 @@ struct gas_sta {
     int gas;
 };
 
-struct pair {
-    int rem;
-    int cnt;
-    int idx;
-};
-
 int asc_by_pos(const void *a1, const void *a2) {
     struct gas_sta *ga1 = (struct gas_sta*)a1;
     struct gas_sta *ga2 = (struct gas_sta*)a2;
@@ -34,22 +28,22 @@ int asc_by_pos(const void *a1, const void *a2) {
 }
 
 #define NUM_MAX 10000
-#define HEAP_MAX 1000000
+#define HEAP_MAX NUM_MAX+50
 
-static struct pair heap[HEAP_MAX];
+static int heap[HEAP_MAX];
 int hidx = 1;
 
-int cmp(struct pair *this, struct pair *child) {
-    return this->cnt < child->cnt;
-}
-
-void swap(struct pair *p1, struct pair *p2) {
-    struct pair tmp = *p1;
+void swap(int *p1, int *p2) {
+    int tmp = *p1;
     *p1 = *p2;
     *p2 = tmp;
 }
 
-void enqueue(struct pair p) {
+int cmp(int *this, int *child) {
+    return *this > *child;
+}
+
+void enqueue(int p) {
     heap[hidx++] = p;
     int node = hidx-1;
     int parent;
@@ -62,8 +56,8 @@ void enqueue(struct pair p) {
     return;
 }
 
-struct pair pop_min(void) {
-    struct pair p = heap[1];
+int pop_max(void) {
+    int p = heap[1];
     int node = 1;
     heap[node] = heap[hidx-1];
     hidx--;
@@ -90,34 +84,39 @@ int is_empty(void) {
 
 int main(void) {
     int num = get_int();
-    static struct gas_sta gs[NUM_MAX+2];
+    static struct gas_sta gs[NUM_MAX+1];
     int i;
-    gs[0].pos = 0; gs[0].gas = 0;
-    for(i = 1; i <= num; i++) {
+    for(i = 0; i < num; i++) {
         get_int2(&gs[i].pos, &gs[i].gas);
     }
     int len, init_gas;
     get_int2(&len, &init_gas);
-    gs[num+1].pos = len; gs[num+1].gas = 0;
-    qsort(gs, num+2, sizeof(struct gas_sta), asc_by_pos);
-
+    // gs[i].pos: the dist from the starting point
+    for(i = 0; i < num; i++) {
+        gs[i].pos = len-gs[i].pos;
+    }
+    gs[num].pos = len; gs[num].gas = 0;
+    qsort(gs, num, sizeof(struct gas_sta), asc_by_pos);
+    int idx = 0;
+    int dist = 0;
+    int cnt = 0;
+    enqueue(init_gas);
     // start
-    enqueue((struct pair){init_gas, 0, num+1});
-
     int ans = -1;
     while(!is_empty()) {
-        struct pair p = pop_min();
 #ifdef DEBUG
-        printf("rem: %d %d %d\n", p.rem, p.cnt, p.idx);
+        printf("%d: cnt: %d\n", idx, cnt);
 #endif
-        int cur = p.idx;
-        if(cur == 0) { ans = p.cnt; break; }
-        int nrem = p.rem - (gs[cur].pos - gs[cur-1].pos);
-        if(nrem < 0) continue;
-        enqueue((struct pair){nrem, p.cnt, cur-1});
-        enqueue((struct pair){nrem + gs[cur-1].gas, p.cnt+1, cur-1});
+        if(dist >= len) { ans = cnt-1; break; }
+        int fuel = pop_max();
+        dist += fuel;
+        cnt++;
+        while(idx < num) {
+            if(gs[idx].pos > dist) break;
+            enqueue(gs[idx].gas);
+            idx++;
+        }
     }
-
     printf("%d\n", ans);
     return 0;
 }
