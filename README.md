@@ -9,7 +9,7 @@
 ||§ 1.1.1|example|くじ引き|||[]()|
 ||§ 1.1.1|exercise|[JOI 2007 本選 C ダーツ](https://atcoder.jp/contests/joi2008ho/tasks/joi2008ho_c)|||[解決め打ちで二分検索(upper bound), 2つの和に帰着](https://atcoder.jp/contests/joi2008ho/submissions/10906780)|
 ||§ 1.6.1|example|三角形|||[降順にソート-> 連続した3つを調べる](./1.6.1/triangle.c)|
-||§ 1.6.1|exercise|[B - Sum of Three Integers](https://atcoder.jp/contests/abc051/tasks/abc051_b)|||[全探索](), [DP, 累積和](https://atcoder.jp/contests/abc051/submissions/12543729)|
+||§ 1.6.1|exercise|[B - Sum of Three Integers](https://atcoder.jp/contests/abc051/tasks/abc051_b)|||[全探索]() or [DP, 累積和](https://atcoder.jp/contests/abc051/submissions/12543729)|
 |o|§ 2.1.4|example|特別な状態の列挙|||[next_permutationの実装](./2.1.4/)|
 ||§ 2.1.4|exercize|[ABC 054 C One-stroke Path](https://atcoder.jp/contests/abc054/tasks/abc054_c)|||[順列全探索](https://atcoder.jp/contests/abc054/submissions/12291613)|
 ||§ 2.1.4|exercise|[JOI 2009 予選 D カード並べ](https://atcoder.jp/contests/joi2010yo/tasks/joi2010yo_d)|||[bit全探索、順列全探索](https://atcoder.jp/contests/joi2010yo/submissions/12296618)|
@@ -35,7 +35,7 @@
 ||§ 2.3.1|example|||
 ||§ 2.3.1|exercise|[D - 高橋くんの苦悩](https://atcoder.jp/contests/abc015/tasks/abc015_4)|
 ||§ 2.3.1|exercise|[]()|||[]()|
-||§ 2.3.1|exercise(digit)|[D - 禁止された数字](https://atcoder.jp/contests/abc007/tasks/abc007_4)||[桁を文字列とみなす, 桁DP](https://atcoder.jp/contests/abc007/submissions/12537048)|
+||§ 2.3.1|exercise(digit)|[D - 禁止された数字](https://atcoder.jp/contests/abc007/tasks/abc007_4)|||[桁を文字列とみなす, 桁DP](https://atcoder.jp/contests/abc007/submissions/12537048)|
 ||§ 2.3.1|exercise(digit)|[D - 1](https://atcoder.jp/contests/abc029/tasks/abc029_d)|||[桁DP](https://atcoder.jp/contests/abc029/submissions/12538690)|
 ||§ 2.3.1|exercise(digit)|[E - Payment](https://atcoder.jp/contests/abc155/tasks/abc155_e)|||[DP(桁)(繰り上がる?)](https://atcoder.jp/contests/abc155/tasks/abc155_e)|
 ||§ 2.3.1|exercise(digit)|[E - Almost Everywhere Zero](https://atcoder.jp/contests/abc154/tasks/abc154_e)|||[桁DP](https://atcoder.jp/contests/abc154/submissions/12545187)|
