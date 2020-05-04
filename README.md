@@ -62,6 +62,18 @@
 ||§ 2.3.7|example|分割数|||[DP](./2.3.7/example.c)|
 ||§ 2.3.7|exercise|[No.269 見栄っ張りの募金活動](https://yukicoder.me/problems/no/269)|||[制約を取り除く -> 分割数](https://yukicoder.me/submissions/472404)|
 ||§ 2.3.7|exercise|[第4回 ドワンゴからの挑戦状 予選 C - Kill/Death](https://atcoder.jp/contests/dwacon2018-prelims/tasks/dwacon2018_prelims_c)|||[分割数とDPの組み合わせ](https://atcoder.jp/contests/dwacon2018-prelims/submissions/12493850)|
+|o|§ 2.3.7|exercise|[ボールと箱 1](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_A)|||[ボール: 区別可, 箱:区別可, 入れ方:制限なし]()|
+|o|§ 2.3.7|exercise|[ボールと箱 2](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_B)|||[ボール: 区別可, 箱:区別可, 入れ方:一つ以下]()|
+|o|§ 2.3.7|exercise|[ボールと箱 3](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_C)|||[ボール: 区別可, 箱:区別可, 入れ方:一つ以上]()|
+|o|§ 2.3.7|exercise|[ボールと箱 4](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_D)|||[ボール: 区別不可, 箱:区別可, 入れ方:制限なし]()|
+|o|§ 2.3.7|exercise|[ボールと箱 5](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_E)|||[ボール: 区別不可, 箱:区別可, 入れ方:1つ以下]()|
+|o|§ 2.3.7|exercise|[ボールと箱 6](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_F)|||[ボール: 区別不可, 箱:区別可, 入れ方:1つ以上]()|
+|o|§ 2.3.7|exercise|[ボールと箱 7](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_G)|||[ボール: 区別可, 箱:区別不可, 入れ方:制限なし]()|
+|o|§ 2.3.7|exercise|[ボールと箱 8](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_H)|||[ボール: 区別可, 箱:区別不可, 入れ方:1つ以下]()|
+|o|§ 2.3.7|exercise|[ボールと箱 9](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_I)|||[ボール: 区別可, 箱:区別不可, 入れ方:1つ以上]()|
+|o|§ 2.3.7|exercise|[ボールと箱 10](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_J)|||[ボール: 区別不可, 箱:区別不可, 入れ方:制限なし]()|
+|o|§ 2.3.7|exercise|[ボールと箱 11](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_K)|||[ボール: 区別不可, 箱:区別不可, 入れ方:1つ以下]()|
+|o|§ 2.3.7|exercise|[ボールと箱 12](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_L)|||[ボール: 区別不可, 箱:区別不可, 入れ方:1つ以上]()|
 |o|§ 2.3.7|exercise|[JOI 2009 予選 F ビンゴ](https://atcoder.jp/contests/joi2009yo/tasks/joi2009yo_f)|||[]()
 ||§ 2.3.8|example|重複組み合わせ|||[DP + 累積和](./2.3.8/example.c)|
 ||§ 2.3.8|exercise|[D - Factorization](https://atcoder.jp/contests/abc110/tasks/abc110_d)|||[素因数分解、重複組み合わせ、逆元](https://atcoder.jp/contests/abc110/submissions/12515321)|
