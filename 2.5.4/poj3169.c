@@ -21,6 +21,8 @@ struct edge {
 #define EDGE_MAX 20000
 
 #define INF 0x7f7f7f7f
+#define PATH_IMPOSSIBLE -1
+#define PATH_INFINITE -2
 
 int main(void) {
     int num, sn, ss;
@@ -36,9 +38,10 @@ int main(void) {
         edges[eidx++] = (struct edge){src, dst, dist};
     }
 
-    for(i = 1; i < num; i++) {
-        edges[eidx++] = (struct edge){i, i-1, 0};
-    }
+    // is it necessary??
+    // for(i = 1; i < num; i++) {
+    //     edges[eidx++] = (struct edge){i, i-1, 0};
+    // }
     for(i = 0; i < ss; i++) {
         int src, dst, dist;
         get_int3(&src, &dst, &dist);
@@ -78,12 +81,14 @@ int main(void) {
             }
         }
     }
+    int ans;
     if(is_neg[goal]) {
-        printf("-1\n");
+        ans = PATH_IMPOSSIBLE;
     } else if (dist[goal] == INF) {
-        printf("-2\n");
+        ans = PATH_INFINITE;
     } else {
-        printf("%d\n", dist[goal]);
+        ans = dist[goal];
     }
+    printf("%d\n", ans);
     return 0;
 }
