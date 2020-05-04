@@ -6,6 +6,7 @@
 #define max(a,b) ((a) > (b) ? (a) : (b))
 #define min(a,b) ((a) > (b) ? (b) : (a))
 #define BUF_SIZE 0
+#define DIVISOR 1000000007
 
 // size: specify sizeof(str)
 int get_str(char *str, int size) {
