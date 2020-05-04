@@ -33,6 +33,11 @@ int get_int2(int *a1, int *a2) {
   return 0;
 }
 
+int get_int3(int *a1, int *a2, int *a3) {
+  scanf("%d %d %d", a1, a2, a3);
+  return 0;
+}
+
 // <arr[0]> <arr[1]> .. <arr[size-1]>
 int fget_array(int *arr, int size) {
     int i;
