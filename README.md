@@ -4,7 +4,7 @@
 
 # problems
 
-|TODO|idx|type|問題名|難易度(1~5)|単元|方針/解答例|
+|TODO|idx|type|問題名|難易度|備考|方針/解答例|
 |---|---|---|---|---|---|---|
 |o|§ 1.1.1|example|くじ引き|||[]()|
 ||§ 1.1.1|exercise|[JOI 2007 本選 C ダーツ](https://atcoder.jp/contests/joi2008ho/tasks/joi2008ho_c)|||[解決め打ちで二分検索(upper bound), 2つの和に帰着](https://atcoder.jp/contests/joi2008ho/submissions/10906780)|
