@@ -109,9 +109,13 @@
 ||§ 2.4.2|exercise|[ABC 085 B Kagami Mochi](https://atcoder.jp/contests/abc085/tasks/abc085_b)|||[map](https://atcoder.jp/contests/abc085/submissions/7997905)|
 |o|§ 2.4.2|exercise|[ABC 091 B Two Colors Card Game](https://atcoder.jp/contests/abc091/tasks/abc091_b)|||[]()|
 |o|§ 2.4.3|example|[食物連鎖 (POJ No.1182)](http://poj.org/problem?id=1182)|||[3×numberのunion find](./2.4.3/poj1182.c)|
+||§ 2.4.3|exercise|[ATC 001 B Union Find](https://atcoder.jp/contests/atc001/tasks/unionfind_a)|||[Union Find](https://atcoder.jp/contests/atc001/submissions/12844290)|
 ||§ 2.4.3|exercise|[ABC 049 D 連結](https://atcoder.jp/contests/abc049/tasks/arc065_b)|||[union find, ハッシュ](https://atcoder.jp/contests/abc049/submissions/12697315)|
 ||§ 2.4.3|exercise|[ARC 097 D Equals](https://atcoder.jp/contests/arc097/tasks/arc097_b)|||[Union Find](https://atcoder.jp/contests/arc097/submissions/12697803)|
 ||§ 2.4.3|exercise|[ARC 036 D 偶数メートル](https://atcoder.jp/contests/arc036/tasks/arc036_d)|||[2×num のUnion Find](https://atcoder.jp/contests/arc036/submissions/12701345)|
+||§ 2.4.3|exercise|[重み付きUnion Find木](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/1/DSL_1_B)|||[重み付きUnion Find木](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_1_B/review/4432248/knknkn1162/C)|
+||§ 2.4.3|exercise|[ABC 087 D People on a Line](https://atcoder.jp/contests/abc087/tasks/arc090_b)|||[重み付きUnion Find木](https://atcoder.jp/contests/abc087/submissions/12848387)|
+|o|§ 2.4.3|exercise|[ABC 165 C - Many Requirements](https://atcoder.jp/contests/abc165/tasks/abc165_c)|||[]()|
 ||§ 2.5.1|example|二部グラフ判定|||[DFS](./2.5.1/example.c)|
 ||§ 2.5.1|exercise|[D - Even Relation](https://atcoder.jp/contests/abc126/tasks/abc126_d)|||[DFS](https://atcoder.jp/contests/abc126/submissions/12559729)|
 ||§ 2.5.1|exercise|[C - 3 Steps](https://atcoder.jp/contests/code-festival-2017-qualb/tasks/code_festival_2017_qualb_c)|||[union find(発想難)](https://atcoder.jp/contests/code-festival-2017-qualb/submissions/12826017)|
