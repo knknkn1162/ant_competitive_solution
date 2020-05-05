@@ -138,7 +138,6 @@
 ||§ 2.5.5|exercise|[D - joisino's travel](https://atcoder.jp/contests/abc073/tasks/abc073_d)|||[ワーシャルフロイド法, permutation](https://atcoder.jp/contests/abc073/submissions/12688097)|
 ||§ 2.6.2|exercise|[AOJ Course NTL_1_E - 拡張ユークリッドの互除法](https://onlinejudge.u-aizu.ac.jp/problems/NTL_1_E)|||[拡張ユークリッド法そのまま](https://onlinejudge.u-aizu.ac.jp/solutions/problem/NTL_1_E/review/4433567/knknkn1162/C)|
 |o|§ 2.6.3|example|素数判定|||[]()|
-
 ||§ 2.6.3|exercise|[C - Factors of Factorial](https://atcoder.jp/contests/abc052/tasks/arc067_a)|||[素因数分解、約数の個数](https://atcoder.jp/contests/abc052/submissions/12487335)|
 ||§ 2.6.3|exercise|[ABC 084 D 2017-like Number](https://atcoder.jp/contests/abc084/submissions/11665020)|||[素数, 累積和](https://atcoder.jp/contests/abc084/submissions/11665020)|
 |o|§ 2.6.3|exercise|[AOJ 0009 素数](https://onlinejudge.u-aizu.ac.jp/problems/0009)|||[エラトステネスのふるい、累積和]()|
