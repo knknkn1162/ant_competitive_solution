@@ -16,11 +16,13 @@ struct ufind *create_ufind(int vs) {
 int find_root(struct ufind *ufind, int v) {
     struct ufind *elem = &ufind[v];
     int base = v;
-    while(base != elem->parent) {
-        base = elem->parent;
-        elem = &ufind[base];
+    if(base == elem->parent) {
+        return base;
+    } else {
+        int root = find_root(ufind, elem->parent);
+        elem->parent = root;
+        return root;
     }
-    return base;
 }
 
 int is_connect(struct ufind *ufind, int v1, int v2) {
