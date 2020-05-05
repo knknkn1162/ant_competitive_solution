@@ -63,19 +63,20 @@
 ||§ 2.3.7|example|分割数|||[DP](./2.3.7/example.c)|
 ||§ 2.3.7|exercise|[No.269 見栄っ張りの募金活動](https://yukicoder.me/problems/no/269)|||[制約を取り除く -> 分割数](https://yukicoder.me/submissions/472404)|
 ||§ 2.3.7|exercise|[第4回 ドワンゴからの挑戦状 予選 C - Kill/Death](https://atcoder.jp/contests/dwacon2018-prelims/tasks/dwacon2018_prelims_c)|||[分割数とDPの組み合わせ](https://atcoder.jp/contests/dwacon2018-prelims/submissions/12493850)|
-|o|§ 2.3.7|exercise|[ボールと箱 1](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_A)|||[ボール: 区別可, 箱:区別可, 入れ方:制限なし]()|
-|o|§ 2.3.7|exercise|[ボールと箱 2](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_B)|||[ボール: 区別可, 箱:区別可, 入れ方:一つ以下]()|
+||§ 2.3.7|exercise|[ボールと箱 1](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_A)|||[ボール: 区別可, 箱:区別可, 入れ方:制限なし: k^n](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_5_A/review/4431701/knknkn1162/C)|
+||§ 2.3.7|exercise|[ボールと箱 2](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_B)|||[ボール: 区別可, 箱:区別可, 入れ方:一つ以下 : k_P_n](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_5_B/review/4431711/knknkn1162/C)|
 |o|§ 2.3.7|exercise|[ボールと箱 3](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_C)|||[ボール: 区別可, 箱:区別可, 入れ方:一つ以上]()|
-|o|§ 2.3.7|exercise|[ボールと箱 4](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_D)|||[ボール: 区別不可, 箱:区別可, 入れ方:制限なし]()|
-|o|§ 2.3.7|exercise|[ボールと箱 5](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_E)|||[ボール: 区別不可, 箱:区別可, 入れ方:1つ以下]()|
-|o|§ 2.3.7|exercise|[ボールと箱 6](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_F)|||[ボール: 区別不可, 箱:区別可, 入れ方:1つ以上]()|
+||§ 2.3.7|exercise|[ボールと箱 4](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_D)|||[ボール: 区別不可, 箱:区別可, 入れ方:制限なし : k_H_n](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_5_D/review/4431758/knknkn1162/C)|
+||§ 2.3.7|exercise|[ボールと箱 5](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_E)|||[ボール: 区別不可, 箱:区別可, 入れ方:1つ以下 : k_C_n](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_5_E/review/4431769/knknkn1162/C)|
+||§ 2.3.7|exercise|[ボールと箱 6](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_F)|||[ボール: 区別不可, 箱:区別可, 入れ方:1つ以上 n-1_C_k-1](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_5_F/review/4431791/knknkn1162/C)|
 |o|§ 2.3.7|exercise|[ボールと箱 7](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_G)|||[ボール: 区別可, 箱:区別不可, 入れ方:制限なし]()|
-|o|§ 2.3.7|exercise|[ボールと箱 8](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_H)|||[ボール: 区別可, 箱:区別不可, 入れ方:1つ以下]()|
+||§ 2.3.7|exercise|[ボールと箱 8](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_H)|||[ボール: 区別可, 箱:区別不可, 入れ方:1つ以下 : 1 or 0](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_5_H/review/4431806/knknkn1162/C)|
 |o|§ 2.3.7|exercise|[ボールと箱 9](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_I)|||[ボール: 区別可, 箱:区別不可, 入れ方:1つ以上]()|
-|o|§ 2.3.7|exercise|[ボールと箱 10](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_J)|||[ボール: 区別不可, 箱:区別不可, 入れ方:制限なし]()|
-|o|§ 2.3.7|exercise|[ボールと箱 11](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_K)|||[ボール: 区別不可, 箱:区別不可, 入れ方:1つ以下]()|
-|o|§ 2.3.7|exercise|[ボールと箱 12](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_L)|||[ボール: 区別不可, 箱:区別不可, 入れ方:1つ以上]()|
-|o|§ 2.3.7|exercise|[JOI 2009 予選 F ビンゴ](https://atcoder.jp/contests/joi2009yo/tasks/joi2009yo_f)|||[]()
+||§ 2.3.7|exercise|[ボールと箱 10](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_J)|||[ボール: 区別不可, 箱:区別不可, 入れ方:制限なし : 分割数 P(k, n)](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_5_J/review/4431844/knknkn1162/C)|
+||§ 2.3.7|exercise|[ボールと箱 11](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_K)|||[ボール: 区別不可, 箱:区別不可, 入れ方:1つ以下 : 1 or 0](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_5_K/review/4431814/knknkn1162/C)|
+||§ 2.3.7|exercise|[ボールと箱 12](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_L)|||[ボール: 区別不可, 箱:区別不可, 入れ方:1つ以上 : 分割数: P(k, n-k)](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_5_L/review/4431852/knknkn1162/C)|
+|o|§ 2.3.7|exercise|[JOI 2009 予選 F ビンゴ](https://atcoder.jp/contests/joi2009yo/tasks/joi2009yo_f)|||[]()|
+|o|§ 2.3.7|exercise|[]()|||[素因数分解 -> 公式](https://onlinejudge.u-aizu.ac.jp/solutions/problem/NTL_1_D/review/3981957/knknkn1162/C) or [包除原理]()|
 ||§ 2.3.8|example|重複組み合わせ|||[DP + 累積和](./2.3.8/example.c)|
 ||§ 2.3.8|exercise|[D - Factorization](https://atcoder.jp/contests/abc110/tasks/abc110_d)|||[素因数分解、重複組み合わせ、逆元](https://atcoder.jp/contests/abc110/submissions/12515321)|
 ||§ 2.3.8|exercise|[D - 多重ループ](https://atcoder.jp/contests/abc021/tasks/abc021_d)|||[考察、重複組合せ, 逆元](https://atcoder.jp/contests/abc021/submissions/11687036)|
@@ -119,10 +120,10 @@
 ||§ 2.5.2|exercise|[JOI 2007 予選 F 船旅](https://atcoder.jp/contests/joi2008yo/tasks/joi2008yo_f)|||[ダイクストラ+ min heap](https://atcoder.jp/contests/joi2008yo/submissions/11579403)|
 ||§ 2.5.2|exercise|[ABC 035 D トレジャーハント](https://atcoder.jp/contests/abc035/tasks/abc035_d)|||[ダイクストラ法(往路と復路)](https://atcoder.jp/contests/abc035/submissions/12693567)|
 ||§ 2.5.3|exercise|[ABC 065 D Built?](https://atcoder.jp/contests/abc065/tasks/arc076_b)|||[ソート -> クラスカル法](https://atcoder.jp/contests/abc065/submissions/11662019)|
-||§ 2.5.4|example|[Layout (POJ No.3169)](http://poj.org/problem?id=3169)|||[ベルマンフォード法](./2.5.4/poj3169.c)|
+||§ 2.5.4|example|[Layout (POJ No.3169)](http://poj.org/problem?id=3169)|||[牛ゲー、ベルマンフォード法](./2.5.4/poj3169.c)|
 ||§ 2.5.4|exercise|[AOJ Course 単一始点最短経路（負の重みをもつ辺を含む）](https://onlinejudge.u-aizu.ac.jp/problems/GRL_1_B)|||[ベルマンフォード法](https://onlinejudge.u-aizu.ac.jp/solutions/problem/GRL_1_B/review/4423742/knknkn1162/C)
 ||§ 2.5.4|exercise|[D - Score Attack](https://atcoder.jp/contests/abc061/tasks/abc061_d)|||[Bellman ford, 閉路検出](https://atcoder.jp/contests/abc061/submissions/12686297)|
-|o|§ 2.5.4|exercise|[UTPC 2013 H Asteroids2](https://atcoder.jp/contests/utpc2013/tasks/utpc2013_08)|||[]()|
+|o|§ 2.5.4|exercise|[UTPC 2013 H Asteroids2](https://atcoder.jp/contests/utpc2013/tasks/utpc2013_08)|||[牛ゲー(発想難), ベルマンフォード法]()|
 ||§ 2.5.5|exercise|[D - バスと避けられない運命](https://atcoder.jp/contests/abc012/tasks/abc012_4)|||[Warshal Fyold](https://atcoder.jp/contests/abc012/submissions/11640675)|
 ||§ 2.5.5|exercise|[D - joisino's travel](https://atcoder.jp/contests/abc073/tasks/abc073_d)|||[ワーシャルフロイド法, permutation](https://atcoder.jp/contests/abc073/submissions/12688097)|
 |o|§ 2.6.3|example|素数判定|||[]()|
