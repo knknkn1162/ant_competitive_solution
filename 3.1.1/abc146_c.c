@@ -44,7 +44,7 @@ int main(void) {
 #ifdef DEBUG
         printf("%lld -> %d\n", mid, ds);
 #endif
-        int64_t cost = mid * a + ds * b;
+        int64_t cost = mid * a + (int64_t)ds * b;
         if(cost <= limit) {
             low = mid;
         } else {
