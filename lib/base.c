@@ -5,85 +5,52 @@
 
 #define max(a,b) ((a) > (b) ? (a) : (b))
 #define min(a,b) ((a) > (b) ? (b) : (a))
-#define BUF_SIZE 0
-#define DIVISOR 1000000007
-
-// size: specify sizeof(str)
-int get_str(char *str, int size) {
-    if(!fgets(str, size, stdin)) return -1;
-    return 0;
-}
 
 int get_int(void) {
   int num;
-#ifdef BUF_SIZE
-  char line[BUF_SIZE];
-  if(!fgets(line, BUF_SIZE, stdin)) return 0;
-  sscanf(line, "%d", &num);
-#else
-#error
-#endif
+  scanf("%d", &num);
   return num;
 }
 
 int get_int2(int *a1, int *a2) {
-#ifdef BUF_SIZE
-  char line[BUF_SIZE];
-  if(!fgets(line, BUF_SIZE, stdin)) return -1;
-  sscanf(line, "%d %d", a1, a2);
-#else
-#error
-#endif
+  scanf("%d %d", a1, a2);
   return 0;
 }
 
 int get_int3(int *a1, int *a2, int *a3) {
-#ifdef BUF_SIZE
-  char line[BUF_SIZE];
-  if(!fgets(line, BUF_SIZE, stdin)) return -1;
-  sscanf(line, "%d %d %d", a1, a2, a3);
-#else
-#error
-#endif
+  scanf("%d %d %d", a1, a2, a3);
   return 0;
 }
 
 int get_int4(int *a1, int *a2, int *a3, int *a4) {
-#ifdef BUF_SIZE
-  char line[BUF_SIZE];
-  if(!fgets(line, BUF_SIZE, stdin)) return -1;
-  sscanf(line, "%d %d %d %d", a1, a2, a3, a4);
-#else
-#error
-#endif
-  return 0;
-}
-
-int get_int5(int *a1, int *a2, int *a3, int *a4, int *a5) {
-#ifdef BUF_SIZE
-  char line[BUF_SIZE];
-  if(!fgets(line, BUF_SIZE, stdin)) return -1;
-  sscanf(line, "%d %d %d %d %d", a1, a2, a3, a4, a5);
-#else
-#error
-#endif
+  scanf("%d %d %d %d", a1, a2, a3, a4);
   return 0;
 }
 
 // <arr[0]> <arr[1]> .. <arr[size-1]>
 int fget_array(int *arr, int size) {
-#ifdef BUF_SIZE
-    char line[BUF_SIZE];
-    char *tmpbuf = line;
     int i;
-    if(!fgets(line, BUF_SIZE, stdin)) return -1;
     for(i = 0; i < size; i++) {
-        char *tmp = strtok(tmpbuf, " ");
-        arr[i] = strtol(tmp, NULL, 10);
-        tmpbuf = NULL;
+        scanf("%d", &arr[i]);
     }
-#else
-#error
-#endif
     return 0;
+}
+
+char get_char(void) {
+    char buf[3];
+    scanf("%s", buf);
+    return buf[0];
+}
+
+int get_str(const char *data, char *buffer, size_t buflen)
+{
+
+#ifndef BUF_SIZE
+#define BUF_SIZE 0
+#endif
+    char format[BUF_SIZE];
+    if (buflen == 0)
+        return 0;
+    snprintf(format, sizeof(format), "%%%ds", (int)(buflen-1));
+    return sscanf(data, format, buffer);
 }
