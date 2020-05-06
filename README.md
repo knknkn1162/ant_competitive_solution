@@ -7,7 +7,7 @@
 |TODO|idx|type|問題名|難易度|備考|方針/解答例|
 |---|---|---|---|---|---|---|
 |o|§ 1.1.1|example|くじ引き|||[]()|
-||§ 1.1.1|exercise|[JOI 2007 本選 C ダーツ](https://atcoder.jp/contests/joi2008ho/tasks/joi2008ho_c)|||[解決め打ちで二分検索(upper bound), 2つの和に帰着](https://atcoder.jp/contests/joi2008ho/submissions/10906780)|
+||§ 1.1.1|exercise|[JOI 2007 本選 C ダーツ](https://atcoder.jp/contests/joi2008ho/tasks/joi2008ho_c)|||see § 3.1.2|
 ||§ 1.6.1|example|三角形|||[降順にソート-> 連続した3つを調べる](./1.6.1/triangle.c)|
 ||§ 1.6.1|exercise|[B - Sum of Three Integers](https://atcoder.jp/contests/abc051/tasks/abc051_b)|||[全探索]() or [DP, 累積和](https://atcoder.jp/contests/abc051/submissions/12543729)|
 ||§ 2.1.1|exercise|[ARC 029 A - 高橋君とお肉](https://atcoder.jp/contests/arc029/tasks/arc029_1)|||[bit全探索](https://atcoder.jp/contests/arc029/submissions/8502963)|
@@ -25,6 +25,8 @@
 ||§ 2.1.4|exercise|[Enumeration of Subsets III](https://onlinejudge.u-aizu.ac.jp/courses/lesson/8/ITP2/all/ITP2_11_C)|||[bit列挙](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ITP2_11_C/review/4433193/knknkn1162/C)|
 ||§ 2.1.4|exercise|[Enumeration of Combinations](https://onlinejudge.u-aizu.ac.jp/problems/ITP2_11_D)|||[組み合わせのbit全列挙](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ITP2_11_D/review/4433226/knknkn1162/C)|
 ||§ 2.1.4|exercise|[C - Many Requirements](https://atcoder.jp/contests/abc165/tasks/abc165_c)|||[組み合わせの列挙(発想難)](https://atcoder.jp/contests/abc165/submissions/12851420)|
+|o|§ 2.1.4|exercise|[C - Numbering Blocks](https://atcoder.jp/contests/judge-update-202004/tasks/judge_update_202004_c)|||[組み合わせの列挙 -> 全探索]()|
+||§ 2.1.4|exercise|[B - Buildings are Colorful!](https://atcoder.jp/contests/s8pc-4/tasks/s8pc_4_b)|||[組み合わせの列挙 -> 全探索](https://atcoder.jp/contests/s8pc-4/submissions/10738108)|
 ||§ 2.2.2|example|区間スケジューリング問題|||[end起点に昇順](./2.2.2/scheduling.c)|
 ||§ 2.2.2|exercise|[B - Robot Arms](https://atcoder.jp/contests/keyence2020/tasks/keyence2020_b)|||[end起点に昇順](https://atcoder.jp/contests/keyence2020/submissions/12551527)|
 ||§ 2.2.2|exercise|[A - 東京都](https://atcoder.jp/contests/kupc2015/tasks/kupc2015_a)|||[前から探索](https://atcoder.jp/contests/kupc2015/submissions/12313760)|
@@ -35,11 +37,13 @@
 ||§ 2.2.3|example|[Best Cow Line](http://poj.org/problem?id=3617)|||[予め反転した文字列も用意して貪欲法](./2.2.3/poj3617.c)|
 ||§ 2.2.3|excercise|[C - Dubious Document 2](https://atcoder.jp/contests/abc076/tasks/abc076_c)|||[後ろから](https://atcoder.jp/contests/abc076/submissions/12324748)|
 ||§ 2.2.3|excercise|[B - 辞書式順序](https://atcoder.jp/contests/abc007/tasks/abc007_2)|||['a' or -1を出力](https://atcoder.jp/contests/abc007/submissions/12324882)|
-|o|§ 2.2.3|excercise|[C - 辞書式順序ふたたび](https://atcoder.jp/contests/abc009/tasks/abc009_3)|||[]()|
+|o|§ 2.2.3|exercise|[C - 辞書式順序ふたたび](https://atcoder.jp/contests/abc009/tasks/abc009_3)|||[]()|
+||§ 2.2.3|exercise|[ABC 160 E - Red and Green Apples](https://atcoder.jp/contests/abc160/tasks/abc160_e)|||[ソート -> 貪欲法](https://atcoder.jp/contests/abc160/submissions/11773599)|
 ||§ 2.2.4|example|[Saruman's Army](http://poj.org/problem?id=3069)|||[昇順にソート->貪欲](./2.2.4/poj3069.c)|
 ||§ 2.2.4|exercise|[C - Multiple Gift](https://atcoder.jp/contests/abc083/tasks/arc088_a)|||[貪欲](https://atcoder.jp/contests/abc083/submissions/12356089)|
 ||§ 2.2.4|exercise|[C - 積み重ね](https://atcoder.jp/contests/arc006/tasks/arc006_3)|||[無駄が出ないように貪欲で](https://atcoder.jp/contests/arc006/submissions/12377963)|
 ||§ 2.2.4|exercise|[C - おいしいたこ焼きの売り方](https://atcoder.jp/contests/abc005/tasks/abc005_3)|||[客を軸にして、しゃくとり法](https://atcoder.jp/contests/abc005/submissions/12384924)|
+||§ 2.2.4|exercise|[E - Colorful Hats 2](https://atcoder.jp/contests/sumitrust2019/tasks/sumitb2019_e)|||[貪欲法](https://atcoder.jp/contests/sumitrust2019/submissions/11699547)|
 |o|§ 2.2.5|example|[POJ 3253 Fence Repair](http://poj.org/problem?id=3253)|||[]()|
 |o|§ 2.2.5|exercise|[C. Appleman and Toastman](http://codeforces.com/contest/462/problem/C)|||[]()|
 |o|§ 2.2.5|exercise|[ALDS1_15_D ハフマン符号](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/all/ALDS1_15_D)|||[ハフマン木を直接構成](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_15_D/review/3981240/knknkn1162/C) or [最小ヒープ]()|
@@ -69,28 +73,32 @@
 ||§ 2.3.7|example|分割数|||[DP](./2.3.7/example.c)|
 ||§ 2.3.7|exercise|[No.269 見栄っ張りの募金活動](https://yukicoder.me/problems/no/269)|||[制約を取り除く -> 分割数](https://yukicoder.me/submissions/472404)|
 ||§ 2.3.7|exercise|[第4回 ドワンゴからの挑戦状 予選 C - Kill/Death](https://atcoder.jp/contests/dwacon2018-prelims/tasks/dwacon2018_prelims_c)|||[分割数とDPの組み合わせ](https://atcoder.jp/contests/dwacon2018-prelims/submissions/12493850)|
-||§ 2.3.7|exercise|[ボールと箱 1](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_A)|||[ボール: 区別可, 箱:区別可, 入れ方:制限なし: k^n](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_5_A/review/4431701/knknkn1162/C)|
-||§ 2.3.7|exercise|[ボールと箱 2](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_B)|||[ボール: 区別可, 箱:区別可, 入れ方:一つ以下 : k_P_n](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_5_B/review/4431711/knknkn1162/C)|
-|o|§ 2.3.7|exercise|[ボールと箱 3](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_C)|||[ボール: 区別可, 箱:区別可, 入れ方:一つ以上]()|
-||§ 2.3.7|exercise|[ボールと箱 4](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_D)|||[ボール: 区別不可, 箱:区別可, 入れ方:制限なし : k_H_n](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_5_D/review/4431758/knknkn1162/C)|
-||§ 2.3.7|exercise|[ボールと箱 5](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_E)|||[ボール: 区別不可, 箱:区別可, 入れ方:1つ以下 : k_C_n](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_5_E/review/4431769/knknkn1162/C)|
-||§ 2.3.7|exercise|[ボールと箱 6](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_F)|||[ボール: 区別不可, 箱:区別可, 入れ方:1つ以上 n-1_C_k-1](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_5_F/review/4431791/knknkn1162/C)|
-|o|§ 2.3.7|exercise|[ボールと箱 7](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_G)|||[ボール: 区別可, 箱:区別不可, 入れ方:制限なし]()|
-||§ 2.3.7|exercise|[ボールと箱 8](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_H)|||[ボール: 区別可, 箱:区別不可, 入れ方:1つ以下 : 1 or 0](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_5_H/review/4431806/knknkn1162/C)|
-|o|§ 2.3.7|exercise|[ボールと箱 9](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_I)|||[ボール: 区別可, 箱:区別不可, 入れ方:1つ以上]()|
-||§ 2.3.7|exercise|[ボールと箱 10](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_J)|||[ボール: 区別不可, 箱:区別不可, 入れ方:制限なし : 分割数 P(k, n)](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_5_J/review/4431844/knknkn1162/C)|
-||§ 2.3.7|exercise|[ボールと箱 11](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_K)|||[ボール: 区別不可, 箱:区別不可, 入れ方:1つ以下 : 1 or 0](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_5_K/review/4431814/knknkn1162/C)|
-||§ 2.3.7|exercise|[ボールと箱 12](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_L)|||[ボール: 区別不可, 箱:区別不可, 入れ方:1つ以上 : 分割数: P(k, n-k)](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_5_L/review/4431852/knknkn1162/C)|
 |o|§ 2.3.7|exercise|[JOI 2009 予選 F ビンゴ](https://atcoder.jp/contests/joi2009yo/tasks/joi2009yo_f)|||[]()|
 |o|§ 2.3.7|exercise|[]()|||[素因数分解 -> 公式](https://onlinejudge.u-aizu.ac.jp/solutions/problem/NTL_1_D/review/3981957/knknkn1162/C) or [包除原理]()|
+||§ 2.3.8.0|exercise|[ボールと箱 1](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_A)|||[ボール: 区別可, 箱:区別可, 入れ方:制限なし: k^n](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_5_A/review/4431701/knknkn1162/C)|
+||§ 2.3.8.0|exercise|[ボールと箱 2](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_B)|||[ボール: 区別可, 箱:区別可, 入れ方:一つ以下 : k_P_n](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_5_B/review/4431711/knknkn1162/C)|
+|o|§ 2.3.8.0|exercise|[ボールと箱 3](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_C)|||[ボール: 区別可, 箱:区別可, 入れ方:一つ以上]()|
+||§ 2.3.8.0|exercise|[ボールと箱 4](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_D)|||[ボール: 区別不可, 箱:区別可, 入れ方:制限なし : k_H_n](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_5_D/review/4431758/knknkn1162/C)|
+||§ 2.3.8.0|exercise|[ボールと箱 5](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_E)|||[ボール: 区別不可, 箱:区別可, 入れ方:1つ以下 : k_C_n](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_5_E/review/4431769/knknkn1162/C)|
+||§ 2.3.8.0|exercise|[ボールと箱 6](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_F)|||[ボール: 区別不可, 箱:区別可, 入れ方:1つ以上 n-1_C_k-1](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_5_F/review/4431791/knknkn1162/C)|
+|o|§ 2.3.8.0|exercise|[ボールと箱 7](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_G)|||[ボール: 区別可, 箱:区別不可, 入れ方:制限なし]()|
+||§ 2.3.8.0|exercise|[ボールと箱 8](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_H)|||[ボール: 区別可, 箱:区別不可, 入れ方:1つ以下 : 1 or 0](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_5_H/review/4431806/knknkn1162/C)|
+|o|§ 2.3.8.0|exercise|[ボールと箱 9](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_I)|||[ボール: 区別可, 箱:区別不可, 入れ方:1つ以上]()|
+||§ 2.3.8.0|exercise|[ボールと箱 10](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_J)|||[ボール: 区別不可, 箱:区別不可, 入れ方:制限なし : 分割数 P(k, n)](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_5_J/review/4431844/knknkn1162/C)|
+||§ 2.3.8.0|exercise|[ボールと箱 11](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_K)|||[ボール: 区別不可, 箱:区別不可, 入れ方:1つ以下 : 1 or 0](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_5_K/review/4431814/knknkn1162/C)|
+||§ 2.3.8.0|exercise|[ボールと箱 12](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_L)|||[ボール: 区別不可, 箱:区別不可, 入れ方:1つ以上 : 分割数: P(k, n-k)](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_5_L/review/4431852/knknkn1162/C)|
+||§ 2.3.8.0|exercise|[D - RGB Triplets](https://atcoder.jp/contests/abc162/tasks/abc162_d)|||[1番目の組み合わせ - 2番目の条件を満たさないものを省く](https://atcoder.jp/contests/abc162/submissions/11913543)|
+||§ 2.3.8.0|exercise||[E - Roaming](https://atcoder.jp/contests/abc156/tasks/abc156_e)|||[]()|
 ||§ 2.3.8|example|重複組み合わせ|||[DP + 累積和](./2.3.8/example.c)|
 ||§ 2.3.8|exercise|[D - Factorization](https://atcoder.jp/contests/abc110/tasks/abc110_d)|||[素因数分解、重複組み合わせ、逆元](https://atcoder.jp/contests/abc110/submissions/12515321)|
 ||§ 2.3.8|exercise|[D - 多重ループ](https://atcoder.jp/contests/abc021/tasks/abc021_d)|||[考察、重複組合せ, 逆元](https://atcoder.jp/contests/abc021/submissions/11687036)|
 ||§ 2.3.8|exercise|[D - 表現の自由 ( Freedom of expression )](https://atcoder.jp/contests/arc004/tasks/arc004_4)|
+|o|§ 2.3.8|exercise|[ABC 156 E - Roaming](https://atcoder.jp/contests/abc156/tasks/abc156_e)|||[重複組み合わせ]()|
 ||§ 2.3.9|exercise|[K - Stones](https://atcoder.jp/contests/dp/tasks/dp_k)|||[ゲームDP](https://atcoder.jp/contests/dp/submissions/12026820)|
 ||§ 2.3.9|exercise|[L - Deque](https://atcoder.jp/contests/dp/tasks/dp_l)|||[ゲームDP](https://atcoder.jp/contests/dp/submissions/12078699)|
 ||§ 2.3.10|exercise|[TDPC I イゥイ](https://atcoder.jp/contests/tdpc/tasks/tdpc_iwi)|||[区間DP](https://atcoder.jp/contests/tdpc/submissions/12484423)|
 |o|§ 2.3.10|exercise|[AOJ 2415 刺身](https://onlinejudge.u-aizu.ac.jp/problems/2415)|||[区間DP, Monge]()|
+||§ 2.3.10|exercise|[D - サプリメント](https://atcoder.jp/contests/abc017/tasks/abc017_4)|||[区間DP, 累積和](https://atcoder.jp/contests/abc017/submissions/11739676)|
 ||§ 2.3.10|exercise|[ダルマ落とし](https://onlinejudge.u-aizu.ac.jp/problems/1611)|||[O(N^3)の区間DP](https://onlinejudge.u-aizu.ac.jp/solutions/problem/1611/review/4296429/knknkn1162/C)|
 ||§ 2.3.11|exercise|[ABC 036 D - 塗り絵](https://atcoder.jp/contests/abc036/tasks/abc036_d)|||[ツリーDP(帰りがけ)](https://atcoder.jp/contests/abc036/submissions/12798698)
 ||§ 2.3.11|exercise|[ABC 070 D Transit Tree Path](https://atcoder.jp/contests/abc070/tasks/abc070_d)|||[ツリーDP(行きがけ)](https://atcoder.jp/contests/abc070/submissions/12811976)|
@@ -118,6 +126,7 @@
 |o|§ 2.4.3|example|[食物連鎖 (POJ No.1182)](http://poj.org/problem?id=1182)|||[3×numberのunion find](./2.4.3/poj1182.c)|
 ||§ 2.4.3|exercise|[ATC 001 B Union Find](https://atcoder.jp/contests/atc001/tasks/unionfind_a)|||[Union Find](https://atcoder.jp/contests/atc001/submissions/12844290)|
 ||§ 2.4.3|exercise|[ABC 049 D 連結](https://atcoder.jp/contests/abc049/tasks/arc065_b)|||[union find, ハッシュ](https://atcoder.jp/contests/abc049/submissions/12697315)|
+||§ 2.4.3|exercise|[ABC 157 D - Friend Suggestions](https://atcoder.jp/contests/abc157/tasks/abc157_d)|||[Union Find](https://atcoder.jp/contests/abc157/submissions/11931508)|
 ||§ 2.4.3|exercise|[ARC 097 D Equals](https://atcoder.jp/contests/arc097/tasks/arc097_b)|||[Union Find](https://atcoder.jp/contests/arc097/submissions/12697803)|
 ||§ 2.4.3|exercise|[ARC 036 D 偶数メートル](https://atcoder.jp/contests/arc036/tasks/arc036_d)|||[2×num のUnion Find](https://atcoder.jp/contests/arc036/submissions/12701345)|
 ||§ 2.4.3|exercise|[重み付きUnion Find木](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/1/DSL_1_B)|||[重み付きUnion Find木](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_1_B/review/4432248/knknkn1162/C)|
@@ -144,4 +153,25 @@
 ||§ 2.6.4|exercise|[A - 与えられた数より小さい素数の個数について](https://atcoder.jp/contests/tenka1-2012-qualc/tasks/tenka1_2012_9)|||[エラトステネスのふるい](https://atcoder.jp/contests/tenka1-2012-qualc/submissions/12817314)
 ||§ 2.6.4|exercise|[素数](https://onlinejudge.u-aizu.ac.jp/problems/0009)|||[エラトステネスのふるい](https://onlinejudge.u-aizu.ac.jp/solutions/problem/0009/review/4433621/knknkn1162/C)|
 ||§ 2.6.6|example|[Carmichael Numbers (Uva No.10006)](https://onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=947)|||[高速累乗](./2.6.6/uva10006.c)|
+||§ 2.6.7|exercise|[ABC 165 D - Floor Function](https://atcoder.jp/contests/abc165/tasks/abc165_d)|||[数学的考察](https://atcoder.jp/contests/abc165/submissions/12889778)|
+||§ 2.6.7|exercise|[ABC 139 D - ModSum](https://atcoder.jp/contests/abc139/tasks/abc139_d)|||[数学的考察](https://atcoder.jp/contests/abc139/submissions/11487225)|
+||§ 2.6.7|exercise|[DDCC2020 予選 D - Digit Sum Replace](https://atcoder.jp/contests/ddcc2020-qual/tasks/ddcc2020_qual_d)|||[数学的考察(数字の遷移方法は2パターンのうちどれか)](https://atcoder.jp/contests/ddcc2020-qual/submissions/11700593)|
+||§ 2.6.7|exercise|[Tenka1 Programmer Beginner Contest D - Crossing](https://atcoder.jp/contests/tenka1-2018-beginner/tasks/tenka1_2018_d)|||[部分集合の要素数を決めて構成, n=1も考慮](https://atcoder.jp/contests/tenka1-2018-beginner/submissions/11702203)|
 ||§ 2.7.1|example|[GCJ Problem A. Minimum Scalar Product](https://code.google.com/codejam/contest/32016/dashboard)|||[ソート, 貪欲法](./2.7.1/gcj32016.c)
+|o|§ 3.1.1|example|lower bound|||[lower bound](./3.1.1/example.c)|
+||§ 3.1.1|exercise|[ABC 077 C Snuke Festival](https://atcoder.jp/contests/abc077/tasks/arc084_a)|||[中部を軸にlower/upper bound](https://atcoder.jp/contests/abc077/submissions/10816319)|
+||§ 3.1.1|exercise|[JOI 2008 本選 B ピザ](https://atcoder.jp/contests/joi2009ho/tasks/joi2009ho_b)|||[二分探索](https://atcoder.jp/contests/joi2009ho/submissions/10814537)
+||§ 3.1.2|example|[Cable Master (POJ No.1064)](http://poj.org/problem?id=1064)|||[整数に。解を仮定して二分探索](./3.1.2/poj1064.c)|
+||§ 3.1.2|exercise|[ABC 023 D 射撃王](https://atcoder.jp/contests/abc023/tasks/abc023_d)|||[解を仮定してで二分検索(lower bound)](https://atcoder.jp/contests/abc023/submissions/11029093)|
+||§ 3.1.2|exercise|[ARC 037 C 億マス計算](https://atcoder.jp/contests/arc037/tasks/arc037_c)|||[ソート -> 解を仮定し二分探索(upper bound) -> 判定でも二分探索(upper bound)](https://atcoder.jp/contests/arc037/submissions/12878074)|
+||§ 3.1.2|exercise|[AOJ ALDS1_4_D 割り当て](https://onlinejudge.u-aizu.ac.jp/problems/ALDS1_4_D)|||[解を仮定して二分探索 -> 各探索値で線形探索](https://onlinejudge.u-aizu.ac.jp/problems/ALDS1_4_D) or [累積和, 解を仮定して二分探索 -> 各探索値で線形探索](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_4_D/review/4344863/knknkn1162/C)|
+||§ 3.1.2|exercise|[D - Calculating GCD](https://atcoder.jp/contests/judge-update-202004/tasks/judge_update_202004_d)|||[累積和(gcd) -> 二分探索](https://atcoder.jp/contests/judge-update-202004/submissions/12197056)|
+||§ 3.1.2|exercise|[ABC 155 D - Pairs](https://atcoder.jp/contests/abc155/tasks/abc155_d)|||[]()|
+||§ 3.1.2|exercise|[ARC 050 B 花束](https://atcoder.jp/contests/arc050/tasks/arc050_b)|||[解を仮定して二分探索](https://atcoder.jp/contests/arc050/submissions/12885103)|
+||§ 3.1.2|exercise|[JOI 2007 本選 C ダーツ](https://atcoder.jp/contests/joi2008ho/tasks/joi2008ho_c)|||[解を仮定して二分検索(upper bound), 2つの和に帰着](https://atcoder.jp/contests/joi2008ho/submissions/10906780)|
+||§ 3.1.2|exercise|[ABC 146 C - Buy an Integer](https://atcoder.jp/contests/abc146/tasks/abc146_c)|||[二分検索(lower bound), 型に注意](https://atcoder.jp/contests/abc146/submissions/12877286)|
+||§ 3.1.3|example|[Aggressive Cows (POJ No.2456)](http://poj.org/problem?id=2456)|||[解を仮定して二分探索](./3.1.2/poj2456.c)|
+||§ 3.1.3|exercise|[CODE FESTIVAL 2015 予選A D 壊れた電車](https://atcoder.jp/contests/code-festival-2015-quala/tasks/codefestival_2015_qualA_d)|||[最大値の型と定め方に注意](https://atcoder.jp/contests/code-festival-2015-quala/submissions/12897314)|
+||§ 3.1.3|exercise|[JOI 2013 本選 C バームクーヘン](https://atcoder.jp/contests/joi2014ho/tasks/joi2014ho3)|||[](https://atcoder.jp/contests/joi2014ho/submissions/12897638)|
+||§ 3.1.4|exercise|[ABC 034 D - 食塩水](https://atcoder.jp/contests/abc034/tasks/abc034_d)|||[解を仮定して二分探索(発想難)](https://atcoder.jp/contests/abc034/submissions/12901092)|
+||§ 3.1.4|exercise|[ARC 026 D 道を直すお仕事](https://atcoder.jp/contests/arc026/tasks/arc026_4)|||[解を仮定して二分探索、探索内部でUnion Find](https://atcoder.jp/contests/arc026/submissions/12904843)|
