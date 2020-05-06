@@ -3,8 +3,9 @@ struct ufind {
     int depth;
 };
 
+#define VERTEX_MAX 100000
 struct ufind *create_ufind(int vs) {
-    struct ufind *ufind = malloc(vs * sizeof(struct ufind));
+    static struct ufind ufind[VERTEX_MAX];
     int i;
     for(i = 0; i < vs; i++) {
         ufind[i].parent = i;
@@ -31,7 +32,7 @@ int is_connect(struct ufind *ufind, int v1, int v2) {
     return bv1 == bv2;
 }
 
-void unify(struct ufind *ufind, int v1, int v2) {
+void unite(struct ufind *ufind, int v1, int v2) {
     int bv1 = find_root(ufind, v1);
     int bv2 = find_root(ufind, v2);
     struct ufind *uv1 = &ufind[bv1];
