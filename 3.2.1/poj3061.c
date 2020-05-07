@@ -32,7 +32,6 @@ int fget_array(int *arr, int size) {
 int main(void) {
     int sets = get_int();
     int s;
-    int i;
     for(s = 0; s < sets; s++) {
         int num, limit;
         static int arr[NUM_MAX];
@@ -42,21 +41,21 @@ int main(void) {
 
         int sum = 0;
         int left = 0;
-        int ans = ANS_MAX;
-        for(i = 0; i < num; i++) {
-            sum += arr[i];
+        int right = 0;
+        int ans = num+1;
+        for(left = 0; left < num; left++) {
+            for(; right < num; right++) {
+                if(sum >= limit) break;
+                sum += arr[right];
+            }
             if(sum < limit) continue;
 #ifdef DEBUG
-            printf("%d\n", ans);
+            printf("%d: [%d, %d)\n", sum, left, right);
 #endif
-            // move left
-            while(left < num) {
-                ans = min(ans, i-left+1);
-                sum -= arr[left++];
-                if(sum < limit) break;
-            }
+            ans = min(ans, right - left);
+            sum -= arr[left];
         }
-        printf("%d\n", ans == ANS_MAX ? 0 : ans);
+        printf("%d\n", ans == num+1 ? 0 : ans);
     }
     return 0;
 }
