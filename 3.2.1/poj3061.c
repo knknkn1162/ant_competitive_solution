@@ -51,11 +51,9 @@ int main(void) {
 #endif
             // move left
             while(left < num) {
+                ans = min(ans, i-left+1);
                 sum -= arr[left++];
-                if(sum < limit) {
-                    ans = min(ans, i-(left-1)+1);
-                    break;
-                }
+                if(sum < limit) break;
             }
         }
         printf("%d\n", ans == ANS_MAX ? 0 : ans);
