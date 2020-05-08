@@ -176,5 +176,13 @@
 ||§ 3.1.4|exercise|[ABC 034 D - 食塩水](https://atcoder.jp/contests/abc034/tasks/abc034_d)|||[解を仮定して二分探索(発想難)](https://atcoder.jp/contests/abc034/submissions/12901092)|
 ||§ 3.1.4|exercise|[ARC 026 D 道を直すお仕事](https://atcoder.jp/contests/arc026/tasks/arc026_4)|||[解を仮定して二分探索、探索内部でUnion Find](https://atcoder.jp/contests/arc026/submissions/12904843)|
 ||§ 3.2.1|example|[Subsequence (POJ No.3061)](http://poj.org/problem?id=3061)|||[尺取法](./3.2.1/poj3061.c)|
-||§ 3.2.1|example|[AOJ Course The Number of Windows](https://onlinejudge.u-aizu.ac.jp/problems/DSL_3_C)|||[尺取法](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_3_C/review/4442817/knknkn1162/C)
-||§ 3.2.1|example|[ABC 032 C 列](https://atcoder.jp/contests/abc032/tasks/abc032_c)|||[尺取法](https://atcoder.jp/contests/abc032/submissions/12929277)|
+||§ 3.2.1|exercise|[AOJ Course The Number of Windows](https://onlinejudge.u-aizu.ac.jp/problems/DSL_3_C)|||[尺取法](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_3_C/review/4442817/knknkn1162/C)
+||§ 3.2.1|exercise|[ABC 032 C 列](https://atcoder.jp/contests/abc032/tasks/abc032_c)|||[尺取法](https://atcoder.jp/contests/abc032/submissions/12929277)|
+||§ 3.2.1|exercise|[ABC 038 C 単調増加](https://atcoder.jp/contests/abc038/tasks/abc038_c)|||[尺取法](https://atcoder.jp/contests/abc038/submissions/12952989)|
+||§ 3.2.1|exercise|[ARC 098 D Xor Sum 2](https://atcoder.jp/contests/arc098/tasks/arc098_b)|||[尺取法](https://atcoder.jp/contests/arc098/submissions/12953249)|
+||§ 3.2.2|exercise|[Jessica's Reading Problem (POJ No.3320)](http://poj.org/problem?id=3320)|||[mapを用いて尺取法](./3.2.2/poj3320.c)|
+||§ 3.2.2|exercise|[ARC 022 B 細長いお菓子](https://atcoder.jp/contests/arc022/tasks/arc022_2)|||[mapを使って尺取法](https://atcoder.jp/contests/arc022/submissions/12954764)|
+|o|§ 3.2.2|exercise|[ABC 017 D サプリメント](https://atcoder.jp/contests/abc017/tasks/abc017_4)|||[]()|
+|o|§ 3.2.2|exercise|[ABC 033 D 三角形の分類](https://atcoder.jp/contests/abc033/tasks/abc033_d)|||[]()|
+|o|§ 3.2.3|example|[Face The Right Way (POJ No.3276)]()|||[]()|
+|o|§ 3.2.3|exercise|[JOI 2012 本選 A 電飾](https://atcoder.jp/contests/joi2013ho/tasks/joi2013ho1)|||[]()|
