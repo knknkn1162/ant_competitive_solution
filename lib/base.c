@@ -27,6 +27,11 @@ int get_int4(int *a1, int *a2, int *a3, int *a4) {
   return 0;
 }
 
+int get_int5(int *a1, int *a2, int *a3, int *a4, int *a5) {
+  scanf("%d %d %d %d %d", a1, a2, a3, a4, a5);
+  return 0;
+}
+
 // <arr[0]> <arr[1]> .. <arr[size-1]>
 int fget_array(int *arr, int size) {
     int i;

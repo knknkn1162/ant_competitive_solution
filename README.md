@@ -168,7 +168,7 @@
 ||§ 3.1.2|exercise|[D - Calculating GCD](https://atcoder.jp/contests/judge-update-202004/tasks/judge_update_202004_d)|||[累積和(gcd) -> 二分探索](https://atcoder.jp/contests/judge-update-202004/submissions/12197056)|
 ||§ 3.1.2|exercise|[ABC 155 D - Pairs](https://atcoder.jp/contests/abc155/tasks/abc155_d)|||[]()|
 ||§ 3.1.2|exercise|[ARC 050 B 花束](https://atcoder.jp/contests/arc050/tasks/arc050_b)|||[解を仮定して二分探索](https://atcoder.jp/contests/arc050/submissions/12885103)|
-||§ 3.1.2|exercise|[JOI 2007 本選 C ダーツ](https://atcoder.jp/contests/joi2008ho/tasks/joi2008ho_c)|||[解を仮定して二分検索(upper bound), 2つの和に帰着](https://atcoder.jp/contests/joi2008ho/submissions/10906780)|
+||§ 3.1.2|exercise|[JOI 2007 本選 C ダーツ](https://atcoder.jp/contests/joi2008ho/tasks/joi2008ho_c)|||[解を仮定して二分検索(upper bound), 半分全列挙](https://atcoder.jp/contests/joi2008ho/submissions/10906780)|
 ||§ 3.1.2|exercise|[ABC 146 C - Buy an Integer](https://atcoder.jp/contests/abc146/tasks/abc146_c)|||[二分検索(lower bound), 型に注意](https://atcoder.jp/contests/abc146/submissions/12877286)|
 ||§ 3.1.3|example|[Aggressive Cows (POJ No.2456)](http://poj.org/problem?id=2456)|||[解を仮定して二分探索](./3.1.2/poj2456.c)|
 ||§ 3.1.3|exercise|[CODE FESTIVAL 2015 予選A D 壊れた電車](https://atcoder.jp/contests/code-festival-2015-quala/tasks/codefestival_2015_qualA_d)|||[最大値の型と定め方に注意](https://atcoder.jp/contests/code-festival-2015-quala/submissions/12897314)|
@@ -192,4 +192,9 @@
 ||§ 3.2.4|example|[Fliptile (POJ No.3279)](http://poj.org/problem?id=3279)|||[bit全探索、貪欲法(実装重)](./3.2.4/poj3279.c)|
 ||§ 3.2.4|exercise|[JOI 2007 予選 E おせんべい](https://atcoder.jp/contests/joi2008yo/tasks/joi2008yo_e)|||[bit全探索、貪欲法](https://atcoder.jp/contests/joi2008yo/submissions/10734695)|
 ||§ 3.2.4|exercise|[ABC 159 E - Dividing Chocolate](https://atcoder.jp/contests/abc159/tasks/abc159_e)|||[bit全探索、貪欲法](https://atcoder.jp/contests/abc159/submissions/11922152)|
-|o|§ 3.2.4|exercise|[ABC 018 D バレンタインデー](https://atcoder.jp/contests/abc018/tasks/abc018_4)|||[]()|
+||§ 3.2.4|exercise|[ABC 018 D バレンタインデー](https://atcoder.jp/contests/abc018/tasks/abc018_4)|||[bit全探索、貪欲法](https://atcoder.jp/contests/abc018/submissions/12980160)|
+||§ 3.2.5|example|[Physics Experiment (POJ No.3684)](http://poj.org/problem?id=3684)|||[弾性衝突](./3.2.5/poj3684.cpp)|
+||§ 3.2.6|example|[4 Values whose Sum is 0 (POJ No.2785)](http://poj.org/problem?id=2785)|||[半分全列挙](./3.2.6/poj2785.c)|
+||§ 3.2.7|example|[巨大ナップザック問題](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DPL_1_H)|||[半分全列挙](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_1_H/review/4450774/knknkn1162/C)|
+||§ 3.2.7|example|[C - String Coloring](https://atcoder.jp/contests/agc026/tasks/agc026_c)|||[]()|
+||§ 3.2.8|example|座標圧縮|||[]()|
