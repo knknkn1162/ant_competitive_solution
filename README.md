@@ -202,3 +202,5 @@
 |o||§ 3.2.8|exercise|[JOI 2012 予選 E 魚の生息範囲](https://atcoder.jp/contests/joi2013yo/tasks/joi2013yo_e)|||[3次元]()|
 |o|§ 3.2.9|example|[Crane (POJ No.2991)](http://poj.org/problem?id=2991)|||[]()|
 ||§ 3.2.9|exercise|[Range Minimum Query (RMQ)](https://onlinejudge.u-aizu.ac.jp/problems/DSL_2_A)|||[segment木](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_2_A/review/4461035/knknkn1162/C)|
+|o|§ 3.2.9|exercise|[Range Sum Query](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_2_B)|||[]()|
+|o|§ 3.2.9|exercise|[Japan Alumni Group Summer Camp 2013 Day 2 G Perm Query](https://atcoder.jp/contests/jag2013summer-day2/tasks/icpc2013summer_day2_g)|||[]()|
