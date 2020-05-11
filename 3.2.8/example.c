@@ -69,16 +69,15 @@ int asc(const void *a1, const void *a2) {
 #define ROW_MAX 1000000
 
 int compress(struct range *ranges, int size, int limit) {
-    int i, j;
+    int i;
     static int map[ROW_MAX+1];
     memset(map, 0, sizeof(int)*(ROW_MAX+1));
+    map[1]++; // edge
     // y
     for(i = 0; i < size; i++) {
         struct range r = ranges[i];
-        for(j = -1; j <= 1; j++) {
-            map[r.start+j]++;
-            map[r.end+j]++;
-        }
+        map[r.start]++;
+        map[r.end+1]++;
     }
     map[0] = 0;
     for(i = 1; i <= limit; i++) {
