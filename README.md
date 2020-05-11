@@ -198,8 +198,8 @@
 ||§ 3.2.7|example|[巨大ナップザック問題](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DPL_1_H)|||[半分全列挙](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_1_H/review/4450774/knknkn1162/C)|
 ||§ 3.2.7|example|[C - String Coloring](https://atcoder.jp/contests/agc026/tasks/agc026_c)|||[]()|
 ||§ 3.2.8|example|座標圧縮|||[座標圧縮](./3.2.8/example.c)|
-||§ 3.2.8|exercise|[JOI 2007 本選 E ペンキの色](https://atcoder.jp/contests/joi2008ho/tasks/joi2008ho_e)||[座標圧縮、imos法, BFS](https://atcoder.jp/contests/joi2008ho/submissions/13122755)|
-|o||§ 3.2.8|exercise|[JOI 2012 予選 E 魚の生息範囲](https://atcoder.jp/contests/joi2013yo/tasks/joi2013yo_e)|||[3次元]()|
+||§ 3.2.8|exercise|[JOI 2007 本選 E ペンキの色](https://atcoder.jp/contests/joi2008ho/tasks/joi2008ho_e)|||[座標圧縮、imos法, BFS](https://atcoder.jp/contests/joi2008ho/submissions/13122755)|
+|o|§ 3.2.8|exercise|[JOI 2012 予選 E 魚の生息範囲](https://atcoder.jp/contests/joi2013yo/tasks/joi2013yo_e)|||[3次元]()|
 |o|§ 3.2.9|example|[Crane (POJ No.2991)](http://poj.org/problem?id=2991)|||[]()|
 ||§ 3.2.9|exercise|[Range Minimum Query (RMQ)](https://onlinejudge.u-aizu.ac.jp/problems/DSL_2_A)|||[segment木](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_2_A/review/4461035/knknkn1162/C)|
 |o|§ 3.2.9|exercise|[Range Sum Query](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_2_B)|||[]()|
