@@ -31,8 +31,8 @@ int get_int4(int *a1, int *a2, int *a3, int *a4) {
 #define ROW_MAX COL_MAX
 #define NUM_MAX 1000
 // start, end
-#define COMP_COL_MAX (NUM_MAX*6)
-#define COMP_ROW_MAX (NUM_MAX*6)
+#define COMP_COL_MAX (NUM_MAX*2+2)
+#define COMP_ROW_MAX (NUM_MAX*2+2)
 struct range {
     int start;
     int end;
@@ -46,14 +46,12 @@ struct point2d {
 int compress(struct range *rs, int num, int size) {
     static int map[ROW_MAX+2];
     memset(map, 0, sizeof(int)*(ROW_MAX+2));
-
-    int i, j;
+    map[1]++;
+    int i;
     for(i = 0; i < num; i++) {
         struct range r = rs[i];
-        for(j = -1; j <= 1; j++) {
-            map[r.start+j]++;
-            map[r.end+j]++;
-        }
+        map[r.start]++;
+        map[r.end+1]++;
     }
 
     // bin sort
@@ -82,8 +80,23 @@ enum type {
     ENUM_WALL,
 };
 
-void create_map(char map[][COMP_COL_MAX+2], struct range *rs, struct range *cs, int num, struct point2d size) {
-    int i, k1, k2;
+void create_map(int map[][COMP_COL_MAX+2], struct range *rs, struct range *cs, int num, struct point2d size) {
+    int i, j, k;
+    // paint using imos
+    for(i = 0; i < num; i++) {
+        struct range r = rs[i];
+        struct range c = cs[i];
+        for(k = r.start; k <= r.end; k++) {
+            map[k][c.start] += 1;
+            map[k][c.end+1] -= 1;
+        }
+    }
+    for(i = 1; i <= size.row; i++) {
+        for(j = 1; j <= size.col; j++) {
+            map[i][j] += map[i][j-1];
+        }
+    }
+
     for(i = 0; i <= size.row+1; i++) {
         map[i][0] = map[i][size.col+1] = ENUM_WALL;
     }
@@ -91,20 +104,10 @@ void create_map(char map[][COMP_COL_MAX+2], struct range *rs, struct range *cs, 
     for(i = 0; i <= size.col+1; i++) {
         map[0][i] = map[size.row+1][i] = ENUM_WALL;
     }
-
-    for(i = 0; i < num; i++) {
-        struct range r = rs[i];
-        struct range c = cs[i];
-        for(k1 = r.start; k1 <= r.end; k1++) {
-            for(k2 = c.start; k2 <= c.end; k2++) {
-                map[k1][k2] = ENUM_WALL;
-            }
-        }
-    }
     return;
 }
 
-void display(char map[][COMP_COL_MAX+2], struct point2d size) {
+void display(int map[][COMP_COL_MAX+2], struct point2d size) {
     int i, j;
     for(i = 1; i <= size.row; i++) {
         for(j = 1; j <= size.col; j++) {
@@ -142,21 +145,21 @@ int is_empty(void) {
     return qstart == qend;
 }
 
-void bfs(char map[][COMP_COL_MAX+2], struct point2d start) {
+void bfs(int map[][COMP_COL_MAX+2], struct point2d start) {
     reset_queue();
     enqueue(start);
     int i;
     while(!is_empty()) {
         struct point2d p = dequeue();
         // it's necessary!
-        if(map[p.row][p.col] == ENUM_WALL) continue;
+        if(map[p.row][p.col] >= ENUM_WALL) continue;
         map[p.row][p.col] = ENUM_WALL;
         for(i = 0; i < 4; i++) {
             struct point2d np = {
                 p.row + dist[i].row,
                 p.col + dist[i].col
             };
-            if(map[np.row][np.col] == ENUM_WALL) continue;
+            if(map[np.row][np.col] >= ENUM_WALL) continue;
             enqueue(np);
         }
     }
@@ -193,7 +196,7 @@ int main(void) {
         compress(cs, num, col),
     };
 
-    static char map[COMP_ROW_MAX+2][COMP_COL_MAX+2];
+    static int map[COMP_ROW_MAX+2][COMP_COL_MAX+2];
     create_map(map, rs, cs, num, size);
 
 #ifdef DEBUG
