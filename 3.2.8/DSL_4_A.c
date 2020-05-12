@@ -109,8 +109,8 @@ int compress(struct range *rs, int num, int64_t *unzip) {
 int main(void) {
     int num = get_int();
     int i, j;
-    struct range rxs[NUM_MAX];
-    struct range rys[NUM_MAX];
+    static struct range rxs[NUM_MAX];
+    static struct range rys[NUM_MAX];
     for(i = 0; i < num; i++) {
         int x1, y1, x2, y2;
         get_int4(&x1, &y1, &x2, &y2);
@@ -125,15 +125,23 @@ int main(void) {
         compress(rys, num, unzip_y)
     };
 
-    static char map[COMP_X_MAX+2][COMP_Y_MAX+2];
-    int k1, k2;
+    static int map[COMP_X_MAX+2][COMP_Y_MAX+2];
     for(i = 0; i < num; i++) {
         struct range rx = rxs[i];
         struct range ry = rys[i];
-        for(k1 = rx.start; k1 < rx.end; k1++) {
-            for(k2 = ry.start; k2 < ry.end; k2++) {
-                map[k1][k2] = 1;
-            }
+        map[rx.start][ry.start]++;
+        map[rx.end][ry.end]++;
+        map[rx.start][ry.end]--;
+        map[rx.end][ry.start]--;
+    }
+    for(i = 1; i <= size.x; i++) {
+        for(j = 1; j <= size.y; j++) {
+            map[i][j] += map[i][j-1];
+        }
+    }
+    for(i = 1; i <= size.x; i++) {
+        for(j = 1; j <= size.y; j++) {
+            map[i][j] += map[i-1][j];
         }
     }
 #ifdef DEBUG
