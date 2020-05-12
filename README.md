@@ -189,7 +189,7 @@
 ||§ 3.2.3|exercise|[ABC 083 D Wide Flip](https://atcoder.jp/contests/arc088/tasks/arc088_b)|||[境目でflip](https://atcoder.jp/contests/arc088/submissions/12973023)|
 ||§ 3.2.3|exercise|[JOI 2012 本選 A 電飾](https://atcoder.jp/contests/joi2013ho/tasks/joi2013ho1)|||[stack](https://atcoder.jp/contests/joi2013ho/submissions/11466663)|
 |o|§ 3.2.3|exercise|[JOI 2008 本選 C あみだくじ](https://atcoder.jp/contests/joi2009ho/tasks/joi2009ho_c)|||[]()|
-|o|§ 3.2.3|exercise|[ABC 147 D - Xor Sum 4](https://atcoder.jp/contests/abc147/tasks/abc147_d)|||[xorの性質を利用]()
+||§ 3.2.3|exercise|[ABC 147 D - Xor Sum 4](https://atcoder.jp/contests/abc147/tasks/abc147_d)|||[xorの性質を利用](https://atcoder.jp/contests/abc147/submissions/13149768)|
 ||§ 3.2.4|example|[Fliptile (POJ No.3279)](http://poj.org/problem?id=3279)|||[bit全探索、貪欲法(実装重)](./3.2.4/poj3279.c)|
 ||§ 3.2.4|exercise|[JOI 2007 予選 E おせんべい](https://atcoder.jp/contests/joi2008yo/tasks/joi2008yo_e)|||[bit全探索、貪欲法](https://atcoder.jp/contests/joi2008yo/submissions/10734695)|
 ||§ 3.2.4|exercise|[ABC 159 E - Dividing Chocolate](https://atcoder.jp/contests/abc159/tasks/abc159_e)|||[bit全探索、貪欲法](https://atcoder.jp/contests/abc159/submissions/11922152)|
@@ -199,10 +199,16 @@
 ||§ 3.2.7|example|[巨大ナップザック問題](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DPL_1_H)|||[半分全列挙](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_1_H/review/4450774/knknkn1162/C)|
 ||§ 3.2.7|example|[C - String Coloring](https://atcoder.jp/contests/agc026/tasks/agc026_c)|||[]()|
 ||§ 3.2.8|example|座標圧縮|||[座標圧縮](./3.2.8/example.c)|
+||§ 3.2.8|example|[ABC 036 C - 座圧](https://atcoder.jp/contests/abc036/tasks/abc036_c)|||[map, hash(座標圧縮)](https://atcoder.jp/contests/abc036/submissions/13150217)|
+||§ 3.2.8|example|[ABC 113 C - ID](https://atcoder.jp/contests/abc113/tasks/abc113_c)|||[map, hash(座標圧縮)](https://atcoder.jp/contests/abc113/submissions/13151102)|
+||§ 3.2.8|example|[DSL_4_A Union of Rectangles](https://onlinejudge.u-aizu.ac.jp/problems/DSL_4_A)|||[座標圧縮, imos法](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_4_A/review/4464721/knknkn1162/C)|
 ||§ 3.2.8|exercise|[JOI 2007 本選 E ペンキの色](https://atcoder.jp/contests/joi2008ho/tasks/joi2008ho_e)|||[座標圧縮、imos法, BFS](https://atcoder.jp/contests/joi2008ho/submissions/13122755)|
 |o|§ 3.2.8|exercise|[JOI 2012 予選 E 魚の生息範囲](https://atcoder.jp/contests/joi2013yo/tasks/joi2013yo_e)|||[3次元]()|
+|o|§ 3.2.8|exercise|[AOJ 2426 宝探し](https://onlinejudge.u-aizu.ac.jp/problems/2426)|||[]()|
 |o|§ 3.2.9|example|[Crane (POJ No.2991)](http://poj.org/problem?id=2991)|||[]()|
 ||§ 3.2.9|exercise|[Range Minimum Query (RMQ)](https://onlinejudge.u-aizu.ac.jp/problems/DSL_2_A)|||[segment木](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_2_A/review/4461035/knknkn1162/C)|
+|o|§ 3.2.9|exercise|[AGC 004 B - Colorful Slimes](https://atcoder.jp/contests/agc004/tasks/agc004_b)|||[]()|
 |o|§ 3.2.9|exercise|[Range Sum Query](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_2_B)|||[]()|
+|o|§ 3.2.9|exercise|[DSL_2_E Range Add Query](https://onlinejudge.u-aizu.ac.jp/problems/DSL_2_E)|||[]()
 |o|§ 3.2.9|exercise|[Japan Alumni Group Summer Camp 2013 Day 2 G Perm Query](https://atcoder.jp/contests/jag2013summer-day2/tasks/icpc2013summer_day2_g)|||[]()|
 |o|§ 3.2.9|exercise|[ABC 157 E - Simple String Queries](https://atcoder.jp/contests/abc157/tasks/abc157_e)|||[]()|
