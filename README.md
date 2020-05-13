@@ -232,5 +232,6 @@
 ||§ 3.3.1|exercise|[DSL_2_D Range Update Query](https://onlinejudge.u-aizu.ac.jp/problems/DSL_2_D)|||[更新順をセグメント木に持たせる](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_2_D/review/4465450/knknkn1162/C)|
 ||§ 3.3.1|exercise|[DSL_2_E Range Add Query](https://onlinejudge.u-aizu.ac.jp/problems/DSL_2_E)|||[セグメント木](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_2_E/review/4465395/knknkn1162/C)|
 |o|§ 3.3.1|exercise|[Japan Alumni Group Summer Camp 2013 Day 2 G Perm Query](https://atcoder.jp/contests/jag2013summer-day2/tasks/icpc2013summer_day2_g)|||[]()|
+||§ 3.3.1|exercise|[ARC 008 D タコヤキオイシクナール](https://atcoder.jp/contests/arc008/tasks/arc008_4)|||[一次関数の合成関数、セグメント木](https://atcoder.jp/contests/arc008/submissions/13185643)|
 |o|§ 3.3.1|exercise|[ABC 157 E - Simple String Queries](https://atcoder.jp/contests/abc157/tasks/abc157_e)|||[]()|
 |o|§ 3.3.1|exercise|[D - プレゼント](https://atcoder.jp/contests/abc038/tasks/abc038_d)|||[LIS, セグメント木]()|
