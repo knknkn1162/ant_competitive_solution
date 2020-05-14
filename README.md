@@ -44,7 +44,7 @@
 ||§ 2.2.4|exercise|[C - 積み重ね](https://atcoder.jp/contests/arc006/tasks/arc006_3)|||[無駄が出ないように貪欲で](https://atcoder.jp/contests/arc006/submissions/12377963)|
 ||§ 2.2.4|exercise|[C - おいしいたこ焼きの売り方](https://atcoder.jp/contests/abc005/tasks/abc005_3)|||[客を軸にして、しゃくとり法](https://atcoder.jp/contests/abc005/submissions/12384924)|
 ||§ 2.2.4|exercise|[E - Colorful Hats 2](https://atcoder.jp/contests/sumitrust2019/tasks/sumitb2019_e)|||[貪欲法](https://atcoder.jp/contests/sumitrust2019/submissions/11699547)|
-|o|§ 2.2.5|example|[POJ 3253 Fence Repair](http://poj.org/problem?id=3253)|||[]()|
+||§ 2.2.5|example|[POJ 3253 Fence Repair](http://poj.org/problem?id=3253)|||[priority queue, 型に注意](./2.2.5/poj3253.c)|
 |o|§ 2.2.5|exercise|[C. Appleman and Toastman](http://codeforces.com/contest/462/problem/C)|||[]()|
 |o|§ 2.2.5|exercise|[ALDS1_15_D ハフマン符号](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/all/ALDS1_15_D)|||[ハフマン木を直接構成](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_15_D/review/3981240/knknkn1162/C) or [最小ヒープ]()|
 ||§ 2.2.6|exercise|[JOI 2011 本選 1 - 惑星探査](https://atcoder.jp/contests/joi2011ho/tasks/joi2011ho1)|||[二次元累積和](https://atcoder.jp/contests/abc106/submissions/11348226) or [区間DP](https://atcoder.jp/contests/abc106/submissions/11346781)|
@@ -75,7 +75,7 @@
 |o|§ 2.3.5|example|[個数制限付きナップザック問題](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_1_G)|||[]()|
 ||§ 2.3.5|exercise|[Maximum-Cup 2018 D Many Go Round](https://atcoder.jp/contests/maximum-cup-2018/tasks/maximum_cup_2018_d)|||[x周をDPの値にする](https://atcoder.jp/contests/maximum-cup-2018/submissions/12458575)|
 |o|§ 2.3.5|exercise|[JOI 2013 本選 D フクロモモンガ](https://atcoder.jp/contests/joi2014ho/tasks/joi2014ho4)|||[]()|
-|o|§ 2.3.6|example|[H - LIS](https://atcoder.jp/contests/chokudai_S001/tasks/chokudai_S001_h)|||[]()|
+||§ 2.3.6|example|[DPL_1_D - 最長増加部分列(LIS)](https://onlinejudge.u-aizu.ac.jp/problems/DPL_1_D)|||[stack, 線形探索](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_1_D/review/4332973/knknkn1162/C) or [stack, 二分探索](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_1_D/review/4302517/knknkn1162/C) or [座標圧縮、セグメント木]()|
 ||§ 2.3.6|exercise|[ABC 006 D トランプ挿入ソート](https://atcoder.jp/contests/abc006/tasks/abc006_4)|||[LIS](https://atcoder.jp/contests/abc006/submissions/11331581)|
 |o|§ 2.3.6|exercise|[TDPC K ターゲット](https://atcoder.jp/contests/tdpc/tasks/tdpc_target)|||[]()|
 ||§ 2.3.7|example|分割数|||[DP](./2.3.7/example.c)|
@@ -236,6 +236,7 @@
 |o|§ 3.3.1|exercise|[Japan Alumni Group Summer Camp 2013 Day 2 G Perm Query](https://atcoder.jp/contests/jag2013summer-day2/tasks/icpc2013summer_day2_g)|||[]()|
 ||§ 3.3.1|exercise|[ARC 008 D タコヤキオイシクナール](https://atcoder.jp/contests/arc008/tasks/arc008_4)|||[一次関数の合成関数、座標圧縮->セグメント木](https://atcoder.jp/contests/arc008/submissions/13185643)|
 |o|§ 3.3.1|exercise|[みんなのプロコン 2017 D 工場](https://atcoder.jp/contests/yahoo-procon2017-qual/tasks/yahoo_procon2017_qual_d)|||[]()|
+||§ 3.3.1|exercise|[Educational DP contest Q - Flowers](https://atcoder.jp/contests/dp/tasks/dp_q)|||[LIS, 座標圧縮、セグメント木]()|
 |o|§ 3.3.1|exercise|[D - プレゼント](https://atcoder.jp/contests/abc038/tasks/abc038_d)|||[LIS, セグメント木]()|
 |o|§ 4.4.1|example|[DPL_3_C ヒストグラムの中の最大長方形](https://onlinejudge.u-aizu.ac.jp/problems/DPL_3_C)|||[]()|
 |o|§ 4.4.1|exercise|[DPL_3_A 最大正方形](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_3_A)|||[]()|
