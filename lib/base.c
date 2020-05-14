@@ -47,15 +47,12 @@ char get_char(void) {
     return buf[0];
 }
 
-int get_str(const char *data, char *buffer, size_t buflen)
+int get_str(char *str, int size)
 {
-
-#ifndef BUF_SIZE
-#define BUF_SIZE 0
-#endif
-    char format[BUF_SIZE];
-    if (buflen == 0)
+    char format[100];
+    if (size == 0)
         return 0;
-    snprintf(format, sizeof(format), "%%%ds", (int)(buflen-1));
-    return sscanf(data, format, buffer);
+    snprintf(format, sizeof(format), "%%%ds", size);
+    scanf(format, str);
+    return 0;
 }
