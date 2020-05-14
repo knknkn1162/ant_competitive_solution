@@ -70,7 +70,7 @@
 ||§ 2.3.3|exercise|[ABC 153 E - Crested Ibis vs Monster](https://atcoder.jp/contests/abc153/tasks/abc153_e)|||[1次元DP](https://atcoder.jp/contests/abc153/submissions/12491440)|
 |o|§ 2.3.4|exercise|[ABC 032 D ナップサック問題](https://atcoder.jp/contests/abc032/tasks/abc032_d)|||[価値固定で重さ最小に]()|
 |o|§ 2.3.4|exercise|[AOJ DPL_1_F 0-1 ナップザック問題 II](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_1_F)|||[]()|
-|o|§ 2.3.4|exercise|[ARC 057 B 高橋君ゲーム](https://atcoder.jp/contests/arc057/tasks/arc057_b)|||[]()|
+||§ 2.3.4|exercise|[ARC 057 B 高橋君ゲーム](https://atcoder.jp/contests/arc057/tasks/arc057_b)|||[DP(考察難)](https://atcoder.jp/contests/arc057/submissions/13206104)|
 ||§ 2.3.5|example|個数制限付き部分和問題|||[残り個数をDPの中に持たせる](./2.3.5/example.c)|
 |o|§ 2.3.5|example|[個数制限付きナップザック問題](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_1_G)|||[]()|
 ||§ 2.3.5|exercise|[Maximum-Cup 2018 D Many Go Round](https://atcoder.jp/contests/maximum-cup-2018/tasks/maximum_cup_2018_d)|||[x周をDPの値にする](https://atcoder.jp/contests/maximum-cup-2018/submissions/12458575)|
@@ -231,7 +231,7 @@
 |o|§ 3.3.1|exercise|[AGC 004 B - Colorful Slimes](https://atcoder.jp/contests/agc004/tasks/agc004_b)|||[]()|
 ||§ 3.3.1|exercise|[DSL_2_B Range Sum Query](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_2_B)|||[セグメント木](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_2_B/review/4465240/knknkn1162/C)|
 ||§ 3.3.1|exercise|[DSL_2_D Range Update Query](https://onlinejudge.u-aizu.ac.jp/problems/DSL_2_D)|||[更新順をセグメント木に持たせる](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_2_D/review/4465450/knknkn1162/C)|
-|o|§ 3.3.1|exercise|[ABC 157 E - Simple String Queries](https://atcoder.jp/contests/abc157/tasks/abc157_e)|||[]()|
+||§ 3.3.1|exercise|[ABC 157 E - Simple String Queries](https://atcoder.jp/contests/abc157/tasks/abc157_e)|||[セグメント木、bit演算](https://atcoder.jp/contests/abc157/submissions/13210480)|
 ||§ 3.3.1|exercise|[DSL_2_E Range Add Query](https://onlinejudge.u-aizu.ac.jp/problems/DSL_2_E)|||[セグメント木](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_2_E/review/4465395/knknkn1162/C)|
 |o|§ 3.3.1|exercise|[Japan Alumni Group Summer Camp 2013 Day 2 G Perm Query](https://atcoder.jp/contests/jag2013summer-day2/tasks/icpc2013summer_day2_g)|||[]()|
 ||§ 3.3.1|exercise|[ARC 008 D タコヤキオイシクナール](https://atcoder.jp/contests/arc008/tasks/arc008_4)|||[一次関数の合成関数、座標圧縮->セグメント木](https://atcoder.jp/contests/arc008/submissions/13185643)|

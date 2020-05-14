@@ -48,17 +48,19 @@ char get_pos(char ch) {
     return ch - 'a';
 }
 
-void update(char *seg, int num, int idx, int flag) {
+void update(int *seg, int num, int idx, int bit) {
     int node = num + idx;
-    seg[node] = flag;
-    node /= 2;
-    while(node) {
-        int left = node*2;
-        int right = node*2+1;
-        // remove old
-        seg[node] = seg[left] | seg[right];
-        node/=2;
+    seg[node] = bit;
+    while((node = node/2)) {
+        seg[node] = seg[node*2] | seg[node*2+1];
     }
+#ifdef DEBUG
+    int i;
+    for(i = num; i < 2*num; i++) {
+        printf(" %d", seg[i]);
+    }
+    putchar('\n');
+#endif
     return;
 }
 
@@ -75,7 +77,7 @@ int is_contain(struct range this, struct range in) {
     return in.start <= this.start && in.end >= this.end;
 }
 
-char get(char *seg, struct range r, int node, struct range nr) {
+int get_pat(int *seg, struct range r, int node, struct range nr) {
     if(!is_overlap(r, nr)) return 0;
     if(is_contain(nr, r)) {
         return seg[node];
@@ -83,7 +85,7 @@ char get(char *seg, struct range r, int node, struct range nr) {
     // otherwise
     struct range left = {nr.start, (nr.start+nr.end)/2};
     struct range right = {left.end+1, nr.end};
-    return get(seg, r, node*2, left) | get(seg, r, node*2+1, right);
+    return get_pat(seg, r, node*2, left) | get_pat(seg, r, node*2+1, right);
 }
 
 int main(void) {
@@ -94,14 +96,14 @@ int main(void) {
     get_str(str, _num);
 
     int queries = get_int();
-    static char seg[LOWER_NUM][NUM_MAX*2];
+    static int seg[NUM_MAX*2];
     static int ans[QUERY_MAX];
     int aidx = 0;
-    int i, j;
+    int i;
     // initialization
     for(i = 0; i < _num; i++) {
         int idx = get_pos(str[i]);
-        update(seg[idx], num, i, 1);
+        update(seg, num, i, (1<<idx));
     }
 
     struct range whole = {0, num-1};
@@ -113,11 +115,8 @@ int main(void) {
                     int idx; char newch;
                     get_intch(&idx, &newch);
                     idx--;
-                    int old_pos = get_pos(str[idx]);
                     int pos = get_pos(newch);
-                    update(seg[old_pos], num, idx, 0);
-                    update(seg[pos], num, idx, 1);
-                    str[idx] = newch;
+                    update(seg, num, idx, (1<<pos));
                 }
                 break;
             case COMMAND_GET:
@@ -126,11 +125,8 @@ int main(void) {
                     get_int2(&start, &end);
                     start--; end--;
                     struct range r = {start, end};
-                    int res = 0;
-                    for(j = 0; j < LOWER_NUM; j++) {
-                        res += get(seg[j], r, 1, whole);
-                    }
-                    ans[aidx++] = res;
+                    int pat = get_pat(seg, r, 1, whole);
+                    ans[aidx++] = __builtin_popcount(pat);
                 }
                 break;
             default:
