@@ -70,12 +70,13 @@
 ||§ 2.3.3|exercise|[ABC 153 E - Crested Ibis vs Monster](https://atcoder.jp/contests/abc153/tasks/abc153_e)|||[1次元DP](https://atcoder.jp/contests/abc153/submissions/12491440)|
 |o|§ 2.3.4|exercise|[ABC 032 D ナップサック問題](https://atcoder.jp/contests/abc032/tasks/abc032_d)|||[価値固定で重さ最小に]()|
 |o|§ 2.3.4|exercise|[AOJ DPL_1_F 0-1 ナップザック問題 II](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_1_F)|||[]()|
+|o|§ 2.3.4|exercise|[Educational DP contest E - Knapsack 2](https://atcoder.jp/contests/dp/tasks/dp_e)|||[添字と値の入れ替え, DP]()|
 ||§ 2.3.4|exercise|[ARC 057 B 高橋君ゲーム](https://atcoder.jp/contests/arc057/tasks/arc057_b)|||[DP(考察難)](https://atcoder.jp/contests/arc057/submissions/13206104)|
 ||§ 2.3.5|example|個数制限付き部分和問題|||[残り個数をDPの中に持たせる](./2.3.5/example.c)|
 |o|§ 2.3.5|example|[個数制限付きナップザック問題](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_1_G)|||[]()|
 ||§ 2.3.5|exercise|[Maximum-Cup 2018 D Many Go Round](https://atcoder.jp/contests/maximum-cup-2018/tasks/maximum_cup_2018_d)|||[x周をDPの値にする](https://atcoder.jp/contests/maximum-cup-2018/submissions/12458575)|
 |o|§ 2.3.5|exercise|[JOI 2013 本選 D フクロモモンガ](https://atcoder.jp/contests/joi2014ho/tasks/joi2014ho4)|||[]()|
-||§ 2.3.6|example|[DPL_1_D - 最長増加部分列(LIS)](https://onlinejudge.u-aizu.ac.jp/problems/DPL_1_D)|||[stack, 線形探索](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_1_D/review/4332973/knknkn1162/C) or [stack, 二分探索](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_1_D/review/4302517/knknkn1162/C) or [座標圧縮、セグメント木]()|
+||§ 2.3.6|example|[DPL_1_D - 最長増加部分列(LIS)](https://onlinejudge.u-aizu.ac.jp/problems/DPL_1_D)|||[インラインDP,  二分探索](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_1_D/review/4474200/knknkn1162/C) or [座標圧縮、セグメント木]()|
 ||§ 2.3.6|exercise|[ABC 006 D トランプ挿入ソート](https://atcoder.jp/contests/abc006/tasks/abc006_4)|||[LIS](https://atcoder.jp/contests/abc006/submissions/11331581)|
 |o|§ 2.3.6|exercise|[TDPC K ターゲット](https://atcoder.jp/contests/tdpc/tasks/tdpc_target)|||[]()|
 ||§ 2.3.7|example|分割数|||[DP](./2.3.7/example.c)|
@@ -114,7 +115,7 @@
 ||§ 2.3.11|exercise|[木の直径](https://onlinejudge.u-aizu.ac.jp/problems/GRL_5_A)|||[全方位木DP](https://onlinejudge.u-aizu.ac.jp/solutions/problem/GRL_5_A/review/4364257/knknkn1162/C)|
 |o|§ 2.3.11|exercise|[木の高さ](https://onlinejudge.u-aizu.ac.jp/courses/library/5/GRL/all/GRL_5_B)|||[全方位木DP]()|
 ||§ 2.3.11|exercise|[F - Distributing Integers](https://atcoder.jp/contests/abc160/tasks/abc160_f)|||[全方位木DP](https://atcoder.jp/contests/abc160/submissions/11998682)|
-|o|§ 2.3.12|exercise|[AOJ GRL_4_B トポロジカルソート](https://onlinejudge.u-aizu.ac.jp/courses/library/5/GRL/all/GRL_4_B)|||[]()|
+||§ 2.3.12|exercise|[AOJ GRL_4_B トポロジカルソート](https://onlinejudge.u-aizu.ac.jp/courses/library/5/GRL/all/GRL_4_B)|||[DFS, DAG DP](https://onlinejudge.u-aizu.ac.jp/solutions/problem/GRL_4_B/review/4474367/knknkn1162/C)|
 ||§ 2.3.12|exercise|[ABC 037 D 経路](https://atcoder.jp/contests/abc037/tasks/abc037_d)|||[out degreeに注意してDAG DP](https://atcoder.jp/contests/abc037/submissions/12767879)
 ||§ 2.3.12|exercise|[G - Longest Path](https://atcoder.jp/contests/dp/tasks/dp_g)|||[DAG DP](https://atcoder.jp/contests/dp/submissions/12015134)|
 ||§ 2.3.12|exercise|[H - Grid 1](https://atcoder.jp/contests/dp/tasks/dp_h)|||[DAG DP](https://atcoder.jp/contests/dp/submissions/12024953)|
@@ -130,7 +131,7 @@
 ||§ 2.4.1|exercise|[ABC 062 D - 3N Numbers](https://atcoder.jp/contests/arc074/tasks/arc074_b)|||[配列と逆配列をmin heap](https://atcoder.jp/contests/arc074/submissions/12810109)|
 ||§ 2.4.2|exercise|[ABC 085 B Kagami Mochi](https://atcoder.jp/contests/abc085/tasks/abc085_b)|||[map](https://atcoder.jp/contests/abc085/submissions/7997905)|
 |o|§ 2.4.2|exercise|[ABC 091 B Two Colors Card Game](https://atcoder.jp/contests/abc091/tasks/abc091_b)|||[]()|
-|o|§ 2.4.3|example|[食物連鎖 (POJ No.1182)](http://poj.org/problem?id=1182)|||[3×numberのunion find](./2.4.3/poj1182.c)|
+||§ 2.4.3|example|[食物連鎖 (POJ No.1182)](http://poj.org/problem?id=1182)|||[3×numberのunion find](./2.4.3/poj1182.c)|
 ||§ 2.4.3|exercise|[ATC 001 B Union Find](https://atcoder.jp/contests/atc001/tasks/unionfind_a)|||[Union Find](https://atcoder.jp/contests/atc001/submissions/12844290)|
 ||§ 2.4.3|exercise|[ABC 049 D 連結](https://atcoder.jp/contests/abc049/tasks/arc065_b)|||[union find, ハッシュ](https://atcoder.jp/contests/abc049/submissions/12697315)|
 ||§ 2.4.3|exercise|[ABC 157 D - Friend Suggestions](https://atcoder.jp/contests/abc157/tasks/abc157_d)|||[Union Find](https://atcoder.jp/contests/abc157/submissions/11931508)|
