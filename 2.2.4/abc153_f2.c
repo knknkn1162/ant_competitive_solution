@@ -38,6 +38,43 @@ int asc_by_pos(const void *a1, const void *a2) {
 #define ROOT_NODE 1
 #define INF ((int64_t)(3e+9)+1)
 
+struct range {
+    int start;
+    int end;
+};
+
+int64_t get_val(int64_t* seg, int num, int idx) {
+    int node = num+idx;
+    int64_t ans = 0;
+    while(node) {
+        ans += seg[node];
+        node /= 2;
+    }
+    return ans;
+}
+
+int is_contain(struct range this, struct range box) {
+    return box.start <= this.start && box.end >= this.end;
+}
+
+int is_overlap(struct range r1, struct range r2) {
+    return r1.end >= r2.start && r2.end >= r1.start;
+}
+
+void add_range(int64_t *seg, int64_t val, struct range r, int node, struct range nr) {
+#ifdef DEBUG
+    printf("add_range(seg, %lld, r, %d)\n", val, node);
+#endif
+    if(is_contain(nr, r)) {seg[node] += val; return;}
+    if(!is_overlap(r, nr)) return;
+    struct range left = {nr.start, (nr.start+nr.end)/2};
+    struct range right = {left.end+1, nr.end};
+    add_range(seg, val, r, node*2, left);
+    add_range(seg, val, r, node*2+1, right);
+    return;
+}
+
+#define ROOT_NODE 1
 int main(void) {
     int num, attack;
     int64_t range;
@@ -54,17 +91,20 @@ int main(void) {
     mons[num] = (struct monster){INF, 0}; // guard
     qsort(mons, num, sizeof(struct monster), asc_by_pos);
 
+    static int64_t seg[NUM2_MAX*2];
+    for(i = 0; i < num; i++) {
+        seg[i+num2] = mons[i].hp;
+    }
+
     int left;
     int right = 0;
     int64_t ans = 0;
-    static int64_t diff[NUM_MAX+1];
-    static int64_t cum = 0;
 
+    struct range whole = {0, num2-1};
     for(left = 0; left < num+1; left++) {
-        cum += diff[left];
         if(left == right) { right++; }
-        int64_t hp = mons[left].hp - cum * attack;
-        if(hp <= 0) continue; // if no hit point, break;
+        int64_t rem = get_val(seg, num2, left);
+        if(rem <= 0) continue; // if no hit point, break;
         // ensure that mons[left] should be attacked
         for(;right < num+1; right++) {
             if(mons[left].pos + range < mons[right].pos) break;
@@ -73,11 +113,10 @@ int main(void) {
         printf("[%d, %d)\n", left, right);
 #endif
         // attack
-        int64_t cnt = (hp-1)/attack + 1;
-
-        // left has already searched
-        diff[left+1] += cnt;
-        diff[right] -= cnt;
+        int64_t cnt = (rem-1)/attack + 1;
+        int64_t damage = (int64_t)attack * cnt;
+        struct range r = {left, right-1};
+        add_range(seg, -damage, r, ROOT_NODE, whole);
         ans += cnt;
     }
     printf("%lld\n", ans);
