@@ -41,6 +41,7 @@
 |o|§ 2.2.3|exercise|[C - 辞書式順序ふたたび](https://atcoder.jp/contests/abc009/tasks/abc009_3)|||[]()|
 ||§ 2.2.3|exercise|[ABC 160 E - Red and Green Apples](https://atcoder.jp/contests/abc160/tasks/abc160_e)|||[ソート -> 貪欲法](https://atcoder.jp/contests/abc160/submissions/11773599)|
 ||§ 2.2.4|example|[Saruman's Army](http://poj.org/problem?id=3069)|||[昇順にソート->貪欲](./2.2.4/poj3069.c)|
+||§ 2.2.4|exercise|[ABC 153 F - Silver Fox vs Monster](https://atcoder.jp/contests/abc153/tasks/abc153_f)|||see § 3.3.1|
 ||§ 2.2.4|exercise|[C - Multiple Gift](https://atcoder.jp/contests/abc083/tasks/arc088_a)|||[貪欲](https://atcoder.jp/contests/abc083/submissions/12356089)|
 ||§ 2.2.4|exercise|[C - 積み重ね](https://atcoder.jp/contests/arc006/tasks/arc006_3)|||[無駄が出ないように貪欲で](https://atcoder.jp/contests/arc006/submissions/12377963)|
 ||§ 2.2.4|exercise|[C - おいしいたこ焼きの売り方](https://atcoder.jp/contests/abc005/tasks/abc005_3)|||[客を軸にして、尺取法](https://atcoder.jp/contests/abc005/submissions/12384924)|
@@ -81,6 +82,7 @@
 |o|§ 2.3.5|exercise|[JOI 2013 本選 D フクロモモンガ](https://atcoder.jp/contests/joi2014ho/tasks/joi2014ho4)|||[]()|
 ||§ 2.3.6|example|[DPL_1_D - 最長増加部分列(LIS)](https://onlinejudge.u-aizu.ac.jp/problems/DPL_1_D)|||[インラインDP,  二分探索](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_1_D/review/4474200/knknkn1162/C) or [LIS, 座標圧縮、セグメント木](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_1_D/review/4474526/knknkn1162/C)|
 ||§ 2.3.6|exercise|[ABC 006 D トランプ挿入ソート](https://atcoder.jp/contests/abc006/tasks/abc006_4)|||[LIS](https://atcoder.jp/contests/abc006/submissions/11331581)|
+||§ 2.3.6|exercise|[ABC 038 D - プレゼント](https://atcoder.jp/contests/abc038/tasks/abc038_d)|||[高さ方向にソート -> LIS(DP版)](https://atcoder.jp/contests/abc038/submissions/13232584) or [高さ方向にまずソート -> LIS, セグメント木(RMQ)](https://atcoder.jp/contests/abc038/submissions/13231531)|
 |o|§ 2.3.6|exercise|[TDPC K ターゲット](https://atcoder.jp/contests/tdpc/tasks/tdpc_target)|||[]()|
 ||§ 2.3.7|example|分割数|||[DP](./2.3.7/example.c)|
 ||§ 2.3.7|exercise|[No.269 見栄っ張りの募金活動](https://yukicoder.me/problems/no/269)|||[制約を取り除く -> 分割数](https://yukicoder.me/submissions/472404)|
@@ -243,7 +245,6 @@
 ||§ 3.3.1|exercise|[ARC 008 D タコヤキオイシクナール](https://atcoder.jp/contests/arc008/tasks/arc008_4)|||[一次関数の合成関数、座標圧縮->セグメント木](https://atcoder.jp/contests/arc008/submissions/13185643)|
 |o|§ 3.3.1|exercise|[みんなのプロコン 2017 D 工場](https://atcoder.jp/contests/yahoo-procon2017-qual/tasks/yahoo_procon2017_qual_d)|||[]()|
 ||§ 3.3.1|exercise|[Educational DP contest Q - Flowers](https://atcoder.jp/contests/dp/tasks/dp_q)|||[LIS, セグメント木](https://atcoder.jp/contests/dp/submissions/13228186)|
-|o|§ 3.3.1|exercise|[D - プレゼント](https://atcoder.jp/contests/abc038/tasks/abc038_d)|||[LIS, セグメント木]()|
 |o|§ 3.3.3|exercise|[全国統一プログラミング王決定戦本選-D Deforestation](https://atcoder.jp/contests/nikkei2019-final/tasks/nikkei2019_final_d)|||[]()|
 |o|§ 4.4.1|example|[DPL_3_C ヒストグラムの中の最大長方形](https://onlinejudge.u-aizu.ac.jp/problems/DPL_3_C)|||[]()|
 |o|§ 4.4.1|exercise|[DPL_3_A 最大正方形](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_3_A)|||[]()|
