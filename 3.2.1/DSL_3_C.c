@@ -27,13 +27,15 @@ int fget_array(int64_t *arr, int size) {
 }
 
 #define NUM_MAX 100000
+#define INF (int64_t)(1e+14)
 
 int main(void) {
     int num, qs;
     get_int2(&num, &qs);
 
-    static int64_t arr[NUM_MAX];
+    static int64_t arr[NUM_MAX+1];
     fget_array(arr, num);
+    arr[num] = INF; // guard
     int i;
     for(i = 0; i < qs; i++) {
         int64_t q = get_int();
@@ -41,13 +43,16 @@ int main(void) {
         int64_t cnt = 0;
         int right = 0;
         int left;
-        for(left = 0; left < num; left++) {
-            // sum is always sum >= q
-            for(; right < num; right++) {
-                if(sum + arr[right] > q) break;
+        for(left = 0; left < num+1; left++) {
+            // sum is always sum <= q
+            for(; right < num+1; right++) {
+                if(sum > q) break;
                 sum += arr[right];
             }
-            cnt += (right - left);
+#ifdef DEBUG
+            printf("[%d, %d)\n", left, right);
+#endif
+            cnt += (right - left - 1);
             sum -= arr[left];
         }
         printf("%lld\n", cnt);

@@ -106,7 +106,6 @@
 ||§ 2.3.9|exercise|[L - Deque](https://atcoder.jp/contests/dp/tasks/dp_l)|||[ゲームDP](https://atcoder.jp/contests/dp/submissions/12078699)|
 ||§ 2.3.10|exercise|[TDPC I イゥイ](https://atcoder.jp/contests/tdpc/tasks/tdpc_iwi)|||[区間DP](https://atcoder.jp/contests/tdpc/submissions/12484423)|
 |o|§ 2.3.10|exercise|[AOJ 2415 刺身](https://onlinejudge.u-aizu.ac.jp/problems/2415)|||[区間DP, Monge]()|
-||§ 2.3.10|exercise|[D - サプリメント](https://atcoder.jp/contests/abc017/tasks/abc017_4)|||[区間DP, 累積和](https://atcoder.jp/contests/abc017/submissions/11739676)|
 ||§ 2.3.10|exercise|[ダルマ落とし](https://onlinejudge.u-aizu.ac.jp/problems/1611)|||[O(N^3)の区間DP](https://onlinejudge.u-aizu.ac.jp/solutions/problem/1611/review/4296429/knknkn1162/C)|
 ||§ 2.3.11|exercise|[ABC 036 D - 塗り絵](https://atcoder.jp/contests/abc036/tasks/abc036_d)|||[ツリーDP(帰りがけ)](https://atcoder.jp/contests/abc036/submissions/12798698)
 ||§ 2.3.11|exercise|[ABC 070 D Transit Tree Path](https://atcoder.jp/contests/abc070/tasks/abc070_d)|||[ツリーDP(行きがけ)](https://atcoder.jp/contests/abc070/submissions/12811976)|
@@ -189,13 +188,13 @@
 ||§ 3.2.1|example|[Subsequence (POJ No.3061)](http://poj.org/problem?id=3061)|||[尺取法](./3.2.1/poj3061.c)|
 ||§ 3.2.1|exercise|[DSL_3_A The Smallest Window I](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_3_A)|||[尺取法](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_3_A/review/4468038/knknkn1162/C)|
 ||§ 3.2.1|exercise|[DSL_3_B The Smallest Window II](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_3_B)|||[尺取法](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_3_B/review/4468410/knknkn1162/C)|
-||§ 3.2.1|exercise|[AOJ Course The Number of Windows](https://onlinejudge.u-aizu.ac.jp/problems/DSL_3_C)|||[尺取法](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_3_C/review/4442817/knknkn1162/C)
+||§ 3.2.1|exercise|[AOJ Course The Number of Windows](https://onlinejudge.u-aizu.ac.jp/problems/DSL_3_C)|||[尺取法](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_3_C/review/4473359/knknkn1162/C)
 ||§ 3.2.1|exercise|[ABC 032 C 列](https://atcoder.jp/contests/abc032/tasks/abc032_c)|||[尺取法](https://atcoder.jp/contests/abc032/submissions/12929277)|
 ||§ 3.2.1|exercise|[ABC 038 C 単調増加](https://atcoder.jp/contests/abc038/tasks/abc038_c)|||[尺取法](https://atcoder.jp/contests/abc038/submissions/12952989)|
 ||§ 3.2.1|exercise|[ARC 098 D Xor Sum 2](https://atcoder.jp/contests/arc098/tasks/arc098_b)|||[尺取法](https://atcoder.jp/contests/arc098/submissions/12953249)|
 ||§ 3.2.2|exercise|[Jessica's Reading Problem (POJ No.3320)](http://poj.org/problem?id=3320)|||[mapを用いて尺取法](./3.2.2/poj3320.c)|
 ||§ 3.2.2|exercise|[ARC 022 B 細長いお菓子](https://atcoder.jp/contests/arc022/tasks/arc022_2)|||[mapを使って尺取法](https://atcoder.jp/contests/arc022/submissions/12954764)|
-|o|§ 3.2.2|exercise|[ABC 017 D サプリメント](https://atcoder.jp/contests/abc017/tasks/abc017_4)|||[]()|
+||§ 3.2.2|exercise|[ABC 017 D - サプリメント](https://atcoder.jp/contests/abc017/tasks/abc017_4)|||[mapを使って尺取法, 累積和](https://atcoder.jp/contests/abc017/submissions/13220134)|
 |o|§ 3.2.2|exercise|[ABC 033 D 三角形の分類](https://atcoder.jp/contests/abc033/tasks/abc033_d)|||[]()|
 ||§ 3.2.3|example|[Face The Right Way (POJ No.3276)](http://poj.org/problem?id=3276)|||[flipの回数を保存](./3.2.3/poj3276.c)|
 ||§ 3.2.3|exercise|[ABC 048 C Boxes and Candies](https://atcoder.jp/contests/arc064/tasks/arc064_a)|||[貪欲, 番兵](https://atcoder.jp/contests/arc064/submissions/12968254)|
