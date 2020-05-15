@@ -242,7 +242,7 @@
 |o|§ 3.3.1|exercise|[Japan Alumni Group Summer Camp 2013 Day 2 G Perm Query](https://atcoder.jp/contests/jag2013summer-day2/tasks/icpc2013summer_day2_g)|||[]()|
 ||§ 3.3.1|exercise|[ARC 008 D タコヤキオイシクナール](https://atcoder.jp/contests/arc008/tasks/arc008_4)|||[一次関数の合成関数、座標圧縮->セグメント木](https://atcoder.jp/contests/arc008/submissions/13185643)|
 |o|§ 3.3.1|exercise|[みんなのプロコン 2017 D 工場](https://atcoder.jp/contests/yahoo-procon2017-qual/tasks/yahoo_procon2017_qual_d)|||[]()|
-||§ 3.3.1|exercise|[Educational DP contest Q - Flowers](https://atcoder.jp/contests/dp/tasks/dp_q)|||[LIS, 座標圧縮、セグメント木]()|
+||§ 3.3.1|exercise|[Educational DP contest Q - Flowers](https://atcoder.jp/contests/dp/tasks/dp_q)|||[LIS, セグメント木](https://atcoder.jp/contests/dp/submissions/13228186)|
 |o|§ 3.3.1|exercise|[D - プレゼント](https://atcoder.jp/contests/abc038/tasks/abc038_d)|||[LIS, セグメント木]()|
 |o|§ 3.3.3|exercise|[全国統一プログラミング王決定戦本選-D Deforestation](https://atcoder.jp/contests/nikkei2019-final/tasks/nikkei2019_final_d)|||[]()|
 |o|§ 4.4.1|example|[DPL_3_C ヒストグラムの中の最大長方形](https://onlinejudge.u-aizu.ac.jp/problems/DPL_3_C)|||[]()|
