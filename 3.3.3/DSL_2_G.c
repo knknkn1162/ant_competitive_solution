@@ -28,8 +28,8 @@ enum type {
 };
 
 struct pair {
-    int sum;
-    int lazy_sum;
+    int64_t sum;
+    int64_t lazy_sum;
 };
 
 struct range {
@@ -43,42 +43,57 @@ struct range {
 #define ROOT_NODE 1
 
 int is_overlap(struct range r1, struct range r2) {
-    if(r1.end > r2.start && r2.end > r1.start) {
-        return min(r1.end-r2.start, r2.end-r1.start);
-    }
-    return 0;
+    return r1.end > r2.start && r2.end > r1.start;
 }
 
 int is_contain(struct range elem, struct range box) {
     return elem.start >= box.start && elem.end <= box.end;
 }
 
-void add_range(struct pair *seg, int val, struct range r, int node, struct range nr) {
-    if(!is_overlap(r, nr)) return;
-    if(is_contain(nr, r)) {
-        seg[node].lazy_sum += val;
-    } else {
-        struct range left = { nr.start, (nr.start+nr.end)/2 };
-        struct range right = { (nr.start+nr.end)/2, nr.end };
-        add_range(seg, val, r, node*2, left);
-        add_range(seg, val, r, node*2+1, right);
+void unlazy(struct pair *seg, int node, struct range nr) {
+    if(!seg[node].lazy_sum) return;
+    int64_t lazy = seg[node].lazy_sum;
+    seg[node].sum += lazy;
+    seg[node].lazy_sum = 0;
+    // if not simple
+    if(nr.end - nr.start > 1) {
+        seg[node*2].lazy_sum += lazy / 2;
+        seg[node*2+1].lazy_sum += lazy / 2;
     }
-    return;
 }
 
-int get_sum(struct pair *seg, struct range r, int node, struct range nr) {
-    int cnt = is_overlap(r, nr);
+void add_range(struct pair *seg, int64_t val, struct range r, int node, struct range nr) {
+
+    // First of all, the lazy value should be woken
+    unlazy(seg, node, nr);
+    if(!is_overlap(r, nr)) return;
+    if(is_contain(nr, r)) {
+        seg[node].lazy_sum += val * (nr.end-nr.start);
 #ifdef DEBUG
-    printf("get_sum(%d, (%d, %d))\n", cnt, nr.start, nr.end);
+        printf("add_range: %d.lazy_sum -> %d\n", node, val*(nr.end-nr.start));
 #endif
-    if(!cnt) return 0;
-    if(is_contain(nr, r)) return seg[node].sum + seg[node].lazy_sum*cnt;
+        unlazy(seg, node, nr);
+        return;
+    }
+    struct range left = { nr.start, (nr.start+nr.end)/2 };
+    struct range right = { (nr.start+nr.end)/2, nr.end };
+    add_range(seg, val, r, node*2, left);
+    add_range(seg, val, r, node*2+1, right);
+    seg[node].sum = seg[node*2].sum + seg[node*2+1].sum;
+}
+
+int64_t get_sum(struct pair *seg, struct range r, int node, struct range nr) {
+
+    // First of all, the lazy value should be woken
+    unlazy(seg, node, nr);
+    if(!is_overlap(r, nr)) return 0;
+    if(is_contain(nr, r)) return seg[node].sum;
 
     struct range left = { nr.start, (nr.start+nr.end)/2 };
     struct range right = { (nr.start+nr.end)/2, nr.end };
-    int s1 = get_sum(seg, r, node*2, left);
-    int s2 = get_sum(seg, r, node*2+1, right);
-    return s1 + s2 + seg[node].lazy_sum * cnt;
+    int64_t s1 = get_sum(seg, r, node*2, left);
+    int64_t s2 = get_sum(seg, r, node*2+1, right);
+    return s1 + s2;
 }
 
 
@@ -86,8 +101,8 @@ int main(void) {
     int num, queries;
     get_int2(&num, &queries);
     int i;
-    static struct pair seg[NUM2_MAX];
-    static int ans[NUM_MAX];
+    static struct pair seg[NUM2_MAX*2];
+    static int64_t ans[NUM_MAX];
     int aidx = 0;
 
     int num2 = 1;
@@ -122,7 +137,7 @@ int main(void) {
         }
     }
     for(i = 0; i < aidx; i++) {
-        printf("%d\n", ans[i]);
+        printf("%lld\n", ans[i]);
     }
 
     return 0;
