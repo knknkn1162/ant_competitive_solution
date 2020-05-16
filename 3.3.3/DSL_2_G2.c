@@ -42,7 +42,7 @@ struct range {
 
 #define ROOT_NODE 1
 
-int is_overlap(struct range r1, struct range r2) {
+int count_overlap(struct range r1, struct range r2) {
     if(r1.end > r2.start && r2.end > r1.start) {
         // wrong!!
         // return min(r1.end-r2.start, r2.end-r1.start);
@@ -57,7 +57,7 @@ int is_contain(struct range elem, struct range box) {
 
 void add_range(struct pair *seg, int64_t val, struct range r, int node, struct range nr) {
 
-    int cnt = is_overlap(r, nr);
+    int cnt = count_overlap(r, nr);
     if(!cnt) return;
     if(is_contain(nr, r)) {
         seg[node].lazy_sum += val;
@@ -72,7 +72,10 @@ void add_range(struct pair *seg, int64_t val, struct range r, int node, struct r
 
 int64_t get_sum(struct pair *seg, struct range r, int node, struct range nr) {
 
-    int cnt = is_overlap(r, nr);
+    int cnt = count_overlap(r, nr);
+#ifdef DEBUG
+    printf("[%d] get_sum(%d, %d) -> sum: %lld, lazy: %lld\n", cnt, nr.start, nr.end, seg[node].sum, seg[node].lazy_sum);
+#endif
     if(!cnt) return 0;
     if(is_contain(nr, r)) {
         return seg[node].sum + seg[node].lazy_sum * (nr.end-nr.start);
@@ -110,6 +113,13 @@ int main(void) {
                     start--; end--;
                     struct range r = {start, end+1};
                     add_range(seg, val, r, ROOT_NODE, whole);
+#ifdef DEBUG
+                    int j;
+                    for(j = 0; j < 8; j++) {
+                        printf(" %lld/%lld", seg[j].sum, seg[j].lazy_sum);
+                    }
+                    putchar('\n');
+#endif
                 }
                 break;
             case COMMAND_GET_SUM:

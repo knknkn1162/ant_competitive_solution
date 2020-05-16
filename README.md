@@ -49,6 +49,7 @@
 ||§ 2.2.5|example|[POJ 3253 Fence Repair](http://poj.org/problem?id=3253)|||[priority queue, 型に注意](./2.2.5/poj3253.c)|
 |o|§ 2.2.5|exercise|[C. Appleman and Toastman](http://codeforces.com/contest/462/problem/C)|||[]()|
 |o|§ 2.2.5|exercise|[ALDS1_15_D ハフマン符号](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/all/ALDS1_15_D)|||[ハフマン木を直接構成](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_15_D/review/3981240/knknkn1162/C) or [最小ヒープ]()|
+|o|§ 2.2.6|exercise|[ABC 125 C - GCD on Blackboard](https://atcoder.jp/contests/abc125/tasks/abc125_c)|||[]()|
 ||§ 2.2.6|exercise|[JOI 2011 本選 1 - 惑星探査](https://atcoder.jp/contests/joi2011ho/tasks/joi2011ho1)|||[二次元累積和](https://atcoder.jp/contests/abc106/submissions/11348226) or [区間DP](https://atcoder.jp/contests/abc106/submissions/11346781)|
 ||§ 2.2.6|exercise|[DSL_5_A The Maximum Number of Customers](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_5_A)|||[いもす法](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_5_A/review/4467956/knknkn1162/C)|
 ||§ 2.2.6|exercise|[DSL_5_B The Maximum Number of Overlaps](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_5_B)|||[いもす法](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_5_B/review/4467993/knknkn1162/C)|
@@ -232,7 +233,7 @@
 ||§ 3.2.8|exercise|[JOI 2007 本選 E ペンキの色](https://atcoder.jp/contests/joi2008ho/tasks/joi2008ho_e)|||[座標圧縮、imos法, BFS](https://atcoder.jp/contests/joi2008ho/submissions/13122755)|
 |o|§ 3.2.8|exercise|[JOI 2012 予選 E 魚の生息範囲](https://atcoder.jp/contests/joi2013yo/tasks/joi2013yo_e)|||[3次元]()|
 |o|§ 3.2.8|exercise|[AOJ 2426 宝探し](https://onlinejudge.u-aizu.ac.jp/problems/2426)|||[]()|
-|o|§ 3.2.9|example|[Crane (POJ No.2991)](http://poj.org/problem?id=2991)|||[]()|
+|o|§ 3.2.9|example|[Crane (POJ No.2991)](http://poj.org/problem?id=2991)|||[セグメント木(難)]()|
 ||§ 3.3.1|exercise|[Range Minimum Query (RMQ)](https://onlinejudge.u-aizu.ac.jp/problems/DSL_2_A)|||[セグメント木](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_2_A/review/4461035/knknkn1162/C)|
 |o|§ 3.3.1|exercise|[JOI 2011 春合宿 day4-2 本棚](https://atcoder.jp/contests/joisc2011/tasks/joisc2011_bookshelf) [問題はここ](https://www.ioi-jp.org/camp/2011/2011-sp-tasks/2011-sp-day4.pdf)|||[]()|
 |o|§ 3.3.1|exercise|[AGC 004 B - Colorful Slimes](https://atcoder.jp/contests/agc004/tasks/agc004_b)|||[]()|
@@ -251,17 +252,17 @@
 |o|§ 3.3.2|exercise|[ARC 088 E Papple Sort](https://atcoder.jp/contests/arc088/tasks/arc088_c)|||[]()|
 |o|§ 3.3.2|exercise|[ARC 033 C データ構造](https://atcoder.jp/contests/arc033/tasks/arc033_3)|||[]()|
 |o|§ 3.3.2|exercise|[第2回早稲田大学プログラミングコンテスト G だるま落とし](https://atcoder.jp/contests/wupc2nd/tasks/wupc_07)|||[]()|
-||§ 3.3.3|example|[DSL 2G RSQ and RAQ](https://onlinejudge.u-aizu.ac.jp/problems/DSL_2_G)|||[遅延評価セグメント木](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_2_G/review/4478786/knknkn1162/C)|
-|o|§ 3.3.3|exercise|[RMQ and RUQ](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_2_F)|||[]()|
+||§ 3.3.3|example|[DSL_2_G RSQ and RAQ](https://onlinejudge.u-aizu.ac.jp/problems/DSL_2_G)|||[遅延評価セグメント木](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_2_G/review/4479054/knknkn1162/C)|
+|o|§ 3.3.3|exercise|[DSL_2_F RMQ and RUQ](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_2_F)|||[]()|
 |o|§ 3.3.3|exercise|[DSL_2_H RMQ and RAQ](https://onlinejudge.u-aizu.ac.jp/problems/DSL_2_H)|||[]()|
-|o|§ 3.3.3|exercise|[RSQ and RUQ](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_2_I)|||[]()|
+|o|§ 3.3.3|exercise|[DSL_2_I RSQ and RUQ](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_2_I)|||[]()|
 |o|§ 3.3.3|exercise|[全国統一プログラミング王決定戦本選-D Deforestation](https://atcoder.jp/contests/nikkei2019-final/tasks/nikkei2019_final_d)|||[]()|
 |o|§ 3.3.3|exercise|[CODE FESTIVAL 2015 決勝 D 足ゲームII](https://atcoder.jp/contests/code-festival-2015-final-open/tasks/codefestival_2015_final_d)|||[]()|
 |o|§ 3.3.3|exercise|[square869120Contest #2 H Counting 1's](https://atcoder.jp/contests/s8pc-2/tasks/s8pc_2_h)|||[]()|
 |o|§ 3.3.4|example|[POJ 2104 K-th Number](http://poj.org/problem?id=2104)|||[]()|
-|o|§ 3.3.5|example|[領域探索（kD 木）](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_2_C)|||[]()|
+|o|§ 3.3.5|example|[DSL_2_C 領域探索（kD 木）](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_2_C)|||[]()|
 |o|§ 4.4.1|example|[DPL_3_C ヒストグラムの中の最大長方形](https://onlinejudge.u-aizu.ac.jp/problems/DPL_3_C)|||[]()|
 |o|§ 4.4.1|exercise|[DPL_3_A 最大正方形](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_3_A)|||[]()|
 |o|§ 4.4.1|exercise|[DPL_3_B 最大長方形](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_3_B)|||[]()|
-||§ 4.4.2|example|[DSL_3_D Sliding Minimum Element(スライド最小値)](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_3_D)|||[deque](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_3_D/review/4476479/knknkn1162/C)|
+||§ 4.4.2|example|[DSL_3_D Sliding Minimum Element(スライド最小値)](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_3_D)|||[deque, (二分探索)](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_3_D/review/4476479/knknkn1162/C)|
 |o|§ 4.4.2|exercise|[ARC 077 C pushpush](https://atcoder.jp/contests/arc077/tasks/arc077_a)||[]()|
