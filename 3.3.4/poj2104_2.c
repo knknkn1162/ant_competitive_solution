@@ -64,11 +64,11 @@ int lower_bound(int *arr, int size, int key) {
     return low;
 }
 
-int get_cnt(int *arr, int *sorted, int unit, int key, struct range r) {
+int get_cnt(int *arr, int *sorted, int unit, int groups, int key, struct range r) {
     int g;
     int i;
     int ans = 0;
-    for(g = 0; g < unit; g++) {
+    for(g = 0; g < groups; g++) {
         struct range nr = {unit*g, unit*g+unit};
         if(!is_overlap(r, nr)) continue;
         if(is_contain(nr, r)) {
@@ -86,6 +86,8 @@ int get_cnt(int *arr, int *sorted, int unit, int key, struct range r) {
     return ans;
 }
 
+#define UNIT_MAX 2000
+
 int main(void) {
     int num, queries;
     get_int2(&num, &queries);
@@ -99,8 +101,9 @@ int main(void) {
     fget_array(arr, num);
     memcpy(sorted, arr, sizeof(int)*(NUM_MAX));
 
-    int unit = sqrt(num-0.5) + 1;
-    for(i = 0; i < unit; i++) {
+    int unit = min(sqrt(num-0.5) + 1, UNIT_MAX);
+    int groups = (num-1)/unit + 1;
+    for(i = 0; i < groups; i++) {
         qsort(&sorted[unit*i], unit, sizeof(int), asc);
     }
 #ifdef DEBUG
@@ -121,7 +124,7 @@ int main(void) {
         // binary search
         while(low + 1 < high) {
             int mid = (low + high) / 2;
-            int cnt = get_cnt(arr, sorted, unit, mid, r);
+            int cnt = get_cnt(arr, sorted, unit, groups, mid, r);
 #ifdef DEBUG
             printf("%d: %d([%d, %d]) -> %d\n", i, mid, low, high, cnt);
 #endif
