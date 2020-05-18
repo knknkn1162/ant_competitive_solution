@@ -251,8 +251,8 @@
 |o||exercise|[Tenka1 2017 E CARtesian Coodinate](https://atcoder.jp/contests/tenka1-2017/tasks/tenka1_2017_e)|||[]()|
 |o|§ 3.3.2|exercise|[ARC 088 E Papple Sort](https://atcoder.jp/contests/arc088/tasks/arc088_c)|||[]()|
 |o|§ 3.3.2|exercise|[第2回早稲田大学プログラミングコンテスト G だるま落とし](https://atcoder.jp/contests/wupc2nd/tasks/wupc_07)|||[]()|
-||§ 3.3.3|example|[DSL_2_G RSQ and RAQ](https://onlinejudge.u-aizu.ac.jp/problems/DSL_2_G)|||[遅延評価セグメント木](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_2_G/review/4479054/knknkn1162/C)|
-|o|§ 3.3.3|exercise|[DSL_2_F RMQ and RUQ](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_2_F)|||[]()|
+||§ 3.3.3|example|[DSL_2_G RSQ and RAQ](https://onlinejudge.u-aizu.ac.jp/problems/DSL_2_G)|||[遅延評価セグメント木](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_2_G/review/4488815/knknkn1162/C)|
+||§ 3.3.3|exercise|[DSL_2_F RMQ and RUQ](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_2_F)|||[遅延評価セグメント木](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_2_F/review/4488807/knknkn1162/C)|
 |o|§ 3.3.3|exercise|[DSL_2_H RMQ and RAQ](https://onlinejudge.u-aizu.ac.jp/problems/DSL_2_H)|||[]()|
 |o|§ 3.3.3|exercise|[DSL_2_I RSQ and RUQ](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_2_I)|||[]()|
 |o|§ 3.3.3|exercise|[全国統一プログラミング王決定戦本選-D Deforestation](https://atcoder.jp/contests/nikkei2019-final/tasks/nikkei2019_final_d)|||[]()|
