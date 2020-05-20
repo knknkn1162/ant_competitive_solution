@@ -30,6 +30,7 @@
 |o|§ 2.1.4|exercise|[C - Numbering Blocks](https://atcoder.jp/contests/judge-update-202004/tasks/judge_update_202004_c)|||[組み合わせの列挙 -> 全探索]()|
 ||§ 2.1.4|exercise|[B - Buildings are Colorful!](https://atcoder.jp/contests/s8pc-4/tasks/s8pc_4_b)|||[組み合わせの列挙 -> 全探索](https://atcoder.jp/contests/s8pc-4/submissions/10738108)|
 ||§ 2.2.2|example|区間スケジューリング問題|||[end起点に昇順](./2.2.2/scheduling.c)|
+|o|§ 2.2.2|exercise|[活動選択問題](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/all/ALDS1_15_C)|||[]()|
 ||§ 2.2.2|exercise|[B - Robot Arms](https://atcoder.jp/contests/keyence2020/tasks/keyence2020_b)|||[end起点に昇順](https://atcoder.jp/contests/keyence2020/submissions/12551527)|
 ||§ 2.2.2|exercise|[A - 東京都](https://atcoder.jp/contests/kupc2015/tasks/kupc2015_a)|||[前から探索](https://atcoder.jp/contests/kupc2015/submissions/12313760)|
 ||§ 2.2.2|exercise|[C - 白昼夢](https://atcoder.jp/contests/abc049/tasks/arc065_a)|||[後ろから](https://atcoder.jp/contests/abc049/submissions/12314491)|
@@ -42,13 +43,14 @@
 ||§ 2.2.3|exercise|[ABC 160 E - Red and Green Apples](https://atcoder.jp/contests/abc160/tasks/abc160_e)|||[ソート -> 貪欲法](https://atcoder.jp/contests/abc160/submissions/11773599)|
 ||§ 2.2.4|example|[Saruman's Army](http://poj.org/problem?id=3069)|||[昇順にソート->貪欲](./2.2.4/poj3069.c)|
 ||§ 2.2.4|exercise|[ABC 153 F - Silver Fox vs Monster](https://atcoder.jp/contests/abc153/tasks/abc153_f)|||see § 3.3.1|
+||§ 2.2.4|exercise|[有理ナップサック問題](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/all/ALDS1_15_B)|||[貪欲法](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_15_B/review/3980743/knknkn1162/C)|
 ||§ 2.2.4|exercise|[C - Multiple Gift](https://atcoder.jp/contests/abc083/tasks/arc088_a)|||[貪欲](https://atcoder.jp/contests/abc083/submissions/12356089)|
 ||§ 2.2.4|exercise|[C - 積み重ね](https://atcoder.jp/contests/arc006/tasks/arc006_3)|||[無駄が出ないように貪欲で](https://atcoder.jp/contests/arc006/submissions/12377963)|
 ||§ 2.2.4|exercise|[C - おいしいたこ焼きの売り方](https://atcoder.jp/contests/abc005/tasks/abc005_3)|||[客を軸にして、尺取法](https://atcoder.jp/contests/abc005/submissions/12384924)|
 ||§ 2.2.4|exercise|[E - Colorful Hats 2](https://atcoder.jp/contests/sumitrust2019/tasks/sumitb2019_e)|||[貪欲法](https://atcoder.jp/contests/sumitrust2019/submissions/11699547)|
 ||§ 2.2.5|example|[POJ 3253 Fence Repair](http://poj.org/problem?id=3253)|||[priority queue, 型に注意](./2.2.5/poj3253.c)|
 |o|§ 2.2.5|exercise|[C. Appleman and Toastman](http://codeforces.com/contest/462/problem/C)|||[]()|
-|o|§ 2.2.5|exercise|[ALDS1_15_D ハフマン符号](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/all/ALDS1_15_D)|||[ハフマン木を直接構成](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_15_D/review/3981240/knknkn1162/C) or [最小ヒープ]()|
+||§ 2.2.5|exercise|[ALDS1_15_D ハフマン符号](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/all/ALDS1_15_D)|||[最小ヒープ, DFS](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_15_D/review/4495500/knknkn1162/C)|
 ||§ 2.2.6|exercise|[ABC 125 C - GCD on Blackboard](https://atcoder.jp/contests/abc125/tasks/abc125_c)|||[累積和、逆累積和](https://atcoder.jp/contests/abc125/submissions/13272796)|
 ||§ 2.2.6|exercise|[JOI 2011 本選 1 - 惑星探査](https://atcoder.jp/contests/joi2011ho/tasks/joi2011ho1)|||[二次元累積和](https://atcoder.jp/contests/abc106/submissions/11348226) or [区間DP](https://atcoder.jp/contests/abc106/submissions/11346781)|
 ||§ 2.2.6|exercise|[DSL_5_A The Maximum Number of Customers](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_5_A)|||[いもす法](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_5_A/review/4467956/knknkn1162/C)|
@@ -103,7 +105,6 @@
 ||§ 2.3.8.0|exercise|[ボールと箱 11](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_K)|||[ボール: 区別不可, 箱:区別不可, 入れ方:1つ以下 : 1 or 0](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_5_K/review/4431814/knknkn1162/C)|
 ||§ 2.3.8.0|exercise|[ボールと箱 12](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_L)|||[ボール: 区別不可, 箱:区別不可, 入れ方:1つ以上 : 分割数: P(k, n-k)](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_5_L/review/4431852/knknkn1162/C)|
 ||§ 2.3.8.0|exercise|[D - RGB Triplets](https://atcoder.jp/contests/abc162/tasks/abc162_d)|||[1番目の組み合わせ - 2番目の条件を満たさないものを省く](https://atcoder.jp/contests/abc162/submissions/11913543)|
-||§ 2.3.8.0|exercise|[E - Roaming](https://atcoder.jp/contests/abc156/tasks/abc156_e)|||[]()|
 ||§ 2.3.8|example|重複組み合わせ|||[DP + 累積和](./2.3.8/example.c)|
 ||§ 2.3.8|exercise|[D - Factorization](https://atcoder.jp/contests/abc110/tasks/abc110_d)|||[素因数分解、重複組み合わせ、逆元](https://atcoder.jp/contests/abc110/submissions/12515321)|
 ||§ 2.3.8|exercise|[D - 多重ループ](https://atcoder.jp/contests/abc021/tasks/abc021_d)|||[考察、重複組合せ, 逆元](https://atcoder.jp/contests/abc021/submissions/11687036)|
@@ -135,6 +136,7 @@
 ||§ 2.3.17|exercise|[TDPC D サイコロ](https://atcoder.jp/contests/tdpc/tasks/tdpc_dice)|||[多次元DP(条件以上となるように計算)](https://atcoder.jp/contests/tdpc/submissions/12709413)|
 ||§ 2.3.17|exercise|[J - Sushi](https://atcoder.jp/contests/dp/tasks/dp_j)|||[期待値、多次元DP](https://atcoder.jp/contests/dp/submissions/12036657)|
 ||§ 2.4.1|example|[Expedition (POJ No.2431)](http://poj.org/problem?id=2431)|||[max heap, 燃料をアイテムとして蓄える](./2.4.1/poj2431.c)|
+||§ 2.4.1|exercise|[ALDS1_9_C priority queue](https://onlinejudge.u-aizu.ac.jp/problems/ALDS1_9_C)|||[max heap](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_9_C/review/4495302/knknkn1162/C)|
 ||§ 2.4.1|exercise|[2017 CODE FESTIVAL THANKS C - Factory](https://atcoder.jp/contests/code-thanks-festival-2017-open/tasks/code_thanks_festival_2017_c)|||[min heap](https://atcoder.jp/contests/code-thanks-festival-2017-open/submissions/12522002)|
 ||§ 2.4.1|exercise|[ABC 062 D - 3N Numbers](https://atcoder.jp/contests/arc074/tasks/arc074_b)|||[配列と逆配列をmin heap](https://atcoder.jp/contests/arc074/submissions/12810109)|
 ||§ 2.4.2|exercise|[ABC 085 B Kagami Mochi](https://atcoder.jp/contests/abc085/tasks/abc085_b)|||[map](https://atcoder.jp/contests/abc085/submissions/7997905)|
@@ -267,5 +269,6 @@
 |o|§ 4.4.1|example|[DPL_3_C ヒストグラムの中の最大長方形](https://onlinejudge.u-aizu.ac.jp/problems/DPL_3_C)|||[]()|
 |o|§ 4.4.1|exercise|[DPL_3_A 最大正方形](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_3_A)|||[]()|
 |o|§ 4.4.1|exercise|[DPL_3_B 最大長方形](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_3_B)|||[]()|
+|o|§ 4.4.1|exercise|[Areas on the Cross-Section Diagram](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/all/ALDS1_3_D)|||[stack]()|
 ||§ 4.4.2|example|[DSL_3_D Sliding Minimum Element(スライド最小値)](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_3_D)|||[deque, (二分探索)](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_3_D/review/4476479/knknkn1162/C), [セグメント木(RMQ)](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_3_D/review/4480940/knknkn1162/C)|
 |o|§ 4.4.2|exercise|[ARC 077 C pushpush](https://atcoder.jp/contests/arc077/tasks/arc077_a)||[]()|
