@@ -1,6 +1,7 @@
 # Reference
 
 + https://qiita.com/drken/items/e77685614f3c6bf86f44
++ https://qiita.com/drken/items/2f56925972c1d34e05d8
 
 # problems
 
@@ -11,7 +12,9 @@
 ||§ 1.6.1|example|三角形|||[降順にソート-> 連続した3つを調べる](./1.6.1/triangle.c)|
 ||§ 1.6.1|exercise|[B - Sum of Three Integers](https://atcoder.jp/contests/abc051/tasks/abc051_b)|||[全探索]() or [DP, 累積和](https://atcoder.jp/contests/abc051/submissions/12543729)|
 ||§ 1.6.1|exercise|[Square869120Contest #6 B - AtCoder Markets](https://atcoder.jp/contests/s8pc-6/tasks/s8pc_6_b)|||[全探索(要工夫),中央値](https://atcoder.jp/contests/s8pc-6/submissions/10662359)|
+||§ 2.1.1|example|部分和問題|||[]()|
 ||§ 2.1.1|exercise|[ARC 029 A - 高橋君とお肉](https://atcoder.jp/contests/arc029/tasks/arc029_1)|||[bit全探索](https://atcoder.jp/contests/arc029/submissions/8502963)|
+||§ 2.1.1|exercise|[ABC 167 C - Skill Up](https://atcoder.jp/contests/abc167/tasks/abc167_c)|||[bit全探索](https://atcoder.jp/contests/abc167/submissions/13454752)|
 |o|§ 2.1.2|example|[Lake Counting (POJ No.2386)](http://poj.org/problem?id=2386)|||[]()|
 |o|§ 2.1.3|exercise|迷路の最短路|||[BFS]()|
 ||§ 2.1.3|exercise|[E - チーズ (Cheese)](https://atcoder.jp/contests/joi2011yo/tasks/joi2011yo_e)|||[BFS](https://atcoder.jp/contests/joi2011yo/submissions/11007756)|
@@ -108,7 +111,7 @@
 ||§ 2.3.8|example|重複組み合わせ|||[DP + 累積和](./2.3.8/example.c)|
 ||§ 2.3.8|exercise|[D - Factorization](https://atcoder.jp/contests/abc110/tasks/abc110_d)|||[素因数分解、重複組み合わせ、逆元](https://atcoder.jp/contests/abc110/submissions/12515321)|
 ||§ 2.3.8|exercise|[D - 多重ループ](https://atcoder.jp/contests/abc021/tasks/abc021_d)|||[考察、重複組合せ, 逆元](https://atcoder.jp/contests/abc021/submissions/11687036)|
-||§ 2.3.8|exercise|[D - 表現の自由 ( Freedom of expression )](https://atcoder.jp/contests/arc004/tasks/arc004_4)|
+|o|§ 2.3.8|exercise|[D - 表現の自由 ( Freedom of expression )](https://atcoder.jp/contests/arc004/tasks/arc004_4)|||[]()|
 |o|§ 2.3.8|exercise|[ABC 156 E - Roaming](https://atcoder.jp/contests/abc156/tasks/abc156_e)|||[重複組み合わせ]()|
 ||§ 2.3.9|exercise|[K - Stones](https://atcoder.jp/contests/dp/tasks/dp_k)|||[ゲームDP](https://atcoder.jp/contests/dp/submissions/12026820)|
 ||§ 2.3.9|exercise|[L - Deque](https://atcoder.jp/contests/dp/tasks/dp_l)|||[ゲームDP](https://atcoder.jp/contests/dp/submissions/12078699)|
@@ -240,11 +243,10 @@
 ||§ 3.3.1|exercise|[DSL_2_A Range Minimum Query(RMQ)](https://onlinejudge.u-aizu.ac.jp/problems/DSL_2_A)|||[セグメント木](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_2_A/review/4461035/knknkn1162/C)|
 ||§ 3.3.1|exercise|[DSL_2_B Range Sum Query(RSQ)](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_2_B)|||[セグメント木](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_2_B/review/4465240/knknkn1162/C)|
 ||§ 3.3.1|exercise|[DSL_2_D Range Update Query(RUQ)](https://onlinejudge.u-aizu.ac.jp/problems/DSL_2_D)|||[更新順をセグメント木に持たせる](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_2_D/review/4465450/knknkn1162/C)|
-||§ 3.3.1|exercise|[DSL_2_E Range Add Query(RAQ)](https://onlinejudge.u-aizu.ac.jp/problems/DSL_2_E)|||[セグメント木](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_2_E/review/4465395/knknkn1162/C)|
+||§ 3.3.1|exercise|[DSL_2_E Range Add Query(RAQ)](https://onlinejudge.u-aizu.ac.jp/problems/DSL_2_E)|||[セグメント木](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_2_E/review/4495892/knknkn1162/C)|
 |o|§ 3.3.1|exercise|[JOI 2011 春合宿 day4-2 本棚](https://atcoder.jp/contests/joisc2011/tasks/joisc2011_bookshelf) [問題はここ](https://www.ioi-jp.org/camp/2011/2011-sp-tasks/2011-sp-day4.pdf)|||[]()|
 |o|§ 3.3.1|exercise|[AGC 004 B - Colorful Slimes](https://atcoder.jp/contests/agc004/tasks/agc004_b)|||[]()|
 ||§ 3.3.1|exercise|[ABC 157 E - Simple String Queries](https://atcoder.jp/contests/abc157/tasks/abc157_e)|||[セグメント木、bit演算](https://atcoder.jp/contests/abc157/submissions/13210480)|
-||§ 3.3.1|exercise|[DSL_2_E Range Add Query(RAQ)](https://onlinejudge.u-aizu.ac.jp/problems/DSL_2_E)|||[セグメント木](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_2_E/review/4465395/knknkn1162/C)|
 ||§ 3.3.1|exercise|[ABC 153 F - Silver Fox vs Monster](https://atcoder.jp/contests/abc153/tasks/abc153_f)|||[昇順にソート -> 貪欲, 尺取法, セグメント木](https://atcoder.jp/contests/abc153/submissions/13222201) or [昇順にソート -> 貪欲,尺取法, いもす法](https://atcoder.jp/contests/abc153/submissions/13222079)|
 |o|§ 3.3.1|exercise|[Japan Alumni Group Summer Camp 2013 Day 2 G Perm Query](https://atcoder.jp/contests/jag2013summer-day2/tasks/icpc2013summer_day2_g)|||[]()|
 ||§ 3.3.1|exercise|[ARC 008 D タコヤキオイシクナール](https://atcoder.jp/contests/arc008/tasks/arc008_4)|||[一次関数の合成関数、座標圧縮->セグメント木](https://atcoder.jp/contests/arc008/submissions/13185643)|
@@ -255,8 +257,8 @@
 |o||exercise|[Tenka1 2017 E CARtesian Coodinate](https://atcoder.jp/contests/tenka1-2017/tasks/tenka1_2017_e)|||[]()|
 |o|§ 3.3.2|exercise|[ARC 088 E Papple Sort](https://atcoder.jp/contests/arc088/tasks/arc088_c)|||[]()|
 |o|§ 3.3.2|exercise|[第2回早稲田大学プログラミングコンテスト G だるま落とし](https://atcoder.jp/contests/wupc2nd/tasks/wupc_07)|||[]()|
-||§ 3.3.3|example|[DSL_2_G RSQ and RAQ](https://onlinejudge.u-aizu.ac.jp/problems/DSL_2_G)|||[遅延評価セグメント木](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_2_G/review/4488815/knknkn1162/C)|
 ||§ 3.3.3|exercise|[DSL_2_F RMQ and RUQ](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_2_F)|||[遅延評価セグメント木](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_2_F/review/4488807/knknkn1162/C)|
+||§ 3.3.3|example|[DSL_2_G RSQ and RAQ](https://onlinejudge.u-aizu.ac.jp/problems/DSL_2_G)|||[遅延評価セグメント木](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_2_G/review/4488815/knknkn1162/C)|
 ||§ 3.3.3|exercise|[DSL_2_H RMQ and RAQ](https://onlinejudge.u-aizu.ac.jp/problems/DSL_2_H)|||[遅延評価セグメント木](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_2_H/review/4491964/knknkn1162/C)|
 ||§ 3.3.3|exercise|[DSL_2_I RSQ and RUQ](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_2_I)|||[遅延評価セグメント木](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_2_I/review/4492093/knknkn1162/C)|
 |o|§ 3.3.3|exercise|[全国統一プログラミング王決定戦本選-D Deforestation](https://atcoder.jp/contests/nikkei2019-final/tasks/nikkei2019_final_d)|||[]()|
@@ -264,7 +266,7 @@
 |o|§ 3.3.3|exercise|[square869120Contest #2 H Counting 1's](https://atcoder.jp/contests/s8pc-2/tasks/s8pc_2_h)|||[]()|
 |o|§ 3.3.4|example|[POJ 2104 K-th Number](http://poj.org/problem?id=2104)|||[]()|
 ||§ 3.3.4|exercise|[ARC 033 C データ構造](https://atcoder.jp/contests/arc033/tasks/arc033_3)|||[セグメント木, 二分探索](https://atcoder.jp/contests/arc033/submissions/13276065)|
-|o|§ 3.3.5|example|[DSL_2_C 領域探索（kD 木）](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_2_C)|||[X軸とY軸で二分探索](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_2_C/review/4481646/knknkn1162/C)|
+||§ 3.3.5|example|[DSL_2_C 領域探索（kD 木）](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_2_C)|||[X軸とY軸で二分探索](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_2_C/review/4481646/knknkn1162/C)|
 ||§ 3.3.6|example|[巡回セールスマン問題](https://onlinejudge.u-aizu.ac.jp/problems/DPL_2_A)|||[bit DP](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_2_A/review/4300234/knknkn1162/C)|
 ||§ 3.3.6|exercise|[JOI 2016 予選 D ぬいぐるみの整理](https://atcoder.jp/contests/joi2017yo/tasks/joi2017yo_d)|||[bitDP, 累積和](https://atcoder.jp/contests/joi2017yo/submissions/11263795)|
 ||§ 3.3.6|exercise|[ABC 041 D 徒競走](https://atcoder.jp/contests/abc041/tasks/abc041_d)|||[bit DP](https://atcoder.jp/contests/abc041/submissions/13310523)|
