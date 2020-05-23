@@ -185,7 +185,7 @@
 ||§ 2.6.7|exercise|[ABC 165 D - Floor Function](https://atcoder.jp/contests/abc165/tasks/abc165_d)|||[数学的考察](https://atcoder.jp/contests/abc165/submissions/12889778)|
 ||§ 2.6.7|exercise|[ABC 139 D - ModSum](https://atcoder.jp/contests/abc139/tasks/abc139_d)|||[数学的考察](https://atcoder.jp/contests/abc139/submissions/11487225)|
 ||§ 2.6.7|exercise|[DDCC2020 予選 D - Digit Sum Replace](https://atcoder.jp/contests/ddcc2020-qual/tasks/ddcc2020_qual_d)|||[数学的考察(数字の遷移方法は2パターンのうちどれか)](https://atcoder.jp/contests/ddcc2020-qual/submissions/11700593)|
-||§ 2.6.7|exercise|[ABC 126 F - XOR Matching](https://atcoder.jp/contests/abc126/tasks/abc126_f)|||[数学的考察)](https://atcoder.jp/contests/abc126/submissions/13534345)|
+||§ 2.6.7|exercise|[ABC 126 F - XOR Matching](https://atcoder.jp/contests/abc126/tasks/abc126_f)|||[数学的考察](https://atcoder.jp/contests/abc126/submissions/13534345)|
 ||§ 2.6.7|exercise|[Tenka1 Programmer Beginner Contest D - Crossing](https://atcoder.jp/contests/tenka1-2018-beginner/tasks/tenka1_2018_d)|||[部分集合の要素数を決めて構成, n=1も考慮](https://atcoder.jp/contests/tenka1-2018-beginner/submissions/11702203)|
 ||§ 2.7.1|example|[GCJ Problem A. Minimum Scalar Product](https://code.google.com/codejam/contest/32016/dashboard)|||[ソート, 貪欲法](./2.7.1/gcj32016.c)
 |o|§ 3.1.1|example|lower bound|||[lower bound](./3.1.1/example.c)|
@@ -219,8 +219,9 @@
 ||§ 3.2.3|exercise|[D - Flipping Signs](https://atcoder.jp/contests/abc125/tasks/abc125_d)|||[数学的考察](https://atcoder.jp/contests/abc125/submissions/13467844)|
 ||§ 3.2.3|exercise|[ABC 048 C Boxes and Candies](https://atcoder.jp/contests/arc064/tasks/arc064_a)|||[貪欲, 番兵](https://atcoder.jp/contests/arc064/submissions/12968254)|
 ||§ 3.2.3|exercise|[ABC 083 D Wide Flip](https://atcoder.jp/contests/arc088/tasks/arc088_b)|||[境目でflip](https://atcoder.jp/contests/arc088/submissions/12973023)|
-||§ 3.2.3|exercise|[JOI 2008 本選 1 - 碁石ならべ](https://atcoder.jp/contests/joi2008ho/tasks/joi2008ho_a)|||[stack](https://atcoder.jp/contests/joi2008ho/submissions/11465819)|
-||§ 3.2.3|exercise|[JOI 2012 本選 A 電飾](https://atcoder.jp/contests/joi2013ho/tasks/joi2013ho1)|||[stack](https://atcoder.jp/contests/joi2013ho/submissions/11466663)|
+||§ 3.2.3|exercise|[JOI 2008 本選 1 - 碁石ならべ](https://atcoder.jp/contests/joi2008ho/tasks/joi2008ho_a)|||[stack, ランレングス圧縮](https://atcoder.jp/contests/joi2008ho/submissions/11465819)|
+||§ 3.2.3|exercise|[JOI 2012 本選 A 電飾](https://atcoder.jp/contests/joi2013ho/tasks/joi2013ho1)|||[stack, ランレングス圧縮](https://atcoder.jp/contests/joi2013ho/submissions/11466663)|
+||§ 3.2.3|exercise|[ABC 124 D - Handstand](https://atcoder.jp/contests/abc124/tasks/abc124_d)|||[ランレングス圧縮](https://atcoder.jp/contests/abc124/submissions/13535422)|
 |o|§ 3.2.3|exercise|[JOI 2008 本選 C あみだくじ](https://atcoder.jp/contests/joi2009ho/tasks/joi2009ho_c)|||[]()|
 ||§ 3.2.3|exercise|[ABC 147 D - Xor Sum 4](https://atcoder.jp/contests/abc147/tasks/abc147_d)|||[xorの性質を利用](https://atcoder.jp/contests/abc147/submissions/13149768)|
 ||§ 3.2.4|example|[Fliptile (POJ No.3279)](http://poj.org/problem?id=3279)|||[bit全探索、貪欲法(実装重)](./3.2.4/poj3279.c)|
