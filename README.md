@@ -152,6 +152,7 @@
 ||§ 2.4.3|exercise|[ABC 157 D - Friend Suggestions](https://atcoder.jp/contests/abc157/tasks/abc157_d)|||[Union Find](https://atcoder.jp/contests/abc157/submissions/11931508)|
 ||§ 2.4.3|exercise|[ARC 097 D Equals](https://atcoder.jp/contests/arc097/tasks/arc097_b)|||[Union Find](https://atcoder.jp/contests/arc097/submissions/12697803)|
 ||§ 2.4.3|exercise|[ARC 036 D 偶数メートル](https://atcoder.jp/contests/arc036/tasks/arc036_d)|||[2×num のUnion Find](https://atcoder.jp/contests/arc036/submissions/12701345)|
+||§ 2.4.3|exercise|[ABC 126 E - 1 or 2](https://atcoder.jp/contests/abc126/tasks/abc126_e)|||[2×numのUnion Find](https://atcoder.jp/contests/abc126/submissions/13533399)|
 ||§ 2.4.3|exercise|[AtCoder Beginner Contest 120 D - Decayed Bridge](https://atcoder.jp/contests/abc120/tasks/abc120_d)|||[Union-Find, 累積和](https://atcoder.jp/contests/abc120/submissions/11458940)|
 ||§ 2.4.3|exercise|[重み付きUnion Find木](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/1/DSL_1_B)|||[重み付きUnion Find木](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_1_B/review/4432248/knknkn1162/C)|
 ||§ 2.4.3|exercise|[ABC 087 D People on a Line](https://atcoder.jp/contests/abc087/tasks/arc090_b)|||[重み付きUnion Find木](https://atcoder.jp/contests/abc087/submissions/12848387)|
