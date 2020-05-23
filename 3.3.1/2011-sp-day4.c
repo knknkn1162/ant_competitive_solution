@@ -77,10 +77,11 @@ int main(void) {
 
     struct range whole = {0, num2};
     for(i = 0; i < num; i++) {
-        struct range r = {0, books[i]};
-        int64_t new = get_max(seg, r, ROOT_NODE, whole) + (int64_t)weights[i];
+        int idx = books[i];
+        struct range r = {0, idx};
+        int64_t new = get_max(seg, r, ROOT_NODE, whole) + (int64_t)weights[idx];
         // books[i] is unique value
-        update(seg, num2, new, books[i]);
+        update(seg, num2, new, books[idx]);
     }
 
     printf("%lld\n", (sum - seg[ROOT_NODE])*2);
