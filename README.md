@@ -283,3 +283,4 @@
 |o|§ 4.4.1|exercise|[Areas on the Cross-Section Diagram](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/all/ALDS1_3_D)|||[stack]()|
 ||§ 4.4.2|example|[DSL_3_D Sliding Minimum Element(スライド最小値)](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_3_D)|||[deque, (二分探索)](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_3_D/review/4476479/knknkn1162/C), [セグメント木(RMQ)](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_3_D/review/4480940/knknkn1162/C)|
 |o|§ 4.4.2|exercise|[ARC 077 C pushpush](https://atcoder.jp/contests/arc077/tasks/arc077_a)||[]()|
+||misc|exercise|[ABC 123 C - Five Transportations](https://atcoder.jp/contests/abc123/tasks/abc123_c)|||[ボトルネックを考える](https://atcoder.jp/contests/abc123/submissions/13536398)|
