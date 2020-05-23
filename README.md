@@ -214,6 +214,7 @@
 ||§ 3.2.2|exercise|[ABC 017 D - サプリメント](https://atcoder.jp/contests/abc017/tasks/abc017_4)|||[mapを使って尺取法, 累積和](https://atcoder.jp/contests/abc017/submissions/13220134)|
 |o|§ 3.2.2|exercise|[ABC 033 D 三角形の分類](https://atcoder.jp/contests/abc033/tasks/abc033_d)|||[]()|
 ||§ 3.2.3|example|[Face The Right Way (POJ No.3276)](http://poj.org/problem?id=3276)|||[flipの回数を保存](./3.2.3/poj3276.c)|
+||§ 3.2.3|exercise|[D - Flipping Signs](https://atcoder.jp/contests/abc125/tasks/abc125_d)|||[数学的考察](https://atcoder.jp/contests/abc125/submissions/13467844)|
 ||§ 3.2.3|exercise|[ABC 048 C Boxes and Candies](https://atcoder.jp/contests/arc064/tasks/arc064_a)|||[貪欲, 番兵](https://atcoder.jp/contests/arc064/submissions/12968254)|
 ||§ 3.2.3|exercise|[ABC 083 D Wide Flip](https://atcoder.jp/contests/arc088/tasks/arc088_b)|||[境目でflip](https://atcoder.jp/contests/arc088/submissions/12973023)|
 ||§ 3.2.3|exercise|[JOI 2008 本選 1 - 碁石ならべ](https://atcoder.jp/contests/joi2008ho/tasks/joi2008ho_a)|||[stack](https://atcoder.jp/contests/joi2008ho/submissions/11465819)|
