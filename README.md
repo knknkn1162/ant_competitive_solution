@@ -139,6 +139,7 @@
 |o|§ 2.3.15|exercise|[ARC 081 E Don't Be a Subsequence](https://atcoder.jp/contests/arc081/tasks/arc081_c)|||[]()|
 |o|§ 2.3.16|exercise|[TDPC O 文字列](https://atcoder.jp/contests/tdpc/tasks/tdpc_string)|||[]()|
 ||§ 2.3.17|exercise|[TDPC D サイコロ](https://atcoder.jp/contests/tdpc/tasks/tdpc_dice)|||[多次元DP(条件以上となるように計算)](https://atcoder.jp/contests/tdpc/submissions/12709413)|
+||§ 2.3.17|exercise|[ABC 122 D - We Like AGC](https://atcoder.jp/contests/abc122/tasks/abc122_d)|||[多次元DP](https://atcoder.jp/contests/abc122/submissions/13558895)
 ||§ 2.3.17|exercise|[J - Sushi](https://atcoder.jp/contests/dp/tasks/dp_j)|||[期待値、多次元DP](https://atcoder.jp/contests/dp/submissions/12036657)|
 ||§ 2.4.1|example|[Expedition (POJ No.2431)](http://poj.org/problem?id=2431)|||[max heap, 燃料をアイテムとして蓄える](./2.4.1/poj2431.c)|
 ||§ 2.4.1|exercise|[ALDS1_9_C priority queue](https://onlinejudge.u-aizu.ac.jp/problems/ALDS1_9_C)|||[max heap](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_9_C/review/4495302/knknkn1162/C)|
