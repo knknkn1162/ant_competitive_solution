@@ -55,6 +55,7 @@
 ||§ 2.2.5|example|[POJ 3253 Fence Repair](http://poj.org/problem?id=3253)|||[priority queue, 型に注意](./2.2.5/poj3253.c)|
 |o|§ 2.2.5|exercise|[C. Appleman and Toastman](http://codeforces.com/contest/462/problem/C)|||[]()|
 ||§ 2.2.5|exercise|[ALDS1_15_D ハフマン符号](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/all/ALDS1_15_D)|||[最小ヒープ, DFS](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_15_D/review/4495500/knknkn1162/C)|
+||§ 2.2.5|exercise|[ABC 122 C - GeT AC](https://atcoder.jp/contests/abc122/tasks/abc122_c)|||[累積和](https://atcoder.jp/contests/abc122/submissions/13557759)|
 ||§ 2.2.6|exercise|[ABC 125 C - GCD on Blackboard](https://atcoder.jp/contests/abc125/tasks/abc125_c)|||[累積和、逆累積和](https://atcoder.jp/contests/abc125/submissions/13272796)|
 ||§ 2.2.6|exercise|[JOI 2011 本選 1 - 惑星探査](https://atcoder.jp/contests/joi2011ho/tasks/joi2011ho1)|||[二次元累積和](https://atcoder.jp/contests/abc106/submissions/11348226) or [区間DP](https://atcoder.jp/contests/abc106/submissions/11346781)|
 ||§ 2.2.6|exercise|[DSL_5_A The Maximum Number of Customers](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_5_A)|||[いもす法](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_5_A/review/4467956/knknkn1162/C)|
@@ -195,7 +196,7 @@
 ||§ 3.1.2|example|[Cable Master (POJ No.1064)](http://poj.org/problem?id=1064)|||[整数に。解を仮定して二分探索](./3.1.2/poj1064.c)|
 ||§ 3.1.2|exercise|[ABC 023 D 射撃王](https://atcoder.jp/contests/abc023/tasks/abc023_d)|||[解を仮定してで二分検索(lower bound)](https://atcoder.jp/contests/abc023/submissions/11029093)|
 ||§ 3.1.2|exercise|[ARC 037 C 億マス計算](https://atcoder.jp/contests/arc037/tasks/arc037_c)|||[ソート -> 解を仮定し二分探索(upper bound) -> 判定でも二分探索(upper bound)](https://atcoder.jp/contests/arc037/submissions/12878074)|
-|o|§ 3.1.2|exercise|[ABC 123 D - Cake 123](https://atcoder.jp/contests/abc123/tasks/abc123_d)|||[解を絞ってソート]() or [priority queue]() or [二分探索]()|
+|o|§ 3.1.2|exercise|[ABC 123 D - Cake 123](https://atcoder.jp/contests/abc123/tasks/abc123_d)|||[解を絞ってソート](https://atcoder.jp/contests/abc123/submissions/13557424) or [priority queue]() or [二分探索]()|
 ||§ 3.1.2|exercise|[AOJ ALDS1_4_D 割り当て](https://onlinejudge.u-aizu.ac.jp/problems/ALDS1_4_D)|||[解を仮定して二分探索 -> 各探索値で線形探索](https://onlinejudge.u-aizu.ac.jp/problems/ALDS1_4_D) or [累積和, 解を仮定して二分探索 -> 各探索値で線形探索](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_4_D/review/4344863/knknkn1162/C)|
 ||§ 3.1.2|exercise|[D - Calculating GCD](https://atcoder.jp/contests/judge-update-202004/tasks/judge_update_202004_d)|||[累積和(gcd) -> 二分探索](https://atcoder.jp/contests/judge-update-202004/submissions/12197056)|
 ||§ 3.1.2|exercise|[ABC 155 D - Pairs](https://atcoder.jp/contests/abc155/tasks/abc155_d)|||[]()|
