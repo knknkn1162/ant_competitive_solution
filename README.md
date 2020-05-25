@@ -37,7 +37,7 @@
 ||§ 2.1.4|exercise|[Enumeration of Subsets II](https://onlinejudge.u-aizu.ac.jp/courses/lesson/8/ITP2/all/ITP2_11_B)|||[bit列挙](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ITP2_11_B/review/4433178/knknkn1162/C)|
 ||§ 2.1.4|exercise|[Enumeration of Subsets III](https://onlinejudge.u-aizu.ac.jp/courses/lesson/8/ITP2/all/ITP2_11_C)|||[bit列挙](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ITP2_11_C/review/4433193/knknkn1162/C)|
 ||§ 2.1.4|exercise|[Enumeration of Combinations](https://onlinejudge.u-aizu.ac.jp/problems/ITP2_11_D)|||[組み合わせのbit全列挙](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ITP2_11_D/review/4433226/knknkn1162/C)|
-||§ 2.1.4|exercise|[C - Many Requirements](https://atcoder.jp/contests/abc165/tasks/abc165_c)|||[組み合わせの列挙(発想難)](https://atcoder.jp/contests/abc165/submissions/12851420)|
+||§ 2.1.4|exercise|[C - Many Requirements](https://atcoder.jp/contests/abc165/tasks/abc165_c)|||[発想問題、組み合わせの列挙](https://atcoder.jp/contests/abc165/submissions/12851420)|
 |o|§ 2.1.4|exercise|[C - Numbering Blocks](https://atcoder.jp/contests/judge-update-202004/tasks/judge_update_202004_c)|||[組み合わせの列挙 -> 全探索]()|
 ||§ 2.1.4|exercise|[B - Buildings are Colorful!](https://atcoder.jp/contests/s8pc-4/tasks/s8pc_4_b)|||[組み合わせの列挙 -> 全探索](https://atcoder.jp/contests/s8pc-4/submissions/10738108)|
 ||§ 2.2.2|example|区間スケジューリング問題|||[end起点に昇順](./2.2.2/scheduling.c)|
@@ -53,8 +53,8 @@
 |o|§ 2.2.3|exercise|[C - 辞書式順序ふたたび](https://atcoder.jp/contests/abc009/tasks/abc009_3)|||[]()|
 ||§ 2.2.3|exercise|[ABC 160 E - Red and Green Apples](https://atcoder.jp/contests/abc160/tasks/abc160_e)|||[ソート -> 貪欲法](https://atcoder.jp/contests/abc160/submissions/11773599)|
 ||§ 2.2.4|example|[Saruman's Army](http://poj.org/problem?id=3069)|||[昇順にソート->貪欲](./2.2.4/poj3069.c)|
-||§ 2.2.4|exercise|[Square869120Contest #6 B - AtCoder Markets](https://atcoder.jp/contests/s8pc-6/tasks/s8pc_6_b)|||[考察、全探索(要工夫),中央値](https://atcoder.jp/contests/s8pc-6/submissions/10662359)|
-||§ 2.2.4|exercise|[ABC 117 C - Streamline](https://atcoder.jp/contests/abc117/tasks/abc117_c)|||[考察、ソート -> 貪欲](https://atcoder.jp/contests/abc117/submissions/13594719)|
+||§ 2.2.4|exercise|[Square869120Contest #6 B - AtCoder Markets](https://atcoder.jp/contests/s8pc-6/tasks/s8pc_6_b)|||[発想問題、全探索(要工夫),中央値](https://atcoder.jp/contests/s8pc-6/submissions/10662359)|
+||§ 2.2.4|exercise|[ABC 117 C - Streamline](https://atcoder.jp/contests/abc117/tasks/abc117_c)|||[発想問題、ソート -> 貪欲](https://atcoder.jp/contests/abc117/submissions/13594719)|
 ||§ 2.2.4|exercise|[ABC 153 F - Silver Fox vs Monster](https://atcoder.jp/contests/abc153/tasks/abc153_f)|||see § 3.3.1|
 ||§ 2.2.4|exercise|[有理ナップサック問題](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/all/ALDS1_15_B)|||[貪欲法](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_15_B/review/3980743/knknkn1162/C)|
 ||§ 2.2.4|exercise|[C - Multiple Gift](https://atcoder.jp/contests/abc083/tasks/arc088_a)|||[貪欲](https://atcoder.jp/contests/abc083/submissions/12356089)|
@@ -94,7 +94,7 @@
 |o|§ 2.3.4|exercise|[ABC 032 D ナップサック問題](https://atcoder.jp/contests/abc032/tasks/abc032_d)|||[価値固定で重さ最小に]()|
 |o|§ 2.3.4|exercise|[AOJ DPL_1_F 0-1 ナップザック問題 II](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_1_F)|||[]()|
 |o|§ 2.3.4|exercise|[Educational DP contest E - Knapsack 2](https://atcoder.jp/contests/dp/tasks/dp_e)|||[添字と値の入れ替え, DP]()|
-||§ 2.3.4|exercise|[ARC 057 B 高橋君ゲーム](https://atcoder.jp/contests/arc057/tasks/arc057_b)|||[DP(考察難)](https://atcoder.jp/contests/arc057/submissions/13206104)|
+||§ 2.3.4|exercise|[ARC 057 B 高橋君ゲーム](https://atcoder.jp/contests/arc057/tasks/arc057_b)|||[考察、DP](https://atcoder.jp/contests/arc057/submissions/13206104)|
 ||§ 2.3.5|example|個数制限付き部分和問題|||[残り個数をDPの中に持たせる](./2.3.5/example.c)|
 |o|§ 2.3.5|example|[個数制限付きナップザック問題](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_1_G)|||[]()|
 ||§ 2.3.5|exercise|[Maximum-Cup 2018 D Many Go Round](https://atcoder.jp/contests/maximum-cup-2018/tasks/maximum_cup_2018_d)|||[x周をDPの値にする](https://atcoder.jp/contests/maximum-cup-2018/submissions/12458575)|
@@ -123,7 +123,7 @@
 ||§ 2.3.8.0|exercise|[D - RGB Triplets](https://atcoder.jp/contests/abc162/tasks/abc162_d)|||[1番目の組み合わせ - 2番目の条件を満たさないものを省く](https://atcoder.jp/contests/abc162/submissions/11913543)|
 ||§ 2.3.8|example|重複組み合わせ|||[DP + 累積和](./2.3.8/example.c)|
 ||§ 2.3.8|exercise|[D - Factorization](https://atcoder.jp/contests/abc110/tasks/abc110_d)|||[素因数分解、重複組み合わせ、逆元](https://atcoder.jp/contests/abc110/submissions/12515321)|
-||§ 2.3.8|exercise|[D - 多重ループ](https://atcoder.jp/contests/abc021/tasks/abc021_d)|||[考察、重複組合せ, 逆元](https://atcoder.jp/contests/abc021/submissions/11687036)|
+||§ 2.3.8|exercise|[D - 多重ループ](https://atcoder.jp/contests/abc021/tasks/abc021_d)|||[発想問題、重複組合せ, 逆元](https://atcoder.jp/contests/abc021/submissions/11687036)|
 |o|§ 2.3.8|exercise|[D - 表現の自由 ( Freedom of expression )](https://atcoder.jp/contests/arc004/tasks/arc004_4)|||[]()|
 |o|§ 2.3.8|exercise|[ABC 156 E - Roaming](https://atcoder.jp/contests/abc156/tasks/abc156_e)|||[重複組み合わせ]()|
 ||§ 2.3.9|exercise|[K - Stones](https://atcoder.jp/contests/dp/tasks/dp_k)|||[ゲームDP](https://atcoder.jp/contests/dp/submissions/12026820)|
@@ -172,7 +172,7 @@
 ||§ 2.4.3|exercise|[ABC 087 D People on a Line](https://atcoder.jp/contests/abc087/tasks/arc090_b)|||[重み付きUnion Find木](https://atcoder.jp/contests/abc087/submissions/12848387)|
 ||§ 2.5.1|example|二部グラフ判定|||[DFS](./2.5.1/example.c)|
 ||§ 2.5.1|exercise|[D - Even Relation](https://atcoder.jp/contests/abc126/tasks/abc126_d)|||[DFS](https://atcoder.jp/contests/abc126/submissions/12559729)|
-||§ 2.5.1|exercise|[C - 3 Steps](https://atcoder.jp/contests/code-festival-2017-qualb/tasks/code_festival_2017_qualb_c)|||[union find(発想難)](https://atcoder.jp/contests/code-festival-2017-qualb/submissions/12826017)|
+||§ 2.5.1|exercise|[C - 3 Steps](https://atcoder.jp/contests/code-festival-2017-qualb/tasks/code_festival_2017_qualb_c)|||[考察、union find](https://atcoder.jp/contests/code-festival-2017-qualb/submissions/12826017)|
 ||§ 2.5.1|exercise|[C - 嘘つきな天使たち](https://atcoder.jp/contests/maximum-cup-2018/tasks/maximum_cup_2018_c)|||[二部グラフとして解く]() or [Union Find(食物連鎖と類似)](https://atcoder.jp/contests/maximum-cup-2018/submissions/12561301)|
 |o|§ 2.5.2|example|[Roadblocks (POJ No.3255)](http://poj.org/problem?id=3255)|||[]()|
 ||§ 2.5.2|exercise|[JOI 2007 予選 F 船旅](https://atcoder.jp/contests/joi2008yo/tasks/joi2008yo_f)|||[ダイクストラ+ min heap](https://atcoder.jp/contests/joi2008yo/submissions/11579403)|
@@ -183,7 +183,7 @@
 ||§ 2.5.4|example|[Layout (POJ No.3169)](http://poj.org/problem?id=3169)|||[牛ゲー、ベルマンフォード法](./2.5.4/poj3169.c)|
 ||§ 2.5.4|exercise|[AOJ Course 単一始点最短経路（負の重みをもつ辺を含む）](https://onlinejudge.u-aizu.ac.jp/problems/GRL_1_B)|||[ベルマンフォード法](https://onlinejudge.u-aizu.ac.jp/solutions/problem/GRL_1_B/review/4423742/knknkn1162/C)
 ||§ 2.5.4|exercise|[D - Score Attack](https://atcoder.jp/contests/abc061/tasks/abc061_d)|||[Bellman ford, 閉路検出](https://atcoder.jp/contests/abc061/submissions/12686297)|
-|o|§ 2.5.4|exercise|[UTPC 2013 H Asteroids2](https://atcoder.jp/contests/utpc2013/tasks/utpc2013_08)|||[牛ゲー(発想難), ベルマンフォード法]()|
+|o|§ 2.5.4|exercise|[UTPC 2013 H Asteroids2](https://atcoder.jp/contests/utpc2013/tasks/utpc2013_08)|||[考察、牛ゲー, ベルマンフォード法]()|
 ||§ 2.5.5|exercise|[D - バスと避けられない運命](https://atcoder.jp/contests/abc012/tasks/abc012_4)|||[Warshal Fyold](https://atcoder.jp/contests/abc012/submissions/11640675)|
 ||§ 2.5.5|exercise|[D - joisino's travel](https://atcoder.jp/contests/abc073/tasks/abc073_d)|||[ワーシャルフロイド法, permutation](https://atcoder.jp/contests/abc073/submissions/12688097)|
 |o|§ 2.5.5|exercise|[DPL_2_B 中国人郵便配達問題](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_2_B)|||[ワーシャルフロイド法、bitDP]()|
@@ -200,6 +200,7 @@
 ||§ 2.6.6|example|[Square869120Contest #1 E - 散歩](https://atcoder.jp/contests/s8pc-1/tasks/s8pc_1_e)|||[bit演算, いもす法, 高速累乗](https://atcoder.jp/contests/s8pc-1/submissions/11667270)|
 ||§ 2.6.7|exercise|[ABC 165 D - Floor Function](https://atcoder.jp/contests/abc165/tasks/abc165_d)|||[数学的考察](https://atcoder.jp/contests/abc165/submissions/12889778)|
 ||§ 2.6.7|exercise|[ABC 121 D - XOR World](https://atcoder.jp/contests/abc121/tasks/abc121_d)|||[数学的考察](https://atcoder.jp/contests/abc121/submissions/13560004)|
+||§ 2.6.7|exercise|[D - Flipping Signs](https://atcoder.jp/contests/abc125/tasks/abc125_d)|||[数学的考察](https://atcoder.jp/contests/abc125/submissions/13467844)|
 ||§ 2.6.7|exercise|[ABC 139 D - ModSum](https://atcoder.jp/contests/abc139/tasks/abc139_d)|||[数学的考察](https://atcoder.jp/contests/abc139/submissions/11487225)|
 ||§ 2.6.7|exercise|[DDCC2020 予選 D - Digit Sum Replace](https://atcoder.jp/contests/ddcc2020-qual/tasks/ddcc2020_qual_d)|||[数学的考察(数字の遷移方法は2パターンのうちどれか)](https://atcoder.jp/contests/ddcc2020-qual/submissions/11700593)|
 ||§ 2.6.7|exercise|[ABC 126 F - XOR Matching](https://atcoder.jp/contests/abc126/tasks/abc126_f)|||[数学的考察](https://atcoder.jp/contests/abc126/submissions/13534345)|
@@ -221,7 +222,7 @@
 ||§ 3.1.3|example|[Aggressive Cows (POJ No.2456)](http://poj.org/problem?id=2456)|||[解を仮定して二分探索](./3.1.2/poj2456.c)|
 ||§ 3.1.3|exercise|[CODE FESTIVAL 2015 予選A D 壊れた電車](https://atcoder.jp/contests/code-festival-2015-quala/tasks/codefestival_2015_qualA_d)|||[最大値の型と定め方に注意](https://atcoder.jp/contests/code-festival-2015-quala/submissions/12897314)|
 ||§ 3.1.3|exercise|[JOI 2013 本選 C バームクーヘン](https://atcoder.jp/contests/joi2014ho/tasks/joi2014ho3)|||[](https://atcoder.jp/contests/joi2014ho/submissions/12897638)|
-||§ 3.1.4|exercise|[ABC 034 D - 食塩水](https://atcoder.jp/contests/abc034/tasks/abc034_d)|||[解を仮定して二分探索(発想難)](https://atcoder.jp/contests/abc034/submissions/12901092)|
+||§ 3.1.4|exercise|[ABC 034 D - 食塩水](https://atcoder.jp/contests/abc034/tasks/abc034_d)|||[発想問題、解を仮定して二分探索](https://atcoder.jp/contests/abc034/submissions/12901092)|
 ||§ 3.1.4|exercise|[ARC 026 D 道を直すお仕事](https://atcoder.jp/contests/arc026/tasks/arc026_4)|||[解を仮定して二分探索、探索内部でUnion Find](https://atcoder.jp/contests/arc026/submissions/12904843)|
 ||§ 3.2.1|example|[Subsequence (POJ No.3061)](http://poj.org/problem?id=3061)|||[尺取法](./3.2.1/poj3061.c)|
 ||§ 3.2.1|exercise|[DSL_3_A The Smallest Window I](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_3_A)|||[尺取法](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_3_A/review/4468038/knknkn1162/C)|
@@ -236,7 +237,6 @@
 ||§ 3.2.2|exercise|[ABC 119 D - Lazy Faith](https://atcoder.jp/contests/abc119/tasks/abc119_d)|||[尺取法、クエリに関しては二分探索](https://atcoder.jp/contests/abc119/submissions/13566020)|
 |o|§ 3.2.2|exercise|[ABC 033 D 三角形の分類](https://atcoder.jp/contests/abc033/tasks/abc033_d)|||[]()|
 ||§ 3.2.3|example|[Face The Right Way (POJ No.3276)](http://poj.org/problem?id=3276)|||[flipの回数を保存](./3.2.3/poj3276.c)|
-||§ 3.2.3|exercise|[D - Flipping Signs](https://atcoder.jp/contests/abc125/tasks/abc125_d)|||[数学的考察](https://atcoder.jp/contests/abc125/submissions/13467844)|
 ||§ 3.2.3|exercise|[ABC 048 C Boxes and Candies](https://atcoder.jp/contests/arc064/tasks/arc064_a)|||[貪欲, 番兵](https://atcoder.jp/contests/arc064/submissions/12968254)|
 ||§ 3.2.3|exercise|[ABC 083 D Wide Flip](https://atcoder.jp/contests/arc088/tasks/arc088_b)|||[境目でflip](https://atcoder.jp/contests/arc088/submissions/12973023)|
 ||§ 3.2.3|exercise|[JOI 2008 本選 1 - 碁石ならべ](https://atcoder.jp/contests/joi2008ho/tasks/joi2008ho_a)|||[stack, ランレングス圧縮](https://atcoder.jp/contests/joi2008ho/submissions/11465819)|
