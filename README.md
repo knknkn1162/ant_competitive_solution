@@ -276,8 +276,11 @@
 |o|§ 3.3.1|exercise|[みんなのプロコン 2017 D 工場](https://atcoder.jp/contests/yahoo-procon2017-qual/tasks/yahoo_procon2017_qual_d)|||[]()|
 ||§ 3.3.1|exercise|[Educational DP contest Q - Flowers](https://atcoder.jp/contests/dp/tasks/dp_q)|||[LIS, セグメント木](https://atcoder.jp/contests/dp/submissions/13228186)|
 ||§ 3.3.1|exercise|[JOI 2011 春合宿 day4-2 本棚](https://atcoder.jp/contests/joisc2011/tasks/joisc2011_bookshelf) [問題はここ](https://www.ioi-jp.org/camp/2011/2011-sp-tasks/2011-sp-day4.pdf)|||[LIS, セグメント木](https://atcoder.jp/contests/joisc2011/submissions/13505516)|
-||§ 3.3.2|example|[バブルソートの交換回数](https://onlinejudge.u-aizu.ac.jp/problems/ALDS1_5_D)|||[反転数、座標圧縮、セグメント木](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_5_D)|
+|o|§ 3.3.1|exercise|[ABC 136 F - Enclosed Points](https://atcoder.jp/contests/abc136/tasks/abc136_f)|||[]()|
+|o|§ 3.3.1|exercise|[JOI 2011 本選 5 - 微生物実験]()|||[]()|
+||§ 3.3.2|example|[バブルソートの交換回数(反転数)](https://onlinejudge.u-aizu.ac.jp/problems/ALDS1_5_D)|||[反転数、座標圧縮、セグメント木](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_5_D/review/4478150/knknkn1162/C)|
 ||§ 3.3.2|exercise|[Indeedなう 2015 E Line up!](https://atcoder.jp/contests/indeednow-finalb-open/tasks/indeednow_2015_finalb_e)|||[座標圧縮, 転倒数、セグメント木](https://atcoder.jp/contests/indeednow-finalb-open/submissions/13257883)|
+|o|§ 3.3.2|exercise|[AOJ 0365 - 文字列スワップ](https://onlinejudge.u-aizu.ac.jp/problems/0365)|||[]()|
 |o||exercise|[Tenka1 2017 E CARtesian Coodinate](https://atcoder.jp/contests/tenka1-2017/tasks/tenka1_2017_e)|||[]()|
 |o|§ 3.3.2|exercise|[ARC 088 E Papple Sort](https://atcoder.jp/contests/arc088/tasks/arc088_c)|||[]()|
 |o|§ 3.3.2|exercise|[第2回早稲田大学プログラミングコンテスト G だるま落とし](https://atcoder.jp/contests/wupc2nd/tasks/wupc_07)|||[]()|
@@ -288,7 +291,9 @@
 |o|§ 3.3.3|exercise|[全国統一プログラミング王決定戦本選-D Deforestation](https://atcoder.jp/contests/nikkei2019-final/tasks/nikkei2019_final_d)|||[]()|
 |o|§ 3.3.3|exercise|[CODE FESTIVAL 2015 決勝 D 足ゲームII](https://atcoder.jp/contests/code-festival-2015-final-open/tasks/codefestival_2015_final_d)|||[]()|
 |o|§ 3.3.3|exercise|[square869120Contest #2 H Counting 1's](https://atcoder.jp/contests/s8pc-2/tasks/s8pc_2_h)|||[]()|
-|o|§ 3.3.4|example|[POJ 2104 K-th Number](http://poj.org/problem?id=2104)|||[]()|
+|o|§ 3.3.3|exercise|[JOI 2008 春合宿 - Typhoon(台風)](https://atcoder.jp/contests/joisc2008/tasks/joisc2008_typhoon) ([問題はここ](https://www.ioi-jp.org/camp/2008/2008-sp-tasks/2008-sp_tr-day4_24.pdf#page=2))|||[]()|
+|o|§ 3.3.3|exercise|[JOI 2012 春合宿 - Fortune Telling](https://atcoder.jp/contests/joisc2012/tasks/joisc2012_fortune_telling) ([問題はここ](https://www.ioi-jp.org/camp/2012/2012-sp-tasks/2012-sp-day3.pdf#page=1)|||[]()|
+|△|§ 3.3.4|example|[POJ 2104 K-th Number](http://poj.org/problem?id=2104)|||[平方分割(ただしTLE)](./3.3.4/poj2104.c)|
 ||§ 3.3.4|exercise|[ARC 033 C データ構造](https://atcoder.jp/contests/arc033/tasks/arc033_3)|||[セグメント木, 二分探索](https://atcoder.jp/contests/arc033/submissions/13276065)|
 ||§ 3.3.5|example|[DSL_2_C 領域探索（kD 木）](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_2_C)|||[X軸とY軸で二分探索](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_2_C/review/4481646/knknkn1162/C)|
 ||§ 3.3.6|example|[巡回セールスマン問題](https://onlinejudge.u-aizu.ac.jp/problems/DPL_2_A)|||[bit DP](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_2_A/review/4300234/knknkn1162/C)|
