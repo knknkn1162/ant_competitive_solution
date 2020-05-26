@@ -27,8 +27,27 @@ int fget_array(char *arr, int size) {
 
 struct rect {
     int height;
-    int width;
+    int pos;
 };
+static struct rect stack[NUM_MAX+1];
+static int idx = 0;
+
+void init_stack(void) { idx=0; }
+int is_empty(void) {
+    return idx==0;
+}
+
+void push(struct rect r) {
+    stack[idx++] = r;
+}
+
+struct rect pop(void) {
+    return stack[--idx];
+}
+
+struct rect peek(void) {
+    return stack[idx-1];
+}
 
 int main(void) {
     int height, width;
@@ -41,7 +60,7 @@ int main(void) {
         for(j = 1; j <= width; j++) mat[i][j] = 1-mat[i][j];
     }
 
-    static int hist[NUM_MAX+1][NUM_MAX+1];
+    static int hist[NUM_MAX+2][NUM_MAX+2];
     for(i = 1; i <= height; i++) {
         for(j = 1; j <= width; j++) {
             if(!mat[i][j]) {
@@ -50,26 +69,35 @@ int main(void) {
                 hist[i][j] = hist[i-1][j] + 1;
             }
         }
+        hist[i][width+1] = 0;
     }
-
-    static int seq_max[NUM_MAX+1];
-    int k;
+#ifdef DEBUG
     for(i = 1; i <= height; i++) {
-        int cnt[NUM_MAX+1] = {0};
         for(j = 1; j <= width; j++) {
-            for(k = 1; k <= hist[i][j]; k++) {
-                cnt[k]++;
-                seq_max[k] = max(seq_max[k], cnt[k]);
-            }
-            for(k = hist[i][j]+1; k <= height; k++) cnt[k] = 0;
+            printf(" %d", hist[i][j]);
         }
+        putchar('\n');
     }
+#endif
 
     int ans = 0;
     for(i = 1; i <= height; i++) {
-        ans = max(ans, seq_max[i]*i);
+        init_stack();
+        for(j = 1; j <= width+1; j++) {
+            struct rect cur = {hist[i][j], j};
+            while(!is_empty()) {
+                struct rect pr = peek();
+                if(pr.height < cur.height) break;
+#ifdef DEBUG
+                printf("(%d, %d) height: %d, width: %d\n", i, j, pr.height, j-pr.pos);
+#endif
+                ans = max(ans, (j-pr.pos)*pr.height);
+                cur.pos = pr.pos; // update smaller
+                pop();
+            }
+            push(cur);
+        }
     }
-
     printf("%d\n", ans);
 
     return 0;

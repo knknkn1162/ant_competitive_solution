@@ -2,6 +2,9 @@
 
 + https://qiita.com/drken/items/e77685614f3c6bf86f44
 + https://qiita.com/drken/items/2f56925972c1d34e05d8
++ http://www.graco.c.u-tokyo.ac.jp/icpc-challenge/wp-content/uploads/2014/12/2014.pdf
++ https://qiita.com/e869120/items/eb50fdaece12be418faa
++ https://qiita.com/e869120/items/acba3dd8649d913102b5
 
 # problems
 
@@ -60,7 +63,7 @@
 ||§ 2.2.4|exercise|[C - Multiple Gift](https://atcoder.jp/contests/abc083/tasks/arc088_a)|||[貪欲](https://atcoder.jp/contests/abc083/submissions/12356089)|
 ||§ 2.2.4|exercise|[C - 積み重ね](https://atcoder.jp/contests/arc006/tasks/arc006_3)|||[無駄が出ないように貪欲で](https://atcoder.jp/contests/arc006/submissions/12377963)|
 ||§ 2.2.4|exrcise|[ALDS_1_4_B 二分探索](https://onlinejudge.u-aizu.ac.jp/problems/ALDS1_4_B)|||[ソート -> 尺取法っぽく](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_4_B/review/4514396/knknkn1162/C)|
-||§ 2.2.4|exercise|[C - おいしいたこ焼きの売り方](https://atcoder.jp/contests/abc005/tasks/abc005_3)|||[客を軸にして、尺取法](https://atcoder.jp/contests/abc005/submissions/12384924)|
+||§ 2.2.4|exercise|[C - おいしいたこ焼きの売り方](https://atcoder.jp/contests/abc005/tasks/abc005_3)|||[客を軸にして、尺取法っぽく](https://atcoder.jp/contests/abc005/submissions/13617416)|
 ||§ 2.2.4|exercise|[ABC 116 C - Grand Garden](https://atcoder.jp/contests/abc116/tasks/abc116_c)|||[尺取法っぽく](https://atcoder.jp/contests/abc116/submissions/13607638)|
 ||§ 2.2.4|exercise|[E - Colorful Hats 2](https://atcoder.jp/contests/sumitrust2019/tasks/sumitb2019_e)|||[貪欲法](https://atcoder.jp/contests/sumitrust2019/submissions/11699547)|
 ||§ 2.2.5|example|[POJ 3253 Fence Repair](http://poj.org/problem?id=3253)|||[priority queue, 型に注意](./2.2.5/poj3253.c)|
@@ -302,9 +305,9 @@
 ||§ 3.3.6|example|[Educational DP contest U - Grouping](https://atcoder.jp/contests/dp/tasks/dp_u)|||[bitDP, 部分集合の導出](https://atcoder.jp/contests/dp/submissions/13521889)|
 ||§ 3.3.6|exercise|[JOI 2016 予選 D ぬいぐるみの整理](https://atcoder.jp/contests/joi2017yo/tasks/joi2017yo_d)|||[bitDP, 累積和](https://atcoder.jp/contests/joi2017yo/submissions/11263795)|
 ||§ 3.3.6|exercise|[ABC 041 D 徒競走](https://atcoder.jp/contests/abc041/tasks/abc041_d)|||[bit DP](https://atcoder.jp/contests/abc041/submissions/13310523)|
-|o|§ 4.4.1|example|[DPL_3_C ヒストグラムの中の最大長方形](https://onlinejudge.u-aizu.ac.jp/problems/DPL_3_C)|||[]()|
-|o|§ 4.4.1|exercise|[DPL_3_A 最大正方形](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_3_A)|||[]()|
-|o|§ 4.4.1|exercise|[DPL_3_B 最大長方形](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_3_B)|||[]()|
+||§ 4.4.1|example|[DPL_3_C ヒストグラムの中の最大長方形](https://onlinejudge.u-aizu.ac.jp/problems/DPL_3_C)|||[stack](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_3_C/review/4517877/knknkn1162/C)|
+||§ 4.4.1|exercise|[DPL_3_A 最大正方形](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_3_A)|||[DP](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_3_A/review/4517230/knknkn1162/C)|
+||§ 4.4.1|exercise|[DPL_3_B 最大長方形](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_3_B)|||[stack](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_3_B/review/4517704/knknkn1162/C) or [O(N^3)の解法](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_3_B/review/4517487/knknkn1162/C)|
 |o|§ 4.4.1|exercise|[Areas on the Cross-Section Diagram](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/all/ALDS1_3_D)|||[stack]()|
 ||§ 4.4.2|example|[DSL_3_D Sliding Minimum Element(スライド最小値)](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_3_D)|||[deque, (二分探索)](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_3_D/review/4476479/knknkn1162/C), [セグメント木(RMQ)](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_3_D/review/4480940/knknkn1162/C)|
 |o|§ 4.4.2|exercise|[ARC 077 C pushpush](https://atcoder.jp/contests/arc077/tasks/arc077_a)||[]()|
