@@ -94,6 +94,7 @@
 ||§ 2.3.1|exercise(digit)|[E - Almost Everywhere Zero](https://atcoder.jp/contests/abc154/tasks/abc154_e)|||[桁DP](https://atcoder.jp/contests/abc154/submissions/12545187)|
 ||§ 2.3.2|example|[最長共通部分列問題(LCS)](https://onlinejudge.u-aizu.ac.jp/problems/ALDS1_10_C)|||[2次元DP](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_10_C/review/4408455/knknkn1162/C)|
 ||§ 2.3.2|exercise|[編集距離](https://onlinejudge.u-aizu.ac.jp/problems/DPL_1_E)|||[DP](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_1_E/review/4427482/knknkn1162/C)|
+||§ 2.3.2|exercise|[DPL_3_A 最大正方形](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_3_A)|||[DP](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_3_A/review/4517230/knknkn1162/C)|
 ||§ 2.3.3|example|[個数制限なしナップサック問題](https://onlinejudge.u-aizu.ac.jp/problems/DPL_1_C)|||[インライン1次元DP](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_1_C/review/4281702/knknkn1162/C)|
 ||§ 2.3.3|exercise|[ABC 118 D D - Match Matching](https://atcoder.jp/contests/abc118/tasks/abc118_d)|||[大きいものからインラインDP](https://atcoder.jp/contests/abc118/submissions/13573375)|
 ||§ 2.3.3|exercise|[ABC 153 E - Crested Ibis vs Monster](https://atcoder.jp/contests/abc153/tasks/abc153_e)|||[1次元DP](https://atcoder.jp/contests/abc153/submissions/12491440)|
@@ -306,9 +307,12 @@
 ||§ 3.3.6|exercise|[JOI 2016 予選 D ぬいぐるみの整理](https://atcoder.jp/contests/joi2017yo/tasks/joi2017yo_d)|||[bitDP, 累積和](https://atcoder.jp/contests/joi2017yo/submissions/11263795)|
 ||§ 3.3.6|exercise|[ABC 041 D 徒競走](https://atcoder.jp/contests/abc041/tasks/abc041_d)|||[bit DP](https://atcoder.jp/contests/abc041/submissions/13310523)|
 ||§ 4.4.1|example|[DPL_3_C ヒストグラムの中の最大長方形](https://onlinejudge.u-aizu.ac.jp/problems/DPL_3_C)|||[stack](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_3_C/review/4517877/knknkn1162/C)|
-||§ 4.4.1|exercise|[DPL_3_A 最大正方形](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_3_A)|||[DP](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_3_A/review/4517230/knknkn1162/C)|
 ||§ 4.4.1|exercise|[DPL_3_B 最大長方形](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_3_B)|||[stack](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_3_B/review/4517704/knknkn1162/C) or [O(N^3)の解法](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_3_B/review/4517487/knknkn1162/C)|
 |o|§ 4.4.1|exercise|[Areas on the Cross-Section Diagram](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/all/ALDS1_3_D)|||[stack]()|
+|o|§ 4.4.1|exercise|[KUPC 2013 D カーペット](https://atcoder.jp/contests/kupc2013/tasks/kupc2013_d)|||[]()|
+|o|§ 4.4.1|exercise|[ARC 081 F Flip and Rectangles](https://atcoder.jp/contests/arc081/tasks/arc081_d)|||[]()|
+|o|§ 4.4.1|exercise|[ABC 064 D Insertion](https://atcoder.jp/contests/abc064/tasks/abc064_d)|||[]()|
+|o|§ 4.4.1|exercise|[ARC 076 E Connected?](https://atcoder.jp/contests/arc076/tasks/arc076_c)|||[]()|
 ||§ 4.4.2|example|[DSL_3_D Sliding Minimum Element(スライド最小値)](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_3_D)|||[deque, (二分探索)](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_3_D/review/4476479/knknkn1162/C), [セグメント木(RMQ)](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_3_D/review/4480940/knknkn1162/C)|
 |o|§ 4.4.2|exercise|[ARC 077 C pushpush](https://atcoder.jp/contests/arc077/tasks/arc077_a)||[]()|
 ||misc|exercise|[ABC 123 C - Five Transportations](https://atcoder.jp/contests/abc123/tasks/abc123_c)|||[ボトルネックを考える](https://atcoder.jp/contests/abc123/submissions/13536398)|
