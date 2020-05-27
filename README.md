@@ -57,7 +57,7 @@
 ||§ 2.2.3|exercise|[ABC 160 E - Red and Green Apples](https://atcoder.jp/contests/abc160/tasks/abc160_e)|||[ソート -> 貪欲法](https://atcoder.jp/contests/abc160/submissions/11773599)|
 ||§ 2.2.4|example|[Saruman's Army](http://poj.org/problem?id=3069)|||[昇順にソート->貪欲](./2.2.4/poj3069.c)|
 ||§ 2.2.4|exercise|[Square869120Contest #6 B - AtCoder Markets](https://atcoder.jp/contests/s8pc-6/tasks/s8pc_6_b)|||[発想問題、全探索(要工夫),中央値](https://atcoder.jp/contests/s8pc-6/submissions/10662359)|
-||§ 2.2.4|exercise|[ABC 117 C - Streamline](https://atcoder.jp/contests/abc117/tasks/abc117_c)|||[発想問題、ソート -> 貪欲](https://atcoder.jp/contests/abc117/submissions/13594719)|
+||§ 2.2.4|exercise|[ABC 117 C - Streamline](https://atcoder.jp/contests/abc117/tasks/abc117_c)|||[発想問題、区間のソート -> 貪欲](https://atcoder.jp/contests/abc117/submissions/13594719)|
 ||§ 2.2.4|exercise|[ABC 153 F - Silver Fox vs Monster](https://atcoder.jp/contests/abc153/tasks/abc153_f)|||see § 3.3.1|
 ||§ 2.2.4|exercise|[有理ナップサック問題](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/all/ALDS1_15_B)|||[貪欲法](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_15_B/review/3980743/knknkn1162/C)|
 ||§ 2.2.4|exercise|[C - Multiple Gift](https://atcoder.jp/contests/abc083/tasks/arc088_a)|||[貪欲](https://atcoder.jp/contests/abc083/submissions/12356089)|
@@ -308,7 +308,7 @@
 ||§ 3.3.6|exercise|[ABC 041 D 徒競走](https://atcoder.jp/contests/abc041/tasks/abc041_d)|||[bit DP](https://atcoder.jp/contests/abc041/submissions/13310523)|
 ||§ 4.4.1|example|[DPL_3_C ヒストグラムの中の最大長方形](https://onlinejudge.u-aizu.ac.jp/problems/DPL_3_C)|||[stack](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_3_C/review/4517877/knknkn1162/C)|
 ||§ 4.4.1|exercise|[DPL_3_B 最大長方形](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_3_B)|||[stack](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_3_B/review/4517704/knknkn1162/C) or [O(N^3)の解法](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_3_B/review/4517487/knknkn1162/C)|
-|o|§ 4.4.1|exercise|[Areas on the Cross-Section Diagram](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/all/ALDS1_3_D)|||[stack]()|
+||§ 4.4.1|exercise|[Areas on the Cross-Section Diagram](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/all/ALDS1_3_D)|||[stack 2つ](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_3_D/review/4519048/knknkn1162/C)|
 |o|§ 4.4.1|exercise|[KUPC 2013 D カーペット](https://atcoder.jp/contests/kupc2013/tasks/kupc2013_d)|||[]()|
 |o|§ 4.4.1|exercise|[ARC 081 F Flip and Rectangles](https://atcoder.jp/contests/arc081/tasks/arc081_d)|||[]()|
 |o|§ 4.4.1|exercise|[ABC 064 D Insertion](https://atcoder.jp/contests/abc064/tasks/abc064_d)|||[]()|
