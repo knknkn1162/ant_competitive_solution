@@ -284,7 +284,7 @@
 ||§ 3.3.1|exercise|[JOI 2011 春合宿 day4-2 本棚](https://atcoder.jp/contests/joisc2011/tasks/joisc2011_bookshelf) [問題はここ](https://www.ioi-jp.org/camp/2011/2011-sp-tasks/2011-sp-day4.pdf)|||[LIS, セグメント木](https://atcoder.jp/contests/joisc2011/submissions/13505516)|
 |o|§ 3.3.1|exercise|[ABC 136 F - Enclosed Points](https://atcoder.jp/contests/abc136/tasks/abc136_f)|||[]()|
 |o|§ 3.3.1|exercise|[JOI 2011 本選 5 - 微生物実験]()|||[]()|
-||§ 3.3.2|example|[バブルソートの交換回数(反転数)](https://onlinejudge.u-aizu.ac.jp/problems/ALDS1_5_D)|||[反転数、座標圧縮、セグメント木](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_5_D/review/4478150/knknkn1162/C)|
+||§ 3.3.2|example|[バブルソートの交換回数(反転数)](https://onlinejudge.u-aizu.ac.jp/problems/ALDS1_5_D)|||[反転数、座標圧縮、セグメント木](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_5_D/review/4478150/knknkn1162/C) or [配列の逆順に反転数を導出](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_5_D/review/4521670/knknkn1162/C)|
 ||§ 3.3.2|exercise|[Indeedなう 2015 E Line up!](https://atcoder.jp/contests/indeednow-finalb-open/tasks/indeednow_2015_finalb_e)|||[座標圧縮, 転倒数、セグメント木](https://atcoder.jp/contests/indeednow-finalb-open/submissions/13257883)|
 |o|§ 3.3.2|exercise|[AOJ 0365 - 文字列スワップ](https://onlinejudge.u-aizu.ac.jp/problems/0365)|||[]()|
 |o|§ 3.3.2|exercise|[Tenka1 2017 E CARtesian Coodinate](https://atcoder.jp/contests/tenka1-2017/tasks/tenka1_2017_e)|||[]()|
