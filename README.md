@@ -295,7 +295,7 @@
 ||§ 3.3.3|exercise|[DSL_2_H RMQ and RAQ](https://onlinejudge.u-aizu.ac.jp/problems/DSL_2_H)|||[遅延評価セグメント木](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_2_H/review/4491964/knknkn1162/C)|
 ||§ 3.3.3|exercise|[DSL_2_I RSQ and RUQ](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_2_I)|||[遅延評価セグメント木](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_2_I/review/4492093/knknkn1162/C)|
 ||§ 3.3.3|exercise|[全国統一プログラミング王決定戦本選-D Deforestation](https://atcoder.jp/contests/nikkei2019-final/tasks/nikkei2019_final_d)|||[発想問題、配列を逆順にして遅延セグメント木(RSQ & RUQ)](https://atcoder.jp/contests/nikkei2019-final/submissions/13646149)|
-|o|§ 3.3.3|exercise|[CODE FESTIVAL 2015 決勝 D 足ゲームII](https://atcoder.jp/contests/code-festival-2015-final-open/tasks/codefestival_2015_final_d)|||[]()|
+||§ 3.3.3|exercise|[CODE FESTIVAL 2015 決勝 D 足ゲームII](https://atcoder.jp/contests/code-festival-2015-final-open/tasks/codefestival_2015_final_d)|||[](https://atcoder.jp/contests/code-festival-2015-final-open/submissions/13663382)|
 ||§ 3.3.3|exercise|[square869120Contest #2 H Counting 1's](https://atcoder.jp/contests/s8pc-2/tasks/s8pc_2_h)|||[反転回数を遅延値として、遅延評価セグメント木(RSQ & RAQ)](https://atcoder.jp/contests/s8pc-2/submissions/13661888)|
 |o|§ 3.3.3|exercise|[JOI 2008 春合宿 - Typhoon(台風)](https://atcoder.jp/contests/joisc2008/tasks/joisc2008_typhoon) ([問題はここ](https://www.ioi-jp.org/camp/2008/2008-sp-tasks/2008-sp_tr-day4_24.pdf#page=2))|||[]()|
 |o|§ 3.3.3|exercise|[JOI 2012 春合宿 - Fortune Telling](https://atcoder.jp/contests/joisc2012/tasks/joisc2012_fortune_telling) ([問題はここ](https://www.ioi-jp.org/camp/2012/2012-sp-tasks/2012-sp-day3.pdf#page=1)|||[]()|
