@@ -3,7 +3,7 @@
 + https://qiita.com/drken/items/e77685614f3c6bf86f44
 + https://qiita.com/drken/items/2f56925972c1d34e05d8
 + http://www.graco.c.u-tokyo.ac.jp/icpc-challenge/wp-content/uploads/2014/12/2014.pdf
-+ https://qiita.com/e869120/items/eb50fdaece12be418faa
++ https://qiita.com/e869120/items/eb50fdaece12be418faa -> [problems & answers](https://github.com/knknkn1162/blue_e869120_100)
 + https://qiita.com/e869120/items/acba3dd8649d913102b5
 
 # problems
