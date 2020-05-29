@@ -83,6 +83,7 @@
 ||§ 2.2.6|exercise|[JOI 2012 本選 4 - 釘](https://atcoder.jp/contests/joi2012ho/tasks/joi2012ho4)|||[いもす法, 3階差分](https://atcoder.jp/contests/joi2012ho/submissions/11421264)|
 ||§ 2.3.1|example|[0-1ナップザック問題](https://onlinejudge.u-aizu.ac.jp/problems/DPL_1_B)|||[DP(引き継ぎ有り)](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_1_B/review/4508309/knknkn1162/C)|
 ||§ 2.3.1|exercise|[TDPC A コンテスト](https://atcoder.jp/contests/tdpc/tasks/tdpc_contest)|||[DP](https://atcoder.jp/contests/tdpc/submissions/12701720)|
+||§ 2.3.1|exercise|[ABC 115 D - Christmas](https://atcoder.jp/contests/abc115/tasks/abc115_d)|||[DP](https://atcoder.jp/contests/abc115/submissions/13677608)|
 ||§ 2.3.1|exercise|[D - 高橋くんの苦悩](https://atcoder.jp/contests/abc015/tasks/abc015_4)|
 ||§ 2.3.1|exercise|[JOI 2012 予選 D 暑い日々](https://atcoder.jp/contests/joi2013yo/tasks/joi2013yo_d)|||[DP](https://atcoder.jp/contests/joi2013yo/submissions/11071917)|
 ||§ 2.3.1|exercise|[JOI 2012 予選 4 - パスタ](https://atcoder.jp/contests/joi2012yo/tasks/joi2012yo_d)|||[DP, 三項間漸化式](https://atcoder.jp/contests/joi2012yo/submissions/11063373)|
