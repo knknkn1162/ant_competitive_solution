@@ -24,7 +24,8 @@
 ||§ 1.8.1|exercise|[AOJ 1149 - ケーキカット](https://onlinejudge.u-aizu.ac.jp/problems/1149)|||[実装問題、連結リスト](https://onlinejudge.u-aizu.ac.jp/solutions/problem/1149/review/4321489/knknkn1162/C)|
 ||§ 1.9.1|exercise|[ALDS1_1_D 最大の利益](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/1/ALDS1_1_D)|||[min, maxを用いて適宜更新](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_1_D/review/4513248/knknkn1162/C)|
 ||§ 1.9.1|exercise|[ABC 117 D - XXOR](https://atcoder.jp/contests/abc117/tasks/abc117_d)|||[maxを用いて適宜更新](https://atcoder.jp/contests/abc117/submissions/13596002)|
-||§ 2.1.0|example|[ABC 114 C - 755](https://atcoder.jp/contests/abc114/tasks/abc114_c)|||[再帰関数](https://atcoder.jp/contests/abc114/submissions/13677743)|
+||§ 2.1.0|exercise|[ABC 114 C - 755](https://atcoder.jp/contests/abc114/tasks/abc114_c)|||[再帰関数](https://atcoder.jp/contests/abc114/submissions/13677743)|
+||§ 2.1.0|exercise|[ABC 161 D - Lunlun Number](https://atcoder.jp/contests/abc161/tasks/abc161_d)|||[再帰関数で条件を満たす数をstackに](https://atcoder.jp/contests/abc161/submissions/13688600)|
 ||§ 2.1.1|example|部分和問題|||[]()|
 ||§ 2.1.1|exercise|[B - Sum of Three Integers](https://atcoder.jp/contests/abc051/tasks/abc051_b)|||[全探索]() or [DP, 累積和](https://atcoder.jp/contests/abc051/submissions/12543729)|
 ||§ 2.1.1|exercise|[ABC 112 C - Pyramid](https://atcoder.jp/contests/abc112/tasks/abc112_c)|||[解を仮定して全探索](https://atcoder.jp/contests/abc112/submissions/13678639)|
