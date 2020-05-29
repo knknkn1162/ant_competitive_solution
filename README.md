@@ -15,7 +15,6 @@
 ||§ 1.2.1|exercise|[ABC 128 B - Guidebook](https://atcoder.jp/contests/abc128/tasks/abc128_b)|||[qsort](https://atcoder.jp/contests/abc128/submissions/13587446)|
 ||§ 1.6.1|example|三角形|||[降順にソート-> 連続した3つを調べる](./1.6.1/triangle.c)|
 ||§ 1.6.1|example|[ABC 115 C - Christmas Eve](https://atcoder.jp/contests/abc115/tasks/abc115_c)|||[ソート](https://atcoder.jp/contests/abc115/submissions/13676383)|
-||§ 1.6.1|exercise|[B - Sum of Three Integers](https://atcoder.jp/contests/abc051/tasks/abc051_b)|||[全探索]() or [DP, 累積和](https://atcoder.jp/contests/abc051/submissions/12543729)|
 ||§ 1.7.1|exercise|[C - Dice and Coin](https://atcoder.jp/contests/abc126/tasks/abc126_c)|||[確率](https://atcoder.jp/contests/abc126/submissions/13467645)|
 ||§ 1.8.1|exercise|[AOJ 1193 - 連鎖消滅パズル](https://onlinejudge.u-aizu.ac.jp/problems/1193)|||[落ちゲー、実装問題、解くだけ](https://onlinejudge.u-aizu.ac.jp/solutions/problem/1193/review/4320693/knknkn1162/C)|
 ||§ 1.8.1|exercise|[Square869120Contest #3 B - 石落としゲーム](https://atcoder.jp/contests/s8pc-3/tasks/s8pc_3_b)|||[落ちゲー, 実装問題、(WIDTH)×(HEIGHT-1)個シュミレート](https://atcoder.jp/contests/s8pc-3/submissions/11477560)|
@@ -24,6 +23,7 @@
 ||§ 1.9.1|exercise|[ALDS1_1_D 最大の利益](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/1/ALDS1_1_D)|||[min, maxを用いて適宜更新](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_1_D/review/4513248/knknkn1162/C)|
 ||§ 1.9.1|exercise|[ABC 117 D - XXOR](https://atcoder.jp/contests/abc117/tasks/abc117_d)|||[maxを用いて適宜更新](https://atcoder.jp/contests/abc117/submissions/13596002)|
 ||§ 2.1.1|example|部分和問題|||[]()|
+||§ 2.1.1|exercise|[B - Sum of Three Integers](https://atcoder.jp/contests/abc051/tasks/abc051_b)|||[全探索]() or [DP, 累積和](https://atcoder.jp/contests/abc051/submissions/12543729)|
 ||§ 2.1.1|exercise|[ARC 029 A - 高橋君とお肉](https://atcoder.jp/contests/arc029/tasks/arc029_1)|||[bit全探索](https://atcoder.jp/contests/arc029/submissions/8502963)|
 ||§ 2.1.1|exercise|[ABC 167 C - Skill Up](https://atcoder.jp/contests/abc167/tasks/abc167_c)|||[bit全探索](https://atcoder.jp/contests/abc167/submissions/13454752)|
 ||§ 2.1.1|exercise|[ABC 119 C - Synthetic Kadomatsu](https://atcoder.jp/contests/abc119/tasks/abc119_c)|||[`4**num`のbit全探索](https://atcoder.jp/contests/abc119/submissions/13564242)|
