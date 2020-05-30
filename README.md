@@ -21,7 +21,7 @@
 ||§ 1.8.1|exercise|[AOJ 1193 - 連鎖消滅パズル](https://onlinejudge.u-aizu.ac.jp/problems/1193)|||[落ちゲー、実装問題、解くだけ](https://onlinejudge.u-aizu.ac.jp/solutions/problem/1193/review/4320693/knknkn1162/C)|
 ||§ 1.8.1|exercise|[ABC 107 B - Grid Compression](https://atcoder.jp/contests/abc107/tasks/abc107_b)|||[実装問題](https://atcoder.jp/contests/abc107/submissions/13689326)|
 ||§ 1.8.1|exercise|[Square869120Contest #3 B - 石落としゲーム](https://atcoder.jp/contests/s8pc-3/tasks/s8pc_3_b)|||[落ちゲー, 実装問題、(WIDTH)×(HEIGHT-1)個シュミレート](https://atcoder.jp/contests/s8pc-3/submissions/11477560)|
-||§ 1.8.1|exercise|[ABC 109 D - Make Them Even](https://atcoder.jp/contests/abc109/tasks/abc109_d)|||[問題文を解釈、実装問題, 右端に寄せる](https://atcoder.jp/contests/abc109/submissions/13685267)|
+||§ 1.8.1|exercise|[ABC 109 D - Make Them Even](https://atcoder.jp/contests/abc109/tasks/abc109_d)|||[構成問題、問題文を解釈、実装問題, 右端に寄せる](https://atcoder.jp/contests/abc109/submissions/13685267)|
 ||§ 1.8.1|exercise|[ABC 128 D - equeue](https://atcoder.jp/contests/abc128/tasks/abc128_d)|||[実装問題、シュミレート](https://atcoder.jp/contests/abc128/submissions/13589023)|
 ||§ 1.8.1|exercise|[AOJ 1149 - ケーキカット](https://onlinejudge.u-aizu.ac.jp/problems/1149)|||[実装問題、連結リスト](https://onlinejudge.u-aizu.ac.jp/solutions/problem/1149/review/4321489/knknkn1162/C)|
 ||§ 1.9.1|exercise|[ALDS1_1_D 最大の利益](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/1/ALDS1_1_D)|||[min, maxを用いて適宜更新](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_1_D/review/4513248/knknkn1162/C)|
@@ -227,13 +227,14 @@
 ||§ 2.6.6|example|[Square869120Contest #1 E - 散歩](https://atcoder.jp/contests/s8pc-1/tasks/s8pc_1_e)|||[bit演算, いもす法, 高速累乗](https://atcoder.jp/contests/s8pc-1/submissions/11667270)|
 ||§ 2.6.7|exercise|[ABC 165 D - Floor Function](https://atcoder.jp/contests/abc165/tasks/abc165_d)|||[数学的考察](https://atcoder.jp/contests/abc165/submissions/12889778)|
 ||§ 2.6.7|exercise|[ABC 108 C - Triangular Relationship](https://atcoder.jp/contests/abc108/tasks/arc102_a)|||[数学的考察](https://atcoder.jp/contests/abc108/submissions/13687394)|
+||§ 2.6.7|exercise|[ABC 105 C - Base -2 Number](https://atcoder.jp/contests/abc105/tasks/abc105_c)|||[数学的考察、普通の2進数表示 -> carry](https://atcoder.jp/contests/abc105/submissions/13712126)|
 ||§ 2.6.7|exercise|[ABC 121 D - XOR World](https://atcoder.jp/contests/abc121/tasks/abc121_d)|||[数学的考察](https://atcoder.jp/contests/abc121/submissions/13560004)|
 ||§ 2.6.7|exercise|[D - Flipping Signs](https://atcoder.jp/contests/abc125/tasks/abc125_d)|||[数学的考察](https://atcoder.jp/contests/abc125/submissions/13467844)|
 ||§ 2.6.7|exercise|[C - Unification](https://atcoder.jp/contests/abc120/tasks/abc120_c)|||[発想問題、考察](https://atcoder.jp/contests/abc120/submissions/13689906)|
 ||§ 2.6.7|exercise|[ABC 139 D - ModSum](https://atcoder.jp/contests/abc139/tasks/abc139_d)|||[数学的考察](https://atcoder.jp/contests/abc139/submissions/11487225)|
 ||§ 2.6.7|exercise|[DDCC2020 予選 D - Digit Sum Replace](https://atcoder.jp/contests/ddcc2020-qual/tasks/ddcc2020_qual_d)|||[数学的考察(数字の遷移方法は2パターンのうちどれか)](https://atcoder.jp/contests/ddcc2020-qual/submissions/11700593)|
 ||§ 2.6.7|exercise|[ABC 126 F - XOR Matching](https://atcoder.jp/contests/abc126/tasks/abc126_f)|||[数学的考察](https://atcoder.jp/contests/abc126/submissions/13534345)|
-||§ 2.6.7|exercise|[Tenka1 Programmer Beginner Contest D - Crossing](https://atcoder.jp/contests/tenka1-2018-beginner/tasks/tenka1_2018_d)|||[部分集合の要素数を決めて構成, n=1も考慮](https://atcoder.jp/contests/tenka1-2018-beginner/submissions/11702203)|
+||§ 2.6.7|exercise|[Tenka1 Programmer Beginner Contest D - Crossing](https://atcoder.jp/contests/tenka1-2018-beginner/tasks/tenka1_2018_d)|||[構成問題、部分集合の要素数を決める, n=1も考慮](https://atcoder.jp/contests/tenka1-2018-beginner/submissions/11702203)|
 ||§ 2.7.1|example|[GCJ Problem A. Minimum Scalar Product](https://code.google.com/codejam/contest/32016/dashboard)|||[ソート, 貪欲法](./2.7.1/gcj32016.c)
 |o|§ 3.1.1|example|lower bound|||[lower bound](./3.1.1/example.c)|
 ||§ 3.1.1|exercise|[ABC 077 C Snuke Festival](https://atcoder.jp/contests/abc077/tasks/arc084_a)|||[中部を軸にlower/upper bound](https://atcoder.jp/contests/abc077/submissions/10816319)|
