@@ -56,3 +56,12 @@ int get_str(char *str, int size)
     scanf(format, str);
     return 0;
 }
+
+// sort
+int asc(const void *a1, const void *a2) {
+    int64_t aa1 = *(int64_t*)a1;
+    int64_t aa2 = *(int64_t*)a2;
+    if(aa1 > aa2) return 1;
+    if(aa1 == aa2) return 0;
+    return -1;
+}
