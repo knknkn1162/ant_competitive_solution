@@ -28,41 +28,38 @@ int gcd(int a, int b) {
     if(a == 0) return b;
     return gcd(b%a, a);
 }
+
 void swap(int *a, int *b) {
     int tmp = *a;
     *a = *b;
     *b = tmp;
 }
 
+int gcd2(int a, int b) {
+    if(a > b) swap(&a, &b);
+    return gcd(a, b);
+}
+
 int main(void) {
     int num = get_int();
     static int arr[NUM_MAX+2];
-
     fget_array(&arr[1], num);
 
     static int cum[NUM_MAX+2];
-    static int rcum[NUM_MAX+2];
     int i;
-    for(i = 1; i <= num+1; i++) {
-        int a = cum[i-1];
-        int b = arr[i-1];
-        if(a > b) swap(&a, &b);
-        cum[i] = gcd(a, b);
+    for(i = 1; i <= num; i++) {
+        cum[i+1] = gcd2(cum[i], arr[i]);
     }
 
-    for(i = num; i >= 0; i--) {
-        int a = rcum[i+1];
-        int b = arr[i+1];
-        if(a > b) swap(&a, &b);
-        rcum[i] = gcd(a, b);
+    static int rcum[NUM_MAX+2];
+    for(i = num; i >= 1; i--) {
+        rcum[i-1] = gcd2(rcum[i], arr[i]);
     }
 
     int ans = 0;
     for(i = 1; i <= num; i++) {
-        int a = cum[i]; // [1, i)
-        int b = rcum[i]; // (i, num]
-        if(a > b) swap(&a, &b);
-        ans = max(ans, gcd(a, b));
+        int res = gcd(cum[i], rcum[i]);
+        ans = max(res, ans);
     }
     printf("%d\n", ans);
     return 0;

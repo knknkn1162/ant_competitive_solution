@@ -53,28 +53,29 @@ int main(void) {
     }
     int64_t ans = 0;
 
-    static int64_t rdp[NUM_MAX+2];
+    static int64_t rcum[NUM_MAX+2];
     int64_t prev = 0;
     int64_t profit = 0;
-    for(i = num; i >= 0; i--) {
+    for(i = num; i >= 1; i--) {
         int64_t cur = circle - pos[i];
         profit = profit -(cur-prev) + value[i];
-        rdp[i] = max(rdp[i+1], profit - cur);
+        rcum[i-1] = max(rcum[i], profit - cur);
         prev = cur;
     }
 
     // cw
     prev = 0;
     profit = 0;
-    static int64_t dp[NUM_MAX+2];
+    static int64_t cum[NUM_MAX+2];
     for(i = 1; i <= num; i++) {
         int64_t cur = pos[i];
         profit = profit - (cur-prev) + value[i];
-        dp[i] = max(dp[i-1], profit - cur);
+        cum[i+1] = max(cum[i], profit - cur);
 #ifdef DEBUG
-        printf("[<-%lld] %lld %lld\n", cur, profit, rdp[i]);
+        printf("[<-%lld] %lld %lld\n", cur, profit, rcum[i]);
 #endif
-        ans = max(ans, profit + rdp[i+1]);
+        // profit: [1, i] rcum: (i, n]
+        ans = max(ans, profit + rcum[i]);
         prev = cur;
     }
 
@@ -84,9 +85,10 @@ int main(void) {
         int64_t cur = circle - pos[i];
         profit = profit - (cur-prev)+value[i];
 #ifdef DEBUG
-        printf("[->%lld] %lld %lld\n", cur, profit, dp[i]);
+        printf("[->%lld] %lld %lld\n", cur, profit, cum[i]);
 #endif
-        ans = max(ans, profit + dp[i-1]);
+        // cum: [1, i), profit: [i, num]
+        ans = max(ans, profit + cum[i]);
         prev = cur;
     }
 
