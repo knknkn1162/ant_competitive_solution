@@ -98,6 +98,8 @@
 ||§ 2.2.5|exercise|[ALDS1_15_D ハフマン符号](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/all/ALDS1_15_D)|||[最小ヒープ, DFS](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_15_D/review/4495500/knknkn1162/C)|
 ||§ 2.2.6|exercise|[ABC 122 C - GeT AC](https://atcoder.jp/contests/abc122/tasks/abc122_c)|||[累積和](https://atcoder.jp/contests/abc122/submissions/13557759)|
 ||§ 2.2.6|exercise|[ABC 092 C - Traveling Plan](https://atcoder.jp/contests/abc092/tasks/arc093_a)|||[累積和](https://atcoder.jp/contests/abc092/submissions/13956843)|
+||§ 2.2.6|exercise|[ABC 099 D - Good Grid](https://atcoder.jp/contests/abc099/tasks/abc099_d)|||前処理(map) see § 2.4.2|
+||§ 2.2.6|exercise|[ABC 089 D - Practical Skill Test](https://atcoder.jp/contests/abc089/tasks/abc089_d)|||[前処理(累積和)](https://atcoder.jp/contests/abc089/submissions/13964940)|
 ||§ 2.2.6|exercise|[ABC 125 C - GCD on Blackboard](https://atcoder.jp/contests/abc125/tasks/abc125_c)|||[累積和、逆累積和](https://atcoder.jp/contests/abc125/submissions/13928488)|
 ||§ 2.2.6|exercise|[ABC 095 D - Static Sushi](https://atcoder.jp/contests/abc095/tasks/arc096_b)|||[環状、累積和、逆累積和](https://atcoder.jp/contests/abc095/submissions/13928203)|
 ||§ 2.2.6|exercise|[JOI 2011 本選 1 - 惑星探査](https://atcoder.jp/contests/joi2011ho/tasks/joi2011ho1)|||[二次元累積和](https://atcoder.jp/contests/abc106/submissions/11348226) or [区間DP](https://atcoder.jp/contests/abc106/submissions/11346781)|
@@ -200,7 +202,7 @@
 ||§ 2.4.2|exercise|[ABC 085 B Kagami Mochi](https://atcoder.jp/contests/abc085/tasks/abc085_b)|||[map](https://atcoder.jp/contests/abc085/submissions/7997905)|
 ||§ 2.4.2|exercise|[ABC 098 B - Cut and Count](https://atcoder.jp/contests/abc098/tasks/abc098_b)|||[map](https://atcoder.jp/contests/abc098/submissions/13929585)|
 ||§ 2.4.2|exercise|[ABC 111 C - /\/\/\/](https://atcoder.jp/contests/abc111/tasks/arc103_a)|||[map](https://atcoder.jp/contests/abc111/submissions/13679666)|
-||§ 2.4.2|exercise|[ABC 099 D - Good Grid](https://atcoder.jp/contests/abc099/tasks/abc099_d)|||[colorに対して全探索、map](https://atcoder.jp/contests/abc099/submissions/13838264)|
+||§ 2.4.2|exercise|[ABC 099 D - Good Grid](https://atcoder.jp/contests/abc099/tasks/abc099_d)|||[前処理、colorに対して全探索、map](https://atcoder.jp/contests/abc099/submissions/13838264)|
 ||§ 2.4.2|exercise|[ABC 110 C - String Transformation](https://atcoder.jp/contests/abc110/tasks/abc110_c)|||[map2つ(1対1対応のチェック)](https://atcoder.jp/contests/abc110/submissions/13679923)|
 ||§ 2.4.2|exercise|[ABC 166 E - This Message Will Self-Destruct in 5s](https://atcoder.jp/contests/abc166/tasks/abc166_e)|||[hash](https://atcoder.jp/contests/abc166/submissions/13456209) or [mapで十分]()|
 ||§ 2.4.2|exercise|[ABC 143 D - Triangles](https://atcoder.jp/contests/abc143/tasks/abc143_d)|||[map, 累積和](https://atcoder.jp/contests/abc143/submissions/13893107)|
