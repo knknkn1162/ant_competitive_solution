@@ -244,6 +244,7 @@
 |o|§ 2.6.3|exercise|[AOJ 0009 素数](https://onlinejudge.u-aizu.ac.jp/problems/0009)|||[エラトステネスのふるい、累積和]()|
 ||§ 2.6.4|exercise|[A - 与えられた数より小さい素数の個数について](https://atcoder.jp/contests/tenka1-2012-qualc/tasks/tenka1_2012_9)|||[エラトステネスのふるい](https://atcoder.jp/contests/tenka1-2012-qualc/submissions/12817314)
 ||§ 2.6.4|exercise|[素数](https://onlinejudge.u-aizu.ac.jp/problems/0009)|||[エラトステネスのふるい](https://onlinejudge.u-aizu.ac.jp/solutions/problem/0009/review/4433621/knknkn1162/C)|
+||§ 2.6.4|exercise|[ABC 169 D - Div Game](https://atcoder.jp/contests/abc169/tasks/abc169_d)|||[エラトステネスのふるい](https://atcoder.jp/contests/abc169/submissions/13950098)|
 ||§ 2.6.4|exercise|[ABC D - 756](https://atcoder.jp/contests/abc114/tasks/abc114_c)|||[素因数分解、再帰関数](https://atcoder.jp/contests/abc114/submissions/13678388)|
 ||§ 2.6.5|example|区間内の素数の個数|||[]()|
 ||§ 2.6.6|example|[Carmichael Numbers (Uva No.10006)](https://onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=947)|||[高速累乗](./2.6.6/uva10006.c)|
