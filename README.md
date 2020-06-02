@@ -263,6 +263,7 @@
 ||§ 3.1.1|exercise|[JOI 2007 本選 C ダーツ](https://atcoder.jp/contests/joi2008ho/tasks/joi2008ho_c)|||[半分全列挙, 解を仮定して二分検索(upper bound)](https://atcoder.jp/contests/joi2008ho/submissions/10906780)|
 ||§ 3.1.1|exercise|[JOI 2008 本選 B ピザ](https://atcoder.jp/contests/joi2009ho/tasks/joi2009ho_b)|||[二分探索](https://atcoder.jp/contests/joi2009ho/submissions/10814537)
 ||§ 3.1.2|example|[Cable Master (POJ No.1064)](http://poj.org/problem?id=1064)|||[整数に。解を仮定して二分探索](./3.1.2/poj1064.c)|
+||§ 3.1.2|exercise|[ABC 169 C - Multiplication 3](https://atcoder.jp/contests/abc169/tasks/abc169_c)|||[100倍して整数として計算](https://atcoder.jp/contests/abc169/submissions/13939660)|
 ||§ 3.1.2|exercise|[ABC 023 D 射撃王](https://atcoder.jp/contests/abc023/tasks/abc023_d)|||[解を仮定してで二分検索(lower bound)](https://atcoder.jp/contests/abc023/submissions/11029093)|
 ||§ 3.1.2|exercise|[ARC 037 C 億マス計算](https://atcoder.jp/contests/arc037/tasks/arc037_c)|||[ソート -> 解を仮定し二分探索(upper bound) -> 判定でも二分探索(upper bound)](https://atcoder.jp/contests/arc037/submissions/12878074)|
 ||§ 3.1.2|exercise|[AOJ ALDS1_4_D 割り当て](https://onlinejudge.u-aizu.ac.jp/problems/ALDS1_4_D)|||[解を仮定して二分探索 -> 各探索値で線形探索](https://onlinejudge.u-aizu.ac.jp/problems/ALDS1_4_D) or [累積和, 解を仮定して二分探索 -> 各探索値で線形探索](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_4_D/review/4344863/knknkn1162/C)|
