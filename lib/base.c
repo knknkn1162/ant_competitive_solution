@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-#include <stdint.h> // uint64_t
+#include <stdint.h> // int64_t
 
 #define max(a,b) ((a) > (b) ? (a) : (b))
 #define min(a,b) ((a) > (b) ? (b) : (a))
