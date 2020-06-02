@@ -302,6 +302,7 @@
 ||§ 3.2.4|exercise|[JOI 2007 予選 E おせんべい](https://atcoder.jp/contests/joi2008yo/tasks/joi2008yo_e)|||[bit全探索、貪欲法](https://atcoder.jp/contests/joi2008yo/submissions/10734695)|
 ||§ 3.2.4|exercise|[ABC 159 E - Dividing Chocolate](https://atcoder.jp/contests/abc159/tasks/abc159_e)|||[bit全探索、貪欲法](https://atcoder.jp/contests/abc159/submissions/11922152)|
 ||§ 3.2.4|exercise|[ABC 018 D バレンタインデー](https://atcoder.jp/contests/abc018/tasks/abc018_4)|||[bit全探索、貪欲法](https://atcoder.jp/contests/abc018/submissions/12980160)|
+||§ 3.2.4|exercise|[ABC 113 D - Number of Amidakuji](https://atcoder.jp/contests/abc113/tasks/abc113_d)|||[bit(あみだの棒)全探索、DP](https://atcoder.jp/contests/abc113/submissions/13951290)|
 ||§ 3.2.5|example|[Physics Experiment (POJ No.3684)](http://poj.org/problem?id=3684)|||[弾性衝突](./3.2.5/poj3684.cpp)|
 ||§ 3.2.6|example|[4 Values whose Sum is 0 (POJ No.2785)](http://poj.org/problem?id=2785)|||[半分全列挙](./3.2.6/poj2785.c)|
 |o|§ 3.2.6|exercise|[DPL_4_A コインの組み合わせ](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_4_A)|||[]()|
