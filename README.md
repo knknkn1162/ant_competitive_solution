@@ -96,6 +96,7 @@
 |o|§ 2.2.5|exercise|[C. Appleman and Toastman](http://codeforces.com/contest/462/problem/C)|||[]()|
 ||§ 2.2.5|exercise|[ALDS1_15_D ハフマン符号](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/all/ALDS1_15_D)|||[最小ヒープ, DFS](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_15_D/review/4495500/knknkn1162/C)|
 ||§ 2.2.6|exercise|[ABC 122 C - GeT AC](https://atcoder.jp/contests/abc122/tasks/abc122_c)|||[累積和](https://atcoder.jp/contests/abc122/submissions/13557759)|
+||§ 2.2.6|exercise|[ABC 092 C - Traveling Plan](https://atcoder.jp/contests/abc092/tasks/arc093_a)|||[累積和](https://atcoder.jp/contests/abc092/submissions/13956843)|
 ||§ 2.2.6|exercise|[ABC 125 C - GCD on Blackboard](https://atcoder.jp/contests/abc125/tasks/abc125_c)|||[累積和、逆累積和](https://atcoder.jp/contests/abc125/submissions/13928488)|
 ||§ 2.2.6|exercise|[ABC 095 D - Static Sushi](https://atcoder.jp/contests/abc095/tasks/arc096_b)|||[環状、累積和、逆累積和](https://atcoder.jp/contests/abc095/submissions/13928203)|
 ||§ 2.2.6|exercise|[JOI 2011 本選 1 - 惑星探査](https://atcoder.jp/contests/joi2011ho/tasks/joi2011ho1)|||[二次元累積和](https://atcoder.jp/contests/abc106/submissions/11348226) or [区間DP](https://atcoder.jp/contests/abc106/submissions/11346781)|
