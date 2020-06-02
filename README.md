@@ -26,6 +26,7 @@
 ||§ 1.8.1|exercise|[Square869120Contest #3 B - 石落としゲーム](https://atcoder.jp/contests/s8pc-3/tasks/s8pc_3_b)|||[落ちゲー, 実装問題、(WIDTH)×(HEIGHT-1)個シュミレート](https://atcoder.jp/contests/s8pc-3/submissions/11477560)|
 ||§ 1.8.1|exercise|[ABC 109 D - Make Them Even](https://atcoder.jp/contests/abc109/tasks/abc109_d)|||[構成問題、問題文を解釈、実装問題, 右端に寄せる](https://atcoder.jp/contests/abc109/submissions/13685267)|
 ||§ 1.8.1|exercise|[ABC 128 D - equeue](https://atcoder.jp/contests/abc128/tasks/abc128_d)|||[実装問題、シュミレート](https://atcoder.jp/contests/abc128/submissions/13589023)|
+||§ 1.8.1|exercise|[ABC 090 D - Remainder Reminder](https://atcoder.jp/contests/abc090/tasks/arc091_b)|||[実装問題、K=0と≠0で場合分け](https://atcoder.jp/contests/abc090/submissions/13964782)|
 ||§ 1.8.1|exercise|[AOJ 1149 - ケーキカット](https://onlinejudge.u-aizu.ac.jp/problems/1149)|||[実装問題、連結リスト](https://onlinejudge.u-aizu.ac.jp/solutions/problem/1149/review/4321489/knknkn1162/C)|
 ||§ 1.9.1|exercise|[ALDS1_1_D 最大の利益](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/1/ALDS1_1_D)|||[min, maxを用いて適宜更新](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_1_D/review/4513248/knknkn1162/C)|
 ||§ 1.9.1|exercise|[ABC 107 C - Candles](https://atcoder.jp/contests/abc107/tasks/arc101_a)|||[長さKの区間を固定して,max,min使用](https://atcoder.jp/contests/abc107/submissions/13697949)|
@@ -255,8 +256,8 @@
 ||§ 2.6.7|exercise|[ABC 108 C - Triangular Relationship](https://atcoder.jp/contests/abc108/tasks/arc102_a)|||[数学的考察](https://atcoder.jp/contests/abc108/submissions/13687394)|
 ||§ 2.6.7|exercise|[ABC 105 C - Base -2 Number](https://atcoder.jp/contests/abc105/tasks/abc105_c)|||[数学的考察、普通の2進数表示 -> carry](https://atcoder.jp/contests/abc105/submissions/13712126)|
 ||§ 2.6.7|exercise|[ABC 121 D - XOR World](https://atcoder.jp/contests/abc121/tasks/abc121_d)|||[数学的考察](https://atcoder.jp/contests/abc121/submissions/13560004)|
-||§ 2.6.7|exercise|[D - Flipping Signs](https://atcoder.jp/contests/abc125/tasks/abc125_d)|||[数学的考察](https://atcoder.jp/contests/abc125/submissions/13467844)|
-||§ 2.6.7|exercise|[C - Unification](https://atcoder.jp/contests/abc120/tasks/abc120_c)|||[発想問題、考察](https://atcoder.jp/contests/abc120/submissions/13689906)|
+||§ 2.6.7|exercise|[ABC 125 D - Flipping Signs](https://atcoder.jp/contests/abc125/tasks/abc125_d)|||[数学的考察](https://atcoder.jp/contests/abc125/submissions/13467844)|
+||§ 2.6.7|exercise|[ABC 120 C - Unification](https://atcoder.jp/contests/abc120/tasks/abc120_c)|||[発想問題、考察](https://atcoder.jp/contests/abc120/submissions/13689906)|
 ||§ 2.6.7|exercise|[ABC 139 D - ModSum](https://atcoder.jp/contests/abc139/tasks/abc139_d)|||[数学的考察](https://atcoder.jp/contests/abc139/submissions/11487225)|
 ||§ 2.6.7|exercise|[ABC 094 D - Binomial Coefficients](https://atcoder.jp/contests/abc094/tasks/arc095_b)|||[数学的考察, `(n+1)_C_r > n_C_r`](https://atcoder.jp/contests/abc094/submissions/13923844)|
 ||§ 2.6.7|exercise|[ABC 101 C - Minimization](https://atcoder.jp/contests/abc101/tasks/arc099_a)|||[考察(数列の形によらない)](https://atcoder.jp/contests/abc101/submissions/13770626)|
