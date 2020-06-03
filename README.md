@@ -28,6 +28,7 @@
 ||§ 1.8.1|exercise|[ABC 128 D - equeue](https://atcoder.jp/contests/abc128/tasks/abc128_d)|||[実装問題、シュミレート](https://atcoder.jp/contests/abc128/submissions/13589023)|
 ||§ 1.8.1|exercise|[ABC 084 C - Special Trains](https://atcoder.jp/contests/abc084/tasks/abc084_c)|||[Nが小さいので全てシュミレート](https://atcoder.jp/contests/abc084/submissions/13975934)|
 ||§ 1.8.1|exercise|[ABC 090 D - Remainder Reminder](https://atcoder.jp/contests/abc090/tasks/arc091_b)|||[実装問題、K=0がコーナーケース](https://atcoder.jp/contests/abc090/submissions/13964782)|
+||§ 1.8.1|exercise|[ABC 093 D - Worst Case](https://atcoder.jp/contests/abc093/tasks/arc094_b)|||[コーナーケースに注意して実装](https://atcoder.jp/contests/abc093/submissions/13979986) or [二分探索]()|
 ||§ 1.8.1|exercise|[AOJ 1149 - ケーキカット](https://onlinejudge.u-aizu.ac.jp/problems/1149)|||[実装問題、連結リスト](https://onlinejudge.u-aizu.ac.jp/solutions/problem/1149/review/4321489/knknkn1162/C)|
 ||§ 1.8.2|exercise|[ABC 092 D - Grid Components](https://atcoder.jp/contests/abc092/tasks/arc093_b)|||[構成問題、発想問題(パズル)](https://atcoder.jp/contests/abc092/submissions/13970569)|
 ||§ 1.9.1|exercise|[ALDS1_1_D 最大の利益](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/1/ALDS1_1_D)|||[min, maxを用いて適宜更新](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_1_D/review/4513248/knknkn1162/C)|
