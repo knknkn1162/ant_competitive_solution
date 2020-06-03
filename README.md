@@ -28,6 +28,7 @@
 ||§ 1.8.1|exercise|[ABC 128 D - equeue](https://atcoder.jp/contests/abc128/tasks/abc128_d)|||[実装問題、シュミレート](https://atcoder.jp/contests/abc128/submissions/13589023)|
 ||§ 1.8.1|exercise|[ABC 090 D - Remainder Reminder](https://atcoder.jp/contests/abc090/tasks/arc091_b)|||[実装問題、K=0と≠0で場合分け](https://atcoder.jp/contests/abc090/submissions/13964782)|
 ||§ 1.8.1|exercise|[AOJ 1149 - ケーキカット](https://onlinejudge.u-aizu.ac.jp/problems/1149)|||[実装問題、連結リスト](https://onlinejudge.u-aizu.ac.jp/solutions/problem/1149/review/4321489/knknkn1162/C)|
+||§ 1.8.2|exercise|[ABC 092 D - Grid Components](https://atcoder.jp/contests/abc092/tasks/arc093_b)|||[構成問題、発想問題(パズル)](https://atcoder.jp/contests/abc092/submissions/13970569)|
 ||§ 1.9.1|exercise|[ALDS1_1_D 最大の利益](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/1/ALDS1_1_D)|||[min, maxを用いて適宜更新](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_1_D/review/4513248/knknkn1162/C)|
 ||§ 1.9.1|exercise|[ABC 107 C - Candles](https://atcoder.jp/contests/abc107/tasks/arc101_a)|||[長さKの区間を固定して,max,min使用](https://atcoder.jp/contests/abc107/submissions/13697949)|
 ||§ 1.9.1|exercise|[ABC 117 D - XXOR](https://atcoder.jp/contests/abc117/tasks/abc117_d)|||[maxを用いて適宜更新](https://atcoder.jp/contests/abc117/submissions/13596002)|
