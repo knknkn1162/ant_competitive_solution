@@ -42,6 +42,7 @@ int fget_array(int *arr, int size) {
     return 0;
 }
 #define NUM_MAX 2000
+#define INF (1e+9)
 
 int main() {
     int num, xscore, yscore;
@@ -51,19 +52,18 @@ int main() {
 
     static int dp[NUM_MAX+1][2];
     int last = arr[num-1];
-    int i, j;
+    int i;
+    int prev_x = INF;
+    int prev_y = 0;
     for (i = num-1; i >= 0; i--) {
         int Y = (i ? arr[i-1] : yscore);
-        dp[i][0] = abs(Y - last);
-        for (j = i+1; j < num; j++) {
-            dp[i][0] = max(dp[i][0], dp[j][1]);
-        }
+        dp[i][0] = max(abs(Y - last), prev_y);
+        prev_x = min(prev_x, dp[i][0]);
+
 
         int X = (i ? arr[i-1] : xscore);
-        dp[i][1] = abs(X - last);
-        for (j = i+1; j < num; j++) {
-            dp[i][1] = min(dp[i][1], dp[j][0]);
-        }
+        dp[i][1] = min(abs(X - last), prev_x);
+        prev_y = max(prev_y, dp[i][1]);
     }
     printf("%d\n", dp[0][0]);
 }
