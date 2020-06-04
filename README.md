@@ -47,6 +47,7 @@
 ||§ 2.1.1|exercise|[ARC 029 A - 高橋君とお肉](https://atcoder.jp/contests/arc029/tasks/arc029_1)|||[bit全探索](https://atcoder.jp/contests/arc029/submissions/8502963)|
 ||§ 2.1.1|exercise|[ABC 167 C - Skill Up](https://atcoder.jp/contests/abc167/tasks/abc167_c)|||[bit全探索](https://atcoder.jp/contests/abc167/submissions/13454752)|
 ||§ 2.1.1|exercise|[ABC 119 C - Synthetic Kadomatsu](https://atcoder.jp/contests/abc119/tasks/abc119_c)|||[`4**num`のbit全探索](https://atcoder.jp/contests/abc119/submissions/13564242)|
+||§ 2.1.1|exercise|[ABC 080 C - Shopping Street](https://atcoder.jp/contests/abc080/tasks/abc080_c)|||[問題文を解釈, bit全探索](https://atcoder.jp/contests/abc080/submissions/13998177)|
 |o|§ 2.1.2|example|[Lake Counting (POJ No.2386)](http://poj.org/problem?id=2386)|||[]()|
 |o|§ 2.1.3|exercise|迷路の最短路|||[BFS]()|
 ||§ 2.1.3|exercise|[E - チーズ (Cheese)](https://atcoder.jp/contests/joi2011yo/tasks/joi2011yo_e)|||[BFS](https://atcoder.jp/contests/joi2011yo/submissions/11007756)|
