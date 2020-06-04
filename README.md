@@ -120,6 +120,7 @@
 ||§ 2.3.1|exercise|[D - 高橋くんの苦悩](https://atcoder.jp/contests/abc015/tasks/abc015_4)|
 ||§ 2.3.1|exercise|[JOI 2012 予選 D 暑い日々](https://atcoder.jp/contests/joi2013yo/tasks/joi2013yo_d)|||[DP](https://atcoder.jp/contests/joi2013yo/submissions/11071917)|
 ||§ 2.3.1|exercise|[JOI 2012 予選 4 - パスタ](https://atcoder.jp/contests/joi2012yo/tasks/joi2012yo_d)|||[DP, 三項間漸化式](https://atcoder.jp/contests/joi2012yo/submissions/11063373)|
+||§ 2.3.1|exercise|[ABC 082 D - FT Robot](https://atcoder.jp/contests/abc082/tasks/arc087_b)|||[ランレングス圧縮, 偶数と奇数で飛び飛びのDP](https://atcoder.jp/contests/abc082/submissions/13994214)|
 ||§ 2.3.1|exercise|[E - Active Infants](https://atcoder.jp/contests/abc163/tasks/abc163_e)|||[ソート, DP](https://atcoder.jp/contests/abc163/submissions/12805226)|
 |o|§ 2.3.1|exercise|[TDPC E 数](https://atcoder.jp/contests/tdpc/tasks/tdpc_number)|||[]()|
 ||§ 2.3.1|exercise|[Educational DP Contest S - Digit Sum](https://atcoder.jp/contests/dp/tasks/dp_s)|||[桁DP](https://atcoder.jp/contests/dp/submissions/12427694)|
@@ -141,6 +142,7 @@
 |o|§ 2.3.5|example|[個数制限付きナップザック問題](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_1_G)|||[]()|
 ||§ 2.3.5|exercise|[Maximum-Cup 2018 D Many Go Round](https://atcoder.jp/contests/maximum-cup-2018/tasks/maximum_cup_2018_d)|||[x周をDPの値にする](https://atcoder.jp/contests/maximum-cup-2018/submissions/12458575)|
 |o|§ 2.3.5|exercise|[JOI 2013 本選 D フクロモモンガ](https://atcoder.jp/contests/joi2014ho/tasks/joi2014ho4)|||[]()|
+|o|§ 2.3.5|exercise|[ARC 083 E - Bichrome Tree](https://atcoder.jp/contests/arc083/tasks/arc083_c)|||[]()|
 ||§ 2.3.6|example|[DPL_1_D - 最長増加部分列(LIS)](https://onlinejudge.u-aizu.ac.jp/problems/DPL_1_D)|||[インラインDP,  二分探索](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_1_D/review/4474200/knknkn1162/C) or [LIS, 座標圧縮、セグメント木](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_1_D/review/4474526/knknkn1162/C)|
 ||§ 2.3.6|exercise|[ABC 006 D トランプ挿入ソート](https://atcoder.jp/contests/abc006/tasks/abc006_4)|||[LIS](https://atcoder.jp/contests/abc006/submissions/11331581)|
 ||§ 2.3.6|exercise|[ABC 038 D - プレゼント](https://atcoder.jp/contests/abc038/tasks/abc038_d)|||[高さ方向にソート -> LIS(DP版)](https://atcoder.jp/contests/abc038/submissions/13232584) or [高さ方向にまずソート -> LIS, セグメント木(RMQ)](https://atcoder.jp/contests/abc038/submissions/13231531)|
