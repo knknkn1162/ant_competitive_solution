@@ -183,6 +183,8 @@
 ||§ 2.3.8|exercise|[ABC 167 E - Colorful Blocks](https://atcoder.jp/contests/abc167/tasks/abc167_e)|||[重複組み合わせ](https://atcoder.jp/contests/abc167/submissions/13704646)|
 ||§ 2.3.9|exercise|[Educational DP Contest K - Stones](https://atcoder.jp/contests/dp/tasks/dp_k)|||[ゲームDP](https://atcoder.jp/contests/dp/submissions/12026820)|
 ||§ 2.3.9|exercise|[Educational DP Contest L - Deque](https://atcoder.jp/contests/dp/tasks/dp_l)|||[ゲームDP](https://atcoder.jp/contests/dp/submissions/12078699)|
+|o|§ 2.3.9|exercise|[TDPC B ゲーム](https://atcoder.jp/contests/tdpc/tasks/tdpc_game)|||[ゲームDP(両者最大化するように)](https://atcoder.jp/contests/tdpc/submissions/14025858) or [ゲームDP(先手最大化、後手最小化するように)]()|
+|o|§ 2.3.9|exercise|[ABC 025 C - 双子と○×ゲーム](https://atcoder.jp/contests/abc025/tasks/abc025_c)|||[]()|
 ||§ 2.3.9|exercise|[ABC 078 D - ABS](https://atcoder.jp/contests/abc078/tasks/arc085_b)|||[ゲームDP](https://atcoder.jp/contests/abc078/submissions/14010930) or [パターンは2通り](https://atcoder.jp/contests/abc078/submissions/14008789)|
 ||§ 2.3.10|exercise|[TDPC I イゥイ](https://atcoder.jp/contests/tdpc/tasks/tdpc_iwi)|||[区間DP](https://atcoder.jp/contests/tdpc/submissions/12484423)|
 ||§ 2.3.10|exercise|[AOJ ALDS_10_B - 連鎖行列積](https://onlinejudge.u-aizu.ac.jp/problems/ALDS1_10_B)|||[区間DP](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_10_B/review/4290616/knknkn1162/C)|
@@ -200,15 +202,20 @@
 ||§ 2.3.12|exercise|[ABC 037 D 経路](https://atcoder.jp/contests/abc037/tasks/abc037_d)|||[out degreeに注意してDAG DP](https://atcoder.jp/contests/abc037/submissions/12767879)
 ||§ 2.3.12|exercise|[Educational DP Contest G - Longest Path](https://atcoder.jp/contests/dp/tasks/dp_g)|||[DAG DP](https://atcoder.jp/contests/dp/submissions/12015134)|
 ||§ 2.3.12|exercise|[Educational DP Contest H - Grid 1](https://atcoder.jp/contests/dp/tasks/dp_h)|||[DAG DP](https://atcoder.jp/contests/dp/submissions/12024953)|
+|||exercise|[JOI 2006 本選 D - 最悪の記者](https://atcoder.jp/contests/joi2007ho/tasks/joi2007ho_d)|||[]()|
 |o|§ 2.3.13|exercise|[JOI 2006 予選 F 通学経路](https://atcoder.jp/contests/joi2007yo/tasks/joi2007yo_f)|||[グリッドDP]()|
 |o|§ 2.3.14|exercise|[JOI 2012 予選 C 最高のピザ](https://atcoder.jp/contests/joi2012yo/tasks/joi2012yo_c)|||[]()|
 ||§ 2.3.15|example|部分文字列DP|[]()|||[貰うDP](./2.3.15/example.c) or [配るDP](./2.3.15/example2.c)|
 |o|§ 2.3.15|exercise|[ARC 081 E Don't Be a Subsequence](https://atcoder.jp/contests/arc081/tasks/arc081_c)|||[]()|
 ||§ 2.3.15|exercise|[ABC 104 D - We Love ABC](https://atcoder.jp/contests/abc104/tasks/abc104_d)|||[部分文字列DP(重複を許すパターン)](https://atcoder.jp/contests/abc104/submissions/13758841)|
 |o|§ 2.3.16|exercise|[TDPC O 文字列](https://atcoder.jp/contests/tdpc/tasks/tdpc_string)|||[]()|
-||§ 2.3.17|exercise|[TDPC D サイコロ](https://atcoder.jp/contests/tdpc/tasks/tdpc_dice)|||[多次元DP(条件以上となるように計算)](https://atcoder.jp/contests/tdpc/submissions/12709413)|
-||§ 2.3.17|exercise|[ABC 122 D - We Like AGC](https://atcoder.jp/contests/abc122/tasks/abc122_d)|||[多次元DP](https://atcoder.jp/contests/abc122/submissions/13558895)
-||§ 2.3.17|exercise|[Educational DP Contest J - Sushi](https://atcoder.jp/contests/dp/tasks/dp_j)|||[期待値、多次元DP](https://atcoder.jp/contests/dp/submissions/12036657)|
+|o|§ 2.3.16|exercise|[天下一プログラマーコンテスト 2015 本戦 E 天下一コップ](https://atcoder.jp/contests/tenka1-2015-final-open/tasks/tenka1_2015_final_e)|||[]()|
+|o|§ 2.3.16|exercise|[JOI 2018/2019 予選 F - 座席 (Seats)](https://atcoder.jp/contests/joi2019yo/tasks/joi2019_yo_f)|||[]()|
+|o|§ 2.3.17|exercise|[TDPC S マス目](https://atcoder.jp/contests/tdpc/tasks/tdpc_grid)|||[連結性DP]()|
+|o|§ 2.3.18|exercise|[TDPC T フィボナッチ](https://atcoder.jp/contests/tdpc/tasks/tdpc_fibonacci)|||[きたまさ法]()|
+||§ 2.3.19|exercise|[TDPC D サイコロ](https://atcoder.jp/contests/tdpc/tasks/tdpc_dice)|||[多次元DP(条件以上となるように計算)](https://atcoder.jp/contests/tdpc/submissions/12709413)|
+||§ 2.3.19|exercise|[ABC 122 D - We Like AGC](https://atcoder.jp/contests/abc122/tasks/abc122_d)|||[多次元DP](https://atcoder.jp/contests/abc122/submissions/13558895)
+||§ 2.3.19|exercise|[Educational DP Contest J - Sushi](https://atcoder.jp/contests/dp/tasks/dp_j)|||[期待値、多次元DP](https://atcoder.jp/contests/dp/submissions/12036657)|
 ||§ 2.4.1|example|[(POJ #2431 Expedition](http://poj.org/problem?id=2431)|||[max heap, 燃料を後で消費する](./2.4.1/poj2431.c)|
 ||§ 2.4.1|exercise|[ABC 127 D - Integer Cards](https://atcoder.jp/contests/abc127/tasks/abc127_d)|||[操作を最後に消費する(not 二分探索)](https://atcoder.jp/contests/abc127/submissions/13570674)|
 ||§ 2.4.1|exercise|[ABC 085 D - Katana Thrower](https://atcoder.jp/contests/abc085/tasks/abc085_d)|||[操作の順序の変更で不変, ソート](https://atcoder.jp/contests/abc085/submissions/13971067)|
