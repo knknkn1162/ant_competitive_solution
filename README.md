@@ -6,7 +6,7 @@
 + https://qiita.com/e869120/items/eb50fdaece12be418faa -> [problems & answers](https://github.com/knknkn1162/blue_e869120_100)
 + https://qiita.com/e869120/items/acba3dd8649d913102b5
 
-# problems
+# Problems & Solutions
 
 |TODO|idx|type|問題名|難易度|備考|方針/解答例|
 |---|---|---|---|---|---|---|
