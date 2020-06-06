@@ -34,6 +34,7 @@
 ||§ 1.8.1|exercise|[ABC 084 C - Special Trains](https://atcoder.jp/contests/abc084/tasks/abc084_c)|||[Nが小さいので全てシュミレート](https://atcoder.jp/contests/abc084/submissions/13975934)|
 ||§ 1.8.1|exercise|[ABC 090 D - Remainder Reminder](https://atcoder.jp/contests/abc090/tasks/arc091_b)|||[実装問題、K=0がコーナーケース](https://atcoder.jp/contests/abc090/submissions/13964782)|
 ||§ 1.8.1|exercise|[ABC 093 D - Worst Case](https://atcoder.jp/contests/abc093/tasks/arc094_b)|||[コーナーケースに注意して実装](https://atcoder.jp/contests/abc093/submissions/13979986) or [二分探索]()|
+||§ 1.8.1|exercise|[ABC 090 C - Flip,Flip, and Flip......](https://atcoder.jp/contests/abc090/tasks/arc091_a)|||[N,Mが2以下の場合のコーナーケースに注意して実装](https://atcoder.jp/contests/abc090/submissions/14058987)|
 ||§ 1.8.1|exercise|[AOJ 1149 - ケーキカット](https://onlinejudge.u-aizu.ac.jp/problems/1149)|||[実装問題、連結リスト](https://onlinejudge.u-aizu.ac.jp/solutions/problem/1149/review/4321489/knknkn1162/C)|
 ||§ 1.8.2|exercise|[ABC 092 D - Grid Components](https://atcoder.jp/contests/abc092/tasks/arc093_b)|||[構成問題、発想問題(パズル)](https://atcoder.jp/contests/abc092/submissions/13970569)|
 ||§ 1.8.2|exercise|[D - Decrease (Contestant ver.)](https://atcoder.jp/contests/abc068/tasks/arc079_b)|||[構成問題、(パズル)](https://atcoder.jp/contests/abc068/submissions/14043921)|
@@ -313,7 +314,7 @@
 ||§ 3.1.2|exercise|[ABC 023 D 射撃王](https://atcoder.jp/contests/abc023/tasks/abc023_d)|||[解を仮定してで二分検索(lower bound)](https://atcoder.jp/contests/abc023/submissions/11029093)|
 ||§ 3.1.2|exercise|[ARC 037 C 億マス計算](https://atcoder.jp/contests/arc037/tasks/arc037_c)|||[ソート -> 解を仮定し二分探索(upper bound) -> 判定でも二分探索(upper bound)](https://atcoder.jp/contests/arc037/submissions/12878074)|
 ||§ 3.1.2|exercise|[AOJ ALDS1_4_D 割り当て](https://onlinejudge.u-aizu.ac.jp/problems/ALDS1_4_D)|||[解を仮定して二分探索 -> 各探索値で線形探索](https://onlinejudge.u-aizu.ac.jp/problems/ALDS1_4_D) or [累積和, 解を仮定して二分探索 -> 各探索値で線形探索](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_4_D/review/4344863/knknkn1162/C)|
-||§ 3.1.2|exercise|[ABC 063 D - Widespread](https://atcoder.jp/contests/abc063/tasks/arc075_b)|||[解を仮定して二分探索](https://atcoder.jp/contests/abc063/submissions/14056494)|
+||§ 3.1.2|exercise|[ABC 063 D - Widespread](https://atcoder.jp/contests/abc063/tasks/arc075_b)|||[考察、解を仮定して二分探索](https://atcoder.jp/contests/abc063/submissions/14056494)|
 ||§ 3.1.2|exercise|[D - Calculating GCD](https://atcoder.jp/contests/judge-update-202004/tasks/judge_update_202004_d)|||[累積和(gcd) -> 二分探索](https://atcoder.jp/contests/judge-update-202004/submissions/12197056)|
 |o|§ 3.1.2|exercise|[ABC 155 D - Pairs](https://atcoder.jp/contests/abc155/tasks/abc155_d)|||[]()|
 ||§ 3.1.2|exercise|[ARC 050 B 花束](https://atcoder.jp/contests/arc050/tasks/arc050_b)|||[解を仮定して二分探索](https://atcoder.jp/contests/arc050/submissions/12885103)|
