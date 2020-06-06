@@ -21,29 +21,30 @@ int fget_array(int *arr, int size) {
     return 0;
 }
 
-#define NUM_MAX 200000
+#define NUM_MAX 100000
 
 int main(void) {
     int num = get_int();
-    static int arr[NUM_MAX+1];
-    fget_array(&arr[1], num);
-    static int map[NUM_MAX+1];
+    static int arr[NUM_MAX];
+    fget_array(arr, num);
     int i;
-    // A_i + i = j - A_j
-    for(i = 1; i <= num; i++) {
-        int val = arr[i]+i;
-        if(val <= NUM_MAX) map[val]++;
+    static int map[NUM_MAX+2];
+    int ans = 0;
+    for(i = 0; i < num; i++) {
+        if(arr[i] > NUM_MAX) {
+            ans++; // remove only
+        } else {
+            map[arr[i]]++;
+        }
     }
 
-    int64_t ans = 0;
-    for(i = num; i >= 1; i--) {
-        int val = arr[i]+i;
-        if(val <= NUM_MAX) map[val]--;
-        // j > i
-        int jval = i-arr[i];
-        if(jval >= 0) ans += map[jval];
+    for(i = 0; i <= NUM_MAX; i++) {
+        if(map[i] >= i) {
+            ans += map[i]-i;
+        } else {
+            ans += map[i];
+        }
     }
-
-    printf("%lld\n", ans);
+    printf("%d\n", ans);
     return 0;
 }

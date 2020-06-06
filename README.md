@@ -54,6 +54,7 @@
 ||§ 2.1.1|exercise|[ABC 166 D - I hate Factorization](https://atcoder.jp/contests/abc166/tasks/abc166_d)|||[上限決めて全探索](https://atcoder.jp/contests/abc166/submissions/13701621)|
 ||§ 2.1.1|exercise|[ABC 112 C - Pyramid](https://atcoder.jp/contests/abc112/tasks/abc112_c)|||[解を仮定して全探索](https://atcoder.jp/contests/abc112/submissions/13678639)|
 |o|§ 2.1.1|exercise|[ABC 088 C - Takahashi's Information](https://atcoder.jp/contests/abc088/tasks/abc088_c)|||[解を仮定して全探索]()|
+||§ 2.1.1|exercise|[ABC 060 D - Simple Knapsack](https://atcoder.jp/contests/abc060/tasks/arc073_b)|||[O(N^4)の全探索(4種類なので4乗ループ)](https://atcoder.jp/contests/abc060/submissions/14063654) or [K個を決め打ちで`dp[N][K][weight]`としてDP](https://atcoder.jp/contests/abc060/submissions/14062472)|
 ||§ 2.1.1|exercise|[ARC 029 A - 高橋君とお肉](https://atcoder.jp/contests/arc029/tasks/arc029_1)|||[bit全探索](https://atcoder.jp/contests/arc029/submissions/8502963)|
 ||§ 2.1.1|exercise|[ABC 167 C - Skill Up](https://atcoder.jp/contests/abc167/tasks/abc167_c)|||[bit全探索](https://atcoder.jp/contests/abc167/submissions/13454752)|
 ||§ 2.1.1|exercise|[ABC 119 C - Synthetic Kadomatsu](https://atcoder.jp/contests/abc119/tasks/abc119_c)|||[`4**num`のbit全探索](https://atcoder.jp/contests/abc119/submissions/13564242)|
@@ -137,7 +138,8 @@
 ||§ 2.3.1|example|[0-1ナップザック問題](https://onlinejudge.u-aizu.ac.jp/problems/DPL_1_B)|||[DP(引き継ぎ有り)](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_1_B/review/4508309/knknkn1162/C)|
 ||§ 2.3.1|exercise|[TDPC A コンテスト](https://atcoder.jp/contests/tdpc/tasks/tdpc_contest)|||[DP](https://atcoder.jp/contests/tdpc/submissions/12701720)|
 ||§ 2.3.1|exercise|[ABC 115 D - Christmas](https://atcoder.jp/contests/abc115/tasks/abc115_d)|||[DP](https://atcoder.jp/contests/abc115/submissions/13677608)|
-||§ 2.3.1|exercise|[ABC 015 D - 高橋くんの苦悩](https://atcoder.jp/contests/abc015/tasks/abc015_4)|
+||§ 2.3.1|exercise|[ABC 015 D - 高橋くんの苦悩](https://atcoder.jp/contests/abc015/tasks/abc015_4)|||[3次元DP](https://atcoder.jp/contests/abc015/submissions/12453036)|
+||§ 2.3.1|exercise|[ABC 060 D - Simple Knapsack](https://atcoder.jp/contests/abc060/tasks/arc073_b)|||see § 2.1.1|
 ||§ 2.3.1|exercise|[JOI 2012 予選 D 暑い日々](https://atcoder.jp/contests/joi2013yo/tasks/joi2013yo_d)|||[DP](https://atcoder.jp/contests/joi2013yo/submissions/11071917)|
 ||§ 2.3.1|exercise|[JOI 2012 予選 4 - パスタ](https://atcoder.jp/contests/joi2012yo/tasks/joi2012yo_d)|||[DP, 三項間漸化式](https://atcoder.jp/contests/joi2012yo/submissions/11063373)|
 ||§ 2.3.1|exercise|[ABC 082 D - FT Robot](https://atcoder.jp/contests/abc082/tasks/arc087_b)|||[ランレングス圧縮, 偶数と奇数で飛び飛びのDP](https://atcoder.jp/contests/abc082/submissions/13994214)|
@@ -237,18 +239,19 @@
 ||§ 2.4.1|exercise|[ABC 062 D - 3N Numbers](https://atcoder.jp/contests/arc074/tasks/arc074_b)|||[配列と逆配列をmin heap](https://atcoder.jp/contests/arc074/submissions/12810109)|
 ||§ 2.4.1|exercise|[ABC 116 D - Various Sushi](https://atcoder.jp/contests/abc116/tasks/abc116_d)|||[xをmaxから減らして貪欲法で、max heap](https://atcoder.jp/contests/abc116/submissions/13670407)|
 ||§ 2.4.2|exercise|[ABC 085 B Kagami Mochi](https://atcoder.jp/contests/abc085/tasks/abc085_b)|||[map](https://atcoder.jp/contests/abc085/submissions/7997905)|
+||§ 2.4.2|exercise|[ABC 091 B Two Colors Card Game](https://atcoder.jp/contests/abc091/tasks/abc091_b)|||[文字列のmap](https://atcoder.jp/contests/abc091/submissions/8001652)|
 ||§ 2.4.2|exercise|[ABC 098 B - Cut and Count](https://atcoder.jp/contests/abc098/tasks/abc098_b)|||[map](https://atcoder.jp/contests/abc098/submissions/13929585)|
 ||§ 2.4.2|exercise|[ABC 081 C - Not so Diverse](https://atcoder.jp/contests/abc081/tasks/arc086_a)|||[map, ソート](https://atcoder.jp/contests/abc081/submissions/14003881)|
 ||§ 2.4.2|exercise|[ABC 072 C - Together](https://atcoder.jp/contests/abc072/tasks/arc082_ahttps://atcoder.jp/contests/abc072/tasks/arc082_a)|||[map](https://atcoder.jp/contests/abc072/submissions/14023908)|
 ||§ 2.4.2|exercise|[ABC 111 C - /\\/\\/\\/](https://atcoder.jp/contests/abc111/tasks/arc103_a)|||[map](https://atcoder.jp/contests/abc111/submissions/13679666)|
 ||§ 2.4.2|exercise|[ABC 099 D - Good Grid](https://atcoder.jp/contests/abc099/tasks/abc099_d)|||[前処理、colorに対して全探索、map](https://atcoder.jp/contests/abc099/submissions/13838264)|
 ||§ 2.4.2|exercise|[ABC 110 C - String Transformation](https://atcoder.jp/contests/abc110/tasks/abc110_c)|||[map2つ(1対1対応のチェック)](https://atcoder.jp/contests/abc110/submissions/13679923)|
-||§ 2.4.2|exercise|[ABC 166 E - This Message Will Self-Destruct in 5s](https://atcoder.jp/contests/abc166/tasks/abc166_e)|||[hash](https://atcoder.jp/contests/abc166/submissions/13456209) or [mapで十分]()|
+||§ 2.4.2|exercise|[ABC 082 C - Good Sequence](https://atcoder.jp/contests/abc082/tasks/arc087_a)|||[上限決めてmap](https://atcoder.jp/contests/abc082/submissions/14064051)|
+||§ 2.4.2|exercise|[ABC 166 E - This Message Will Self-Destruct in 5s](https://atcoder.jp/contests/abc166/tasks/abc166_e)|||[上限決めてmap、 一方を固定](https://atcoder.jp/contests/abc166/submissions/14064541)|
 ||§ 2.4.2|exercise|[ABC 143 D - Triangles](https://atcoder.jp/contests/abc143/tasks/abc143_d)|||[map, 累積和](https://atcoder.jp/contests/abc143/submissions/13893107)|
 ||§ 2.4.2|exercise|[ABC 105 D - Candy Distribution](https://atcoder.jp/contests/abc105/tasks/abc105_d)|||[累積和のmap](https://atcoder.jp/contests/abc105/submissions/13742036)|
-|o|§ 2.4.2|exercise|[ABC 091 B Two Colors Card Game](https://atcoder.jp/contests/abc091/tasks/abc091_b)|||[]()|
-||§ 2.4.2.1|exercise|[ABC 158 E - Divisible Substring](https://atcoder.jp/contests/abc158/tasks/abc158_e)|||[剰余、累積和のmap, P=2,5がコーナーケース](https://atcoder.jp/contests/abc158/submissions/13974521)|
-||§ 2.4.2.1|exercise|[ABC 164 D - Multiple of 2019](https://atcoder.jp/contests/abc164/tasks/abc164_d)|||[剰余、累積和のmap](https://atcoder.jp/contests/abc164/submissions/12546914)|
+||§ 2.4.2.1|exercise|[ABC 158 E - Divisible Substring](https://atcoder.jp/contests/abc158/tasks/abc158_e)|||[剰余、map, 一方を固定、P=2,5がコーナーケース](https://atcoder.jp/contests/abc158/submissions/13974521)|
+||§ 2.4.2.1|exercise|[ABC 164 D - Multiple of 2019](https://atcoder.jp/contests/abc164/tasks/abc164_d)|||[剰余、map、一方を固定](https://atcoder.jp/contests/abc164/submissions/12546914)|
 ||§ 2.4.2.1|exercise|[ABC 096 D - Five, Five Everywhere](https://atcoder.jp/contests/abc096/submissions/13919563)|||[構成問題、発想問題、数学的考察、同じ剰余の数を集める, map](https://atcoder.jp/contests/abc096/submissions/13919563)|
 ||§ 2.4.3|example|[POJ #1182 食物連鎖](http://poj.org/problem?id=1182)|||[3×numberのunion find](./2.4.3/poj1182.c)|
 ||§ 2.4.3|exercise|[ATC 001 B Union Find](https://atcoder.jp/contests/atc001/tasks/unionfind_a)|||[Union Find](https://atcoder.jp/contests/atc001/submissions/12844290)|
