@@ -409,5 +409,5 @@
 |o|§ 4.4.1|exercise|[ABC 064 D Insertion](https://atcoder.jp/contests/abc064/tasks/abc064_d)|||[]()|
 |o|§ 4.4.1|exercise|[ARC 076 E Connected?](https://atcoder.jp/contests/arc076/tasks/arc076_c)|||[]()|
 ||§ 4.4.2|example|[DSL_3_D Sliding Minimum Element(スライド最小値)](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_3_D)|||[deque, (二分探索)](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_3_D/review/4476479/knknkn1162/C) or [セグメント木(RMQ)](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_3_D/review/4480940/knknkn1162/C)|
-||§ 4.4.2|exercise|[ABC 066 C pushpush](https://atcoder.jp/contests/arc077/tasks/arc077_a)||[deque(pushのみ)](https://atcoder.jp/contests/abc066/submissions/14032033)|
+||§ 4.4.2|exercise|[ABC 066 C pushpush](https://atcoder.jp/contests/arc077/tasks/arc077_a)|||[deque(pushのみ)](https://atcoder.jp/contests/abc066/submissions/14032033)|
 ||misc|exercise|[ABC 123 C - Five Transportations](https://atcoder.jp/contests/abc123/tasks/abc123_c)|||[ボトルネックを考える](https://atcoder.jp/contests/abc123/submissions/13536398)|
