@@ -58,7 +58,7 @@
 ||§ 2.1.1|exercise|[ABC 080 C - Shopping Street](https://atcoder.jp/contests/abc080/tasks/abc080_c)|||[問題文を解釈, bit全探索](https://atcoder.jp/contests/abc080/submissions/13998177)|
 ||§ 2.1.1|exercise|[ABC 128 C - Switches](https://atcoder.jp/contests/abc128/tasks/abc128_c)|||[bit全探索,ややこしい](https://atcoder.jp/contests/abc128/submissions/10586194)|
 |o|§ 2.1.2|example|[POJ No.2386 Lake Counting](http://poj.org/problem?id=2386)|||[DFS]()|
-|o|§ 2.1.2|exercise|[ABC 037 B - バウムテスト](https://atcoder.jp/contests/arc037/tasks/arc037_b)|||[]()|
+||§ 2.1.2|exercise|[ABC 037 B - バウムテスト](https://atcoder.jp/contests/arc037/tasks/arc037_b)|||[木上のDFS](https://atcoder.jp/contests/arc037/submissions/14048531) or [Union Find木](https://atcoder.jp/contests/arc037/submissions/8527737)|
 ||§ 2.1.2|exercise|[](https://atcoder.jp/contests/arc031/tasks/arc031_2)|||[stack版DFS](https://atcoder.jp/contests/arc031/submissions/8516977)|
 ||§ 2.1.2|exercise|[AOJ #1160 Problem B: 島はいくつある？](https://onlinejudge.u-aizu.ac.jp/problems/1160)|||[DFS](https://onlinejudge.u-aizu.ac.jp/solutions/problem/1160/review/4359287/knknkn1162/C)|
 ||§ 2.1.2|exercise|[ABC 067 D - Fennec VS. Snuke](https://atcoder.jp/contests/abc067/tasks/arc078_b)|||[木上のDFS](https://atcoder.jp/contests/abc067/submissions/14047474)|
