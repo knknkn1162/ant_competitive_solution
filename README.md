@@ -406,10 +406,10 @@
 ||§ 3.6.1|exercise|[ABC 100 D - Patisserie ABC](https://atcoder.jp/contests/abc100/tasks/abc100_d)|||重心計算、see §2.2.4|
 ||§ 4.4.1|example|[DPL_3_C ヒストグラムの中の最大長方形](https://onlinejudge.u-aizu.ac.jp/problems/DPL_3_C)|||[stack](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_3_C/review/4517877/knknkn1162/C)|
 ||§ 4.4.1|exercise|[DPL_3_B 最大長方形](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_3_B)|||[stack](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_3_B/review/4517704/knknkn1162/C) or [O(N^3)の解法](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_3_B/review/4517487/knknkn1162/C)|
+||§ 4.4.1|exercise|[ABC 064 D - Insertion](https://atcoder.jp/contests/abc064/tasks/abc064_d)|||[stack](https://atcoder.jp/contests/abc064/submissions/14057917)|
 ||§ 4.4.1|exercise|[Areas on the Cross-Section Diagram](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/all/ALDS1_3_D)|||[stack 2つ](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_3_D/review/4519048/knknkn1162/C)|
 |o|§ 4.4.1|exercise|[KUPC 2013 D カーペット](https://atcoder.jp/contests/kupc2013/tasks/kupc2013_d)|||[]()|
 |o|§ 4.4.1|exercise|[ARC 081 F Flip and Rectangles](https://atcoder.jp/contests/arc081/tasks/arc081_d)|||[]()|
-|o|§ 4.4.1|exercise|[ABC 064 D Insertion](https://atcoder.jp/contests/abc064/tasks/abc064_d)|||[]()|
 |o|§ 4.4.1|exercise|[ARC 076 E Connected?](https://atcoder.jp/contests/arc076/tasks/arc076_c)|||[]()|
 ||§ 4.4.2|example|[DSL_3_D Sliding Minimum Element(スライド最小値)](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_3_D)|||[deque, (二分探索)](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_3_D/review/4476479/knknkn1162/C) or [セグメント木(RMQ)](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_3_D/review/4480940/knknkn1162/C)|
 ||§ 4.4.2|exercise|[ABC 066 C pushpush](https://atcoder.jp/contests/arc077/tasks/arc077_a)|||[deque(pushのみ)](https://atcoder.jp/contests/abc066/submissions/14032033)|
