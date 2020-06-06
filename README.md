@@ -248,11 +248,11 @@
 ||§ 2.4.2|exercise|[ABC 099 D - Good Grid](https://atcoder.jp/contests/abc099/tasks/abc099_d)|||[前処理、colorに対して全探索、map](https://atcoder.jp/contests/abc099/submissions/13838264)|
 ||§ 2.4.2|exercise|[ABC 110 C - String Transformation](https://atcoder.jp/contests/abc110/tasks/abc110_c)|||[map2つ(1対1対応のチェック)](https://atcoder.jp/contests/abc110/submissions/13679923)|
 ||§ 2.4.2|exercise|[ABC 143 D - Triangles](https://atcoder.jp/contests/abc143/tasks/abc143_d)|||[map, 累積和](https://atcoder.jp/contests/abc143/submissions/13893107)|
-||§ 2.4.2|exercise|[ABC 105 D - Candy Distribution](https://atcoder.jp/contests/abc105/tasks/abc105_d)|||[累積和のmap](https://atcoder.jp/contests/abc105/submissions/13742036)|
 ||§ 2.4.2|exercise|[ABC 082 C - Good Sequence](https://atcoder.jp/contests/abc082/tasks/arc087_a)|||[上限決めてmap](https://atcoder.jp/contests/abc082/submissions/14064051)|
 ||§ 2.4.2|exercise|[ABC 166 E - This Message Will Self-Destruct in 5s](https://atcoder.jp/contests/abc166/tasks/abc166_e)|||[上限決めてmap、 一方を固定](https://atcoder.jp/contests/abc166/submissions/14064541)|
-||§ 2.4.2.1|exercise|[ABC 158 E - Divisible Substring](https://atcoder.jp/contests/abc158/tasks/abc158_e)|||[剰余、map, 一方を固定、P=2,5がコーナーケース](https://atcoder.jp/contests/abc158/submissions/13974521)|
-||§ 2.4.2.1|exercise|[ABC 164 D - Multiple of 2019](https://atcoder.jp/contests/abc164/tasks/abc164_d)|||[剰余、map、一方を固定](https://atcoder.jp/contests/abc164/submissions/12546914)|
+||§ 2.4.2|exercise|[ABC 105 D - Candy Distribution](https://atcoder.jp/contests/abc105/tasks/abc105_d)|||[累積和のmap](https://atcoder.jp/contests/abc105/submissions/14068116)|
+||§ 2.4.2.1|exercise|[ABC 158 E - Divisible Substring](https://atcoder.jp/contests/abc158/tasks/abc158_e)|||[剰余、累積和のmap, 一方を固定、P=2,5がコーナーケース](https://atcoder.jp/contests/abc158/submissions/13974521)|
+||§ 2.4.2.1|exercise|[ABC 164 D - Multiple of 2019](https://atcoder.jp/contests/abc164/tasks/abc164_d)|||[剰余、累積和のmap、一方を固定](https://atcoder.jp/contests/abc164/submissions/12546914)|
 ||§ 2.4.2.1|exercise|[ABC 096 D - Five, Five Everywhere](https://atcoder.jp/contests/abc096/submissions/13919563)|||[構成問題、発想問題、数学的考察、同じ剰余の数を集める, map](https://atcoder.jp/contests/abc096/submissions/13919563)|
 ||§ 2.4.3|example|[POJ #1182 食物連鎖](http://poj.org/problem?id=1182)|||[3×numberのunion find](./2.4.3/poj1182.c)|
 ||§ 2.4.3|exercise|[ATC 001 B Union Find](https://atcoder.jp/contests/atc001/tasks/unionfind_a)|||[Union Find](https://atcoder.jp/contests/atc001/submissions/12844290)|
@@ -308,6 +308,7 @@
 ||§ 2.6.7|exercise|[ABC 101 C - Minimization](https://atcoder.jp/contests/abc101/tasks/arc099_a)|||[考察(数列の形によらない)](https://atcoder.jp/contests/abc101/submissions/13770626)|
 ||§ 2.6.7|exercise|[DDCC2020 予選 D - Digit Sum Replace](https://atcoder.jp/contests/ddcc2020-qual/tasks/ddcc2020_qual_d)|||[数学的考察(数字の遷移方法は2パターンのうちどれか)](https://atcoder.jp/contests/ddcc2020-qual/submissions/11700593)|
 ||§ 2.6.7|exercise|[ABC 126 F - XOR Matching](https://atcoder.jp/contests/abc126/tasks/abc126_f)|||[数学的考察](https://atcoder.jp/contests/abc126/submissions/13534345)|
+||§ 2.6.7|exercise|[ABC 096 D - Five, Five Everywhere](https://atcoder.jp/contests/abc096/submissions/13919563)|||数学的考察、発想問題 see § 2.4.2.1|
 ||§ 2.7.1|example|[GCJ Problem A. Minimum Scalar Product](https://code.google.com/codejam/contest/32016/dashboard)|||[ソート, 貪欲法](./2.7.1/gcj32016.c)
 |o|§ 3.1.1|example|lower bound|||[lower bound](./3.1.1/example.c)|
 ||§ 3.1.1|exrcise|[AOJ ALDS_1_4_B 二分探索](https://onlinejudge.u-aizu.ac.jp/problems/ALDS1_4_B)|||see § 2.2.4.1|
