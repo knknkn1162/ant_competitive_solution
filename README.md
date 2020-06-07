@@ -252,12 +252,12 @@
 ||§ 2.4.2|exercise|[ABC 110 C - String Transformation](https://atcoder.jp/contests/abc110/tasks/abc110_c)|||[map2つ(1対1対応のチェック)](https://atcoder.jp/contests/abc110/submissions/13679923)|
 ||§ 2.4.2|exercise|[ABC 143 D - Triangles](https://atcoder.jp/contests/abc143/tasks/abc143_d)|||[map, 累積和](https://atcoder.jp/contests/abc143/submissions/13893107)|
 ||§ 2.4.2|exercise|[ABC 082 C - Good Sequence](https://atcoder.jp/contests/abc082/tasks/arc087_a)|||[上限決めてmap](https://atcoder.jp/contests/abc082/submissions/14064051)|
-||§ 2.4.2|exercise|[ABC 166 E - This Message Will Self-Destruct in 5s](https://atcoder.jp/contests/abc166/tasks/abc166_e)|||[総和総数問題、上限決めてmap、 一方を固定](https://atcoder.jp/contests/abc166/submissions/14064541)|
-||§ 2.4.2|exercise|[AGC 023 A - Zero-Sum Ranges](https://atcoder.jp/contests/agc023/tasks/agc023_a)|||[累積和をmap, 一方を固定](https://atcoder.jp/contests/agc023/submissions/14078150)|
-||§ 2.4.2|exercise|[ABC 105 D - Candy Distribution](https://atcoder.jp/contests/abc105/tasks/abc105_d)|||[区間上の総和総数問題、累積和をmap](https://atcoder.jp/contests/abc105/submissions/14068116)|
+||§ 2.4.2|exercise|[ABC 096 D - Five, Five Everywhere](https://atcoder.jp/contests/abc096/submissions/13919563)|||[構成問題、発想問題、数学的考察、同じ剰余の数を集める, map](https://atcoder.jp/contests/abc096/submissions/13919563)|
+||§ 2.4.2.1|exercise|[AGC 023 A - Zero-Sum Ranges](https://atcoder.jp/contests/agc023/tasks/agc023_a)|||[区間上の総和総数問題、累積和をmap, 一方を固定](https://atcoder.jp/contests/agc023/submissions/14078150)|
+||§ 2.4.2.1|exercise|[ABC 105 D - Candy Distribution](https://atcoder.jp/contests/abc105/tasks/abc105_d)|||[区間上の総和総数問題、累積和をmap](https://atcoder.jp/contests/abc105/submissions/14068116)|
 ||§ 2.4.2.1|exercise|[ABC 158 E - Divisible Substring](https://atcoder.jp/contests/abc158/tasks/abc158_e)|||[区間上の総和総数問題、剰余、累積和をmap, 一方を固定、P=2,5がコーナーケース](https://atcoder.jp/contests/abc158/submissions/13974521)|
 ||§ 2.4.2.1|exercise|[ABC 164 D - Multiple of 2019](https://atcoder.jp/contests/abc164/tasks/abc164_d)|||[区間上の総和総数問題、剰余、累積和をmap、一方を固定](https://atcoder.jp/contests/abc164/submissions/12546914)|
-||§ 2.4.2.1|exercise|[ABC 096 D - Five, Five Everywhere](https://atcoder.jp/contests/abc096/submissions/13919563)|||[構成問題、発想問題、数学的考察、同じ剰余の数を集める, map](https://atcoder.jp/contests/abc096/submissions/13919563)|
+||§ 2.4.2.1|exercise|[ABC 166 E - This Message Will Self-Destruct in 5s](https://atcoder.jp/contests/abc166/tasks/abc166_e)|||[総和総数問題、上限決めてmap、 一方を固定](https://atcoder.jp/contests/abc166/submissions/14064541)|
 ||§ 2.4.3|example|[POJ #1182 食物連鎖](http://poj.org/problem?id=1182)|||[3×numberのunion find](./2.4.3/poj1182.c)|
 ||§ 2.4.3|exercise|[ATC 001 B Union Find](https://atcoder.jp/contests/atc001/tasks/unionfind_a)|||[Union Find](https://atcoder.jp/contests/atc001/submissions/12844290)|
 ||§ 2.4.3|exercise|[ABC 049 D 連結](https://atcoder.jp/contests/abc049/tasks/arc065_b)|||[union find, ハッシュ](https://atcoder.jp/contests/abc049/submissions/12697315)|
