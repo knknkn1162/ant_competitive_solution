@@ -102,6 +102,7 @@
 ||§ 2.2.2|exercise|[Codeforces Round #296 B. Clique Problem](http://codeforces.com/contest/528/problem/B)|||[区間スケジューリング問題に帰着, 貪欲法](http://codeforces.com/contest/528/submission/78082567)|
 ||§ 2.2.3|example|[POJ 3617 Best Cow Line](http://poj.org/problem?id=3617)|||[予め反転した文字列も用意して貪欲法](./2.2.3/poj3617.c)|
 ||§ 2.2.3|exercise|[ABC 076 C - Dubious Document 2](https://atcoder.jp/contests/abc076/tasks/abc076_c)|||[後ろから走査](https://atcoder.jp/contests/abc076/submissions/12324748)|
+||§ 2.2.3|exercise|[ABC 049 C - 白昼夢](https://atcoder.jp/contests/abc049/tasks/arc065_a)|||[後ろから走査](https://atcoder.jp/contests/abc049/submissions/12314491)|
 ||§ 2.2.3|exercise|[ABC 007 B - 辞書式順序](https://atcoder.jp/contests/abc007/tasks/abc007_2)|||['a' or -1を出力](https://atcoder.jp/contests/abc007/submissions/12324882)|
 |o|§ 2.2.3|exercise|[ABC 009 C - 辞書式順序ふたたび](https://atcoder.jp/contests/abc009/tasks/abc009_3)|||[]()|
 ||§ 2.2.3|exercise|[ABC 160 E - Red and Green Apples](https://atcoder.jp/contests/abc160/tasks/abc160_e)|||[ソート -> 貪欲法](https://atcoder.jp/contests/abc160/submissions/11773599)|
@@ -291,6 +292,7 @@
 |o|§ 2.5.4|exercise|[UTPC 2013 H Asteroids2](https://atcoder.jp/contests/utpc2013/tasks/utpc2013_08)|||[考察、牛ゲー, ベルマンフォード法]()|
 ||§ 2.5.5|exercise|[ABC 012 D - バスと避けられない運命](https://atcoder.jp/contests/abc012/tasks/abc012_4)|||[Warshal Fyold](https://atcoder.jp/contests/abc012/submissions/11640675)|
 ||§ 2.5.5|exercise|[ABC 073 D - joisino's travel](https://atcoder.jp/contests/abc073/tasks/abc073_d)|||[ワーシャルフロイド法, permutation](https://atcoder.jp/contests/abc073/submissions/12688097)|
+||§ 2.5.5|exercise|[ABC 051 D - Candidates of No Shortest Paths](https://atcoder.jp/contests/abc051/tasks/abc051_d)|||[ワーシャルフロイド法](https://atcoder.jp/contests/abc051/submissions/14096890)|
 ||§ 2.5.5|exercise|[ABC 079 D - Wall](https://atcoder.jp/contests/abc079/tasks/abc079_d)|||[2次元をgraphに見立ててワーシャルフロイド法, map](https://atcoder.jp/contests/abc079/submissions/11641009)|
 |o|§ 2.5.5|exercise|[AOJ DPL_2_B 中国人郵便配達問題](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_2_B)|||[ワーシャルフロイド法、bitDP]()|
 |o|§ 2.6.1|example|線分上の格子点の個数|||[]()|
