@@ -13,13 +13,17 @@
 |o|§ 1.1.1|example|くじ引き|||[半分全列挙]()|
 ||§ 1.1.1|exercise|[JOI 2007 本選 C ダーツ](https://atcoder.jp/contests/joi2008ho/tasks/joi2008ho_c)|||see § 3.1.1|
 ||§ 1.2.1|exercise|[ABC 128 B - Guidebook](https://atcoder.jp/contests/abc128/tasks/abc128_b)|||[qsort](https://atcoder.jp/contests/abc128/submissions/13587446)|
+||§ 1.3.1|example|[ABC 169 C - Multiplication 3](https://atcoder.jp/contests/abc169/tasks/abc169_c)|||[100倍して整数として計算](https://atcoder.jp/contests/abc169/submissions/13939660)|
+||§ 1.3.1|exercise|[POJ No.1064 Cable Master](http://poj.org/problem?id=1064)|||see § 3.1.2|
+||§ 1.3.1|exercise|[パナソニックプログラミングコンテスト2020 C - Sqrt Inequality](https://atcoder.jp/contests/panasonic2020/tasks/panasonic2020_c)|||[2乗して整数の形に](https://atcoder.jp/contests/panasonic2020/submissions/13942134)|
 ||§ 1.6.1|example|三角形|||[降順にソート-> 連続した3つを調べる](./1.6.1/triangle.c)|
 ||§ 1.6.1|exercise|[ABC 121 C - Energy Drink Collector](https://atcoder.jp/contests/abc121/tasks/abc121_c)|||[安い順にソート](https://atcoder.jp/contests/abc121/submissions/13685701)|
 ||§ 1.6.1|example|[ABC 115 C - Christmas Eve](https://atcoder.jp/contests/abc115/tasks/abc115_c)|||[ソート](https://atcoder.jp/contests/abc115/submissions/13676383)|
 ||§ 1.6.1|example|[ABC 082 B - Two Anagrams](https://atcoder.jp/contests/abc082/tasks/abc082_b)|||[2つの文字列をそれぞれ昇順、降順にソート](https://atcoder.jp/contests/abc082/submissions/14002733)|
-||§ 1.6.2|example|[ABC 169 C - Multiplication 3](https://atcoder.jp/contests/abc169/tasks/abc169_c)|||[100倍して整数として計算](https://atcoder.jp/contests/abc169/submissions/13939660)|
-||§ 1.6.2|exercise|[POJ No.1064 Cable Master](http://poj.org/problem?id=1064)|||see § 3.1.2|
-||§ 1.6.2|exercise|[パナソニックプログラミングコンテスト2020 C - Sqrt Inequality](https://atcoder.jp/contests/panasonic2020/tasks/panasonic2020_c)|||[2乗して整数の形に](https://atcoder.jp/contests/panasonic2020/submissions/13942134)|
+||§ 1.6.1|exercise|[ABC 094 C - Many Medians](https://atcoder.jp/contests/abc094/tasks/arc095_a)|||[中央値、ソート](https://atcoder.jp/contests/abc094/submissions/13910628)|
+||§ 1.6.2|exercise|[ABC 100 D - Patisserie ABC](https://atcoder.jp/contests/abc100/tasks/abc100_d)|||[発想問題、符号決め打ちでソート](https://atcoder.jp/contests/abc100/submissions/13889053)|
+|o|§ 1.6.2|exercise|[ABC 123 D - Cake 123](https://atcoder.jp/contests/abc123/tasks/abc123_d)|||[解の候補を絞ってソート](https://atcoder.jp/contests/abc123/submissions/13557424) or [priority queue]() or [二分探索]()|
+||§ 1.6.2|exercise|[ABC 097 C - K-th Substring](https://atcoder.jp/contests/abc097/tasks/arc097_a)|||[解の候補を絞ってソート](https://atcoder.jp/contests/abc097/submissions/13911362)|
 ||§ 1.7.1|exercise|[ABC 126 C - Dice and Coin](https://atcoder.jp/contests/abc126/tasks/abc126_c)|||[確率](https://atcoder.jp/contests/abc126/submissions/13467645)|
 ||§ 1.7.1|exercise|[ABC 078 C - HSI](https://atcoder.jp/contests/abc078/tasks/arc085_a)|||[期待値](https://atcoder.jp/contests/abc078/submissions/14014840)|
 ||§ 1.7.1|exercise|[Educational DP Contest J - Sushi](https://atcoder.jp/contests/dp/tasks/dp_j)|||期待値 see § 2.3.17|
@@ -46,7 +50,7 @@
 ||§ 1.9.1|exercise|[ABC 037 C - 総和](https://atcoder.jp/contests/abc037/tasks/abc037_c)|||[総和総数問題、個数計算にmin使用](https://atcoder.jp/contests/abc037/submissions/14069008)|
 ||§ 1.9.1|exercise|[ABC 117 D - XXOR](https://atcoder.jp/contests/abc117/tasks/abc117_d)|||[maxを用いて適宜更新](https://atcoder.jp/contests/abc117/submissions/13596002)|
 ||§ 1.9.1|exercise|[ABC 102 C - Linear Approximation](https://atcoder.jp/contests/abc102/tasks/arc100_a)|||[中央値](https://atcoder.jp/contests/abc102/submissions/13756922)|
-||§ 1.9.1|exercise|[ABC 094 C - Many Medians](https://atcoder.jp/contests/abc094/tasks/arc095_a)|||[中央値、ソート](https://atcoder.jp/contests/abc094/submissions/13910628)|
+||§ 1.9.1|exercise|[ABC 094 C - Many Medians](https://atcoder.jp/contests/abc094/tasks/arc095_a)|||中央値。see § 1.6.1|
 ||§ 1.9.1|exercise|[Square869120Contest #6 B - AtCoder Markets](https://atcoder.jp/contests/s8pc-6/tasks/s8pc_6_b)|||中央値。see §2.2.4|
 ||§ 2.1.0|exercise|[ABC 114 C - 755](https://atcoder.jp/contests/abc114/tasks/abc114_c)|||[再帰関数](https://atcoder.jp/contests/abc114/submissions/13677743)|
 ||§ 2.1.0|exercise|[ABC 161 D - Lunlun Number](https://atcoder.jp/contests/abc161/tasks/abc161_d)|||[再帰関数で条件を満たす数をstackに](https://atcoder.jp/contests/abc161/submissions/13688600)|
@@ -101,15 +105,13 @@
 ||§ 2.2.3|exercise|[ABC 007 B - 辞書式順序](https://atcoder.jp/contests/abc007/tasks/abc007_2)|||['a' or -1を出力](https://atcoder.jp/contests/abc007/submissions/12324882)|
 |o|§ 2.2.3|exercise|[ABC 009 C - 辞書式順序ふたたび](https://atcoder.jp/contests/abc009/tasks/abc009_3)|||[]()|
 ||§ 2.2.3|exercise|[ABC 160 E - Red and Green Apples](https://atcoder.jp/contests/abc160/tasks/abc160_e)|||[ソート -> 貪欲法](https://atcoder.jp/contests/abc160/submissions/11773599)|
-||§ 2.2.4|example|[POJ 3069 Saruman's Army](http://poj.org/problem?id=3069)|||[昇順にソート->貪欲](./2.2.4/poj3069.c)|
-||§ 2.2.4|exercise|[Square869120Contest #6 B - AtCoder Markets](https://atcoder.jp/contests/s8pc-6/tasks/s8pc_6_b)|||[発想問題、全探索(要工夫),中央値](https://atcoder.jp/contests/s8pc-6/submissions/10662359)|
-||§ 2.2.4|exercise|[ABC 107 C - Candles](https://atcoder.jp/contests/abc107/tasks/arc101_a)|||see §1.9.1|
-||§ 2.2.4|exercise|[ABC 117 C - Streamline](https://atcoder.jp/contests/abc117/tasks/abc117_c)|||[発想問題、区間のソート -> 貪欲](https://atcoder.jp/contests/abc117/submissions/13594719)|
-||§ 2.2.4|exercise|[ABC 100 D - Patisserie ABC](https://atcoder.jp/contests/abc100/tasks/abc100_d)|||[発想問題、符号決め打ちでソート](https://atcoder.jp/contests/abc100/submissions/13889053)|
-|o|§ 2.2.4|exercise|[ABC 123 D - Cake 123](https://atcoder.jp/contests/abc123/tasks/abc123_d)|||[解の候補を絞ってソート](https://atcoder.jp/contests/abc123/submissions/13557424) or [priority queue]() or [二分探索]()|
-||§ 2.2.4|exercise|[ABC 097 C - K-th Substring](https://atcoder.jp/contests/abc097/tasks/arc097_a)|||[解の候補を絞ってソート](https://atcoder.jp/contests/abc097/submissions/13911362)|
-||§ 2.2.4|exercise|[ABC 153 F - Silver Fox vs Monster](https://atcoder.jp/contests/abc153/tasks/abc153_f)|||see § 3.3.1|
+||§ 2.2.4|example|[POJ 3069 Saruman's Army](http://poj.org/problem?id=3069)|||[線分上の点問題、昇順にソート->貪欲](./2.2.4/poj3069.c)|
+||§ 2.2.4|exercise|[Square869120Contest #6 B - AtCoder Markets](https://atcoder.jp/contests/s8pc-6/tasks/s8pc_6_b)|||[線分上の点問題、発想問題、全探索(要工夫),中央値](https://atcoder.jp/contests/s8pc-6/submissions/10662359)|
+||§ 2.2.4|exercise|[ABC 107 C - Candles](https://atcoder.jp/contests/abc107/tasks/arc101_a)|||線分上の点問題、see §1.9.1|
+||§ 2.2.4|exercise|[ABC 117 C - Streamline](https://atcoder.jp/contests/abc117/tasks/abc117_c)|||[線分上の点問題、発想問題、区間のソート -> 貪欲](https://atcoder.jp/contests/abc117/submissions/13594719)|
+||§ 2.2.4|exercise|[ABC 153 F - Silver Fox vs Monster](https://atcoder.jp/contests/abc153/tasks/abc153_f)|||線分上の点問題、see § 3.3.1|
 ||§ 2.2.4|exercise|[AOJ ALDS1_15_B 有理ナップサック問題](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/all/ALDS1_15_B)|||[貪欲法](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_15_B/review/3980743/knknkn1162/C)|
+||§ 2.2.4|exercise|[ABC 055 D - Menagerie](https://atcoder.jp/contests/abc055/tasks/arc069_b)|||[構成問題、貪欲法](https://atcoder.jp/contests/abc055/submissions/14089231)|
 ||§ 2.2.4|exercise|[ABC 083 C - Multiple Gift](https://atcoder.jp/contests/abc083/tasks/arc088_a)|||[貪欲](https://atcoder.jp/contests/abc083/submissions/12356089)|
 ||§ 2.2.4|exercise|[ABC 072 D - Derangement](https://atcoder.jp/contests/abc072/tasks/arc082_b)|||[スワップ問題、貪欲で](https://atcoder.jp/contests/abc072/submissions/14043190)|
 ||§ 2.2.4|exercise|[ARC 006 C - 積み重ね](https://atcoder.jp/contests/arc006/tasks/arc006_3)|||[無駄が出ないように貪欲で](https://atcoder.jp/contests/arc006/submissions/12377963)|
