@@ -264,6 +264,7 @@
 ||§ 2.4.2|exercise|[ABC 111 C - /\\/\\/\\/](https://atcoder.jp/contests/abc111/tasks/arc103_a)|||[map](https://atcoder.jp/contests/abc111/submissions/13679666)|
 ||§ 2.4.2|exercise|[ABC 099 D - Good Grid](https://atcoder.jp/contests/abc099/tasks/abc099_d)|||[前処理、colorに対して全探索、map](https://atcoder.jp/contests/abc099/submissions/13838264)|
 ||§ 2.4.2|exercise|[ABC 110 C - String Transformation](https://atcoder.jp/contests/abc110/tasks/abc110_c)|||[map2つ(1対1対応のチェック)](https://atcoder.jp/contests/abc110/submissions/13679923)|
+||§ 2.4.2|exercise|[ABC 061 C - Big Array](https://atcoder.jp/contests/abc061/tasks/abc061_c)|||[map, 累積和](https://atcoder.jp/contests/abc061/submissions/14114218)|
 ||§ 2.4.2|exercise|[ABC 143 D - Triangles](https://atcoder.jp/contests/abc143/tasks/abc143_d)|||[map, 累積和](https://atcoder.jp/contests/abc143/submissions/13893107)|
 ||§ 2.4.2|exercise|[ABC 082 C - Good Sequence](https://atcoder.jp/contests/abc082/tasks/arc087_a)|||[上限決めてmap](https://atcoder.jp/contests/abc082/submissions/14064051)|
 ||§ 2.4.2|exercise|[ABC 053 D - Card Eater](https://atcoder.jp/contests/abc053/tasks/arc068_b)|||[map, 減らせる枚数は2枚](https://atcoder.jp/contests/abc053/submissions/14095470)|
