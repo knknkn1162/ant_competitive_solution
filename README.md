@@ -150,10 +150,11 @@
 ||§ 2.3.1|exercise|[TDPC A コンテスト](https://atcoder.jp/contests/tdpc/tasks/tdpc_contest)|||[DP](https://atcoder.jp/contests/tdpc/submissions/12701720)|
 ||§ 2.3.1|exercise|[ABC 115 D - Christmas](https://atcoder.jp/contests/abc115/tasks/abc115_d)|||[DP](https://atcoder.jp/contests/abc115/submissions/13677608)|
 ||§ 2.3.1|exercise|[ABC 015 D - 高橋くんの苦悩](https://atcoder.jp/contests/abc015/tasks/abc015_4)|||[3次元DP](https://atcoder.jp/contests/abc015/submissions/12453036)|
+||§ 2.3.1|exercise|[ABC 054 D - Mixing Experiment](https://atcoder.jp/contests/abc054/tasks/abc054_d)|||[3次元DP](https://atcoder.jp/contests/abc054/submissions/14109704)|
 ||§ 2.3.1|exercise|[ABC 060 D - Simple Knapsack](https://atcoder.jp/contests/abc060/tasks/arc073_b)|||see § 2.1.1|
 ||§ 2.3.1|exercise|[JOI 2012 予選 D 暑い日々](https://atcoder.jp/contests/joi2013yo/tasks/joi2013yo_d)|||[DP](https://atcoder.jp/contests/joi2013yo/submissions/11071917)|
 ||§ 2.3.1|exercise|[JOI 2012 予選 4 - パスタ](https://atcoder.jp/contests/joi2012yo/tasks/joi2012yo_d)|||[DP, 三項間漸化式](https://atcoder.jp/contests/joi2012yo/submissions/11063373)|
-||§ 2.3.1|exercise|[ABC 082 D - FT Robot](https://atcoder.jp/contests/abc082/tasks/arc087_b)|||[ランレングス圧縮, 偶数と奇数で飛び飛びのDP](https://atcoder.jp/contests/abc082/submissions/13994214)|
+||§ 2.3.1|exercise|[ABC 082 D - FT Robot](https://atcoder.jp/contests/abc082/tasks/arc087_b)|||[ランレングス圧縮, DPの添字が負の場合、偶数と奇数で飛び飛びのDP](https://atcoder.jp/contests/abc082/submissions/13994214)|
 ||§ 2.3.1|exercise|[ABC 163 E - Active Infants](https://atcoder.jp/contests/abc163/tasks/abc163_e)|||[ソート, DP](https://atcoder.jp/contests/abc163/submissions/12805226)|
 |o|§ 2.3.1.0|exercise|[TDPC E 数](https://atcoder.jp/contests/tdpc/tasks/tdpc_number)|||[]()|
 ||§ 2.3.1.0|exercise|[Educational DP Contest S - Digit Sum](https://atcoder.jp/contests/dp/tasks/dp_s)|||[桁DP](https://atcoder.jp/contests/dp/submissions/12427694)|
@@ -360,6 +361,7 @@
 ||§ 3.2.3|example|[Face The Right Way (POJ No.3276)](http://poj.org/problem?id=3276)|||[flipの回数を保存](./3.2.3/poj3276.c)|
 ||§ 3.2.3|exercise|[ABC 048 C Boxes and Candies](https://atcoder.jp/contests/arc064/tasks/arc064_a)|||[貪欲, 番兵](https://atcoder.jp/contests/arc064/submissions/12968254)|
 ||§ 3.2.3|exercise|[ABC 083 D Wide Flip](https://atcoder.jp/contests/arc088/tasks/arc088_b)|||[境目でflip](https://atcoder.jp/contests/arc088/submissions/12973023)|
+||§ 3.2.3|exercise|[C - 一次元リバーシ](https://atcoder.jp/contests/abc047/tasks/arc063_a)|||[ランレングス圧縮](https://atcoder.jp/contests/abc047/submissions/14109887)|
 ||§ 3.2.3|exercise|[JOI 2008 本選 1 - 碁石ならべ](https://atcoder.jp/contests/joi2008ho/tasks/joi2008ho_a)|||[stack, ランレングス圧縮](https://atcoder.jp/contests/joi2008ho/submissions/11465819)|
 ||§ 3.2.3|exercise|[JOI 2012 本選 A 電飾](https://atcoder.jp/contests/joi2013ho/tasks/joi2013ho1)|||[stack, ランレングス圧縮](https://atcoder.jp/contests/joi2013ho/submissions/11466663)|
 ||§ 3.2.3|exercise|[ABC 124 D - Handstand](https://atcoder.jp/contests/abc124/tasks/abc124_d)|||[ランレングス圧縮](https://atcoder.jp/contests/abc124/submissions/13535422)|
