@@ -116,6 +116,7 @@
 ||§ 2.2.4|exercise|[AOJ ALDS1_15_B 有理ナップサック問題](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/all/ALDS1_15_B)|||[貪欲法](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_15_B/review/3980743/knknkn1162/C)|
 ||§ 2.2.4|exercise|[ABC 055 D - Menagerie](https://atcoder.jp/contests/abc055/tasks/arc069_b)|||[構成問題、貪欲法](https://atcoder.jp/contests/abc055/submissions/14089231)|
 ||§ 2.2.4|exercise|[ABC 083 C - Multiple Gift](https://atcoder.jp/contests/abc083/tasks/arc088_a)|||[貪欲](https://atcoder.jp/contests/abc083/submissions/12356089)|
+||§ 2.2.4|exercise|[ABC 046 C - AtCoDeerくんと選挙速報](https://atcoder.jp/contests/abc046/tasks/arc062_a)|||[貪欲に値を更新](https://atcoder.jp/contests/abc046/submissions/14110210)|
 ||§ 2.2.4|exercise|[ABC 072 D - Derangement](https://atcoder.jp/contests/abc072/tasks/arc082_b)|||[スワップ問題、貪欲で](https://atcoder.jp/contests/abc072/submissions/14043190)|
 ||§ 2.2.4|exercise|[ARC 006 C - 積み重ね](https://atcoder.jp/contests/arc006/tasks/arc006_3)|||[無駄が出ないように貪欲で](https://atcoder.jp/contests/arc006/submissions/12377963)|
 ||§ 2.2.4|exercise|[三井住友信託銀行プログラミングコンテスト2019 E - Colorful Hats 2](https://atcoder.jp/contests/sumitrust2019/tasks/sumitb2019_e)|||[貪欲法](https://atcoder.jp/contests/sumitrust2019/submissions/11699547)|
