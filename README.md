@@ -213,7 +213,7 @@
 ||§ 2.3.8.2|exercise|[ABC 162 D - RGB Triplets](https://atcoder.jp/contests/abc162/tasks/abc162_d)|||[(1番目の組み合わせ) - (2番目の条件)](https://atcoder.jp/contests/abc162/submissions/11913543)|
 ||§ 2.3.8.2|exercise|[ABC 071 D - Coloring Dominoes](https://atcoder.jp/contests/abc071/tasks/arc081_b)|||[組み合わせの掛け算](https://atcoder.jp/contests/abc071/submissions/14017043)|
 ||§ 2.3.8.2|exercise|[ABC 058 D - 井井井](https://atcoder.jp/contests/abc058/tasks/arc071_b)|||[区間上の総和総数問題、2つの積で表せる(X軸とY軸を分離)、組み合わせの掛け算](https://atcoder.jp/contests/abc058/submissions/14112007)|
-||§ 2.3.8.2|exercise|[ABC 127 E - Cell Distance](https://atcoder.jp/contests/abc127/tasks/abc127_e)|||[]()|
+||§ 2.3.8.2|exercise|[ABC 127 E - Cell Distance](https://atcoder.jp/contests/abc127/tasks/abc127_e)|||[区間上の総和総数問題、X軸とY軸を分離、組み合わせの掛け算、二項係数(逆元)](https://atcoder.jp/contests/abc127/submissions/14117163)|
 ||§ 2.3.9|exercise|[Educational DP Contest K - Stones](https://atcoder.jp/contests/dp/tasks/dp_k)|||[ゲームDP](https://atcoder.jp/contests/dp/submissions/12026820)|
 ||§ 2.3.9|exercise|[Educational DP Contest L - Deque](https://atcoder.jp/contests/dp/tasks/dp_l)|||[ゲームDP](https://atcoder.jp/contests/dp/submissions/12078699)|
 |o|§ 2.3.9|exercise|[TDPC B ゲーム](https://atcoder.jp/contests/tdpc/tasks/tdpc_game)|||[ゲームDP(両者最大化するように)](https://atcoder.jp/contests/tdpc/submissions/14025858) or [ゲームDP(先手最大化、後手最小化するように)]()|
