@@ -48,6 +48,7 @@
 ||§ 1.8.2|exercise|[Tenka1 Programmer Beginner Contest D - Crossing](https://atcoder.jp/contests/tenka1-2018-beginner/tasks/tenka1_2018_d)|||[構成問題、部分集合の要素数を決める, n=1も考慮](https://atcoder.jp/contests/tenka1-2018-beginner/submissions/11702203)|
 |o|§ 1.8.2|exercise|[ABC 101 D - Snuke Numbers](https://atcoder.jp/contests/abc101/tasks/arc099_b)|||[構成問題]()|
 ||§ 1.9.1|exercise|[ALDS1_1_D 最大の利益](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/1/ALDS1_1_D)|||[min, maxを用いて適宜更新](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_1_D/review/4513248/knknkn1162/C)|
+||§ 1.9.1|exercise|[ABC 047 D - 高橋君と見えざる手](https://atcoder.jp/contests/abc047/tasks/arc063_b)|||[maxを用いて末尾から更新](https://atcoder.jp/contests/abc047/submissions/14115299)|
 ||§ 1.9.1|exercise|[ABC 107 C - Candles](https://atcoder.jp/contests/abc107/tasks/arc101_a)|||[長さKの区間を固定して,max,min使用](https://atcoder.jp/contests/abc107/submissions/13697949)|
 ||§ 1.9.1|exercise|[ABC 037 C - 総和](https://atcoder.jp/contests/abc037/tasks/abc037_c)|||[総和総数問題、個数計算にmin使用](https://atcoder.jp/contests/abc037/submissions/14069008)|
 ||§ 1.9.1|exercise|[ABC 117 D - XXOR](https://atcoder.jp/contests/abc117/tasks/abc117_d)|||[maxを用いて適宜更新](https://atcoder.jp/contests/abc117/submissions/13596002)|
