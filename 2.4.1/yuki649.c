@@ -6,9 +6,9 @@
 #define max(a,b) ((a) > (b) ? (a) : (b))
 #define min(a,b) ((a) > (b) ? (b) : (a))
 
-int get_int(void) {
-  int num;
-  scanf("%d", &num);
+int64_t get_int(void) {
+  int64_t num;
+  scanf("%lld", &num);
   return num;
 }
 
@@ -17,32 +17,22 @@ int get_int2(int *a1, int *a2) {
   return 0;
 }
 
-int get_int3(int *a1, int *a2, int *a3) {
-  scanf("%d %d %d", a1, a2, a3);
-  return 0;
-}
-
-enum query {
-    QUERY_UPDATE = 1,
-    QUERY_VALUE = 2,
-};
-
-#define NUM_MAX 200000
-#define HEAP_MAX (NUM_MAX/2 + 50)
-static int max_heap[NUM_MAX];
+#define QUERY_MAX 200000
+#define HEAP_MAX (QUERY_MAX+50)
+static int64_t max_heap[HEAP_MAX];
 static int hmax_idx = 1;
-
-void swap(int *a1, int *a2) {
-    int tmp = *a1;
+ 
+void swap(int64_t *a1, int64_t *a2) {
+    int64_t tmp = *a1;
     *a1 = *a2;
     *a2 = tmp;
 }
-
-int maxcmp(int a1, int a2) {
+ 
+int maxcmp(int64_t a1, int64_t a2) {
     return a1 > a2;
 }
-
-void enqueue_max(int val) {
+ 
+void enqueue_max(int64_t val) {
     int node = hmax_idx;
     max_heap[hmax_idx++] = val;
     int parent;
@@ -53,9 +43,9 @@ void enqueue_max(int val) {
     }
     return;
 }
-
-int remove_max(void) {
-    int ans = max_heap[1];
+ 
+int64_t dequeue_max(void) {
+    int64_t ans = max_heap[1];
     max_heap[1] = max_heap[--hmax_idx];
     int node = 1;
     while(1) {
@@ -74,17 +64,21 @@ int remove_max(void) {
     }
     return ans;
 }
-
-
+ 
+ 
 // min heap
-static int min_heap[NUM_MAX];
+static int64_t min_heap[HEAP_MAX];
 static int hmin_idx = 1;
 
-int mincmp(int a1, int a2) {
+int mincmp(int64_t a1, int64_t a2) {
     return a1 < a2;
 }
 
-void enqueue_min(int val) {
+int is_min_heap_empty(void) {
+    return hmin_idx == 1;
+}
+ 
+void enqueue_min(int64_t val) {
     int node = hmin_idx;
     min_heap[hmin_idx++] = val;
     int parent;
@@ -95,9 +89,9 @@ void enqueue_min(int val) {
     }
     return;
 }
-
-int remove_min(void) {
-    int ans = min_heap[1];
+ 
+int64_t dequeue_min(void) {
+    int64_t ans = min_heap[1];
     min_heap[1] = min_heap[--hmin_idx];
     int node = 1;
     while(1) {
@@ -118,70 +112,74 @@ int remove_min(void) {
 }
 
 int size = 0;
-int mmax = 0;
-int mmin = 0;
-int64_t mid_sum = 0;
-void update(int val) {
-    if(val >= mmax) enqueue_max(val);
-    if(val <= mmin) enqueue_min(val);
-    if(size%2 == 1) {
-        remove_max();
-        remove_min();
+int get_size(void) {
+    return size;
+}
+// max_heap[1] <= min_heap[1]
+void add(int64_t val, int k) {
+    int64_t mmax = max_heap[1];
+    if(size < k) {
+        enqueue_max(val);
+        size++;
+        return;
+    }
+    if(val >= mmax) {
+        enqueue_min(val);
+    } else {
+        enqueue_max(val);
+        // move right
+        int64_t nval = dequeue_max();
+        enqueue_min(nval);
     }
     size++;
-    if(size == 1) {
-        mmax = mmin = val;
-    } else {
-        if(mmax <= val && val <= mmin) {
-            // do nothing
-        } else {
-            mid_sum += min(abs(mmax-val), abs(mmin-val));
-        }
-    }
-    // update
-    mmax = max_heap[1];
-    mmin = min_heap[1];
-#ifdef DEBUG
-    printf("update: %d %d -> %lld\n", mmax, mmin, mid_sum);
-#endif
-    return;
 }
 
-#define QUERY_MAX NUM_MAX
-struct pair {
-    int64_t med;
-    int64_t sum;
+int64_t find_and_delete(int k) {
+    if(size < k) {
+        return -1;
+    }
+    int64_t ans = dequeue_max();
+    if(!is_min_heap_empty()) {
+        // move left
+        int64_t nval = dequeue_min();
+        enqueue_max(nval);
+    }
+    size--;
+    return ans;
+}
+
+enum query {
+    QUERY_ADD = 1,
+    QUERY_GETK = 2
 };
 
-
 int main(void) {
-    int qs = get_int();
-    int i;
+    int num, k;
+    get_int2(&num, &k);
 
-    int64_t base = 0;
-    static struct pair ans[QUERY_MAX];
+    int i;
+    int64_t ans[QUERY_MAX];
     int aidx = 0;
-    for(i = 0; i < qs; i++) {
+    for(i = 0; i < num; i++) {
         int type = get_int();
         switch(type) {
-            case QUERY_UPDATE:
+            case QUERY_ADD:
                 {
-                    int a, b;
-                    get_int2(&a, &b);
-                    update(a);
-                    base += b;
+                    int64_t val = get_int();
+                    add(val, k);
                 }
                 break;
-            case QUERY_VALUE:
-                ans[aidx++] = (struct pair){mmax, mid_sum+base};
+            case QUERY_GETK:
+                {
+                    ans[aidx++] = find_and_delete(k);
+                }
                 break;
             default:
                 break;
         }
     }
-
     for(i = 0; i < aidx; i++) {
-        printf("%lld %lld\n", ans[i].med, ans[i].sum);
+        printf("%lld\n", ans[i]);
     }
     return 0;
 }
