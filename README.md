@@ -24,6 +24,7 @@
 ||§ 1.6.2|exercise|[ABC 100 D - Patisserie ABC](https://atcoder.jp/contests/abc100/tasks/abc100_d)|||[発想問題、符号決め打ちでソート](https://atcoder.jp/contests/abc100/submissions/13889053)|
 |o|§ 1.6.2|exercise|[ABC 123 D - Cake 123](https://atcoder.jp/contests/abc123/tasks/abc123_d)|||[解の候補を絞ってソート](https://atcoder.jp/contests/abc123/submissions/13557424) or [priority queue]() or [二分探索]()|
 ||§ 1.6.2|exercise|[ABC 097 C - K-th Substring](https://atcoder.jp/contests/abc097/tasks/arc097_a)|||[解の候補を絞ってソート](https://atcoder.jp/contests/abc097/submissions/13911362)|
+||§ 1.6.2|exercise|[ABC 045 D - すぬけ君の塗り絵](https://atcoder.jp/contests/abc045/tasks/arc061_b)|||[解の候補を絞ってソート、hash](https://atcoder.jp/contests/abc045/submissions/14127742) or [候補の長方形の個数を数える](https://atcoder.jp/contests/abc045/submissions/14128018)|
 ||§ 1.7.1|exercise|[ABC 126 C - Dice and Coin](https://atcoder.jp/contests/abc126/tasks/abc126_c)|||[確率](https://atcoder.jp/contests/abc126/submissions/13467645)|
 ||§ 1.7.1|exercise|[Educational DP Contest I - Coins](https://atcoder.jp/contests/dp/tasks/dp_i)|||確率問題、see § 2.3.1|
 ||§ 1.7.1|exercise|[TDPC D サイコロ](https://atcoder.jp/contests/tdpc/tasks/tdpc_dice)|||確率問題、underflowに注意 see § 2.3.19|
