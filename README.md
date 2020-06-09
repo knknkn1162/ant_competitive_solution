@@ -58,6 +58,8 @@
 ||§ 1.9.1|exercise|[ABC 102 C - Linear Approximation](https://atcoder.jp/contests/abc102/tasks/arc100_a)|||[中央値](https://atcoder.jp/contests/abc102/submissions/13756922)|
 ||§ 1.9.1|exercise|[ABC 094 C - Many Medians](https://atcoder.jp/contests/abc094/tasks/arc095_a)|||中央値。see § 1.6.1|
 ||§ 1.9.1|exercise|[Square869120Contest #6 B - AtCoder Markets](https://atcoder.jp/contests/s8pc-6/tasks/s8pc_6_b)|||中央値。see §2.2.4|
+||§ 1.9.1|exercise|[ABC 107 D - Median of Medians](https://atcoder.jp/contests/abc107/tasks/arc101_b)|||[]()|
+||§ 1.9.1|exercise|[ABC 127 F - Absolute Minima](https://atcoder.jp/contests/abc127/tasks/abc127_f)|||中央値の更新、see |
 ||§ 2.1.0|exercise|[ABC 114 C - 755](https://atcoder.jp/contests/abc114/tasks/abc114_c)|||[再帰関数](https://atcoder.jp/contests/abc114/submissions/13677743)|
 ||§ 2.1.0|exercise|[ABC 161 D - Lunlun Number](https://atcoder.jp/contests/abc161/tasks/abc161_d)|||[再帰関数で条件を満たす数をstackに](https://atcoder.jp/contests/abc161/submissions/13688600)|
 ||§ 2.1.1|example|部分和問題|||[]()|
