@@ -257,6 +257,7 @@
 ||§ 2.3.19|exercise|[ABC 122 D - We Like AGC](https://atcoder.jp/contests/abc122/tasks/abc122_d)|||[多次元DP](https://atcoder.jp/contests/abc122/submissions/13558895)
 ||§ 2.3.19|exercise|[ABC 015 D - 高橋くんの苦悩](https://atcoder.jp/contests/abc015/tasks/abc015_4)|||[3次元DP](https://atcoder.jp/contests/abc015/submissions/12453036)|
 ||§ 2.3.19|exercise|[ABC 054 D - Mixing Experiment](https://atcoder.jp/contests/abc054/tasks/abc054_d)|||[3次元DP](https://atcoder.jp/contests/abc054/submissions/14109704)|
+||§ 2.3.19|exercise|[ABC 044 C - 高橋君とカード](https://atcoder.jp/contests/abc044/tasks/arc060_a)|||[3次元DP](https://atcoder.jp/contests/abc044/submissions/14128414)|
 ||§ 2.3.19|exercise|[Educational DP Contest J - Sushi](https://atcoder.jp/contests/dp/tasks/dp_j)|||[期待値、多次元DP](https://atcoder.jp/contests/dp/submissions/12036657)|
 ||§ 2.4.1|example|[(POJ #2431 Expedition](http://poj.org/problem?id=2431)|||[max heap, 燃料を後で消費する](./2.4.1/poj2431.c)|
 ||§ 2.4.1|exercise|[ABC 127 D - Integer Cards](https://atcoder.jp/contests/abc127/tasks/abc127_d)|||[操作を最後に消費する(not 二分探索)](https://atcoder.jp/contests/abc127/submissions/13570674)|
