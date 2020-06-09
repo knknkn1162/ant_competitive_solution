@@ -22,7 +22,7 @@
 ||§ 1.6.1|example|[ABC 082 B - Two Anagrams](https://atcoder.jp/contests/abc082/tasks/abc082_b)|||[2つの文字列をそれぞれ昇順、降順にソート](https://atcoder.jp/contests/abc082/submissions/14002733)|
 ||§ 1.6.1|exercise|[ABC 094 C - Many Medians](https://atcoder.jp/contests/abc094/tasks/arc095_a)|||[中央値、ソート](https://atcoder.jp/contests/abc094/submissions/13910628)|
 ||§ 1.6.2|exercise|[ABC 100 D - Patisserie ABC](https://atcoder.jp/contests/abc100/tasks/abc100_d)|||[発想問題、符号決め打ちでソート](https://atcoder.jp/contests/abc100/submissions/13889053)|
-|o|§ 1.6.2|exercise|[ABC 123 D - Cake 123](https://atcoder.jp/contests/abc123/tasks/abc123_d)|||[Kが小さい、解の候補を絞ってソート](https://atcoder.jp/contests/abc123/submissions/13557424) or [max heap](https://atcoder.jp/contests/abc123/submissions/14137799) or [二分探索]() or [min heapとmax heap]()|
+|o|§ 1.6.2|exercise|[ABC 123 D - Cake 123](https://atcoder.jp/contests/abc123/tasks/abc123_d)|||[Kが小さい、解の候補を絞ってソート](https://atcoder.jp/contests/abc123/submissions/13557424) or [max heap](https://atcoder.jp/contests/abc123/submissions/14137799) or [二分探索]() or [min heapでK番目までの値を保存](https://atcoder.jp/contests/abc123/submissions/14138295)|
 ||§ 1.6.2|exercise|[ABC 097 C - K-th Substring](https://atcoder.jp/contests/abc097/tasks/arc097_a)|||[Kが小さい、解の候補を絞ってソート](https://atcoder.jp/contests/abc097/submissions/13911362)|
 ||§ 1.6.2|exercise|[ABC 045 D - すぬけ君の塗り絵](https://atcoder.jp/contests/abc045/tasks/arc061_b)|||[解の候補を絞ってソート、hash](https://atcoder.jp/contests/abc045/submissions/14127742) or [候補の長方形の個数を数える](https://atcoder.jp/contests/abc045/submissions/14128018)|
 ||§ 1.7.1|exercise|[ABC 126 C - Dice and Coin](https://atcoder.jp/contests/abc126/tasks/abc126_c)|||[確率](https://atcoder.jp/contests/abc126/submissions/13467645)|
