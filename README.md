@@ -155,7 +155,7 @@
 ||§ 2.2.6|exercise|[ABC 080 D - Recording](https://atcoder.jp/contests/abc080/tasks/abc080_d)|||[0次いもす法を2回](https://atcoder.jp/contests/abc080/submissions/13997616)|
 ||§ 2.2.6|exercise|[JOI 2012 本選 4 - 釘](https://atcoder.jp/contests/joi2012ho/tasks/joi2012ho4)|||[いもす法, 3階差分](https://atcoder.jp/contests/joi2012ho/submissions/11421264)|
 ||§ 2.2.6|exercise|[全国統一プログラミング王決定戦本選-D Deforestation](https://atcoder.jp/contests/nikkei2019-final/tasks/nikkei2019_final_d)|||イベントソート see § 3.3.3|
-|o|§ 2.2.6|exercise|[ABC 128 E - Roadwork](https://atcoder.jp/contests/abc128/tasks/abc128_e)|||[イベントソート]() or [セグメント木(RUQ)]()|
+|o|§ 2.2.6|exercise|[ABC 128 E - Roadwork](https://atcoder.jp/contests/abc128/tasks/abc128_e)|||[イベントソート, multiset](https://atcoder.jp/contests/abc128/submissions/14150359) or [セグメント木(RUQ)]()|
 ||§ 2.3.1|example|[0-1ナップザック問題](https://onlinejudge.u-aizu.ac.jp/problems/DPL_1_B)|||[DP(引き継ぎ有り)](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_1_B/review/4508309/knknkn1162/C)|
 ||§ 2.3.1|exercise|[TDPC A コンテスト](https://atcoder.jp/contests/tdpc/tasks/tdpc_contest)|||[DP](https://atcoder.jp/contests/tdpc/submissions/12701720)|
 ||§ 2.3.1|exercise|[Educational DP Contest A - Frog 1](https://atcoder.jp/contests/dp/tasks/dp_a)|||[DP](https://atcoder.jp/contests/dp/submissions/12005363)|
