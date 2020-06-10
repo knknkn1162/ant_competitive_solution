@@ -104,6 +104,7 @@
 ||§ 2.2.2|example|区間スケジューリング問題|||[end起点に昇順](./2.2.2/scheduling.c)|
 ||§ 2.2.2|exercise|[AOJ ALDS1_15_C 活動選択問題](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/all/ALDS1_15_C)|||[end起点に昇順](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_15_C/review/4495678/knknkn1162/C)|
 ||§ 2.2.2|exercise|[キーエンス プログラミング コンテスト 2020 B - Robot Arms](https://atcoder.jp/contests/keyence2020/tasks/keyence2020_b)|||[end起点に昇順](https://atcoder.jp/contests/keyence2020/submissions/12551527)|
+||§ 2.2.2|exercise|[ABC 131 D - Megalomania](https://atcoder.jp/contests/abc131/tasks/abc131_d)|||[deadlineを昇順にソート](https://atcoder.jp/contests/abc131/submissions/14154636)|
 ||§ 2.2.2|exercise|[京都大学プログラミングコンテスト2015 A - 東京都](https://atcoder.jp/contests/kupc2015/tasks/kupc2015_a)|||[前から探索](https://atcoder.jp/contests/kupc2015/submissions/12313760)|
 ||§ 2.2.2|exercise|[ABC 049 C - 白昼夢](https://atcoder.jp/contests/abc049/tasks/arc065_a)|||[後ろから](https://atcoder.jp/contests/abc049/submissions/12314491)|
 ||§ 2.2.2|exercise|[ABC 103 D - Islands War](https://atcoder.jp/contests/abc103/tasks/abc103_d)|||[start起点にソート->貪欲法](https://atcoder.jp/contests/abc103/submissions/12316726)|
@@ -373,6 +374,7 @@
 ||§ 3.2.1|example|[Subsequence (POJ No.3061)](http://poj.org/problem?id=3061)|||[尺取法](./3.2.1/poj3061.c)|
 ||§ 3.2.1|exercise|[DSL_3_A The Smallest Window I](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_3_A)|||[尺取法](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_3_A/review/4468038/knknkn1162/C)|
 ||§ 3.2.1|exercise|[DSL_3_B The Smallest Window II](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_3_B)|||[尺取法](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_3_B/review/4468410/knknkn1162/C)|
+||§ 3.2.1|exercise|[ABC 130 D - Enough Array](https://atcoder.jp/contests/abc130/tasks/abc130_d)|||[尺取法](https://atcoder.jp/contests/abc130/submissions/14154466)|
 ||§ 3.2.1|exercise|[AOJ Course The Number of Windows](https://onlinejudge.u-aizu.ac.jp/problems/DSL_3_C)|||[尺取法](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_3_C/review/4473359/knknkn1162/C)
 ||§ 3.2.1|exercise|[ABC 032 C 列](https://atcoder.jp/contests/abc032/tasks/abc032_c)|||[尺取法](https://atcoder.jp/contests/abc032/submissions/12929277)|
 ||§ 3.2.1|exercise|[ABC 038 C 単調増加](https://atcoder.jp/contests/abc038/tasks/abc038_c)|||[尺取法](https://atcoder.jp/contests/abc038/submissions/12952989)|
