@@ -155,7 +155,7 @@
 ||§ 2.2.6|exercise|[ABC 080 D - Recording](https://atcoder.jp/contests/abc080/tasks/abc080_d)|||[0次いもす法を2回](https://atcoder.jp/contests/abc080/submissions/13997616)|
 ||§ 2.2.6|exercise|[JOI 2012 本選 4 - 釘](https://atcoder.jp/contests/joi2012ho/tasks/joi2012ho4)|||[いもす法, 3階差分](https://atcoder.jp/contests/joi2012ho/submissions/11421264)|
 ||§ 2.2.6|exercise|[全国統一プログラミング王決定戦本選-D Deforestation](https://atcoder.jp/contests/nikkei2019-final/tasks/nikkei2019_final_d)|||イベントソート see § 3.3.3|
-|o|§ 2.2.6|exercise|[ABC 128 E - Roadwork](https://atcoder.jp/contests/abc128/tasks/abc128_e)|||[イベントソート, multiset](https://atcoder.jp/contests/abc128/submissions/14150359) or [セグメント木(RUQ)]()|
+||§ 2.2.6|exercise|[ABC 128 E - Roadwork](https://atcoder.jp/contests/abc128/tasks/abc128_e)|||イベントソート、see § 3.3.3|
 ||§ 2.3.1|example|[0-1ナップザック問題](https://onlinejudge.u-aizu.ac.jp/problems/DPL_1_B)|||[DP(引き継ぎ有り)](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_1_B/review/4508309/knknkn1162/C)|
 ||§ 2.3.1|exercise|[TDPC A コンテスト](https://atcoder.jp/contests/tdpc/tasks/tdpc_contest)|||[DP](https://atcoder.jp/contests/tdpc/submissions/12701720)|
 ||§ 2.3.1|exercise|[Educational DP Contest A - Frog 1](https://atcoder.jp/contests/dp/tasks/dp_a)|||[DP](https://atcoder.jp/contests/dp/submissions/12005363)|
@@ -413,7 +413,8 @@
 |o|§ 3.2.9|example|[Crane (POJ No.2991)](http://poj.org/problem?id=2991)|||[セグメント木(難)]()|
 ||§ 3.3.1|exercise|[DSL_2_A Range Minimum Query(RMQ)](https://onlinejudge.u-aizu.ac.jp/problems/DSL_2_A)|||[セグメント木](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_2_A/review/4461035/knknkn1162/C)|
 ||§ 3.3.1|exercise|[DSL_2_B Range Sum Query(RSQ)](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_2_B)|||[セグメント木](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_2_B/review/4465240/knknkn1162/C)|
-||§ 3.3.1|exercise|[DSL_2_D Range Update Query(RUQ)](https://onlinejudge.u-aizu.ac.jp/problems/DSL_2_D)|||[更新順をセグメント木に持たせる](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_2_D/review/4465450/knknkn1162/C)|
+||§ 3.3.1|exercise|[DSL_2_D Range Update Query(RUQ)](https://onlinejudge.u-aizu.ac.jp/problems/DSL_2_D)|||[更新時間も含めてセグメント木にする](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_2_D/review/4566170/knknkn1162/C) or [更新順をセグメント木に持たせる](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_2_D/review/4465450/knknkn1162/C)|
+||§ 3.3.1|exercise|[ABC 128 E - Roadwork](https://atcoder.jp/contests/abc128/tasks/abc128_e)|||[ソートして、セグメント木(RUQ)](https://atcoder.jp/contests/abc128/submissions/14152586) or [イベントソート, multiset](https://atcoder.jp/contests/abc128/submissions/14150359)|
 ||§ 3.3.1|exercise|[DSL_2_E Range Add Query(RAQ)](https://onlinejudge.u-aizu.ac.jp/problems/DSL_2_E)|||[セグメント木](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_2_E/review/4495892/knknkn1162/C)|
 |o|§ 3.3.1|exercise|[AGC 004 B - Colorful Slimes](https://atcoder.jp/contests/agc004/tasks/agc004_b)|||[]()|
 ||§ 3.3.1|exercise|[ABC 157 E - Simple String Queries](https://atcoder.jp/contests/abc157/tasks/abc157_e)|||[セグメント木、bit演算](https://atcoder.jp/contests/abc157/submissions/13210480)|
@@ -436,7 +437,7 @@
 ||§ 3.3.3|example|[DSL_2_G RSQ and RAQ](https://onlinejudge.u-aizu.ac.jp/problems/DSL_2_G)|||[遅延評価セグメント木](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_2_G/review/4488815/knknkn1162/C)|
 ||§ 3.3.3|exercise|[DSL_2_H RMQ and RAQ](https://onlinejudge.u-aizu.ac.jp/problems/DSL_2_H)|||[遅延評価セグメント木](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_2_H/review/4491964/knknkn1162/C)|
 ||§ 3.3.3|exercise|[DSL_2_I RSQ and RUQ](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_2_I)|||[遅延評価セグメント木](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_2_I/review/4492093/knknkn1162/C)|
-|o|§ 3.3.3|exercise|[全国統一プログラミング王決定戦本選-D Deforestation](https://atcoder.jp/contests/nikkei2019-final/tasks/nikkei2019_final_d)|||[発想問題、配列を逆順にして遅延セグメント木(RSQ & RUQ)](https://atcoder.jp/contests/nikkei2019-final/submissions/13646149) or [イベントソート]()|
+|o|§ 3.3.3|exercise|[全国統一プログラミング王決定戦本選-D Deforestation](https://atcoder.jp/contests/nikkei2019-final/tasks/nikkei2019_final_d)|||[発想問題、配列を逆順にして(降順にして)、遅延セグメント木(RSQ & RUQ)](https://atcoder.jp/contests/nikkei2019-final/submissions/13646149) or [イベントソート]()|
 ||§ 3.3.3|exercise|[CODE FESTIVAL 2015 決勝 D 足ゲームII](https://atcoder.jp/contests/code-festival-2015-final-open/tasks/codefestival_2015_final_d)|||[](https://atcoder.jp/contests/code-festival-2015-final-open/submissions/13663382)|
 ||§ 3.3.3|exercise|[square869120Contest #2 H Counting 1's](https://atcoder.jp/contests/s8pc-2/tasks/s8pc_2_h)|||[反転回数を遅延値として、遅延評価セグメント木(RSQ & RAQ)](https://atcoder.jp/contests/s8pc-2/submissions/13661888)|
 |o|§ 3.3.3|exercise|[JOI 2008 春合宿 - Typhoon(台風)](https://atcoder.jp/contests/joisc2008/tasks/joisc2008_typhoon) ([問題はここ](https://www.ioi-jp.org/camp/2008/2008-sp-tasks/2008-sp_tr-day4_24.pdf#page=2))|||[]()|
