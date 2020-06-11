@@ -63,7 +63,8 @@
 ||§ 1.9.1|exercise|[ABC 107 D - Median of Medians](https://atcoder.jp/contests/abc107/tasks/arc101_b)|||[]()|
 ||§ 1.9.1|exercise|[ABC 127 F - Absolute Minima](https://atcoder.jp/contests/abc127/tasks/abc127_f)|||中央値の更新、see |
 ||§ 2.1.0|exercise|[ABC 114 C - 755](https://atcoder.jp/contests/abc114/tasks/abc114_c)|||[再帰関数](https://atcoder.jp/contests/abc114/submissions/13677743)|
-||§ 2.1.0|exercise|[ABC 161 D - Lunlun Number](https://atcoder.jp/contests/abc161/tasks/abc161_d)|||[再帰関数で条件を満たす数をstackに](https://atcoder.jp/contests/abc161/submissions/13688600)|
+||§ 2.1.0|exercise|[ABC 161 D - Lunlun Number](https://atcoder.jp/contests/abc161/tasks/abc161_d)|||[DFSで条件を満たす数をstackに](https://atcoder.jp/contests/abc161/submissions/13688600)|
+|o|§ 2.1.0|exercise|[ABC 029 C - Brute-force Attack](https://atcoder.jp/contests/abc029/tasks/abc029_c)|||[DFSで全列挙](https://atcoder.jp/contests/abc029/tasks/abc029_c)|
 ||§ 2.1.1|example|部分和問題|||[]()|
 ||§ 2.1.1|exercise|[ABC 051 B - Sum of Three Integers](https://atcoder.jp/contests/abc051/tasks/abc051_b)|||[全探索](https://atcoder.jp/contests/abc051/submissions/14017300) or [DP, 累積和](https://atcoder.jp/contests/abc051/submissions/12543729)|
 ||§ 2.1.1|exercise|[ABC 066 B - ss](https://atcoder.jp/contests/abc066/tasks/abc066_b)|||[文字列の全探索](https://atcoder.jp/contests/abc066/submissions/14064944)|
@@ -164,9 +165,11 @@
 ||§ 2.3.1|exercise|[TDPC A コンテスト](https://atcoder.jp/contests/tdpc/tasks/tdpc_contest)|||[DP](https://atcoder.jp/contests/tdpc/submissions/12701720)|
 ||§ 2.3.1|exercise|[Educational DP Contest A - Frog 1](https://atcoder.jp/contests/dp/tasks/dp_a)|||[DP](https://atcoder.jp/contests/dp/submissions/12005363)|
 ||§ 2.3.1|exercise|[Educational DP Contest B - Frog 2](https://atcoder.jp/contests/dp/tasks/dp_b)|||[DP](https://atcoder.jp/contests/dp/submissions/12005549)|
+||§ 2.3.1|exercise|[ABC 040 C - 柱柱柱柱柱](https://atcoder.jp/contests/abc040/tasks/abc040_c)|||[DP](https://atcoder.jp/contests/abc040/submissions/14173911)|
+||§ 2.3.1|exercise|[ABC 129 C - Typical Stairs](https://atcoder.jp/contests/abc129/tasks/abc129_c)|||[mapで使える階段を管理(前処理), DP](https://atcoder.jp/contests/abc129/submissions/14117585)|
 ||§ 2.3.1|exercise|[Educational DP Contest C - Vacation](https://atcoder.jp/contests/dp/tasks/dp_c)|||[DP](https://atcoder.jp/contests/dp/submissions/12005977)|
+|||exercise|[]()|||[]()|
 ||§ 2.3.1|exercise|[Educational DP Contest I - Coins](https://atcoder.jp/contests/dp/tasks/dp_i)|||[確率、DP](https://atcoder.jp/contests/dp/submissions/14118625)|
-||§ 2.3.1|exercise|[ABC 129 C - Typical Stairs](https://atcoder.jp/contests/abc129/tasks/abc129_c)|||[map(前処理), DP](https://atcoder.jp/contests/abc129/submissions/14117585)|
 ||§ 2.3.1|exercise|[ABC 115 D - Christmas](https://atcoder.jp/contests/abc115/tasks/abc115_d)|||[DP](https://atcoder.jp/contests/abc115/submissions/13677608)|
 ||§ 2.3.1|exercise|[ABC 060 D - Simple Knapsack](https://atcoder.jp/contests/abc060/tasks/arc073_b)|||see § 2.1.1|
 ||§ 2.3.1|exercise|[JOI 2012 予選 D 暑い日々](https://atcoder.jp/contests/joi2013yo/tasks/joi2013yo_d)|||[DP](https://atcoder.jp/contests/joi2013yo/submissions/11071917)|
