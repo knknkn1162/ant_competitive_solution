@@ -39,6 +39,8 @@
 ||§ 1.8.1|exercise|[ABC 051 C - Back and Forth](https://atcoder.jp/contests/abc051/tasks/abc051_c)|||[実装問題、構成問題](https://atcoder.jp/contests/abc051/submissions/14099716)|
 ||§ 1.8.1|exercise|[Square869120Contest #3 B - 石落としゲーム](https://atcoder.jp/contests/s8pc-3/tasks/s8pc_3_b)|||[落ちゲー, 実装問題、(WIDTH)×(HEIGHT-1)個シュミレート](https://atcoder.jp/contests/s8pc-3/submissions/11477560)|
 ||§ 1.8.1|exercise|[ABC 109 D - Make Them Even](https://atcoder.jp/contests/abc109/tasks/abc109_d)|||[構成問題、問題文を解釈、実装問題, 右端に寄せる](https://atcoder.jp/contests/abc109/submissions/13685267)|
+||§ 1.8.1|exercise|[ABC 131 E - Friendships](https://atcoder.jp/contests/abc131/tasks/abc131_e)|||[グラフの構成問題、Kが最大となるグラフを考える](https://atcoder.jp/contests/abc131/submissions/14167798)|
+|o|§ 1.8.1|exercise|[ABC 108 D - All Your Paths are Different Lengths](https://atcoder.jp/contests/abc108/tasks/arc102_b)|||[]()|
 ||§ 1.8.1|exercise|[ABC 062 C - Chocolate Bar](https://atcoder.jp/contests/abc062/tasks/arc074_a)|||[全ケースを列挙](https://atcoder.jp/contests/abc062/submissions/14054023)|
 ||§ 1.8.1|exercise|[ABC 128 D - equeue](https://atcoder.jp/contests/abc128/tasks/abc128_d)|||[実装問題、シュミレート](https://atcoder.jp/contests/abc128/submissions/13589023)|
 ||§ 1.8.1|exercise|[ABC 084 C - Special Trains](https://atcoder.jp/contests/abc084/tasks/abc084_c)|||[Nが小さいので全てシュミレート](https://atcoder.jp/contests/abc084/submissions/13975934)|
