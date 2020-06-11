@@ -89,6 +89,7 @@
 |o|§ 2.1.3|exercise|迷路の最短路|||[BFS]()|
 ||§ 2.1.3|exercise|[E - チーズ (Cheese)](https://atcoder.jp/contests/joi2011yo/tasks/joi2011yo_e)|||[BFS](https://atcoder.jp/contests/joi2011yo/submissions/11007756)|
 |o|§ 2.1.3|exercise|[ARC 005 C 器物損壊！高橋君](https://atcoder.jp/contests/arc005/tasks/arc005_3)|||[0-1 BFS](https://atcoder.jp/contests/arc005/submissions/8570403) or [Dijkstra]() or [deque]()|
+||§ 2.1.3|exercise|[ABC 005 C - おいしいたこ焼きの売り方](https://atcoder.jp/contests/abc005/tasks/abc005_3)|||一本化してソート、queue see § 2.2.4.1|
 ||§ 2.1.4|example|特別な状態の列挙|||[next_permutationの実装](./2.1.4/)|
 |o|§ 2.1.4|exercise|[AOJ ITP2_5_C Permutation](https://onlinejudge.u-aizu.ac.jp/courses/lesson/8/ITP2/all/ITP2_5_C)|||[next_permutationの実装]()|
 |o|§ 2.1.4|exercise|[AOJ ITP2_5_D Permutation Enumeration](https://onlinejudge.u-aizu.ac.jp/courses/lesson/8/ITP2/all/ITP2_5_D)|||[permutation]()|
@@ -134,7 +135,7 @@
 ||§ 2.2.4|exercise|[三井住友信託銀行プログラミングコンテスト2019 E - Colorful Hats 2](https://atcoder.jp/contests/sumitrust2019/tasks/sumitb2019_e)|||[貪欲法](https://atcoder.jp/contests/sumitrust2019/submissions/11699547)|
 |o|§ 2.2.4|exercise|[ABC 091 C - 2D Plane 2N Points](https://atcoder.jp/contests/abc091/tasks/arc092_a)|||[発想難、min(青のx座標)とmax(赤のy座標)を対応して貪欲法](https://atcoder.jp/contests/abc091/submissions/13956198) or [最大マッチング問題]()|
 ||§ 2.2.4.1|exercise|[AOJ ALDS_1_4_B 二分探索](https://onlinejudge.u-aizu.ac.jp/problems/ALDS1_4_B)|||[hashmap](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_4_B/review/4570609/knknkn1162/C) or [ソート -> 2配列の尺取法](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_4_B/review/4514396/knknkn1162/C) or [二分探索(lower bound)](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_4_B/review/4570772/knknkn1162/C) or [座標圧縮、二分探索(lower bound)](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_4_B/review/4570710/knknkn1162/C) or [一本化してソート](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_4_B/review/4570587/knknkn1162/C)|
-||§ 2.2.4.1|exercise|[ABC 005 C - おいしいたこ焼きの売り方](https://atcoder.jp/contests/abc005/tasks/abc005_3)|||[客を軸にして、尺取法っぽく](https://atcoder.jp/contests/abc005/submissions/13617416)|
+||§ 2.2.4.1|exercise|[ABC 005 C - おいしいたこ焼きの売り方](https://atcoder.jp/contests/abc005/tasks/abc005_3)|||[客を軸にして、尺取法っぽく](https://atcoder.jp/contests/abc005/submissions/13617416) or [一本化してソート、queue](https://atcoder.jp/contests/abc005/submissions/14180180)|
 ||§ 2.2.4.1|exercise|[ABC 116 C - Grand Garden](https://atcoder.jp/contests/abc116/tasks/abc116_c)|||[貪欲、尺取法っぽく](https://atcoder.jp/contests/abc116/submissions/13607638)|
 |o|§ 2.2.4.1|exercise|[ABC 102 D - Equal Cut](https://atcoder.jp/contests/abc102/tasks/arc100_b)|||[真ん中に区切る->最初の区切り方を尺取法で]()|
 ||§ 2.2.5|example|[POJ #3253 Fence Repair](http://poj.org/problem?id=3253)|||[priority queue, 型に注意](./2.2.5/poj3253.c)|
@@ -146,6 +147,7 @@
 ||§ 2.2.6|exercise|[ABC 089 D - Practical Skill Test](https://atcoder.jp/contests/abc089/tasks/abc089_d)|||[前処理(累積和)](https://atcoder.jp/contests/abc089/submissions/13964940)|
 ||§ 2.2.6|exercise|[ABC 125 C - GCD on Blackboard](https://atcoder.jp/contests/abc125/tasks/abc125_c)|||[累積和、逆累積和](https://atcoder.jp/contests/abc125/submissions/13928488)|
 ||§ 2.2.6|exercise|[ABC 095 D - Static Sushi](https://atcoder.jp/contests/abc095/tasks/arc096_b)|||[環状、累積和、逆累積和](https://atcoder.jp/contests/abc095/submissions/13928203)|
+|o|§ 2.2.6|exercise|[ABC 005 D - おいしいたこ焼きの焼き方](https://atcoder.jp/contests/abc005/tasks/abc005_4)|||[二次元累積和]()|
 ||§ 2.2.6|exercise|[JOI 2011 本選 1 - 惑星探査](https://atcoder.jp/contests/joi2011ho/tasks/joi2011ho1)|||[二次元累積和](https://atcoder.jp/contests/joi2011ho/submissions/11340451)|
 ||§ 2.2.6|exercise|[GigaCode 2019 D - 家の建設](https://atcoder.jp/contests/gigacode-2019/tasks/gigacode_2019_d)|||[二次元累積和](https://atcoder.jp/contests/gigacode-2019/submissions/11350327)|
 ||§ 2.2.6|exercise|[ABC 086 D - Checker](https://atcoder.jp/contests/abc086/tasks/arc089_b)|||[剰余、二次元累積和](https://atcoder.jp/contests/abc086/submissions/14002453)|
