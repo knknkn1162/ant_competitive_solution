@@ -155,8 +155,10 @@
 ||§ 2.2.6|exercise|[ABC 106 D - AtCoder Express 2](https://atcoder.jp/contests/abc106/tasks/abc106_d)|||[二次元と解釈して、二次元累積和](https://atcoder.jp/contests/abc106/submissions/11348226) or [区間DP](https://atcoder.jp/contests/abc106/submissions/11346781)|
 ||§ 2.2.6|exercise|[ABC 147 D - Xor Sum 4](https://atcoder.jp/contests/abc147/tasks/abc147_d)|||[xorの性質を利用して累積和](https://atcoder.jp/contests/abc147/submissions/13149768)|
 ||§ 2.2.6|exercise|[AOJ DSL_5_A The Maximum Number of Customers](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_5_A)|||[いもす法](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_5_A/review/4467956/knknkn1162/C)|
-||§ 2.2.6|exercise|[AOJ DSL_5_B The Maximum Number of Overlaps](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_5_B)|||[いもす法](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_5_B/review/4467993/knknkn1162/C)|
+||§ 2.2.6|exercise|[AOJ DSL_5_B The Maximum Number of Overlaps](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_5_B)|||[2次元上のいもす法](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_5_B/review/4467993/knknkn1162/C)|
 ||§ 2.2.6|exercise|[ABC 014 C - AtColor](https://atcoder.jp/contests/abc014/tasks/abc014_3)|||[いもす法](https://atcoder.jp/contests/abc014/submissions/11362928)|
+||§ 2.2.6|exercise|[ABC 035 C - オセロ](https://atcoder.jp/contests/abc035/tasks/abc035_c)|||[いもす法](https://atcoder.jp/contests/abc035/submissions/14185638)|
+||§ 2.2.6|exercise|[square869120Contest #2 H Counting 1's](https://atcoder.jp/contests/s8pc-2/tasks/s8pc_2_h)|||クエリごとなのでいもす法× 遅延評価セグメント木(RSQ & RAQ) see § 3.3.3|
 ||§ 2.2.6|exercise|[AOJ 2013 - 大崎](https://onlinejudge.u-aizu.ac.jp/problems/2013)|||[いもす法](https://onlinejudge.u-aizu.ac.jp/solutions/problem/2013/review/4306854/knknkn1162/C)|
 ||§ 2.2.6|exercise|[JOI 2015 本選 1 - 鉄道運賃](https://atcoder.jp/contests/joi2015ho/tasks/joi2015ho_a)|||[いもす法、添字に注意](https://atcoder.jp/contests/joi2015ho/submissions/11370150)|
 ||§ 2.2.6|exercise|[JOI 2010 本選 1 - 旅人](https://atcoder.jp/contests/joi2010ho/tasks/joi2010ho_a)|||[累積和, 添字に注意](https://atcoder.jp/contests/joi2010ho/submissions/11338148) or [いもす法](https://atcoder.jp/contests/joi2010ho/submissions/11746886)|
