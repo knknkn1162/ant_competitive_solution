@@ -238,6 +238,7 @@
 ||§ 2.3.8.1|exercise|[ABC 156 E - Roaming](https://atcoder.jp/contests/abc156/tasks/abc156_e)|||[重複組み合わせ](https://atcoder.jp/contests/abc156/submissions/13706356)|
 ||§ 2.3.8.1|exercise|[ABC 167 E - Colorful Blocks](https://atcoder.jp/contests/abc167/tasks/abc167_e)|||[重複組み合わせ](https://atcoder.jp/contests/abc167/submissions/13704646)|
 ||§ 2.3.8.2|exercise|[ABC 162 D - RGB Triplets](https://atcoder.jp/contests/abc162/tasks/abc162_d)|||[(1番目の組み合わせ) - (2番目の条件)](https://atcoder.jp/contests/abc162/submissions/11913543)|
+||§ 2.3.8.2|exercise|[ABC 028 D - 乱数生成](https://atcoder.jp/contests/abc028/tasks/abc028_d)|||[組み合わせ](https://atcoder.jp/contests/abc028/submissions/14195802)|
 ||§ 2.3.8.2|exercise|[ABC 071 D - Coloring Dominoes](https://atcoder.jp/contests/abc071/tasks/arc081_b)|||[組み合わせの掛け算](https://atcoder.jp/contests/abc071/submissions/14017043)|
 ||§ 2.3.8.2|exercise|[ABC 058 D - 井井井](https://atcoder.jp/contests/abc058/tasks/arc071_b)|||[区間上の総和総数問題、2つの積で表せる(X軸とY軸を分離)、組み合わせの掛け算](https://atcoder.jp/contests/abc058/submissions/14112007)|
 ||§ 2.3.8.2|exercise|[ABC 127 E - Cell Distance](https://atcoder.jp/contests/abc127/tasks/abc127_e)|||[区間上の総和総数問題、X軸とY軸を分離、組み合わせの掛け算、二項係数(逆元)](https://atcoder.jp/contests/abc127/submissions/14117163)|
@@ -413,6 +414,7 @@
 ||§ 3.2.4|exercise|[JOI 2007 予選 E おせんべい](https://atcoder.jp/contests/joi2008yo/tasks/joi2008yo_e)|||[bit全探索、貪欲法](https://atcoder.jp/contests/joi2008yo/submissions/10734695)|
 ||§ 3.2.4|exercise|[ABC 159 E - Dividing Chocolate](https://atcoder.jp/contests/abc159/tasks/abc159_e)|||[bit全探索、貪欲法](https://atcoder.jp/contests/abc159/submissions/11922152)|
 ||§ 3.2.4|exercise|[ABC 018 D バレンタインデー](https://atcoder.jp/contests/abc018/tasks/abc018_4)|||[bit全探索、貪欲法](https://atcoder.jp/contests/abc018/submissions/12980160)|
+||§ 3.2.4|exercise|[ABC 031 D - 語呂合わせ](https://atcoder.jp/contests/abc031/tasks/abc031_d)|||[文字列の長さでbit全探索](https://atcoder.jp/contests/abc031/submissions/14197042)|
 ||§ 3.2.4|exercise|[ABC 113 D - Number of Amidakuji](https://atcoder.jp/contests/abc113/tasks/abc113_d)|||[bit(あみだの棒)全探索、DP](https://atcoder.jp/contests/abc113/submissions/13951290)|
 ||§ 3.2.5|example|[Physics Experiment (POJ No.3684)](http://poj.org/problem?id=3684)|||[弾性衝突](./3.2.5/poj3684.cpp)|
 ||§ 3.2.6|example|[4 Values whose Sum is 0 (POJ No.2785)](http://poj.org/problem?id=2785)|||[半分全列挙](./3.2.6/poj2785.c)|
