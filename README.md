@@ -96,6 +96,7 @@
 |o|§ 2.1.4|exercise|[AOJ ITP2_5_C Permutation](https://onlinejudge.u-aizu.ac.jp/courses/lesson/8/ITP2/all/ITP2_5_C)|||[next_permutationの実装]()|
 |o|§ 2.1.4|exercise|[AOJ ITP2_5_D Permutation Enumeration](https://onlinejudge.u-aizu.ac.jp/courses/lesson/8/ITP2/all/ITP2_5_D)|||[permutation]()|
 ||§ 2.1.4|exercise|[ABC 167 D - Teleporter](https://atcoder.jp/contests/abc167/tasks/abc167_d)|||[permutation](https://atcoder.jp/contests/abc167/submissions/13702242)|
+|o|§ 2.1.4|exercise|[ABC 030 D - へんてこ辞書](https://atcoder.jp/contests/abc030/tasks/abc030_d)|||[permutation]()|
 ||§ 2.1.4|exercise|[ABC 054 C One-stroke Path](https://atcoder.jp/contests/abc054/tasks/abc054_c)|||[順列全探索](https://atcoder.jp/contests/abc054/submissions/12291613)|
 ||§ 2.1.4|exercise|[JOI 2009 予選 D カード並べ](https://atcoder.jp/contests/joi2010yo/tasks/joi2010yo_d)|||[bit全探索、順列全探索](https://atcoder.jp/contests/joi2010yo/submissions/12296618)|
 |o|§ 2.1.4|exercise|[yukicoder No.133 カードゲーム](https://yukicoder.me/problems/199)||||
