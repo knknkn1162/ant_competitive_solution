@@ -70,6 +70,7 @@
 ||§ 2.1.1|exercise|[ABC 051 B - Sum of Three Integers](https://atcoder.jp/contests/abc051/tasks/abc051_b)|||[全探索](https://atcoder.jp/contests/abc051/submissions/14017300) or [DP, 累積和](https://atcoder.jp/contests/abc051/submissions/12543729)|
 ||§ 2.1.1|exercise|[ABC 066 B - ss](https://atcoder.jp/contests/abc066/tasks/abc066_b)|||[文字列の全探索](https://atcoder.jp/contests/abc066/submissions/14064944)|
 ||§ 2.1.1|exercise|[ABC 074 C - Sugar Water](https://atcoder.jp/contests/abc074/tasks/arc083_a)|||[全探索](https://atcoder.jp/contests/abc074/submissions/14021322)|
+||§ 2.1.1|exercise|[ABC 031 C - 数列ゲーム](https://atcoder.jp/contests/abc031/tasks/abc031_c)|||[問題文の解釈、全探索](https://atcoder.jp/contests/abc031/submissions/14186421)|
 ||§ 2.1.1|exercise|[ABC 042 C - こだわり者いろはちゃん](https://atcoder.jp/contests/abc042/tasks/arc058_a)|||[全探索](https://atcoder.jp/contests/abc042/submissions/14172165)|
 ||§ 2.1.1|exercise|[ABC 075 D - Axis-Parallel Rectangle](https://atcoder.jp/contests/abc075/tasks/abc075_d)|||[全探索、ソート](https://atcoder.jp/contests/abc075/submissions/14015617)|
 ||§ 2.1.1|exercise|[ABC 166 D - I hate Factorization](https://atcoder.jp/contests/abc166/tasks/abc166_d)|||[上限決めて全探索](https://atcoder.jp/contests/abc166/submissions/13701621)|
