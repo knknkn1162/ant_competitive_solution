@@ -69,6 +69,7 @@
 ||o|§ 2.1.0|exercise|[ABC 029 C - Brute-force Attack](https://atcoder.jp/contests/abc029/tasks/abc029_c)|||[DFSで全列挙](https://atcoder.jp/contests/abc029/tasks/abc029_c)|
 |||§ 2.1.1|example|部分和問題|||[]()|
 |||§ 2.1.1|exercise|[ABC 051 B - Sum of Three Integers](https://atcoder.jp/contests/abc051/tasks/abc051_b)|||[全探索](https://atcoder.jp/contests/abc051/submissions/14017300) or [DP, 累積和](https://atcoder.jp/contests/abc051/submissions/12543729)|
+|||§ 2.1.1|exercise|[ABC 043 C - いっしょ](https://atcoder.jp/contests/abc043/tasks/arc059_a)|||[全探索]() or [平均](https://atcoder.jp/contests/abc043/submissions/14216611)|
 |||§ 2.1.1|exercise|[ABC 066 B - ss](https://atcoder.jp/contests/abc066/tasks/abc066_b)|||[文字列の全探索](https://atcoder.jp/contests/abc066/submissions/14064944)|
 |||§ 2.1.1|exercise|[ABC 074 C - Sugar Water](https://atcoder.jp/contests/abc074/tasks/arc083_a)|||[全探索](https://atcoder.jp/contests/abc074/submissions/14021322)|
 |||§ 2.1.1|exercise|[ABC 031 C - 数列ゲーム](https://atcoder.jp/contests/abc031/tasks/abc031_c)|||[問題文の解釈、全探索](https://atcoder.jp/contests/abc031/submissions/14186421)|
@@ -241,7 +242,7 @@
 |||§ 2.3.8.1|exercise|[ABC 156 E - Roaming](https://atcoder.jp/contests/abc156/tasks/abc156_e)|||[重複組み合わせ](https://atcoder.jp/contests/abc156/submissions/13706356)|
 |||§ 2.3.8.1|exercise|[ABC 167 E - Colorful Blocks](https://atcoder.jp/contests/abc167/tasks/abc167_e)|||[重複組み合わせ](https://atcoder.jp/contests/abc167/submissions/13704646)|
 |||§ 2.3.8.2|exercise|[ABC 162 D - RGB Triplets](https://atcoder.jp/contests/abc162/tasks/abc162_d)|||[(1番目の組み合わせ) - (2番目の条件)](https://atcoder.jp/contests/abc162/submissions/11913543)|
-||§ 2.3.8.2|exercise|[ABC 023 C - 収集王](https://atcoder.jp/contests/abc023/tasks/abc023_c)|||[重複や漏れなく数え上げ](https://atcoder.jp/contests/abc023/submissions/14214643)|
+|||§ 2.3.8.2|exercise|[ABC 023 C - 収集王](https://atcoder.jp/contests/abc023/tasks/abc023_c)|||[重複や漏れなく数え上げ](https://atcoder.jp/contests/abc023/submissions/14214643)|
 |||§ 2.3.8.2|exercise|[ABC 028 D - 乱数生成](https://atcoder.jp/contests/abc028/tasks/abc028_d)|||[組み合わせ](https://atcoder.jp/contests/abc028/submissions/14195802)|
 |||§ 2.3.8.2|exercise|[ABC 071 D - Coloring Dominoes](https://atcoder.jp/contests/abc071/tasks/arc081_b)|||[組み合わせの掛け算](https://atcoder.jp/contests/abc071/submissions/14017043)|
 |||§ 2.3.8.2|exercise|[ABC 058 D - 井井井](https://atcoder.jp/contests/abc058/tasks/arc071_b)|||[区間上の総和総数問題、2つの積で表せる(X軸とY軸を分離)、組み合わせの掛け算](https://atcoder.jp/contests/abc058/submissions/14112007)|
