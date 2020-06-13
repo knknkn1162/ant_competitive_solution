@@ -54,7 +54,7 @@ int get_str(char *str, int size)
         return 0;
     snprintf(format, sizeof(format), "%%%ds", size);
     scanf(format, str);
-    return 0;
+    return strlen(str);
 }
 
 // sort
