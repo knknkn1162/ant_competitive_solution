@@ -195,6 +195,7 @@
 |||§ 2.3.1.0|exercise|[ABC 154 E - Almost Everywhere Zero](https://atcoder.jp/contests/abc154/tasks/abc154_e)|||[桁DP](https://atcoder.jp/contests/abc154/submissions/12545187)|
 |o||§ 2.3.1.0|exercise|[ABC 129 E - Sum Equals Xor](https://atcoder.jp/contests/abc129/tasks/abc129_e)|||[桁DP](https://atcoder.jp/contests/abc129/submissions/14211169)|
 |||§ 2.3.2|example|[AOJ ALDS1_10_C 最長共通部分列問題(LCS)](https://onlinejudge.u-aizu.ac.jp/problems/ALDS1_10_C)|||[2次元DP](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_10_C/review/4408455/knknkn1162/C)|
+|||§ 2.3.2|example|[ABC 130 E - Common Subsequence](https://atcoder.jp/contests/abc130/tasks/abc130_e)|||[LCSの応用、重複分を消してDP](https://atcoder.jp/contests/abc130/submissions/14268154)|
 |||§ 2.3.2|exercise|[AOJ DPL_1_E 編集距離](https://onlinejudge.u-aizu.ac.jp/problems/DPL_1_E)|||[DP](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_1_E/review/4427482/knknkn1162/C)|
 |||§ 2.3.2|exercise|[AOJ DPL_3_A 最大正方形](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_3_A)|||[DP](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_3_A/review/4517230/knknkn1162/C)|
 |||§ 2.3.3|example|[AOJ DPL_1_C 個数制限なしナップサック問題](https://onlinejudge.u-aizu.ac.jp/problems/DPL_1_C)|||[インライン1次元DP](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_1_C/review/4281702/knknkn1162/C)|
@@ -234,6 +235,7 @@
 |||§ 2.3.8.1|exercise|[ABC 132 D - Blue and Red Balls](https://atcoder.jp/contests/abc132/tasks/abc132_d)|||[組み合わせ](https://atcoder.jp/contests/abc132/submissions/14168523)|
 |||§ 2.3.8.1|exercise|[ABC 066 D - 11](https://atcoder.jp/contests/abc066/tasks/arc077_b)|||[組み合わせ](https://atcoder.jp/contests/abc066/submissions/14028001)|
 |||§ 2.3.8.1|exercise|[ABC 057 D - Maximum Average Sets](https://atcoder.jp/contests/abc057/tasks/abc057_d)|||[組み合わせ(パスカルの三角形)](https://atcoder.jp/contests/abc057/submissions/14083924)|
+|||§ 2.3.8.1|exercise|[ABC 042 D - いろはちゃんとマス目](https://atcoder.jp/contests/abc042/tasks/arc058_b)|||[組み合わせ、実装問題](https://atcoder.jp/contests/abc042/submissions/14223492)|
 |||§ 2.3.8.1|example|重複組み合わせ|||[DP + 累積和](./2.3.8/example.c)|
 |||§ 2.3.8.1|exercise|[Educational DP Contest M - Candies](https://atcoder.jp/contests/dp/tasks/dp_m)|||[DP + 累積和](https://atcoder.jp/contests/dp/submissions/12038653)|
 |||§ 2.3.8.1|exercise|[ABC 110 D - Factorization](https://atcoder.jp/contests/abc110/tasks/abc110_d)|||[素因数分解、重複組み合わせ、逆元](https://atcoder.jp/contests/abc110/submissions/12515321)|
