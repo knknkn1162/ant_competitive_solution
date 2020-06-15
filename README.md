@@ -442,6 +442,7 @@
 ||o|§ 3.2.8|exercise|[AOJ 2426 宝探し](https://onlinejudge.u-aizu.ac.jp/problems/2426)|||[]()|
 ||o|§ 3.2.9|example|[Crane (POJ No.2991)](http://poj.org/problem?id=2991)|||[セグメント木(難)]()|
 |||§ 3.3.1|exercise|[DSL_2_A Range Minimum Query(RMQ)](https://onlinejudge.u-aizu.ac.jp/problems/DSL_2_A)|||[セグメント木](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_2_A/review/4461035/knknkn1162/C)|
+|||§ 3.3.1|exercise|[ABC 170 E - Smart Infants](https://atcoder.jp/contests/abc170/tasks/abc170_e)|||[multiset(min, delete) -> セグメント木](https://atcoder.jp/contests/abc170/submissions/14381077)|
 |||§ 3.3.1|exercise|[DSL_2_B Range Sum Query(RSQ)](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_2_B)|||[セグメント木](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_2_B/review/4465240/knknkn1162/C)|
 |||§ 3.3.1|exercise|[DSL_2_D Range Update Query(RUQ)](https://onlinejudge.u-aizu.ac.jp/problems/DSL_2_D)|||[更新時間も含めてセグメント木にする](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_2_D/review/4566170/knknkn1162/C) or [更新順をセグメント木に持たせる](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_2_D/review/4465450/knknkn1162/C)|
 |||§ 3.3.1|exercise|[ABC 128 E - Roadwork](https://atcoder.jp/contests/abc128/tasks/abc128_e)|||[座標圧縮、一本化してソート、セグメント木(RUQ)](https://atcoder.jp/contests/abc128/submissions/14152586) or [イベントソート, multiset](https://atcoder.jp/contests/abc128/submissions/14150359)|
