@@ -359,7 +359,8 @@
 |||§ 2.6.4|exercise|[天下一プログラマーコンテスト2012 予選C A - 与えられた数より小さい素数の個数について](https://atcoder.jp/contests/tenka1-2012-qualc/tasks/tenka1_2012_9)|||[エラトステネスのふるい](https://atcoder.jp/contests/tenka1-2012-qualc/submissions/12817314)
 |||§ 2.6.4|exercise|[AOJ #0009 素数](https://onlinejudge.u-aizu.ac.jp/problems/0009)|||[エラトステネスのふるい](https://onlinejudge.u-aizu.ac.jp/solutions/problem/0009/review/4433621/knknkn1162/C)|
 |||§ 2.6.4|exercise|[ABC 169 D - Div Game](https://atcoder.jp/contests/abc169/tasks/abc169_d)|||[エラトステネスのふるい](https://atcoder.jp/contests/abc169/submissions/13950098)|
-|||§ 2.4.2|exercise|[ABC 170 D - Not Divisible](https://atcoder.jp/contests/abc170/tasks/abc170_d)|||[map, 約数、ai = 1のコーナーケースに注意](https://atcoder.jp/contests/abc170/submissions/14377948) or [エラトステネスのふるいの応用]()|
+||o|§ 2.6.4|exercise|[AOJ #2286 Problem F: Farey Sequence](https://onlinejudge.u-aizu.ac.jp/problems/2286)|||[エラトステネスのふるい]()|
+|o||§ 2.6.4|exercise|[ABC 170 D - Not Divisible](https://atcoder.jp/contests/abc170/tasks/abc170_d)|||[map, 約数、ai = 1のコーナーケースに注意](https://atcoder.jp/contests/abc170/submissions/14377948) or [エラトステネスのふるいの応用](https://atcoder.jp/contests/abc170/submissions/14381903)|
 |||§ 2.6.4|exercise|[ABC 114 D - 756](https://atcoder.jp/contests/abc114/tasks/abc114_c)|||[素因数分解、再帰関数](https://atcoder.jp/contests/abc114/submissions/13678388)|
 |||§ 2.6.5|example|区間内の素数の個数|||[]()|
 |||§ 2.6.6|example|[Uva No.10006 Carmichael Numbers](https://onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=947)|||[高速累乗](./2.6.6/uva10006.c)|

@@ -2,7 +2,6 @@
 #include <string.h>
 #include <stdlib.h>
 #include <stdint.h> // int64_t
-#include <math.h>
 
 #define max(a,b) ((a) > (b) ? (a) : (b))
 #define min(a,b) ((a) > (b) ? (b) : (a))
@@ -23,48 +22,40 @@ int fget_array(int *arr, int size) {
 }
 
 #define NUM_MAX 200000
-#define ELEM_MAX 1000000
+#define VAL_MAX 1000000
+
+int asc(const void *a1, const void *a2) {
+    return *(int*)a1 - *(int*)a2;
+}
 
 int main(void) {
     int num = get_int();
     static int arr[NUM_MAX];
     fget_array(arr, num);
-
-    static int map[ELEM_MAX+1];
-    int i;
-    for(i = 0; i < num; i++) {
-        map[arr[i]]++;
-    }
-    int ans = 0;
-    if(map[1]==1) {
-        ans = 1;
-        goto finish;
-    } else if (map[1] > 1) {
-        ans = 0;
-        goto finish;
-    }
-
-    int d;
-    int cnt = 0;
-    // assume that a[i] > 1 for all i
+    qsort(arr, num, sizeof(int), asc);
+    static char dp[VAL_MAX+1];
+    memset(dp, 0x01, sizeof(char)*(VAL_MAX+1));
+    int i, j;
+    int prev = 0;
+    // sieve of eratosthenes
     for(i = 0; i < num; i++) {
         int val = arr[i];
-        int val_2 = sqrt(0.5 + val);
-        int flag = 0;
-        if(map[val]>1) flag = 1;
-        for(d = 2; d <= val_2; d++) {
-            if(val%d) continue;
-            if(map[d]) flag = 1;
-            if(map[val/d]) flag = 1;
-            if(flag) break;
+        if(!dp[val]) continue;
+        // important!!
+        if(val == prev) {
+            dp[val] = 0;
+            continue;
         }
-#ifdef DEBUG
-        printf("%d -> flag: %d\n", i, flag);
-#endif
-        cnt += flag;
+        prev = val;
+        int ulimit = VAL_MAX/val;
+        for(j = 2; j <= ulimit; j++) {
+            dp[val*j] = 0;
+        }
     }
-    ans = num-cnt;
-finish:
-    printf("%d\n", ans);
+    int cnt = 0;
+    for(i = 0; i < num; i++) {
+        cnt += dp[arr[i]];
+    }
+    printf("%d\n", cnt);
     return 0;
 }
