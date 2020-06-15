@@ -8,7 +8,7 @@
 
 # Problems & Solutions
 
-|revisit|TODO|idx|type|問題名|難易度|備考|方針/解答例|
+|revisit|TODO|idx|type|問題名|難易度|備考|方針/解答例(C)|C++|
 |---|---|---|---|---|---|---|---|
 ||o|§ 1.1.1|example|くじ引き|||[半分全列挙]()|
 |||§ 1.1.1|exercise|[JOI 2007 本選 C ダーツ](https://atcoder.jp/contests/joi2008ho/tasks/joi2008ho_c)|||see § 3.1.1|
@@ -495,4 +495,30 @@
 ||o|§ 4.4.1|exercise|[ARC 076 E Connected?](https://atcoder.jp/contests/arc076/tasks/arc076_c)|||[]()|
 |||§ 4.4.2|example|[DSL_3_D Sliding Minimum Element(スライド最小値)](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_3_D)|||[deque, (二分探索)](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_3_D/review/4476479/knknkn1162/C) or [セグメント木(RMQ)](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_3_D/review/4480940/knknkn1162/C)|
 |||§ 4.4.2|exercise|[ABC 066 C pushpush](https://atcoder.jp/contests/arc077/tasks/arc077_a)|||[deque(pushのみ)](https://atcoder.jp/contests/abc066/submissions/14032033)|
+|||misc|example|[EX1 - コードテストと出力の練習](https://atcoder.jp/contests/apg4b/tasks/APG4b_cv)||||[cout](https://atcoder.jp/contests/apg4b/submissions/14388589)|
+|||misc|example|[EX2 - エラーの修正](https://atcoder.jp/contests/apg4b/tasks/APG4b_cu)||||[コンパイルエラーの修正](https://atcoder.jp/contests/apg4b/submissions/14388691)|
+|||misc|example|[EX3 - 計算問題](https://atcoder.jp/contests/apg4b/tasks/APG4b_ct)||||[四則演算](https://atcoder.jp/contests/apg4b/submissions/14388776)|
+|||misc|example|[EX4 - ◯年は何秒？](https://atcoder.jp/contests/apg4b/tasks/APG4b_cs)||||[四則演算](https://atcoder.jp/contests/apg4b/submissions/14388912)|
+|||misc|example|[EX5 - A足すB問題](https://atcoder.jp/contests/apg4b/tasks/APG4b_cr)||||[cin](https://atcoder.jp/contests/apg4b/submissions/14389045)|
+|||misc|example|[EX6 - 電卓をつくろう](https://atcoder.jp/contests/apg4b/tasks/APG4b_cq)||||[switch](https://atcoder.jp/contests/apg4b/submissions/14389199)|
+|||misc|example|[EX7 - bool値パズル](https://atcoder.jp/contests/apg4b/tasks/APG4b_cp)||||[bool](https://atcoder.jp/contests/apg4b/submissions/14389270)|
+|||misc|example|[EX8 - たこ焼きセット](https://atcoder.jp/contests/apg4b/tasks/APG4b_co)||||[入力列の変則的な処理](https://atcoder.jp/contests/apg4b/submissions/14389509)|
+|||misc|example|[EX9 - 複合代入演算子を使おう](https://atcoder.jp/contests/apg4b/tasks/APG4b_cn)||||[インクリメント、デクリメント](https://atcoder.jp/contests/apg4b/submissions/14389585)|
+|||misc|example|[EX10 - 棒グラフの出力](https://atcoder.jp/contests/apg4b/tasks/APG4b_cm)||||[for](https://atcoder.jp/contests/apg4b/submissions/14389706)|
+|||misc|example|[EX11 - 電卓をつくろう2](https://atcoder.jp/contests/apg4b/tasks/APG4b_cl)||||[for, break](https://atcoder.jp/contests/apg4b/submissions/14389940)|
+|||misc|example|[EX12 - 足したり引いたり](https://atcoder.jp/contests/apg4b/tasks/APG4b_ck)||||[for, switch](https://atcoder.jp/contests/apg4b/submissions/14390101)|
+|||misc|example|[EX13 - 平均との差](https://atcoder.jp/contests/apg4b/tasks/APG4b_cj)||||[sum, abs](https://atcoder.jp/contests/apg4b/submissions/14390386)|
+|||misc|example|[EX14 - 三人兄弟の身長差](https://atcoder.jp/contests/apg4b/tasks/APG4b_ci)||||[max, min](https://atcoder.jp/contests/apg4b/submissions/14390494)|
+|||misc|example|[EX15 - 三人兄弟へのプレゼント](https://atcoder.jp/contests/apg4b/tasks/APG4b_ch)||||[sum関数の作成](https://atcoder.jp/contests/apg4b/submissions/14390640)|
+|||misc|example|[EX16 - 隣り合う同じ値を探す](https://atcoder.jp/contests/apg4b/tasks/APG4b_cg)||||[for](https://atcoder.jp/contests/apg4b/submissions/14390813)|
+|||misc|example|[EX17 - 果物屋さんでお買い物](https://atcoder.jp/contests/apg4b/tasks/APG4b_cf)||||[全探索](https://atcoder.jp/contests/apg4b/submissions/14391042)|
+|||misc|example|[EX18 - ゲーム大会](https://atcoder.jp/contests/apg4b/tasks/APG4b_ce)||||[2次元配列](https://atcoder.jp/contests/apg4b/submissions/14391507)|
+|||misc|example|[EX19 - 九九の採点](https://atcoder.jp/contests/apg4b/tasks/APG4b_cd)||||[数え上げ](https://atcoder.jp/contests/apg4b/submissions/14392089)|
+|||misc|example|[EX20 - 報告書の枚数](https://atcoder.jp/contests/apg4b/tasks/APG4b_cc)||||[隣接リスト、DFS](https://atcoder.jp/contests/apg4b/submissions/14393560)|
+|||misc|example|[EX21 - 計算量の見積もり](https://atcoder.jp/contests/apg4b/tasks/APG4b_cb)||||[計算量](https://atcoder.jp/contests/apg4b/submissions/14393689)|
+|||misc|example|[EX22 - 2つ目の値でソート](https://atcoder.jp/contests/apg4b/tasks/APG4b_ca)||||[pair](https://atcoder.jp/contests/apg4b/submissions/14393878) or [ラムダ式を使ってソート](https://atcoder.jp/contests/apg4b/submissions/14394468)|
+|||misc|example|[EX23 - 最頻値](https://atcoder.jp/contests/apg4b/tasks/APG4b_bz)||||[map](https://atcoder.jp/contests/apg4b/submissions/14394176)|
+||o|misc|example|[EX24 - 時計の実装](https://atcoder.jp/contests/apg4b/tasks/APG4b_by)||||[]()|
+||o|misc|example|[EX25 - 集合の操作](https://atcoder.jp/contests/apg4b/tasks/APG4b_bx)||||[]()|
+||o|misc|example|[EX26 - 電卓を作ろう3]()||||[パーサーを作る]()|
 |||misc|exercise|[ABC 123 C - Five Transportations](https://atcoder.jp/contests/abc123/tasks/abc123_c)|||[ボトルネックを考える](https://atcoder.jp/contests/abc123/submissions/13536398)|
