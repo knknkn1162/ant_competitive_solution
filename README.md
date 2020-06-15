@@ -273,7 +273,7 @@
 ||||exercise|[JOI 2006 本選 D - 最悪の記者](https://atcoder.jp/contests/joi2007ho/tasks/joi2007ho_d)|||[]()|
 ||o|§ 2.3.13|exercise|[JOI 2006 予選 F 通学経路](https://atcoder.jp/contests/joi2007yo/tasks/joi2007yo_f)|||[グリッドDP]()|
 ||o|§ 2.3.14|exercise|[JOI 2012 予選 C 最高のピザ](https://atcoder.jp/contests/joi2012yo/tasks/joi2012yo_c)|||[]()|
-|||§ 2.3.15|example|部分文字列DP|[]()|||[貰うDP](./2.3.15/example.c) or [配るDP](./2.3.15/example2.c)|
+|||§ 2.3.15|example|部分文字列DP|||[貰うDP](./2.3.15/example.c) or [配るDP](./2.3.15/example2.c)|
 ||o|§ 2.3.15|exercise|[ARC 081 E Don't Be a Subsequence](https://atcoder.jp/contests/arc081/tasks/arc081_c)|||[]()|
 |||§ 2.3.15|exercise|[ABC 104 D - We Love ABC](https://atcoder.jp/contests/abc104/tasks/abc104_d)|||[部分文字列DP(重複を許すパターン)](https://atcoder.jp/contests/abc104/submissions/13758841)|
 ||o|§ 2.3.16|exercise|[TDPC O 文字列](https://atcoder.jp/contests/tdpc/tasks/tdpc_string)|||[]()|
