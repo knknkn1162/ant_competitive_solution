@@ -9,7 +9,7 @@
 # Problems & Solutions
 
 |revisit|TODO|idx|type|問題名|難易度|備考|方針/解答例(C)|C++|
-|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|---|---|
 ||o|§ 1.1.1|example|くじ引き|||[半分全列挙]()|
 |||§ 1.1.1|exercise|[JOI 2007 本選 C ダーツ](https://atcoder.jp/contests/joi2008ho/tasks/joi2008ho_c)|||see § 3.1.1|
 |||§ 1.2.1|exercise|[ABC 128 B - Guidebook](https://atcoder.jp/contests/abc128/tasks/abc128_b)|||[qsort](https://atcoder.jp/contests/abc128/submissions/13587446)|
