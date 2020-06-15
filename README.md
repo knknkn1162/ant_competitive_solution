@@ -304,6 +304,7 @@
 |||§ 2.4.2|exercise|[ABC 050 C - Lining Up](https://atcoder.jp/contests/abc050/tasks/arc066_a)|||[考察、map](https://atcoder.jp/contests/abc050/submissions/14105411)|
 |||§ 2.4.2|exercise|[ABC 072 C - Together](https://atcoder.jp/contests/abc072/tasks/arc082_ahttps://atcoder.jp/contests/abc072/tasks/arc082_a)|||[map](https://atcoder.jp/contests/abc072/submissions/14023908)|
 |||§ 2.4.2|exercise|[ABC 111 C - /\\/\\/\\/](https://atcoder.jp/contests/abc111/tasks/arc103_a)|||[map](https://atcoder.jp/contests/abc111/submissions/13679666)|
+|||§ 2.4.2|exercise|[ABC 170 D - Not Divisible](https://atcoder.jp/contests/abc170/tasks/abc170_d)|||[map, ai = 1のコーナーケースに注意](https://atcoder.jp/contests/abc170/submissions/14377948)|
 |||§ 2.4.2|exercise|[ABC 099 D - Good Grid](https://atcoder.jp/contests/abc099/tasks/abc099_d)|||[前処理、colorに対して全探索、map](https://atcoder.jp/contests/abc099/submissions/13838264)|
 |||§ 2.4.2|exercise|[ABC 129 D - Lamp](https://atcoder.jp/contests/abc129/tasks/abc129_d)|||[前処理で累積和の計算](https://atcoder.jp/contests/abc129/submissions/14153175)|
 |||§ 2.4.2|exercise|[ABC 110 C - String Transformation](https://atcoder.jp/contests/abc110/tasks/abc110_c)|||[map2つ(1対1対応のチェック)](https://atcoder.jp/contests/abc110/submissions/13679923)|
