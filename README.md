@@ -69,6 +69,7 @@
 ||o|§ 2.1.0|exercise|[ABC 029 C - Brute-force Attack](https://atcoder.jp/contests/abc029/tasks/abc029_c)|||[DFSで全列挙](https://atcoder.jp/contests/abc029/tasks/abc029_c)|
 |||§ 2.1.1|example|部分和問題|||[]()|
 |||§ 2.1.1|exercise|[ABC 051 B - Sum of Three Integers](https://atcoder.jp/contests/abc051/tasks/abc051_b)|||[全探索](https://atcoder.jp/contests/abc051/submissions/14017300) or [DP, 累積和](https://atcoder.jp/contests/abc051/submissions/12543729)|
+|||§ 2.1.1|exercise|[ABC 006 C - スフィンクスのなぞなぞ](https://atcoder.jp/contests/abc006/tasks/abc006_3)||||[方程式をかんたんにして、全探索](https://atcoder.jp/contests/abc006/submissions/14412001)|
 |||§ 2.1.1|exercise|[ABC 043 C - いっしょ](https://atcoder.jp/contests/abc043/tasks/arc059_a)|||[全探索]() or [平均](https://atcoder.jp/contests/abc043/submissions/14216611)|
 |||§ 2.1.1|exercise|[ABC 066 B - ss](https://atcoder.jp/contests/abc066/tasks/abc066_b)|||[文字列の全探索](https://atcoder.jp/contests/abc066/submissions/14064944)|
 |||§ 2.1.1|exercise|[ABC 074 C - Sugar Water](https://atcoder.jp/contests/abc074/tasks/arc083_a)|||[全探索](https://atcoder.jp/contests/abc074/submissions/14021322)|
