@@ -18,14 +18,23 @@
 #define _GLIBCXX_DEBUG // check []
 
 using namespace std;
+typedef pair<int,int> pii;
+typedef pair<int64_t, int64_t> pII;
 
 template<typename T>
-void cins(vector<T> arr) { for(T e: arr) cin >> e; }
+void cins(vector<T>& arr) { for(T& e: arr) cin >> e; }
 
 template<typename T>
 void p(T elem) {cout << elem << endl;}
 template<typename T>
-void ps(vector<T> arr) { for(T e: arr) p(e); }
+void ps(vector<T>& arr) { for(T e: arr) p(e); }
+
+#ifdef DEBUG
+#define debug(fmt, ...) \
+    printf("[debug] " fmt, __VA_ARGS__)
+#else
+#define debug(fmt, ...)
+#endif
 
 int main(void) {
     return 0;

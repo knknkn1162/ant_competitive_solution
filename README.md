@@ -297,7 +297,7 @@
 |||§ 2.4.1|exercise|[yukicoder No.649 ここでちょっとQK！](https://yukicoder.me/problems/no/649)|||[K番目の値の更新、min heapとmax heap](https://yukicoder.me/submissions/494420)|
 |||§ 2.4.1|exercise|[ABC 123 D - Cake 123](https://atcoder.jp/contests/abc123/tasks/abc123_d)|||min heapでK番目までの値を保存 see § 1.6.2|
 |||§ 2.4.1|exercise|[ABC 127 F - Absolute Minima](https://atcoder.jp/contests/abc127/tasks/abc127_f)|||[中央値の更新、max heapとmin heap](https://atcoder.jp/contests/abc127/submissions/14134394)|
-|||§ 2.4.2|exercise|[ABC 085 B Kagami Mochi](https://atcoder.jp/contests/abc085/tasks/abc085_b)|||[map](https://atcoder.jp/contests/abc085/submissions/7997905)|
+|||§ 2.4.2|exercise|[ABC 085 B Kagami Mochi](https://atcoder.jp/contests/abc085/tasks/abc085_b)|||[map](https://atcoder.jp/contests/abc085/submissions/7997905)|[set](https://atcoder.jp/contests/abc085/submissions/14410228)|
 |||§ 2.4.2|exercise|[ABC 091 B Two Colors Card Game](https://atcoder.jp/contests/abc091/tasks/abc091_b)|||[文字列のmap](https://atcoder.jp/contests/abc091/submissions/8001652)|
 |||§ 2.4.2|exercise|[ABC 098 B - Cut and Count](https://atcoder.jp/contests/abc098/tasks/abc098_b)|||[map](https://atcoder.jp/contests/abc098/submissions/13929585)|
 |||§ 2.4.2|exercise|[ABC 081 C - Not so Diverse](https://atcoder.jp/contests/abc081/tasks/arc086_a)|||[map, ソート](https://atcoder.jp/contests/abc081/submissions/14003881)|
@@ -325,6 +325,7 @@
 |||§ 2.4.3|exercise|[ARC 097 D Equals](https://atcoder.jp/contests/arc097/tasks/arc097_b)|||[スワップ問題、Union Find](https://atcoder.jp/contests/arc097/submissions/12697803)|
 |||§ 2.4.3|exercise|[ARC 036 D 偶数メートル](https://atcoder.jp/contests/arc036/tasks/arc036_d)|||[2×num のUnion Find](https://atcoder.jp/contests/arc036/submissions/12701345)|
 |||§ 2.4.3|exercise|[ABC 126 E - 1 or 2](https://atcoder.jp/contests/abc126/tasks/abc126_e)|||[2×numのUnion Find](https://atcoder.jp/contests/abc126/submissions/13533399)|
+|||§ 2.4.3|exercise|[ABC 131 F - Must Be Rectangular!](https://atcoder.jp/contests/abc131/tasks/abc131_f)||||[二部グラフ、2×numのUnion Find](https://atcoder.jp/contests/abc131/submissions/14414215)
 |||§ 2.4.3|exercise|[ABC 120 D - Decayed Bridge](https://atcoder.jp/contests/abc120/tasks/abc120_d)|||[Union Find, 累積和](https://atcoder.jp/contests/abc120/submissions/11458940)|
 |||§ 2.4.3|exercise|[ABC 040 D - 道路の老朽化対策について](https://atcoder.jp/contests/abc040/tasks/abc040_d)|||[ソートして、Union find, 尺取法っぽく](https://atcoder.jp/contests/abc040/submissions/14172996) or [一本化してソート](https://atcoder.jp/contests/abc040/submissions/14173646)|
 |||§ 2.4.3|exercise|[AOJ DSL_1_B 重み付きUnion Find木](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/1/DSL_1_B)|||[重み付きUnion Find木](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_1_B/review/4432248/knknkn1162/C)|
@@ -517,7 +518,7 @@
 |||misc|example|[EX20 - 報告書の枚数](https://atcoder.jp/contests/apg4b/tasks/APG4b_cc)||||[隣接リスト、DFS](https://atcoder.jp/contests/apg4b/submissions/14393560)|
 |||misc|example|[EX21 - 計算量の見積もり](https://atcoder.jp/contests/apg4b/tasks/APG4b_cb)||||[計算量](https://atcoder.jp/contests/apg4b/submissions/14393689)|
 |||misc|example|[EX22 - 2つ目の値でソート](https://atcoder.jp/contests/apg4b/tasks/APG4b_ca)||||[pair](https://atcoder.jp/contests/apg4b/submissions/14393878) or [ラムダ式を使ってソート](https://atcoder.jp/contests/apg4b/submissions/14394468)|
-|||misc|example|[EX23 - 最頻値](https://atcoder.jp/contests/apg4b/tasks/APG4b_bz)||||[map](https://atcoder.jp/contests/apg4b/submissions/14394176)|
+|||misc|example|[EX23 - 最頻値](https://atcoder.jp/contests/apg4b/tasks/APG4b_bz)||||[map(STLの理解の確認](https://atcoder.jp/contests/apg4b/submissions/14394176)|
 ||o|misc|example|[EX24 - 時計の実装](https://atcoder.jp/contests/apg4b/tasks/APG4b_by)||||[]()|
 ||o|misc|example|[EX25 - 集合の操作](https://atcoder.jp/contests/apg4b/tasks/APG4b_bx)||||[]()|
 ||o|misc|example|[EX26 - 電卓を作ろう3]()||||[パーサーを作る]()|
