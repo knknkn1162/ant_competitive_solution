@@ -16,6 +16,7 @@
 #include <bitset> // bitset
 #include <cctype> // isupper, islower, isdigit, toupper, tolower
 #define _GLIBCXX_DEBUG // check []
+#define DIVISOR 1000000007
 
 using namespace std;
 typedef pair<int,int> pii;
@@ -31,7 +32,7 @@ void ps(vector<T>& arr) { for(T e: arr) p(e); }
 
 #ifdef DEBUG
 #define debug(fmt, ...) \
-    printf("[debug] " fmt, __VA_ARGS__)
+    printf("[debug: %s] " fmt, __func__, __VA_ARGS__)
 #else
 #define debug(fmt, ...)
 #endif
