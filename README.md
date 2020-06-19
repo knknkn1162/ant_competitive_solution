@@ -31,6 +31,7 @@
 |||§ 1.7.1|exercise|[ABC 078 C - HSI](https://atcoder.jp/contests/abc078/tasks/arc085_a)|||[期待値](https://atcoder.jp/contests/abc078/submissions/14014840)|
 |||§ 1.7.1|exercise|[Educational DP Contest J - Sushi](https://atcoder.jp/contests/dp/tasks/dp_j)|||期待値 see § 2.3.17|
 |||§ 1.8.0|exercise|[C - X: Yet Another Die Game](https://atcoder.jp/contests/abc053/tasks/arc068_a)|||[考察、実装するだけ](https://atcoder.jp/contests/abc053/submissions/14105131)|
+|||§ 1.8.0|exercise|[ABC 024 C - 民族大移動](https://atcoder.jp/contests/abc024/tasks/abc024_c)||||[実装問題](https://atcoder.jp/contests/abc024/submissions/14455435)|
 |||§ 1.8.1|exercise|[ABC 106 C - To Infinity](https://atcoder.jp/contests/abc106/tasks/abc106_c)|||[文字列の実装問題](https://atcoder.jp/contests/abc106/submissions/13744106)|
 |||§ 1.8.1|exercise|[ABC 033 C - 数式の書き換え](https://atcoder.jp/contests/abc033/tasks/abc033_c)|||[文字列のパース、実装問題](https://atcoder.jp/contests/abc033/submissions/14209297)|
 |||§ 1.8.1|exercise|[AOJ 1193 - 連鎖消滅パズル](https://onlinejudge.u-aizu.ac.jp/problems/1193)|||[落ちゲー、実装問題、解くだけ](https://onlinejudge.u-aizu.ac.jp/solutions/problem/1193/review/4320693/knknkn1162/C)|
@@ -70,6 +71,7 @@
 |||§ 2.1.1|example|部分和問題|||[]()|
 |||§ 2.1.1|exercise|[ABC 051 B - Sum of Three Integers](https://atcoder.jp/contests/abc051/tasks/abc051_b)|||[全探索](https://atcoder.jp/contests/abc051/submissions/14017300) or [DP, 累積和](https://atcoder.jp/contests/abc051/submissions/12543729)|
 |||§ 2.1.1|exercise|[ABC 006 C - スフィンクスのなぞなぞ](https://atcoder.jp/contests/abc006/tasks/abc006_3)||||[方程式をかんたんにして、全探索](https://atcoder.jp/contests/abc006/submissions/14412001)|
+|||§ 2.1.1|exercise|[ABC 133 D - Rain Flows into Dams](https://atcoder.jp/contests/abc133/tasks/abc133_d)||||[方程式(すべての和は雨の総量)](https://atcoder.jp/contests/abc133/submissions/14473252)|
 |||§ 2.1.1|exercise|[ABC 043 C - いっしょ](https://atcoder.jp/contests/abc043/tasks/arc059_a)|||[全探索]() or [平均](https://atcoder.jp/contests/abc043/submissions/14216611)|
 |||§ 2.1.1|exercise|[ABC 066 B - ss](https://atcoder.jp/contests/abc066/tasks/abc066_b)|||[文字列の全探索](https://atcoder.jp/contests/abc066/submissions/14064944)|
 |||§ 2.1.1|exercise|[ABC 074 C - Sugar Water](https://atcoder.jp/contests/abc074/tasks/arc083_a)|||[全探索](https://atcoder.jp/contests/abc074/submissions/14021322)|
@@ -93,6 +95,7 @@
 ||o|§ 2.1.2|exercise|[JOI 2009 予選 4 - 薄氷渡り](https://atcoder.jp/contests/joi2009yo/tasks/joi2009yo_d)|||[]()|
 ||o|§ 2.1.3|exercise|迷路の最短路|||[BFS]()|
 |||§ 2.1.3|exercise|[E - チーズ (Cheese)](https://atcoder.jp/contests/joi2011yo/tasks/joi2011yo_e)|||[BFS](https://atcoder.jp/contests/joi2011yo/submissions/11007756)|
+|||§ 2.1.3|exercise|[E - Hopscotch Addict](https://atcoder.jp/contests/abc132/tasks/abc132_e)|||[頂点を3倍化して`u_(i)->v_(i+1)`のように結ぶ、BFS]|
 ||o|§ 2.1.3|exercise|[ARC 005 C 器物損壊！高橋君](https://atcoder.jp/contests/arc005/tasks/arc005_3)|||[0-1 BFS](https://atcoder.jp/contests/arc005/submissions/8570403) or [Dijkstra]() or [deque]()|
 |||§ 2.1.3|exercise|[ABC 005 C - おいしいたこ焼きの売り方](https://atcoder.jp/contests/abc005/tasks/abc005_3)|||一本化してソート、queue see § 2.2.4.1|
 |||§ 2.1.4|example|特別な状態の列挙|||[next_permutationの実装](./2.1.4/)|
@@ -326,6 +329,7 @@
 |||§ 2.4.3|exercise|[ABC 157 D - Friend Suggestions](https://atcoder.jp/contests/abc157/tasks/abc157_d)|||[Union Find](https://atcoder.jp/contests/abc157/submissions/11931508)|
 |||§ 2.4.3|exercise|[ARC 097 D Equals](https://atcoder.jp/contests/arc097/tasks/arc097_b)|||[スワップ問題、Union Find](https://atcoder.jp/contests/arc097/submissions/12697803)|
 |||§ 2.4.3|exercise|[ARC 036 D 偶数メートル](https://atcoder.jp/contests/arc036/tasks/arc036_d)|||[2×num のUnion Find](https://atcoder.jp/contests/arc036/submissions/12701345)|
+|||§ 2.4.3|exercise|[E - Hopscotch Addict](https://atcoder.jp/contests/abc132/tasks/abc132_e)||||頂点を3倍化。see § 2.1.3|
 |||§ 2.4.3|exercise|[ABC 126 E - 1 or 2](https://atcoder.jp/contests/abc126/tasks/abc126_e)|||[2×numのUnion Find](https://atcoder.jp/contests/abc126/submissions/13533399)|
 |||§ 2.4.3|exercise|[ABC 131 F - Must Be Rectangular!](https://atcoder.jp/contests/abc131/tasks/abc131_f)||||[二部グラフ、2×numのUnion Find](https://atcoder.jp/contests/abc131/submissions/14414215)
 |||§ 2.4.3|exercise|[ABC 120 D - Decayed Bridge](https://atcoder.jp/contests/abc120/tasks/abc120_d)|||[Union Find, 累積和](https://atcoder.jp/contests/abc120/submissions/11458940)|
@@ -357,6 +361,7 @@
 |||§ 2.6.2|exercise|[AOJ NTL_1_E - 拡張ユークリッドの互除法](https://onlinejudge.u-aizu.ac.jp/problems/NTL_1_E)|||[拡張ユークリッド法そのまま](https://onlinejudge.u-aizu.ac.jp/solutions/problem/NTL_1_E/review/4433567/knknkn1162/C)|
 ||o|§ 2.6.3|example|素数判定|||[]()|
 |||§ 2.6.3|exercise|[ABC 112 D - Partition](https://atcoder.jp/contests/abc112/tasks/abc112_d)|||[約数](https://atcoder.jp/contests/abc112/tasks/abc112_d)|
+|||§ 2.6.3|exercise|[ABC 134 D - Preparing Boxes](https://atcoder.jp/contests/abc134/tasks/abc134_d)||||[後ろから貪欲法で、約数](https://atcoder.jp/contests/abc134/submissions/14474915)|
 |||§ 2.6.3|exercise|[ABC 052 C - Factors of Factorial](https://atcoder.jp/contests/abc052/tasks/arc067_a)|||[素因数分解、約数の個数](https://atcoder.jp/contests/abc052/submissions/12487335)|
 |||§ 2.6.3|exercise|[ABC 084 D 2017-like Number](https://atcoder.jp/contests/abc084/submissions/11665020)|||[素数, 累積和](https://atcoder.jp/contests/abc084/submissions/11665020)|
 |||§ 2.6.4|exercise|[天下一プログラマーコンテスト2012 予選C A - 与えられた数より小さい素数の個数について](https://atcoder.jp/contests/tenka1-2012-qualc/tasks/tenka1_2012_9)|||[エラトステネスのふるい](https://atcoder.jp/contests/tenka1-2012-qualc/submissions/12817314)
