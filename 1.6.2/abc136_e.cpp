@@ -38,27 +38,6 @@ void ps(vector<T>& arr) { for(T e: arr) p(e); }
 #define debug(fmt, ...)
 #endif
 
-bool judge(vector<int>& arr, int64_t key, int goal) {
-    int64_t sum_diff = 0;
-    static vector<int64_t> diffs(arr.size());
-    for(int i = 0; i < arr.size(); i++) {
-        int64_t diff = arr[i]%key;
-        diffs[i] = min(diff, key-diff);
-        sum_diff += diffs[i];
-    }
-    // desc
-    sort(diffs.begin(), diffs.end(), greater<int64_t>());
-    int64_t sum_upper = 0;
-    for(int i = 0; i < arr.size(); i++) {
-        if(sum_diff <= goal) break;
-        sum_diff -= diffs[i];
-        sum_upper += (key-diffs[i]);
-    }
-    debug("key: %d(goal: %d) -> %lld %lld\n", key, goal,
-        sum_diff, sum_upper);
-    return sum_diff <=goal && sum_upper <= goal;
-}
-
 int main(void) {
     int num, k;
     cin >> num >> k;
@@ -68,19 +47,7 @@ int main(void) {
     for(int elem: arr) {
         sum += elem;
     }
-
-    int64_t high = sum+1;
-    int64_t low = 0;
-    while(low + 1 < high) {
-        int64_t mid = (low + high)/2;
-        if(judge(arr, mid, k)) {
-            low = mid;
-        } else {
-            high = mid;
-        }
-    }
-    debug("tmp: %d\n", low);
-    int64_t sum_2 = sqrt(0.5+sum);
+    int sum_2 = sqrt(0.5+sum);
     vector<int> divs;
     for(int i = 1; i <= sum_2; i++) {
         if(sum%i) continue;
@@ -88,8 +55,29 @@ int main(void) {
         if(i*i==sum) continue;
         divs.push_back(sum/i);
     }
-    sort(divs.begin(), divs.end());
-    auto it = upper_bound(divs.begin(), divs.end(), low);
-    cout << *(it-1) << endl;
+    sort(divs.begin(), divs.end(), greater<int>());
+
+    vector<int> diffs(arr.size());
+    int ans = 0;
+    for(int div: divs) {
+        int64_t sum_diff = 0;
+        for(int i = 0; i < arr.size(); i++) {
+            diffs[i] = arr[i]%div;
+            sum_diff += diffs[i];
+        }
+
+        sort(diffs.begin(), diffs.end(), greater<int>());
+        int64_t sum_upper = 0;
+        for(int i = 0; i < diffs.size(); i++) {
+            if(sum_diff <= k) break;
+            sum_diff -= diffs[i];
+            sum_upper += (div-diffs[i]);
+        }
+        if(sum_diff <= k && sum_upper <= k) {
+            ans = div;
+            break;
+        }
+    }
+    cout << ans << endl;
     return 0;
 }
