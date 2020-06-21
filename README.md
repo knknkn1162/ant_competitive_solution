@@ -84,6 +84,7 @@
 ||o|§ 2.1.1|exercise|[ABC 088 C - Takahashi's Information](https://atcoder.jp/contests/abc088/tasks/abc088_c)|||[解を仮定して全探索]()|
 |||§ 2.1.1|exercise|[ABC 060 D - Simple Knapsack](https://atcoder.jp/contests/abc060/tasks/arc073_b)|||[O(N^4)の全探索(4種類なので4乗ループ)](https://atcoder.jp/contests/abc060/submissions/14063654) or [K個を決め打ちで`dp[N][K][weight]`としてDP](https://atcoder.jp/contests/abc060/submissions/14062472)|
 |||§ 2.1.1|exercise|[ARC 029 A - 高橋君とお肉](https://atcoder.jp/contests/arc029/tasks/arc029_1)|||[bit全探索](https://atcoder.jp/contests/arc029/submissions/8502963)|
+|||§ 2.1.1|exercise|[ABC 028 C - 数を3つ選ぶマン](https://atcoder.jp/contests/abc028/tasks/abc028_c)||||[bit全探索](https://atcoder.jp/contests/abc028/tasks/abc028_c)|
 |||§ 2.1.1|exercise|[ABC 167 C - Skill Up](https://atcoder.jp/contests/abc167/tasks/abc167_c)|||[bit全探索](https://atcoder.jp/contests/abc167/submissions/13454752)|
 |||§ 2.1.1|exercise|[ABC 119 C - Synthetic Kadomatsu](https://atcoder.jp/contests/abc119/tasks/abc119_c)|||[`4**num`のbit全探索](https://atcoder.jp/contests/abc119/submissions/13564242)|
 |||§ 2.1.1|exercise|[ABC 080 C - Shopping Street](https://atcoder.jp/contests/abc080/tasks/abc080_c)|||[問題文を解釈, bit全探索](https://atcoder.jp/contests/abc080/submissions/13998177)|
@@ -295,6 +296,7 @@
 |||§ 2.3.19|exercise|[ABC 054 D - Mixing Experiment](https://atcoder.jp/contests/abc054/tasks/abc054_d)|||[3次元DP](https://atcoder.jp/contests/abc054/submissions/14109704)|
 |||§ 2.3.19|exercise|[ABC 044 C - 高橋君とカード](https://atcoder.jp/contests/abc044/tasks/arc060_a)|||[3次元DP](https://atcoder.jp/contests/abc044/submissions/14128414)|
 |||§ 2.3.19|exercise|[Educational DP Contest J - Sushi](https://atcoder.jp/contests/dp/tasks/dp_j)|||[期待値、多次元DP](https://atcoder.jp/contests/dp/submissions/12036657)|
+|o|o|§ 2.3.19|[ABC 132 F - Small Products](https://atcoder.jp/contests/abc132/tasks/abc132_f)||||[圧縮DP]()|
 |||§ 2.4.1|example|[(POJ #2431 Expedition](http://poj.org/problem?id=2431)|||[max heap, 燃料を後で消費する](./2.4.1/poj2431.c)|
 |||§ 2.4.1|exercise|[ABC 127 D - Integer Cards](https://atcoder.jp/contests/abc127/tasks/abc127_d)|||[操作を最後に消費する(not 二分探索)](https://atcoder.jp/contests/abc127/submissions/13570674)|
 |||§ 2.4.1|exercise|[ABC 085 D - Katana Thrower](https://atcoder.jp/contests/abc085/tasks/abc085_d)|||[操作の順序の変更で不変, ソート](https://atcoder.jp/contests/abc085/submissions/13971067)|
