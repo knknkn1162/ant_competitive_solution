@@ -351,7 +351,8 @@
 |||§ 2.5.3|exercise|[ABC 065 D Built?](https://atcoder.jp/contests/abc065/tasks/arc076_b)|||[X軸とY軸を分離、ソート -> クラスカル法](https://atcoder.jp/contests/abc065/submissions/11662019)|
 |||§ 2.5.4|example|[POJ #3169 Layout](http://poj.org/problem?id=3169)|||[牛ゲー、ベルマンフォード法](./2.5.4/poj3169.c)|
 |||§ 2.5.4|exercise|[AOJ GRL_1_B 単一始点最短経路（負の重みをもつ辺を含む）](https://onlinejudge.u-aizu.ac.jp/problems/GRL_1_B)|||[ベルマンフォード法](https://onlinejudge.u-aizu.ac.jp/solutions/problem/GRL_1_B/review/4423742/knknkn1162/C)
-|||§ 2.5.4|exercise|[ABC 061 D - Score Attack](https://atcoder.jp/contests/abc061/tasks/abc061_d)|||[Bellman ford, 閉路検出](https://atcoder.jp/contests/abc061/submissions/12686297)|
+|||§ 2.5.4|exercise|[ABC 061 D - Score Attack](https://atcoder.jp/contests/abc061/tasks/abc061_d)|||[ベルマンフォード法, 閉路検出](https://atcoder.jp/contests/abc061/submissions/12686297)|
+|||§ 2.5.4|exercise|[ABC 137 E - Coins Respawn](https://atcoder.jp/contests/abc137/tasks/abc137_e)||||[ベルマンフォード法、閉路検出](https://atcoder.jp/contests/abc137/submissions/14521416)|
 ||o|§ 2.5.4|exercise|[UTPC 2013 H Asteroids2](https://atcoder.jp/contests/utpc2013/tasks/utpc2013_08)|||[考察、牛ゲー, ベルマンフォード法]()|
 |||§ 2.5.5|exercise|[ABC 012 D - バスと避けられない運命](https://atcoder.jp/contests/abc012/tasks/abc012_4)|||[Warshal Fyold](https://atcoder.jp/contests/abc012/submissions/11640675)|
 |||§ 2.5.5|exercise|[ABC 073 D - joisino's travel](https://atcoder.jp/contests/abc073/tasks/abc073_d)|||[ワーシャルフロイド法, permutation](https://atcoder.jp/contests/abc073/submissions/12688097)|
