@@ -358,6 +358,7 @@
 |||§ 2.5.5|exercise|[ABC 073 D - joisino's travel](https://atcoder.jp/contests/abc073/tasks/abc073_d)|||[ワーシャルフロイド法, permutation](https://atcoder.jp/contests/abc073/submissions/12688097)|
 |||§ 2.5.5|exercise|[ABC 051 D - Candidates of No Shortest Paths](https://atcoder.jp/contests/abc051/tasks/abc051_d)|||[ワーシャルフロイド法](https://atcoder.jp/contests/abc051/submissions/14096890)|
 |||§ 2.5.5|exercise|[ABC 079 D - Wall](https://atcoder.jp/contests/abc079/tasks/abc079_d)|||[2次元をgraphに見立ててワーシャルフロイド法, map](https://atcoder.jp/contests/abc079/submissions/11641009)|
+|||§ 2.5.5|exercise|[ABC 022 C - Blue Bird](https://atcoder.jp/contests/abc022/tasks/abc022_c)||||[start, goalを決めてワーシャルフロイド](https://atcoder.jp/contests/abc022/submissions/14523636)|
 ||o|§ 2.5.5|exercise|[AOJ DPL_2_B 中国人郵便配達問題](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_2_B)|||[ワーシャルフロイド法、bitDP]()|
 ||o|§ 2.6.1|example|線分上の格子点の個数|||[]()|
 |||§ 2.6.1|exercise|[ABC 109 C - Skip](https://atcoder.jp/contests/abc109/tasks/abc109_c)|||[GCD](https://atcoder.jp/contests/abc109/submissions/13680345)|
