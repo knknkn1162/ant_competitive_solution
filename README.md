@@ -20,6 +20,7 @@
 |||§ 1.6.1|exercise|[ABC 121 C - Energy Drink Collector](https://atcoder.jp/contests/abc121/tasks/abc121_c)|||[安い順にソート](https://atcoder.jp/contests/abc121/submissions/13685701)|
 |||§ 1.6.1|example|[ABC 115 C - Christmas Eve](https://atcoder.jp/contests/abc115/tasks/abc115_c)|||[ソート](https://atcoder.jp/contests/abc115/submissions/13676383)|
 |||§ 1.6.1|example|[ABC 082 B - Two Anagrams](https://atcoder.jp/contests/abc082/tasks/abc082_b)|||[2つの文字列をそれぞれ昇順、降順にソート](https://atcoder.jp/contests/abc082/submissions/14002733)|
+|||§ 1.6.1|exercise|[ABC 137 C - Green Bin](https://atcoder.jp/contests/abc137/tasks/abc137_c)||||[文字列をソート、map](https://atcoder.jp/contests/abc137/submissions/14648816)|
 |||§ 1.6.1|exercise|[ABC 094 C - Many Medians](https://atcoder.jp/contests/abc094/tasks/arc095_a)|||[中央値、ソート](https://atcoder.jp/contests/abc094/submissions/13910628)|
 |||§ 1.6.2|exercise|[ABC 100 D - Patisserie ABC](https://atcoder.jp/contests/abc100/tasks/abc100_d)|||[発想問題、符号決め打ちでソート](https://atcoder.jp/contests/abc100/submissions/13889053)|
 ||o|§ 1.6.2|exercise|[ABC 123 D - Cake 123](https://atcoder.jp/contests/abc123/tasks/abc123_d)|||[Kが小さい、解の候補を絞ってソート](https://atcoder.jp/contests/abc123/submissions/13557424) or [max heap](https://atcoder.jp/contests/abc123/submissions/14137799) or [二分探索]() or [min heapでK番目までの値を保存(楽)](https://atcoder.jp/contests/abc123/submissions/14138295)|
