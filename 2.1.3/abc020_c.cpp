@@ -58,7 +58,6 @@ int64_t judge(vector<vector<char>>& map, pii start, pii goal, int64_t key) {
     while(!queue.empty()) {
         pii p = queue.front();  queue.pop();
         debug("%d, %d\n", p.first, p.second);
-        if(p == goal) break;
         for(pii d: dir4) {
             pii np = make_pair(
                 p.first + d.first,
