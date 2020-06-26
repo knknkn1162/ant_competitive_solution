@@ -15,6 +15,7 @@
 #include <unordered_set> // unordered_set
 #include <bitset> // bitset
 #include <cctype> // isupper, islower, isdigit, toupper, tolower
+#include <list>
 #define _GLIBCXX_DEBUG // check []
 #define DIVISOR 1000000007
 
@@ -32,6 +33,36 @@ void cins(vector<T>& arr) { for(T& e: arr) cin >> e; }
 #define debug(fmt, ...)
 #endif
 
+static vector<bool> check;
+void dfs(vector<vector<int>>& graph, int node, vector<int>& out) {
+    check[node] = true;
+    for(int elem: graph[node]) {
+        if(check[elem]) continue;
+        dfs(graph, elem, out);
+    }
+    out.push_back(node);
+}
+
 int main(void) {
+    int vs, es;
+    cin >> vs >> es;
+    vector<vector<int>> graph(vs);
+    check.resize(vs);
+    fill(check.begin(), check.end(), false);
+    for(int i = 0; i < es; i++) {
+        int src, dst;
+        cin >> src >> dst;
+        graph[src].push_back(dst);
+    }
+
+    vector<int> ans;
+    for(int i = 0; i < vs; i++) {
+        if(!check[i]) dfs(graph, i, ans);
+    }
+
+    reverse(ans.begin(), ans.end());
+    for(int elem: ans) {
+        cout << elem << endl;
+    }
     return 0;
 }

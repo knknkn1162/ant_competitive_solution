@@ -276,7 +276,8 @@
 |||§ 2.3.11|exercise|[AOJ GRL_5_A 木の直径](https://onlinejudge.u-aizu.ac.jp/problems/GRL_5_A)|||[全方位木DP](https://onlinejudge.u-aizu.ac.jp/solutions/problem/GRL_5_A/review/4364257/knknkn1162/C)|
 ||o|§ 2.3.11|exercise|[AOJ GRL_5_B 木の高さ](https://onlinejudge.u-aizu.ac.jp/courses/library/5/GRL/all/GRL_5_B)|||[全方位木DP]()|
 |||§ 2.3.11|exercise|[ABC 160 F - Distributing Integers](https://atcoder.jp/contests/abc160/tasks/abc160_f)|||[全方位木DP](https://atcoder.jp/contests/abc160/submissions/11998682)|
-|||§ 2.3.12|exercise|[AOJ GRL_4_B トポロジカルソート](https://onlinejudge.u-aizu.ac.jp/courses/library/5/GRL/all/GRL_4_B)|||[DFS, DAG DP](https://onlinejudge.u-aizu.ac.jp/solutions/problem/GRL_4_B/review/4474367/knknkn1162/C)|
+|||§ 2.3.12|exercise|[AOJ GRL_4_B トポロジカルソート](https://onlinejudge.u-aizu.ac.jp/courses/library/5/GRL/all/GRL_4_B)|||[queue, DAG](https://onlinejudge.u-aizu.ac.jp/solutions/problem/GRL_4_B/review/4474367/knknkn1162/C)|[queue, DAG](https://onlinejudge.u-aizu.ac.jp/solutions/problem/GRL_4_B/review/4618465/knknkn1162/C++14)|
+|||§ 2.3.12|exercise|[ABC 139 League](https://atcoder.jp/contests/abc139/tasks/abc139_e)||||[トポロジカルソート、BFS](https://atcoder.jp/contests/abc139/submissions/14689095), [トポロジカルソート, DFS](https://onlinejudge.u-aizu.ac.jp/solutions/problem/GRL_4_B/review/4618616/knknkn1162/C++14)|
 |||§ 2.3.12|exercise|[ABC 037 D 経路](https://atcoder.jp/contests/abc037/tasks/abc037_d)|||[out degreeに注意してDAG DP](https://atcoder.jp/contests/abc037/submissions/12767879)
 |||§ 2.3.12|exercise|[Educational DP Contest G - Longest Path](https://atcoder.jp/contests/dp/tasks/dp_g)|||[DAG DP](https://atcoder.jp/contests/dp/submissions/12015134)|
 |||§ 2.3.12|exercise|[ABC 021 C - 正直者の高橋くん](https://atcoder.jp/contests/abc021/tasks/abc021_c)||||[DAG DP](https://atcoder.jp/contests/abc021/submissions/14634574)|
@@ -303,6 +304,7 @@
 |||§ 2.4.1|exercise|[ABC 127 D - Integer Cards](https://atcoder.jp/contests/abc127/tasks/abc127_d)|||[操作を最後に消費する(not 二分探索)](https://atcoder.jp/contests/abc127/submissions/13570674)|
 |||§ 2.4.1|exercise|[ABC 085 D - Katana Thrower](https://atcoder.jp/contests/abc085/tasks/abc085_d)|||[操作の順序の変更で不変, ソート](https://atcoder.jp/contests/abc085/submissions/13971067)|
 |||§ 2.4.1|exercise|[ALDS1_9_C priority queue](https://onlinejudge.u-aizu.ac.jp/problems/ALDS1_9_C)|||[max heap](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_9_C/review/4495302/knknkn1162/C)|
+|||§ 2.4.1|exercise|[ABC 141 D - Powerful Discount Tickets](https://atcoder.jp/contests/abc141/tasks/abc141_d)||||[max heap](https://atcoder.jp/contests/abc141/submissions/14690404)|
 |||§ 2.4.1|exercise|[2017 CODE FESTIVAL THANKS C - Factory](https://atcoder.jp/contests/code-thanks-festival-2017-open/tasks/code_thanks_festival_2017_c)|||[min heap](https://atcoder.jp/contests/code-thanks-festival-2017-open/submissions/12522002)|
 |||§ 2.4.1|exercise|[ABC 137 D - Summer Vacation](https://atcoder.jp/contests/abc137/tasks/abc137_d)||||[逆順からmax heap](https://atcoder.jp/contests/abc137/submissions/14516120)|
 |||§ 2.4.1|exercise|[ABC 062 D - 3N Numbers](https://atcoder.jp/contests/arc074/tasks/arc074_b)|||[配列と逆配列をmin heap](https://atcoder.jp/contests/arc074/submissions/12810109)|
@@ -441,6 +443,7 @@
 |||§ 3.2.3|exercise|[C - 一次元リバーシ](https://atcoder.jp/contests/abc047/tasks/arc063_a)|||[ランレングス圧縮](https://atcoder.jp/contests/abc047/submissions/14109887)|
 |||§ 3.2.3|exercise|[JOI 2008 本選 1 - 碁石ならべ](https://atcoder.jp/contests/joi2008ho/tasks/joi2008ho_a)|||[stack, ランレングス圧縮](https://atcoder.jp/contests/joi2008ho/submissions/11465819)|
 |||§ 3.2.3|exercise|[JOI 2012 本選 A 電飾](https://atcoder.jp/contests/joi2013ho/tasks/joi2013ho1)|||[stack, ランレングス圧縮](https://atcoder.jp/contests/joi2013ho/submissions/11466663)|
+|||§ 3.2.3|exercise|[ABC 140 D - Face Produces Unhappiness](https://atcoder.jp/contests/abc140/submissions/14690147)||||[ランレングス圧縮](https://atcoder.jp/contests/abc140/submissions/14690147)|
 |||§ 3.2.3|exercise|[ABC 124 D - Handstand](https://atcoder.jp/contests/abc124/tasks/abc124_d)|||[ランレングス圧縮](https://atcoder.jp/contests/abc124/submissions/13535422)|
 ||o|§ 3.2.3|exercise|[JOI 2008 本選 C あみだくじ](https://atcoder.jp/contests/joi2009ho/tasks/joi2009ho_c)|||[]()|
 |||§ 3.2.4|example|[Fliptile (POJ No.3279)](http://poj.org/problem?id=3279)|||[bit全探索、貪欲法(実装重)](./3.2.4/poj3279.c)|

@@ -33,5 +33,29 @@ void cins(vector<T>& arr) { for(T& e: arr) cin >> e; }
 #endif
 
 int main(void) {
+    int len, k;
+    cin >> len >> k;
+    string str;
+    cin >> str;
+    char prev = 'X';
+    int cnt = 0;
+    vector<int> arr;
+    for(int i = 0; i < len; i++) {
+        if(prev != str[i]) {
+            cnt++;
+        }
+        prev = str[i];
+    }
+    debug("%d\n", cnt);
+    while(cnt > 1 && k > 0) {
+        k--;
+        if(cnt == 2) {
+            cnt--;
+        } else {
+            cnt -= 2;
+        }
+    }
+    debug("after: %d\n", cnt);
+    cout << len - cnt << endl;
     return 0;
 }

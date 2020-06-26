@@ -33,5 +33,26 @@ void cins(vector<T>& arr) { for(T& e: arr) cin >> e; }
 #endif
 
 int main(void) {
+    int num, tickets;
+    cin >> num >> tickets;
+    priority_queue<int> queue;
+    for(int i = 0; i < num; i++) {
+        int val;
+        cin >> val;
+        queue.push(val);
+    }
+
+    for(int i = 0; i < tickets; i++) {
+        int val = queue.top(); queue.pop();
+        val >>= 1;
+        queue.push(val);
+    }
+
+    int64_t sum = 0;
+    while(!queue.empty()) {
+        sum += queue.top();
+        queue.pop();
+    }
+    cout << sum << endl;
     return 0;
 }
