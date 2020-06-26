@@ -98,9 +98,15 @@
 |||§ 2.1.2|exercise|[AOJ #1160 Problem B: 島はいくつある？](https://onlinejudge.u-aizu.ac.jp/problems/1160)|||[DFS](https://onlinejudge.u-aizu.ac.jp/solutions/problem/1160/review/4359287/knknkn1162/C)|
 |||§ 2.1.2|exercise|[ABC 067 D - Fennec VS. Snuke](https://atcoder.jp/contests/abc067/tasks/arc078_b)|||[木上のDFS](https://atcoder.jp/contests/abc067/submissions/14047474)|
 ||o|§ 2.1.2|exercise|[JOI 2009 予選 4 - 薄氷渡り](https://atcoder.jp/contests/joi2009yo/tasks/joi2009yo_d)|||[]()|
-||o|§ 2.1.3|exercise|迷路の最短路|||[BFS]()|
-|||§ 2.1.3|exercise|[E - チーズ (Cheese)](https://atcoder.jp/contests/joi2011yo/tasks/joi2011yo_e)|||[BFS](https://atcoder.jp/contests/joi2011yo/submissions/11007756)|
-|||§ 2.1.3|exercise|[E - Hopscotch Addict](https://atcoder.jp/contests/abc132/tasks/abc132_e)|||[頂点を3倍化して`u_(i)->v_(i+1)`のように結ぶ、BFS](https://atcoder.jp/contests/abc132/submissions/14514887)|
+||o|§ 2.1.3|example|迷路の最短路|||[BFS]()|
+|||§ 2.1.3|exercise|[AOJ ALDS_11_C - 幅優先探索](https://onlinejudge.u-aizu.ac.jp/problems/ALDS1_11_C)|||[BFS](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_11_C/review/4275470/knknkn1162/C)|
+|||§ 2.1.3|exercise|[ABC 007 C - 幅優先探索](https://atcoder.jp/contests/abc007/tasks/abc007_3)|||[最短経路問題、BFS](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_11_C/review/4275470/knknkn1162/C)|
+|||§ 2.1.3|exercise|[ABC 018 C - 菱型カウント](https://atcoder.jp/contests/abc018/tasks/abc018_3)||||[xを起点とした最短経路問題に帰着、BFS](https://atcoder.jp/contests/abc018/submissions/14691223)|
+|||§ 2.1.3|exercise|[JOI 2012 予選 5 - イルミネーション](https://atcoder.jp/contests/joi2012yo/tasks/joi2012yo_e)|||[BFS, 配列の添字に注意](https://atcoder.jp/contests/joi2012yo/submissions/11017433)|
+|||§ 2.1.3|exercise|[AOJ #1166 - 迷図と命ず](https://onlinejudge.u-aizu.ac.jp/problems/1166)|||[BFS](https://onlinejudge.u-aizu.ac.jp/solutions/problem/1166/review/4279325/knknkn1162/C)|
+|||§ 2.1.3|exercise|[ABC 088 D - Grid Repainting](https://atcoder.jp/contests/abc088/tasks/abc088_d)|||[BFS](https://atcoder.jp/contests/abc088/submissions/11023795)|
+|||§ 2.1.3|exercise|[E - チーズ (Cheese)](https://atcoder.jp/contests/joi2011yo/tasks/joi2011yo_e)|||[複数回BFS](https://atcoder.jp/contests/joi2011yo/submissions/11007756)|
+|||§ 2.1.3|exercise|[ABC 132 E - Hopscotch Addict](https://atcoder.jp/contests/abc132/tasks/abc132_e)|||[頂点を3倍化して`u_(i)->v_(i+1)`のように結ぶ、BFS](https://atcoder.jp/contests/abc132/submissions/14514887)|
 ||o|§ 2.1.3|exercise|[ARC 005 C 器物損壊！高橋君](https://atcoder.jp/contests/arc005/tasks/arc005_3)|||[0-1 BFS](https://atcoder.jp/contests/arc005/submissions/8570403) or [Dijkstra]() or [deque]()|
 |||§ 2.1.3|exercise|[ABC 005 C - おいしいたこ焼きの売り方](https://atcoder.jp/contests/abc005/tasks/abc005_3)|||一本化してソート、queue see § 2.2.4.1|
 |||§ 2.1.4|example|特別な状態の列挙|||[next_permutationの実装](./2.1.4/)|
