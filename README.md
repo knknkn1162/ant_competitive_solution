@@ -6,6 +6,13 @@
 + https://qiita.com/e869120/items/eb50fdaece12be418faa -> [problems & answers](https://github.com/knknkn1162/blue_e869120_100)
 + https://qiita.com/e869120/items/acba3dd8649d913102b5
 
+# Command
+
+```sh
+# generate or compile or run
+make FILE=0.0.0/abc039_c.cpp
+```
+
 # Problems & Solutions
 
 |revisit|TODO|idx|type|問題名|難易度|備考|方針/解答例(C)|C++|
@@ -34,6 +41,7 @@
 |||§ 1.7.1|exercise|[Educational DP Contest J - Sushi](https://atcoder.jp/contests/dp/tasks/dp_j)|||期待値 see § 2.3.17|
 |||§ 1.8.0|exercise|[C - X: Yet Another Die Game](https://atcoder.jp/contests/abc053/tasks/arc068_a)|||[考察、実装するだけ](https://atcoder.jp/contests/abc053/submissions/14105131)|
 |||§ 1.8.0|exercise|[ABC 024 C - 民族大移動](https://atcoder.jp/contests/abc024/tasks/abc024_c)||||[実装問題](https://atcoder.jp/contests/abc024/submissions/14455435)|
+|||§ 1.8.0|exercise|[ABC 039 C - ピアニスト高橋君](https://atcoder.jp/contests/abc039/tasks/abc039_c)||||[実装問題](https://atcoder.jp/contests/abc039/submissions/14695729)|
 |||§ 1.8.1|exercise|[ABC 106 C - To Infinity](https://atcoder.jp/contests/abc106/tasks/abc106_c)|||[文字列の実装問題](https://atcoder.jp/contests/abc106/submissions/13744106)|
 |||§ 1.8.1|exercise|[ABC 033 C - 数式の書き換え](https://atcoder.jp/contests/abc033/tasks/abc033_c)|||[文字列のパース、実装問題](https://atcoder.jp/contests/abc033/submissions/14209297)|
 |||§ 1.8.1|exercise|[AOJ 1193 - 連鎖消滅パズル](https://onlinejudge.u-aizu.ac.jp/problems/1193)|||[落ちゲー、実装問題、解くだけ](https://onlinejudge.u-aizu.ac.jp/solutions/problem/1193/review/4320693/knknkn1162/C)|
@@ -179,6 +187,7 @@
 |||§ 2.2.6|exercise|[AOJ DSL_5_A The Maximum Number of Customers](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_5_A)|||[いもす法](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_5_A/review/4467956/knknkn1162/C)|
 |||§ 2.2.6|exercise|[AOJ DSL_5_B The Maximum Number of Overlaps](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_5_B)|||[2次元上のいもす法](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_5_B/review/4467993/knknkn1162/C)|
 |||§ 2.2.6|exercise|[ABC 014 C - AtColor](https://atcoder.jp/contests/abc014/tasks/abc014_3)|||[いもす法](https://atcoder.jp/contests/abc014/submissions/11362928)|
+|||§ 2.2.6|exercise|[ABC 017 C - ハイスコア](https://atcoder.jp/contests/abc017/tasks/abc017_3)||||[いもす法](https://atcoder.jp/contests/abc017/submissions/14696344)|
 |||§ 2.2.6|exercise|[ABC 035 C - オセロ](https://atcoder.jp/contests/abc035/tasks/abc035_c)|||[いもす法](https://atcoder.jp/contests/abc035/submissions/14185638)|
 |||§ 2.2.6|exercise|[square869120Contest #2 H Counting 1's](https://atcoder.jp/contests/s8pc-2/tasks/s8pc_2_h)|||クエリごとなのでいもす法× 遅延評価セグメント木(RSQ & RAQ) see § 3.3.3|
 |||§ 2.2.6|exercise|[AOJ 2013 - 大崎](https://onlinejudge.u-aizu.ac.jp/problems/2013)|||[いもす法](https://onlinejudge.u-aizu.ac.jp/solutions/problem/2013/review/4306854/knknkn1162/C)|
