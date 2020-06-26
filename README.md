@@ -101,12 +101,13 @@
 ||o|§ 2.1.3|example|迷路の最短路|||[BFS]()|
 |||§ 2.1.3|exercise|[AOJ ALDS_11_C - 幅優先探索](https://onlinejudge.u-aizu.ac.jp/problems/ALDS1_11_C)|||[BFS](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_11_C/review/4275470/knknkn1162/C)|
 |||§ 2.1.3|exercise|[ABC 007 C - 幅優先探索](https://atcoder.jp/contests/abc007/tasks/abc007_3)|||[最短経路問題、BFS](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_11_C/review/4275470/knknkn1162/C)|
+|||§ 2.1.3|exercise|[ABC 020 C - 壁抜け](https://atcoder.jp/contests/abc020/tasks/abc020_c)||||BFSで迷路探索 see § 3.1.4|
 |||§ 2.1.3|exercise|[ABC 018 C - 菱型カウント](https://atcoder.jp/contests/abc018/tasks/abc018_3)||||[xを起点とした最短経路問題に帰着、BFS](https://atcoder.jp/contests/abc018/submissions/14691223)|
 |||§ 2.1.3|exercise|[JOI 2012 予選 5 - イルミネーション](https://atcoder.jp/contests/joi2012yo/tasks/joi2012yo_e)|||[BFS, 配列の添字に注意](https://atcoder.jp/contests/joi2012yo/submissions/11017433)|
 |||§ 2.1.3|exercise|[AOJ #1166 - 迷図と命ず](https://onlinejudge.u-aizu.ac.jp/problems/1166)|||[BFS](https://onlinejudge.u-aizu.ac.jp/solutions/problem/1166/review/4279325/knknkn1162/C)|
 |||§ 2.1.3|exercise|[ABC 088 D - Grid Repainting](https://atcoder.jp/contests/abc088/tasks/abc088_d)|||[BFS](https://atcoder.jp/contests/abc088/submissions/11023795)|
 |||§ 2.1.3|exercise|[E - チーズ (Cheese)](https://atcoder.jp/contests/joi2011yo/tasks/joi2011yo_e)|||[複数回BFS](https://atcoder.jp/contests/joi2011yo/submissions/11007756)|
-|||§ 2.1.3|exercise|[ABC 132 E - Hopscotch Addict](https://atcoder.jp/contests/abc132/tasks/abc132_e)|||[頂点を3倍化して`u_(i)->v_(i+1)`のように結ぶ、BFS](https://atcoder.jp/contests/abc132/submissions/14514887)|
+|||§ 2.1.3|exercise|[ABC 132 E - Hopscotch Addict](https://atcoder.jp/contests/abc132/tasks/abc132_e)||||[頂点を3倍化して`u_(i)->v_(i+1)`のように結ぶ、BFS](https://atcoder.jp/contests/abc132/submissions/14514887)|
 ||o|§ 2.1.3|exercise|[ARC 005 C 器物損壊！高橋君](https://atcoder.jp/contests/arc005/tasks/arc005_3)|||[0-1 BFS](https://atcoder.jp/contests/arc005/submissions/8570403) or [Dijkstra]() or [deque]()|
 |||§ 2.1.3|exercise|[ABC 005 C - おいしいたこ焼きの売り方](https://atcoder.jp/contests/abc005/tasks/abc005_3)|||一本化してソート、queue see § 2.2.4.1|
 |||§ 2.1.4|example|特別な状態の列挙|||[next_permutationの実装](./2.1.4/)|
@@ -428,7 +429,7 @@
 |||§ 3.1.3|exercise|[JOI 2013 本選 C バームクーヘン](https://atcoder.jp/contests/joi2014ho/tasks/joi2014ho3)|||[](https://atcoder.jp/contests/joi2014ho/submissions/12897638)|
 |||§ 3.1.4|exercise|[ABC 034 D - 食塩水](https://atcoder.jp/contests/abc034/tasks/abc034_d)|||[発想問題、解を仮定して二分探索](https://atcoder.jp/contests/abc034/submissions/12901092)|
 |||§ 3.1.4|exercise|[ARC 026 D 道を直すお仕事](https://atcoder.jp/contests/arc026/tasks/arc026_4)|||[解を仮定して二分探索、探索内部でUnion Find](https://atcoder.jp/contests/arc026/submissions/12904843)|
-|||§ 3.1.4|exercise|[ABC 020 C - 壁抜け](https://atcoder.jp/contests/abc020/tasks/abc020_c)||||[解を仮定して二分探索、min heapで迷路探索](https://atcoder.jp/contests/abc020/submissions/14636072) or [解を仮定して二分探索、DFSで迷路探索]()|
+|||§ 3.1.4|exercise|[ABC 020 C - 壁抜け](https://atcoder.jp/contests/abc020/tasks/abc020_c)||||[解を仮定して二分探索、min heapで迷路探索](https://atcoder.jp/contests/abc020/submissions/14636072) or [解を仮定して二分探索、BFSで迷路探索](https://atcoder.jp/contests/abc020/submissions/14692519)|
 |||§ 3.2.1|example|[Subsequence (POJ No.3061)](http://poj.org/problem?id=3061)|||[尺取法](./3.2.1/poj3061.c)|
 |||§ 3.2.1|exercise|[DSL_3_A The Smallest Window I](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_3_A)|||[尺取法](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_3_A/review/4468038/knknkn1162/C)|
 |||§ 3.2.1|exercise|[DSL_3_B The Smallest Window II](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_3_B)|||[尺取法](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_3_B/review/4468410/knknkn1162/C)|
