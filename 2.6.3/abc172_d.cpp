@@ -32,37 +32,32 @@ void cins(vector<T>& arr) { for(T& e: arr) cin >> e; }
 #define debug(fmt, ...)
 #endif
 
-struct meal {
-    int64_t cost;
-    int64_t recovery;
-};
-
-#define INF (1e+17)
 int main(void) {
-    int64_t num;
-    int64_t hp;
-    cin >> num >> hp;
-    int a,b,c,d,e; cin >> a >> b >> c >> d >> e;
-    vector<struct meal> ms(2);
-    ms[0] = {a,b+e};
-    ms[1] = {c,d+e};
-    int64_t start = hp-(int64_t)num*e;
-    if(start > 0) {
-        cout << 0 << endl;
-        return 0;
+    int num;
+    cin >> num;
+    vector<int> primes(num+1);
+    for(int i = 1; i <= num; i++) {
+        primes[i] = i;
     }
-    // need to recover <start> point
-    start = abs(start) + 1;
-    debug("%lld\n", start);
-    int64_t ans = ms[0].cost*num;
-    for(int64_t d1 = 0; d1 <= num; d1++) {
-        int64_t recovery = ms[0].recovery * d1;
-        int64_t d2 = max((int64_t)0, (start-recovery-1)/ms[1].recovery+1);
-        if(d1+d2 > num) continue;
-        debug("%d+%d+%d\n", d1, d2, num-d1-d2);
-        int64_t res = ms[0].cost * d1 + ms[1].cost * d2;
-        ans = min(ans, res);
+
+    vector<int> cnt(num+1, 1);
+    for(int i = 2; i <= num; i++) {
+        if(primes[i] == 1) continue;
+        int p = primes[i];
+        for(int j = i; j <= num; j+=i) {
+            int m = 0;
+            while(1) {
+                if(primes[j]%p) break;
+                primes[j] /= p;
+                m++;
+            }
+            cnt[j] *= (m + 1);
+        }
     }
-    cout << ans << endl;
+    int64_t sum = 0;
+    for(int i = 1; i <= num; i++) {
+        sum += (int64_t)i * cnt[i];
+    }
+    cout << sum << endl;
     return 0;
 }

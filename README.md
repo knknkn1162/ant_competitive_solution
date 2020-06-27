@@ -25,7 +25,8 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 1.3.1|exercise|[パナソニックプログラミングコンテスト2020 C - Sqrt Inequality](https://atcoder.jp/contests/panasonic2020/tasks/panasonic2020_c)|||[2乗して整数の形に](https://atcoder.jp/contests/panasonic2020/submissions/13942134)|
 |||§ 1.6.1|example|三角形|||[降順にソート-> 連続した3つを調べる](./1.6.1/triangle.c)|
 |||§ 1.6.1|exercise|[ABC 121 C - Energy Drink Collector](https://atcoder.jp/contests/abc121/tasks/abc121_c)|||[安い順にソート](https://atcoder.jp/contests/abc121/submissions/13685701)|
-|||§ 1.6.1|example|[ABC 115 C - Christmas Eve](https://atcoder.jp/contests/abc115/tasks/abc115_c)|||[ソート](https://atcoder.jp/contests/abc115/submissions/13676383)|
+|||§ 1.6.1|exercise|[ABC 115 C - Christmas Eve](https://atcoder.jp/contests/abc115/tasks/abc115_c)|||[ソート](https://atcoder.jp/contests/abc115/submissions/13676383)|
+|||§ 1.6.1|exercise|[ABC 003 C - AtCoderプログラミング講座](https://atcoder.jp/contests/abc003/tasks/abc003_3)||||[考察、昇順にソート、`[num-limit, num)`で足し合わせ](https://atcoder.jp/contests/abc003/submissions/14783262)
 |||§ 1.6.1|exercise|[JOI 2011 予選 C 最高のピザ](https://atcoder.jp/contests/joi2012yo/tasks/joi2012yo_c)||||[降順にソート、maxを都度更新](https://atcoder.jp/contests/joi2012yo/submissions/14710157)|
 |||§ 1.6.1|example|[ABC 082 B - Two Anagrams](https://atcoder.jp/contests/abc082/tasks/abc082_b)|||[2つの文字列をそれぞれ昇順、降順にソート](https://atcoder.jp/contests/abc082/submissions/14002733)|
 |||§ 1.6.1|exercise|[ABC 137 C - Green Bin](https://atcoder.jp/contests/abc137/tasks/abc137_c)||||[文字列をソート、map](https://atcoder.jp/contests/abc137/submissions/14648816)|
@@ -90,6 +91,7 @@ make FILE=0.0.0/abc039_c.cpp
 |o|o|§ 2.1.1|exercise|[ABC 013 C - 節制](https://atcoder.jp/contests/abc013/tasks/abc013_3)||||[消費を後回し、工夫して全探索]()|
 |||§ 2.1.1|exercise|[ABC 031 C - 数列ゲーム](https://atcoder.jp/contests/abc031/tasks/abc031_c)|||[問題文の解釈、全探索](https://atcoder.jp/contests/abc031/submissions/14186421)|
 |||§ 2.1.1|exercise|[ABC 042 C - こだわり者いろはちゃん](https://atcoder.jp/contests/abc042/tasks/arc058_a)|||[全探索](https://atcoder.jp/contests/abc042/submissions/14172165)|
+|||§ 2.1.1|exercise|[ABC 016 C - 友達の友達](https://atcoder.jp/contests/abc016/tasks/abc016_3)||||[制約が小さいので全探索](https://atcoder.jp/contests/abc016/submissions/14782669)|
 |||§ 2.1.1|exercise|[ABC 075 D - Axis-Parallel Rectangle](https://atcoder.jp/contests/abc075/tasks/abc075_d)|||[全探索、ソート](https://atcoder.jp/contests/abc075/submissions/14015617)|
 |||§ 2.1.1|exercise|[ABC 166 D - I hate Factorization](https://atcoder.jp/contests/abc166/tasks/abc166_d)|||[上限決めて全探索](https://atcoder.jp/contests/abc166/submissions/13701621)|
 |||§ 2.1.1|exercise|[ABC 112 C - Pyramid](https://atcoder.jp/contests/abc112/tasks/abc112_c)|||[解を仮定して全探索](https://atcoder.jp/contests/abc112/submissions/13678639)|
@@ -269,7 +271,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.3.8.1|exercise|[ABC 042 D - いろはちゃんとマス目](https://atcoder.jp/contests/abc042/tasks/arc058_b)|||[組み合わせ、実装問題](https://atcoder.jp/contests/abc042/submissions/14223492)|
 |||§ 2.3.8.1|example|重複組み合わせ|||[DP + 累積和](./2.3.8/example.c)|
 |||§ 2.3.8.1|exercise|[Educational DP Contest M - Candies](https://atcoder.jp/contests/dp/tasks/dp_m)|||[DP + 累積和](https://atcoder.jp/contests/dp/submissions/12038653)|
-|||§ 2.3.8.1|exercise|[ABC 110 D - Factorization](https://atcoder.jp/contests/abc110/tasks/abc110_d)|||[素因数分解、重複組み合わせ、逆元](https://atcoder.jp/contests/abc110/submissions/12515321)|
+|||§ 2.3.8.1|exercise|[ABC 110 D - Factorization](https://atcoder.jp/contests/abc110/tasks/abc110_d)|||[横方向に見る、素因数分解、重複組み合わせ、逆元](https://atcoder.jp/contests/abc110/submissions/12515321)|
 |||§ 2.3.8.1|exercise|[ABC 021 D - 多重ループ](https://atcoder.jp/contests/abc021/tasks/abc021_d)|||[発想問題、重複組合せ, 逆元](https://atcoder.jp/contests/abc021/submissions/11687036)|
 ||o|§ 2.3.8.1|exercise|[ARC 004 D - 表現の自由 ( Freedom of expression )](https://atcoder.jp/contests/arc004/tasks/arc004_4)|||[]()|
 |||§ 2.3.8.1|exercise|[ABC 156 E - Roaming](https://atcoder.jp/contests/abc156/tasks/abc156_e)|||[重複組み合わせ](https://atcoder.jp/contests/abc156/submissions/13706356)|
@@ -304,7 +306,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.3.12|exercise|[Educational DP Contest G - Longest Path](https://atcoder.jp/contests/dp/tasks/dp_g)|||[DAG DP](https://atcoder.jp/contests/dp/submissions/12015134)|
 |||§ 2.3.12|exercise|[ABC 021 C - 正直者の高橋くん](https://atcoder.jp/contests/abc021/tasks/abc021_c)||||[DAG DP](https://atcoder.jp/contests/abc021/submissions/14634574)|
 |||§ 2.3.12|exercise|[Educational DP Contest H - Grid 1](https://atcoder.jp/contests/dp/tasks/dp_h)|||[DAG DP](https://atcoder.jp/contests/dp/submissions/12024953)|
-||||exercise|[JOI 2006 本選 D - 最悪の記者](https://atcoder.jp/contests/joi2007ho/tasks/joi2007ho_d)|||[]()|
+|||§ 2.3.12|exercise|[JOI 2006 本選 D - 最悪の記者](https://atcoder.jp/contests/joi2007ho/tasks/joi2007ho_d)|||[]()|
 ||o|§ 2.3.13|exercise|[JOI 2006 予選 F 通学経路](https://atcoder.jp/contests/joi2007yo/tasks/joi2007yo_f)|||[グリッドDP]()|
 |||§ 2.3.14|exercise|[JOI 2010 本選 B 古本屋](https://atcoder.jp/contests/joi2011ho/tasks/joi2011ho2)||||[降順にソート、累積和、DP](https://atcoder.jp/contests/joi2011ho/submissions/14714442)|
 ||o|§ 2.3.14|exercise|[TDPC H ナップザック](https://atcoder.jp/contests/tdpc/tasks/tdpc_knapsack)||||[](ソートしてDP)|
@@ -362,7 +364,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.4.3|example|[POJ #1182 食物連鎖](http://poj.org/problem?id=1182)|||[3×numberのunion find](./2.4.3/poj1182.c)|
 |||§ 2.4.3|exercise|[ATC 001 B Union Find](https://atcoder.jp/contests/atc001/tasks/unionfind_a)|||[Union Find](https://atcoder.jp/contests/atc001/submissions/12844290)|
 |||§ 2.4.3|exercise|[ABC 049 D 連結](https://atcoder.jp/contests/abc049/tasks/arc065_b)|||[union find, hashmap](https://atcoder.jp/contests/abc049/submissions/12697315)|
-|||§ 2.1.2|exercise|[ABC 037 B - バウムテスト](https://atcoder.jp/contests/arc037/tasks/arc037_b)|||see § 2.1.2|
+|||§ 2.4.3|exercise|[ABC 037 B - バウムテスト](https://atcoder.jp/contests/arc037/tasks/arc037_b)|||see § 2.1.2|
 |||§ 2.4.3|exercise|[ABC 157 D - Friend Suggestions](https://atcoder.jp/contests/abc157/tasks/abc157_d)|||[Union Find](https://atcoder.jp/contests/abc157/submissions/11931508)|
 |||§ 2.4.3|exercise|[ARC 097 D Equals](https://atcoder.jp/contests/arc097/tasks/arc097_b)|||[スワップ問題、Union Find](https://atcoder.jp/contests/arc097/submissions/12697803)|
 |||§ 2.4.3|exercise|[ARC 036 D 偶数メートル](https://atcoder.jp/contests/arc036/tasks/arc036_d)|||[2×num のUnion Find](https://atcoder.jp/contests/arc036/submissions/12701345)|
@@ -403,12 +405,14 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.6.3|exercise|[ABC 134 D - Preparing Boxes](https://atcoder.jp/contests/abc134/tasks/abc134_d)||||[後ろから貪欲法で、約数](https://atcoder.jp/contests/abc134/submissions/14474915)|
 |||§ 2.6.3|exercise|[ABC 136 E - Max GCD](https://atcoder.jp/contests/abc136/tasks/abc136_e)||||[約数、ソート](https://atcoder.jp/contests/abc136/submissions/14520534)|
 |||§ 2.6.3|exercise|[ABC 052 C - Factors of Factorial](https://atcoder.jp/contests/abc052/tasks/arc067_a)|||[素因数分解、約数の個数](https://atcoder.jp/contests/abc052/submissions/12487335)|
+|||§ 2.6.3|exercise|[ABC 172 D - Sum of Divisors](https://atcoder.jp/contests/abc172/tasks/abc172_d)||||[発想問題、横方向に見る、約数を横に数え上げ](https://atcoder.jp/contests/abc172/submissions/14779546) or [エラトステネスのふるいの応用](https://atcoder.jp/contests/abc172/submissions/14766353)|
 |||§ 2.6.3|exercise|[ABC 084 D 2017-like Number](https://atcoder.jp/contests/abc084/submissions/11665020)|||[素数, 累積和](https://atcoder.jp/contests/abc084/submissions/11665020)|
 |||§ 2.6.4|exercise|[天下一プログラマーコンテスト2012 予選C A - 与えられた数より小さい素数の個数について](https://atcoder.jp/contests/tenka1-2012-qualc/tasks/tenka1_2012_9)|||[エラトステネスのふるい](https://atcoder.jp/contests/tenka1-2012-qualc/submissions/12817314)
 |||§ 2.6.4|exercise|[AOJ #0009 素数](https://onlinejudge.u-aizu.ac.jp/problems/0009)|||[エラトステネスのふるい](https://onlinejudge.u-aizu.ac.jp/solutions/problem/0009/review/4433621/knknkn1162/C)|
 |||§ 2.6.4|exercise|[ABC 169 D - Div Game](https://atcoder.jp/contests/abc169/tasks/abc169_d)|||[エラトステネスのふるい](https://atcoder.jp/contests/abc169/submissions/13950098)|
 ||o|§ 2.6.4|exercise|[AOJ #2286 Problem F: Farey Sequence](https://onlinejudge.u-aizu.ac.jp/problems/2286)|||[エラトステネスのふるい]()|
 |o||§ 2.6.4|exercise|[ABC 170 D - Not Divisible](https://atcoder.jp/contests/abc170/tasks/abc170_d)|||[map, 約数、ai = 1のコーナーケースに注意](https://atcoder.jp/contests/abc170/submissions/14377948) or [エラトステネスのふるいの応用](https://atcoder.jp/contests/abc170/submissions/14381903)|
+|||§ 2.6.4|exercise|[ABC 172 D - Sum of Divisors](https://atcoder.jp/contests/abc172/tasks/abc172_d)||||エラトステネスのふるいの応用 see § 2.6.3|
 |||§ 2.6.4|exercise|[ABC 114 D - 756](https://atcoder.jp/contests/abc114/tasks/abc114_c)|||[素因数分解、再帰関数](https://atcoder.jp/contests/abc114/submissions/13678388)|
 |||§ 2.6.5|example|区間内の素数の個数|||[]()|
 |||§ 2.6.6|example|[Uva No.10006 Carmichael Numbers](https://onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=947)|||[高速累乗](./2.6.6/uva10006.c)|
@@ -430,6 +434,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 3.1.1|exrcise|[AOJ ALDS_1_4_B 二分探索](https://onlinejudge.u-aizu.ac.jp/problems/ALDS1_4_B)|||see § 2.2.4.1|
 |||§ 3.1.1|exercise|[ABC 077 C Snuke Festival](https://atcoder.jp/contests/abc077/tasks/arc084_a)|||[中部を軸にlower/upper bound](https://atcoder.jp/contests/abc077/submissions/10816319)|
 |||§ 3.1.1|exercise|[ABC 136 D - Gathering Children](https://atcoder.jp/contests/abc136/tasks/abc136_d)||||[lower bound(STL](https://atcoder.jp/contests/abc136/submissions/14517550)|
+|||§ 3.1.1|exercise|[ABC 172 C - Tsundoku](https://atcoder.jp/contests/abc172/tasks/abc172_c)||||[一方を固定してlower bound](https://atcoder.jp/contests/abc172/submissions/14752537)|
 |||§ 3.1.1|exercise|[JOI 2007 本選 C ダーツ](https://atcoder.jp/contests/joi2008ho/tasks/joi2008ho_c)|||[半分全列挙, 解を仮定して二分検索(upper bound)](https://atcoder.jp/contests/joi2008ho/submissions/10906780)|
 |||§ 3.1.1|exercise|[JOI 2008 本選 B ピザ](https://atcoder.jp/contests/joi2009ho/tasks/joi2009ho_b)|||[二分探索](https://atcoder.jp/contests/joi2009ho/submissions/10814537)
 |||§ 3.1.1|exercise|[ABC 138 E - Strings of Impurity](https://atcoder.jp/contests/abc138/submissions/14636659)||||[二分探索、環状は二周確保](https://atcoder.jp/contests/abc138/submissions/14636659)|
