@@ -79,7 +79,8 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 1.9.1|exercise|[ABC 127 F - Absolute Minima](https://atcoder.jp/contests/abc127/tasks/abc127_f)|||中央値の更新、see |
 |||§ 2.1.0|exercise|[ABC 114 C - 755](https://atcoder.jp/contests/abc114/tasks/abc114_c)|||[再帰関数](https://atcoder.jp/contests/abc114/submissions/13677743)|
 |||§ 2.1.0|exercise|[ABC 161 D - Lunlun Number](https://atcoder.jp/contests/abc161/tasks/abc161_d)|||[DFSで条件を満たす数をstackに](https://atcoder.jp/contests/abc161/submissions/13688600)|
-||o|§ 2.1.0|exercise|[ABC 029 C - Brute-force Attack](https://atcoder.jp/contests/abc029/tasks/abc029_c)|||[DFSで全列挙](https://atcoder.jp/contests/abc029/tasks/abc029_c)|
+|||§ 2.1.0|exercise|[ABC 029 C - Brute-force Attack](https://atcoder.jp/contests/abc029/tasks/abc029_c)|||[DFSで全列挙](https://atcoder.jp/contests/abc029/tasks/abc029_c)|
+|||§ 2.1.0|exercise|[ABC 015 C - 高橋くんのバグ探し](https://atcoder.jp/contests/abc015/tasks/abc015_3)||||[DFSで全列挙](https://atcoder.jp/contests/abc015/submissions/14716148)|
 |||§ 2.1.1|example|部分和問題|||[]()|
 |||§ 2.1.1|exercise|[ABC 051 B - Sum of Three Integers](https://atcoder.jp/contests/abc051/tasks/abc051_b)|||[全探索](https://atcoder.jp/contests/abc051/submissions/14017300) or [DP, 累積和](https://atcoder.jp/contests/abc051/submissions/12543729)|
 |||§ 2.1.1|exercise|[ABC 006 C - スフィンクスのなぞなぞ](https://atcoder.jp/contests/abc006/tasks/abc006_3)||||[方程式をかんたんにして、全探索](https://atcoder.jp/contests/abc006/submissions/14412001)|
@@ -304,6 +305,7 @@ make FILE=0.0.0/abc039_c.cpp
 ||||exercise|[JOI 2006 本選 D - 最悪の記者](https://atcoder.jp/contests/joi2007ho/tasks/joi2007ho_d)|||[]()|
 ||o|§ 2.3.13|exercise|[JOI 2006 予選 F 通学経路](https://atcoder.jp/contests/joi2007yo/tasks/joi2007yo_f)|||[グリッドDP]()|
 |||§ 2.3.14|exercise|[JOI 2010 本選 B 古本屋](https://atcoder.jp/contests/joi2011ho/tasks/joi2011ho2)||||[降順にソート、累積和、DP](https://atcoder.jp/contests/joi2011ho/submissions/14714442)|
+||o|§ 2.3.14|exercise|[TDPC H ナップザック](https://atcoder.jp/contests/tdpc/tasks/tdpc_knapsack)||||[](ソートしてDP)|
 |||§ 2.3.15|example|部分文字列DP|||[貰うDP](./2.3.15/example.c) or [配るDP](./2.3.15/example2.c)|
 ||o|§ 2.3.15|exercise|[ARC 081 E Don't Be a Subsequence](https://atcoder.jp/contests/arc081/tasks/arc081_c)|||[]()|
 |||§ 2.3.15|exercise|[ABC 104 D - We Love ABC](https://atcoder.jp/contests/abc104/tasks/abc104_d)|||[部分文字列DP(重複を許すパターン)](https://atcoder.jp/contests/abc104/submissions/13758841)|
