@@ -190,7 +190,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.2.6|exercise|[AOJ DSL_5_A The Maximum Number of Customers](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_5_A)|||[いもす法](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_5_A/review/4467956/knknkn1162/C)|
 |||§ 2.2.6|exercise|[AOJ DSL_5_B The Maximum Number of Overlaps](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_5_B)|||[2次元上のいもす法](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_5_B/review/4467993/knknkn1162/C)|
 |||§ 2.2.6|exercise|[ABC 014 C - AtColor](https://atcoder.jp/contests/abc014/tasks/abc014_3)|||[いもす法](https://atcoder.jp/contests/abc014/submissions/11362928)|
-|||§ 2.2.6|exercise|[ABC 017 C - ハイスコア](https://atcoder.jp/contests/abc017/tasks/abc017_3)||||[いもす法](https://atcoder.jp/contests/abc017/submissions/14696344)|
+|||§ 2.2.6|exercise|[ABC 017 C - ハイスコア](https://atcoder.jp/contests/abc017/tasks/abc017_3)||||[総和からの引き算、いもす法](https://atcoder.jp/contests/abc017/submissions/14696344)|
 |||§ 2.2.6|exercise|[ABC 035 C - オセロ](https://atcoder.jp/contests/abc035/tasks/abc035_c)|||[いもす法](https://atcoder.jp/contests/abc035/submissions/14185638)|
 |||§ 2.2.6|exercise|[square869120Contest #2 H Counting 1's](https://atcoder.jp/contests/s8pc-2/tasks/s8pc_2_h)|||クエリごとなのでいもす法× 遅延評価セグメント木(RSQ & RAQ) see § 3.3.3|
 |||§ 2.2.6|exercise|[AOJ 2013 - 大崎](https://onlinejudge.u-aizu.ac.jp/problems/2013)|||[いもす法](https://onlinejudge.u-aizu.ac.jp/solutions/problem/2013/review/4306854/knknkn1162/C)|
@@ -303,6 +303,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.3.12|exercise|[Educational DP Contest H - Grid 1](https://atcoder.jp/contests/dp/tasks/dp_h)|||[DAG DP](https://atcoder.jp/contests/dp/submissions/12024953)|
 ||||exercise|[JOI 2006 本選 D - 最悪の記者](https://atcoder.jp/contests/joi2007ho/tasks/joi2007ho_d)|||[]()|
 ||o|§ 2.3.13|exercise|[JOI 2006 予選 F 通学経路](https://atcoder.jp/contests/joi2007yo/tasks/joi2007yo_f)|||[グリッドDP]()|
+|||§ 2.3.14|exercise|[JOI 2010 本選 B 古本屋](https://atcoder.jp/contests/joi2011ho/tasks/joi2011ho2)||||[降順にソート、累積和、DP](https://atcoder.jp/contests/joi2011ho/submissions/14714442)|
 |||§ 2.3.15|example|部分文字列DP|||[貰うDP](./2.3.15/example.c) or [配るDP](./2.3.15/example2.c)|
 ||o|§ 2.3.15|exercise|[ARC 081 E Don't Be a Subsequence](https://atcoder.jp/contests/arc081/tasks/arc081_c)|||[]()|
 |||§ 2.3.15|exercise|[ABC 104 D - We Love ABC](https://atcoder.jp/contests/abc104/tasks/abc104_d)|||[部分文字列DP(重複を許すパターン)](https://atcoder.jp/contests/abc104/submissions/13758841)|
