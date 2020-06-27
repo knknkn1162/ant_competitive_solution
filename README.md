@@ -27,7 +27,6 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 1.6.1|exercise|[ABC 121 C - Energy Drink Collector](https://atcoder.jp/contests/abc121/tasks/abc121_c)|||[安い順にソート](https://atcoder.jp/contests/abc121/submissions/13685701)|
 |||§ 1.6.1|example|[ABC 115 C - Christmas Eve](https://atcoder.jp/contests/abc115/tasks/abc115_c)|||[ソート](https://atcoder.jp/contests/abc115/submissions/13676383)|
 |||§ 1.6.1|exercise|[JOI 2011 予選 C 最高のピザ](https://atcoder.jp/contests/joi2012yo/tasks/joi2012yo_c)||||[降順にソート、maxを都度更新](https://atcoder.jp/contests/joi2012yo/submissions/14710157)|
-
 |||§ 1.6.1|example|[ABC 082 B - Two Anagrams](https://atcoder.jp/contests/abc082/tasks/abc082_b)|||[2つの文字列をそれぞれ昇順、降順にソート](https://atcoder.jp/contests/abc082/submissions/14002733)|
 |||§ 1.6.1|exercise|[ABC 137 C - Green Bin](https://atcoder.jp/contests/abc137/tasks/abc137_c)||||[文字列をソート、map](https://atcoder.jp/contests/abc137/submissions/14648816)|
 |||§ 1.6.1|exercise|[ABC 094 C - Many Medians](https://atcoder.jp/contests/abc094/tasks/arc095_a)|||[中央値、ソート](https://atcoder.jp/contests/abc094/submissions/13910628)|
@@ -342,6 +341,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.4.2|exercise|[ABC 091 B Two Colors Card Game](https://atcoder.jp/contests/abc091/tasks/abc091_b)|||[文字列のmap](https://atcoder.jp/contests/abc091/submissions/8001652)|
 |||§ 2.4.2|exercise|[ABC 098 B - Cut and Count](https://atcoder.jp/contests/abc098/tasks/abc098_b)|||[map](https://atcoder.jp/contests/abc098/submissions/13929585)|
 |||§ 2.4.2|exercise|[ABC 081 C - Not so Diverse](https://atcoder.jp/contests/abc081/tasks/arc086_a)|||[map, ソート](https://atcoder.jp/contests/abc081/submissions/14003881)|
+|||§ 2.4.2|exercise|[ABC 171 D - Replacing](https://atcoder.jp/contests/abc171/tasks/abc171_d)||||[map, 総和](https://atcoder.jp/contests/abc171/submissions/14716878)|
 |||§ 2.4.2|exercise|[ABC 050 C - Lining Up](https://atcoder.jp/contests/abc050/tasks/arc066_a)|||[考察、map](https://atcoder.jp/contests/abc050/submissions/14105411)|
 |||§ 2.4.2|exercise|[ABC 072 C - Together](https://atcoder.jp/contests/abc072/tasks/arc082_ahttps://atcoder.jp/contests/abc072/tasks/arc082_a)|||[map](https://atcoder.jp/contests/abc072/submissions/14023908)|
 |||§ 2.4.2|exercise|[ABC 111 C - /\\/\\/\\/](https://atcoder.jp/contests/abc111/tasks/arc103_a)|||[map](https://atcoder.jp/contests/abc111/submissions/13679666)|
