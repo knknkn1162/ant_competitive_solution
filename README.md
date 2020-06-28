@@ -393,6 +393,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.6.3|exercise|[ABC 134 D - Preparing Boxes](https://atcoder.jp/contests/abc134/tasks/abc134_d)||||[後ろから貪欲法で、約数](https://atcoder.jp/contests/abc134/submissions/14474915)|
 |||§ 2.6.3|exercise|[ABC 136 E - Max GCD](https://atcoder.jp/contests/abc136/tasks/abc136_e)||||[約数、ソート](https://atcoder.jp/contests/abc136/submissions/14520534)|
 |||§ 2.6.3|exercise|[ABC 052 C - Factors of Factorial](https://atcoder.jp/contests/abc052/tasks/arc067_a)|||[素因数分解、約数の個数](https://atcoder.jp/contests/abc052/submissions/12487335)|
+|||§ 2.6.3|exercise|[ABC 142 D - Disjoint Set of Common Divisors](https://atcoder.jp/contests/abc142/tasks/abc142_d)||||[GCD, 素因数分解、型に注意](https://atcoder.jp/contests/abc142/tasks/abc142_d)|
 |||§ 2.6.3|exercise|[ABC 114 D - 756](https://atcoder.jp/contests/abc114/tasks/abc114_d)|||[素因数分解、再帰関数](https://atcoder.jp/contests/abc114/submissions/13678388)|
 |||§ 2.6.3|exercise|[ABC 172 D - Sum of Divisors](https://atcoder.jp/contests/abc172/tasks/abc172_d)||||[発想問題、横方向に見る、約数を横に数え上げ](https://atcoder.jp/contests/abc172/submissions/14779546) or [エラトステネスのふるいの応用](https://atcoder.jp/contests/abc172/submissions/14766353)|
 |||§ 2.6.4|exercise|[天下一プログラマーコンテスト2012 予選C A - 与えられた数より小さい素数の個数について](https://atcoder.jp/contests/tenka1-2012-qualc/tasks/tenka1_2012_9)|||[エラトステネスのふるい](https://atcoder.jp/contests/tenka1-2012-qualc/submissions/12817314)
@@ -514,7 +515,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 3.3.1|exercise|[AGC 004 B - Colorful Slimes](https://atcoder.jp/contests/agc004/tasks/agc004_b)|||[魔法の回数を決めてRMQ(min)](https://atcoder.jp/contests/agc004/submissions/14711630)|
 |||§ 3.3.1|exercise|[ABC 157 E - Simple String Queries](https://atcoder.jp/contests/abc157/tasks/abc157_e)|||[セグメント木、bit演算](https://atcoder.jp/contests/abc157/submissions/13210480)|
 |||§ 3.3.1|exercise|[ABC 153 F - Silver Fox vs Monster](https://atcoder.jp/contests/abc153/tasks/abc153_f)|||[昇順にソート -> 貪欲, 尺取法, セグメント木](https://atcoder.jp/contests/abc153/submissions/13222201) or [昇順にソート -> 貪欲,尺取法, いもす法](https://atcoder.jp/contests/abc153/submissions/13222079)|
-|||§ 3.3.1|exercise|[ABC 063 D - Widespread](https://atcoder.jp/contests/abc063/tasks/arc075_b)|||see § 3.1.2|
+|||§ 3.3.1|exercise|[ABC 063 D - Widespread](https://atcoder.jp/contests/abc063/tasks/arc075_b)|||ABC 153 Fと似た設定。解法は違う see § 3.1.2|
 ||o|§ 3.3.1|exercise|[Japan Alumni Group Summer Camp 2013 Day 2 G Perm Query](https://atcoder.jp/contests/jag2013summer-day2/tasks/icpc2013summer_day2_g)|||[]()|
 |||§ 3.3.1|exercise|[ARC 008 D タコヤキオイシクナール](https://atcoder.jp/contests/arc008/tasks/arc008_4)|||[一次関数の合成関数、座標圧縮->セグメント木](https://atcoder.jp/contests/arc008/submissions/13185643)|
 ||o|§ 3.3.1|exercise|[みんなのプロコン 2017 D 工場](https://atcoder.jp/contests/yahoo-procon2017-qual/tasks/yahoo_procon2017_qual_d)|||[]()|
@@ -541,10 +542,12 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 3.3.4|exercise|[ARC 033 C データ構造](https://atcoder.jp/contests/arc033/tasks/arc033_3)|||[セグメント木, 二分探索](https://atcoder.jp/contests/arc033/submissions/13276065)|
 |||§ 3.3.5|exercise|[ABC 075 D - Axis-Parallel Rectangle](https://atcoder.jp/contests/abc075/tasks/abc075_d)|||全探索、ソート　see § 2.1.1|
 |||§ 3.3.5|example|[DSL_2_C 領域探索（kD 木）](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_2_C)|||[X軸とY軸を分離、二分探索](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_2_C/review/4481646/knknkn1162/C)|
-|||§ 3.3.6|example|[巡回セールスマン問題](https://onlinejudge.u-aizu.ac.jp/problems/DPL_2_A)|||[bit DP](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_2_A/review/4300234/knknkn1162/C)|
+|||§ 3.3.6|example|[巡回セールスマン問題](https://onlinejudge.u-aizu.ac.jp/problems/DPL_2_A)|||[bitDP](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_2_A/review/4300234/knknkn1162/C)|
 |||§ 3.3.6|example|[Educational DP contest U - Grouping](https://atcoder.jp/contests/dp/tasks/dp_u)|||[bitDP, 部分集合の導出](https://atcoder.jp/contests/dp/submissions/13521889)|
 |||§ 3.3.6|exercise|[JOI 2016 予選 D ぬいぐるみの整理](https://atcoder.jp/contests/joi2017yo/tasks/joi2017yo_d)|||[bitDP, 累積和](https://atcoder.jp/contests/joi2017yo/submissions/11263795)|
-|||§ 3.3.6|exercise|[ABC 041 D 徒競走](https://atcoder.jp/contests/abc041/tasks/abc041_d)|||[bit DP](https://atcoder.jp/contests/abc041/submissions/13310523)|
+
+|||§ 3.3.6|exercise|[ABC 041 D 徒競走](https://atcoder.jp/contests/abc041/tasks/abc041_d)|||[bitDP](https://atcoder.jp/contests/abc041/submissions/13310523)|
+|||§ 3.3.6|exercise|[ABC 142 E - Get Everything](https://atcoder.jp/contests/abc142/tasks/abc142_e)||||[bitDP、配るDP](https://atcoder.jp/contests/abc142/submissions/14794931)|
 |||§ 3.6.1|example|[Jack Straws (POJ No.1127)](http://poj.org/problem?id=1127)|||[]()|
 |||§ 3.6.1|exercise|[ABC 100 D - Patisserie ABC](https://atcoder.jp/contests/abc100/tasks/abc100_d)|||重心計算、see §2.2.4|
 |||§ 4.2|example|[ABC 048 D - An Ordinary Game](https://atcoder.jp/contests/abc048/tasks/arc064_b)|||[ゲームの必勝法(両端が同じ)](https://atcoder.jp/contests/abc048/submissions/14114061)|
