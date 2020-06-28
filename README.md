@@ -435,6 +435,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 3.1.1|exercise|[ABC 138 E - Strings of Impurity](https://atcoder.jp/contests/abc138/submissions/14636659)||||[二分探索、環状は二周確保](https://atcoder.jp/contests/abc138/submissions/14636659)|
 |||§ 3.1.2|example|[Cable Master (POJ No.1064)](http://poj.org/problem?id=1064)|||[整数に。解を仮定して二分探索](./3.1.2/poj1064.c)|
 |||§ 3.1.2|exercise|[ABC 023 D 射撃王](https://atcoder.jp/contests/abc023/tasks/abc023_d)|||[解を仮定してで二分検索(lower bound)](https://atcoder.jp/contests/abc023/submissions/11029093)|
+|||§ 3.1.2|exercise|[ABC 144 E - Gluttony](https://atcoder.jp/contests/abc144/tasks/abc144_e)||||[解を仮定して二分探索、judgeの考察](https://atcoder.jp/contests/abc144/submissions/14805232)|
 |||§ 3.1.2|exercise|[ARC 037 C 億マス計算](https://atcoder.jp/contests/arc037/tasks/arc037_c)|||[ソート -> 解を仮定し二分探索(upper bound) -> 判定でも二分探索(upper bound)](https://atcoder.jp/contests/arc037/submissions/12878074)|
 |||§ 3.1.2|exercise|[AOJ ALDS1_4_D 割り当て](https://onlinejudge.u-aizu.ac.jp/problems/ALDS1_4_D)|||[解を仮定して二分探索 -> 各探索値で線形探索](https://onlinejudge.u-aizu.ac.jp/problems/ALDS1_4_D) or [累積和, 解を仮定して二分探索 -> 各探索値で線形探索](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_4_D/review/4344863/knknkn1162/C)|
 |||§ 3.1.2|exercise|[ABC 063 D - Widespread](https://atcoder.jp/contests/abc063/tasks/arc075_b)|||[考察、解を仮定して二分探索](https://atcoder.jp/contests/abc063/submissions/14056494)|
