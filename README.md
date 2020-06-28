@@ -547,7 +547,6 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 3.3.6|example|[巡回セールスマン問題](https://onlinejudge.u-aizu.ac.jp/problems/DPL_2_A)|||[bitDP](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_2_A/review/4300234/knknkn1162/C)|
 |||§ 3.3.6|example|[Educational DP contest U - Grouping](https://atcoder.jp/contests/dp/tasks/dp_u)|||[bitDP, 部分集合の導出](https://atcoder.jp/contests/dp/submissions/13521889)|
 |||§ 3.3.6|exercise|[JOI 2016 予選 D ぬいぐるみの整理](https://atcoder.jp/contests/joi2017yo/tasks/joi2017yo_d)|||[bitDP, 累積和](https://atcoder.jp/contests/joi2017yo/submissions/11263795)|
-
 |||§ 3.3.6|exercise|[ABC 041 D 徒競走](https://atcoder.jp/contests/abc041/tasks/abc041_d)|||[bitDP](https://atcoder.jp/contests/abc041/submissions/13310523)|
 |||§ 3.3.6|exercise|[ABC 142 E - Get Everything](https://atcoder.jp/contests/abc142/tasks/abc142_e)||||[bitDP、配るDP](https://atcoder.jp/contests/abc142/submissions/14794931)|
 |||§ 3.6.1|example|[Jack Straws (POJ No.1127)](http://poj.org/problem?id=1127)|||[]()|
