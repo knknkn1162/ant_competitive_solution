@@ -28,14 +28,37 @@ void cins(vector<T>& arr) { for(T& e: arr) cin >> e; }
 #ifdef DEBUG
 #define debug(fmt, ...) \
     printf("[debug: %s] " fmt, __func__, __VA_ARGS__)
-#define ps(arr) \
-    for(auto e: arr) cout << e << " "; \
-    cout << endl;
 #else
 #define debug(fmt, ...)
-#define ps(arr)
 #endif
 
+#define TIME_MAX 3000
 int main(void) {
+    int num, limit;
+    cin >> num >> limit;
+    vector<pii> foods(num);
+    for(int i = 0; i < num; i++) {
+        int time, point;
+        cin >> time >> point;
+        foods[i] = make_pair(time, point);
+    }
+
+    // asc_by_time
+    sort(foods.begin(), foods.end());
+    vector<vector<int>> dp(num+1, vector<int>(limit+TIME_MAX+1));
+    for(int i = 1; i <= num; i++) {
+        pii f = foods[i-1];
+        // eat
+        for(int t = 0; t <= limit+TIME_MAX; t++) {
+            dp[i][t] = dp[i-1][t]; // stay
+            // slide
+            if(t>=0) dp[i][t] = max(dp[i][t-1], dp[i][t]);
+            if(t >= f.first && t-f.first<limit) {
+                dp[i][t] = max(dp[i][t], dp[i-1][t-f.first]+f.second);
+            }
+        }
+    }
+
+    cout << dp[num][limit+TIME_MAX] << endl;
     return 0;
 }
