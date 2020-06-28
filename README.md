@@ -429,6 +429,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 3.1.1|exercise|[ABC 077 C Snuke Festival](https://atcoder.jp/contests/abc077/tasks/arc084_a)|||[中部を軸にlower/upper bound](https://atcoder.jp/contests/abc077/submissions/10816319)|
 |||§ 3.1.1|exercise|[ABC 136 D - Gathering Children](https://atcoder.jp/contests/abc136/tasks/abc136_d)||||[lower bound(STL](https://atcoder.jp/contests/abc136/submissions/14517550)|
 |||§ 3.1.1|exercise|[ABC 172 C - Tsundoku](https://atcoder.jp/contests/abc172/tasks/abc172_c)||||[一方を固定してlower bound](https://atcoder.jp/contests/abc172/submissions/14752537)|
+|||§ 3.1.1|exercise|[ABC 102 D - Equal Cut](https://atcoder.jp/contests/abc102/tasks/arc100_b)|||[真ん中の区切りを固定で、lower bound](https://atcoder.jp/contests/abc102/submissions/14798856) or [真ん中の区切りを固定で尺取法]()|
 |||§ 3.1.1|exercise|[JOI 2007 本選 C ダーツ](https://atcoder.jp/contests/joi2008ho/tasks/joi2008ho_c)|||[半分全列挙, 解を仮定して二分検索(upper bound)](https://atcoder.jp/contests/joi2008ho/submissions/10906780)|
 |||§ 3.1.1|exercise|[JOI 2008 本選 B ピザ](https://atcoder.jp/contests/joi2009ho/tasks/joi2009ho_b)|||[二分探索](https://atcoder.jp/contests/joi2009ho/submissions/10814537)
 |||§ 3.1.1|exercise|[ABC 138 E - Strings of Impurity](https://atcoder.jp/contests/abc138/submissions/14636659)||||[二分探索、環状は二周確保](https://atcoder.jp/contests/abc138/submissions/14636659)|
@@ -461,7 +462,6 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 3.2.2|exercise|[ABC 043 D - アンバランス](https://atcoder.jp/contests/abc043/tasks/arc059_b)|||[尺取法、終了条件に注意](https://atcoder.jp/contests/abc043/submissions/14171876)|
 |||§ 3.2.2|exercise|[ABC 017 D - サプリメント](https://atcoder.jp/contests/abc017/tasks/abc017_4)|||[mapを使って尺取法, 累積和](https://atcoder.jp/contests/abc017/submissions/13220134)|
 |||§ 3.2.2|exercise|[ABC 119 D - Lazy Faith](https://atcoder.jp/contests/abc119/tasks/abc119_d)|||[尺取法っぽく、クエリに関しては二分探索](https://atcoder.jp/contests/abc119/submissions/13566020) or [一本化してソート、両方向に探索](https://atcoder.jp/contests/abc119/submissions/14187664)|
-||o|§ 3.2.2|exercise|[ABC 102 D - Equal Cut](https://atcoder.jp/contests/abc102/tasks/arc100_b)|||[真ん中に区切る->最初の区切り方を尺取法で]()|
 ||o|§ 3.2.2|exercise|[ABC 033 D 三角形の分類](https://atcoder.jp/contests/abc033/tasks/abc033_d)|||[]()|
 |||§ 3.2.3|example|[Face The Right Way (POJ No.3276)](http://poj.org/problem?id=3276)|||[flipの回数を保存](./3.2.3/poj3276.c)|
 |||§ 3.2.3|exercise|[ABC 048 C Boxes and Candies](https://atcoder.jp/contests/arc064/tasks/arc064_a)|||[貪欲, 番兵](https://atcoder.jp/contests/arc064/submissions/12968254)|
