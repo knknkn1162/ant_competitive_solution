@@ -1,6 +1,10 @@
 .PHONY: all compile
 
-DEBUG_FLAGS=-DDEBUG -Wall -Wextra
+DEBUG_FLAGS=-Wall -Wextra
+ifneq ($(NO_DEBUG), ON)
+	DEBUG_FLAGS+=-DDEBUG
+endif
+
 all: gen compile run
 
 gen:
