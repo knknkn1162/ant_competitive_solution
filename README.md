@@ -91,6 +91,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.1.1|exercise|[ABC 043 C - いっしょ](https://atcoder.jp/contests/abc043/tasks/arc059_a)|||[全探索]() or [平均](https://atcoder.jp/contests/abc043/submissions/14216611)|
 |||§ 2.1.1|exercise|[ABC 066 B - ss](https://atcoder.jp/contests/abc066/tasks/abc066_b)|||[文字列の全探索](https://atcoder.jp/contests/abc066/submissions/14064944)|
 |||§ 2.1.1|exercise|[ABC 074 C - Sugar Water](https://atcoder.jp/contests/abc074/tasks/arc083_a)|||[全探索](https://atcoder.jp/contests/abc074/submissions/14021322)|
+|||§ 2.1.1|exercise|[ABC 011 D - 大ジャンプ](https://atcoder.jp/contests/abc011/tasks/abc011_4)||||確率問題、一方向の回数を決め打ちで全列挙 see § 2.3.8.1|
 |||§ 2.1.1|exercise|[ABC 099 D - Good Grid](https://atcoder.jp/contests/abc099/tasks/abc099_d)|||colorに対して全探索 see § 2.4.2|
 |o|o|§ 2.1.1|exercise|[ABC 013 C - 節制](https://atcoder.jp/contests/abc013/tasks/abc013_3)||||[消費を後回し、工夫して全探索]()|
 |||§ 2.1.1|exercise|[ABC 031 C - 数列ゲーム](https://atcoder.jp/contests/abc031/tasks/abc031_c)|||[問題文の解釈、全探索](https://atcoder.jp/contests/abc031/submissions/14186421)|
@@ -253,10 +254,11 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.3.8.0|exercise|[AOJ DPL_5_J ボールと箱 10](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_J)|||[ボール: 区別不可, 箱:区別不可, 入れ方:制限なし : 分割数 P(k, n)](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_5_J/review/4431844/knknkn1162/C)|
 |||§ 2.3.8.0|exercise|[AOJ DPL_5_K ボールと箱 11](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_K)|||[ボール: 区別不可, 箱:区別不可, 入れ方:1つ以下 : 1 or 0](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_5_K/review/4431814/knknkn1162/C)|
 |||§ 2.3.8.0|exercise|[AOJ DPL_5_L ボールと箱 12](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_L)|||[ボール: 区別不可, 箱:区別不可, 入れ方:1つ以上 : 分割数: P(k, n-k)](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_5_L/review/4431852/knknkn1162/C)|
-|||§ 2.3.8.1|exercise|[ABC 089 C - March](https://atcoder.jp/contests/abc089/tasks/abc089_c)|||[組み合わせ, bit全列挙](https://atcoder.jp/contests/abc089/submissions/13980401)|
+|||§ 2.3.8.1|exercise|[ABC 089 C - March](https://atcoder.jp/contests/abc089/tasks/abc089_c)|||[それぞれの組み合わせ(bit全探索)に対して場合の数](https://atcoder.jp/contests/abc089/submissions/13980401)|
 |||§ 2.3.8.1|exercise|[ABC 132 D - Blue and Red Balls](https://atcoder.jp/contests/abc132/tasks/abc132_d)|||[組み合わせ](https://atcoder.jp/contests/abc132/submissions/14168523)|
 |||§ 2.3.8.1|exercise|[ABC 066 D - 11](https://atcoder.jp/contests/abc066/tasks/arc077_b)|||[組み合わせ](https://atcoder.jp/contests/abc066/submissions/14028001)|
 |||§ 2.3.8.1|exercise|[ABC 057 D - Maximum Average Sets](https://atcoder.jp/contests/abc057/tasks/abc057_d)|||[組み合わせ(パスカルの三角形)](https://atcoder.jp/contests/abc057/submissions/14083924)|
+|||§ 2.3.8.1|exercise|[ABC 011 D - 大ジャンプ](https://atcoder.jp/contests/abc011/tasks/abc011_4)||||[確率問題、一方向の回数を決め打ちで全列挙、underflowの対処をパスカルの三角形(確率版)で](https://atcoder.jp/contests/abc011/submissions/14797848)|
 |||§ 2.3.8.1|exercise|[ABC 042 D - いろはちゃんとマス目](https://atcoder.jp/contests/abc042/tasks/arc058_b)|||[組み合わせ、実装問題](https://atcoder.jp/contests/abc042/submissions/14223492)|
 |||§ 2.3.8.1|example|重複組み合わせ|||[DP + 累積和](./2.3.8/example.c)|
 |||§ 2.3.8.1|exercise|[Educational DP Contest M - Candies](https://atcoder.jp/contests/dp/tasks/dp_m)|||[DP + 累積和](https://atcoder.jp/contests/dp/submissions/12038653)|
