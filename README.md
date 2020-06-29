@@ -92,6 +92,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.1.1|exercise|[ABC 051 B - Sum of Three Integers](https://atcoder.jp/contests/abc051/tasks/abc051_b)|||[全探索](https://atcoder.jp/contests/abc051/submissions/14017300) or [DP, 累積和](https://atcoder.jp/contests/abc051/submissions/12543729)|
 |||§ 2.1.1|exercise|[ABC 006 C - スフィンクスのなぞなぞ](https://atcoder.jp/contests/abc006/tasks/abc006_3)||||[方程式をかんたんにして、全探索](https://atcoder.jp/contests/abc006/submissions/14412001)|
 |||§ 2.1.1|exercise|[ABC 043 C - いっしょ](https://atcoder.jp/contests/abc043/tasks/arc059_a)|||[全探索]() or [平均](https://atcoder.jp/contests/abc043/submissions/14216611)|
+|||§ 2.1.1|exercise|[ABC 057 B - Checkpoints](https://atcoder.jp/contests/abc057/tasks/abc057_b)||||[全探索](https://atcoder.jp/contests/abc057/submissions/14848757)|
 |||§ 2.1.1|exercise|[ABC 066 B - ss](https://atcoder.jp/contests/abc066/tasks/abc066_b)|||[文字列の全探索](https://atcoder.jp/contests/abc066/submissions/14064944)|
 |||§ 2.1.1|exercise|[ABC 074 C - Sugar Water](https://atcoder.jp/contests/abc074/tasks/arc083_a)|||[全探索](https://atcoder.jp/contests/abc074/submissions/14021322)|
 |||§ 2.1.1|exercise|[ABC 011 D - 大ジャンプ](https://atcoder.jp/contests/abc011/tasks/abc011_4)||||確率問題、一方向の回数を決め打ちで全列挙 see § 2.3.8.1|
@@ -337,6 +338,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.4.1|exercise|[ABC 127 F - Absolute Minima](https://atcoder.jp/contests/abc127/tasks/abc127_f)|||[中央値の更新、max heapとmin heap](https://atcoder.jp/contests/abc127/submissions/14134394)|
 |||§ 2.4.2|exercise|[ABC 085 B Kagami Mochi](https://atcoder.jp/contests/abc085/tasks/abc085_b)|||[map](https://atcoder.jp/contests/abc085/submissions/7997905)|[set](https://atcoder.jp/contests/abc085/submissions/14410228)|
 |||§ 2.4.2|exercise|[ABC 019 C - 高橋くんと魔法の箱](https://atcoder.jp/contests/abc019/tasks/abc019_3)||||[map](https://atcoder.jp/contests/abc019/submissions/14636261)|
+|||§ 2.4.2|exercise|[ABC 064 C - Colorful Leaderboard](https://atcoder.jp/contests/abc064/tasks/abc064_c)||||[map, コーナーケース(すべて3200以上だった場合)](https://atcoder.jp/contests/abc064/submissions/14848187)|
 |||§ 2.4.2|exercise|[ABC 091 B Two Colors Card Game](https://atcoder.jp/contests/abc091/tasks/abc091_b)|||[文字列のmap](https://atcoder.jp/contests/abc091/submissions/8001652)|
 |||§ 2.4.2|exercise|[ABC 098 B - Cut and Count](https://atcoder.jp/contests/abc098/tasks/abc098_b)|||[map](https://atcoder.jp/contests/abc098/submissions/13929585)|
 |||§ 2.4.2|exercise|[ABC 081 C - Not so Diverse](https://atcoder.jp/contests/abc081/tasks/arc086_a)|||[map, ソート](https://atcoder.jp/contests/abc081/submissions/14003881)|
@@ -477,7 +479,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 3.2.3|exercise|[JOI 2008 本選 1 - 碁石ならべ](https://atcoder.jp/contests/joi2008ho/tasks/joi2008ho_a)|||[stack, ランレングス圧縮](https://atcoder.jp/contests/joi2008ho/submissions/11465819)|
 |||§ 3.2.3|exercise|[JOI 2012 本選 A 電飾](https://atcoder.jp/contests/joi2013ho/tasks/joi2013ho1)|||[stack, ランレングス圧縮](https://atcoder.jp/contests/joi2013ho/submissions/11466663)|
 |||§ 3.2.3|exercise|[ABC 140 D - Face Produces Unhappiness](https://atcoder.jp/contests/abc140/submissions/14690147)||||[ランレングス圧縮](https://atcoder.jp/contests/abc140/submissions/14690147)|
-|||§ 3.2.3|exercise|[ABC 040 A - `><`](https://atcoder.jp/contests/agc040/tasks/agc040_a)||||[ランレングス圧縮、最小の列の考察](https://atcoder.jp/contests/agc040/submissions/14842427)|
+|o||§ 3.2.3|exercise|[ABC 040 A - `><`](https://atcoder.jp/contests/agc040/tasks/agc040_a)||||[ランレングス圧縮、最小の列の考察](https://atcoder.jp/contests/agc040/submissions/14842427)|
 |||§ 3.2.3|exercise|[ABC 124 D - Handstand](https://atcoder.jp/contests/abc124/tasks/abc124_d)|||[ランレングス圧縮](https://atcoder.jp/contests/abc124/submissions/13535422)|
 ||o|§ 3.2.3|exercise|[JOI 2008 本選 C あみだくじ](https://atcoder.jp/contests/joi2009ho/tasks/joi2009ho_c)|||[]()|
 |||§ 3.2.4|example|[Fliptile (POJ No.3279)](http://poj.org/problem?id=3279)|||[bit全探索、貪欲法(実装重)](./3.2.4/poj3279.c)|
