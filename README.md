@@ -576,6 +576,9 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 4.2|exercise|[ABC 027 C - 倍々ゲーム](https://atcoder.jp/contests/abc027/tasks/abc027_c)|||[ゲームの必勝法、桁数で戦略が決める](https://atcoder.jp/contests/abc027/submissions/14209748)|
 |||§ 4.4.1|example|[DPL_3_C ヒストグラムの中の最大長方形](https://onlinejudge.u-aizu.ac.jp/problems/DPL_3_C)|||[stack](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_3_C/review/4517877/knknkn1162/C)|
 |||§ 4.4.1|exercise|[DPL_3_B 最大長方形](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_3_B)|||[stack](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_3_B/review/4517704/knknkn1162/C) or [O(N^3)の解法](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_3_B/review/4517487/knknkn1162/C)|
+|||§ 4.4.1|exercise|[ABC 043 B - バイナリハックイージー](https://atcoder.jp/contests/abc043/tasks/abc043_b)||||[stack](https://atcoder.jp/contests/abc043/submissions/14855878)|
+|||§ 4.4.1|exercise|[JOI 2008 本選 1 - 碁石ならべ](https://atcoder.jp/contests/joi2008ho/tasks/joi2008ho_a)|||ランレングス圧縮 see § 3.2.3|
+|||§ 4.4.1|exercise|[JOI 2012 本選 A 電飾](https://atcoder.jp/contests/joi2013ho/tasks/joi2013ho1)|||stack see § 3.2.3|
 |||§ 4.4.1|exercise|[ABC 064 D - Insertion](https://atcoder.jp/contests/abc064/tasks/abc064_d)|||[stack](https://atcoder.jp/contests/abc064/submissions/14057917)|
 |||§ 4.4.1|exercise|[Areas on the Cross-Section Diagram](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/all/ALDS1_3_D)|||[stack 2つ](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_3_D/review/4519048/knknkn1162/C)|
 ||o|§ 4.4.1|exercise|[KUPC 2013 D カーペット](https://atcoder.jp/contests/kupc2013/tasks/kupc2013_d)|||[]()|
