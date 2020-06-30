@@ -67,6 +67,9 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 1.8.1|exercise|[ABC 128 D - equeue](https://atcoder.jp/contests/abc128/tasks/abc128_d)|||[実装問題、全通りをシュミレート](https://atcoder.jp/contests/abc128/submissions/13589023)|
 |||§ 1.8.1|exercise|[ABC 084 C - Special Trains](https://atcoder.jp/contests/abc084/tasks/abc084_c)|||[Nが小さいので全てシュミレート](https://atcoder.jp/contests/abc084/submissions/13975934)|
 |||§ 1.8.1|exercise|[ABC 090 D - Remainder Reminder](https://atcoder.jp/contests/abc090/tasks/arc091_b)|||[実装問題、K=0がコーナーケース](https://atcoder.jp/contests/abc090/submissions/13964782)|
+|||§ 1.8.1|exercise|[ABC 015 A - A+...+B Problem](https://atcoder.jp/contests/agc015/tasks/agc015_a)||||[各候補間の差は1, コーナーケースに注意](https://atcoder.jp/contests/agc015/submissions/14855212)|
+|||§ 1.8.1|exercise|[ARC 080 C - 4-adjacent](https://atcoder.jp/contests/arc080/tasks/arc080_a)||||[コーナーケース(2の倍数があるかないか)](https://atcoder.jp/contests/arc080/submissions/14855637)|
+|||§ 1.8.1|exercise|[ABC 169 E - Count Median](https://atcoder.jp/contests/abc169/tasks/abc169_e)||||各候補の差は1or0.5 see § 1.9.2|
 |||§ 1.8.1|exercise|[ABC 093 D - Worst Case](https://atcoder.jp/contests/abc093/tasks/arc094_b)|||[コーナーケースに注意して実装](https://atcoder.jp/contests/abc093/submissions/13979986) or [二分探索]()|
 |||§ 1.8.1|exercise|[ABC 090 C - Flip,Flip, and Flip......](https://atcoder.jp/contests/abc090/tasks/arc091_a)|||[N,Mが2以下の場合のコーナーケースに注意して実装](https://atcoder.jp/contests/abc090/submissions/14058987)|
 |||§ 1.8.1|exercise|[AOJ 1149 - ケーキカット](https://onlinejudge.u-aizu.ac.jp/problems/1149)|||[実装問題、連結リスト](https://onlinejudge.u-aizu.ac.jp/solutions/problem/1149/review/4321489/knknkn1162/C)|
@@ -81,7 +84,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 1.9.1|exercise|[ABC 037 C - 総和](https://atcoder.jp/contests/abc037/tasks/abc037_c)|||[総和総数問題、個数計算にmin使用](https://atcoder.jp/contests/abc037/submissions/14069008)|
 |||§ 1.9.1|exercise|[ABC 117 D - XXOR](https://atcoder.jp/contests/abc117/tasks/abc117_d)|||[桁DPっぽい、maxを用いて適宜更新](https://atcoder.jp/contests/abc117/submissions/13596002)|
 |||§ 1.9.2|exercise|[ABC 102 C - Linear Approximation](https://atcoder.jp/contests/abc102/tasks/arc100_a)|||[中央値](https://atcoder.jp/contests/abc102/submissions/13756922)|
-|||§ 1.9.2|exercise|[ABC 169 E - Count Median](https://atcoder.jp/contests/abc169/tasks/abc169_e)||||[中央値の問題、中央値の最大最小を求める](https://atcoder.jp/contests/abc169/submissions/14716679)|
+|||§ 1.9.2|exercise|[ABC 169 E - Count Median](https://atcoder.jp/contests/abc169/tasks/abc169_e)||||[中央値の問題、各候補の差は1or0.5](https://atcoder.jp/contests/abc169/submissions/14716679)|
 |||§ 1.9.2|exercise|[ABC 094 C - Many Medians](https://atcoder.jp/contests/abc094/tasks/arc095_a)|||中央値。see § 1.6.1|
 |||§ 1.9.2|exercise|[Square869120Contest #6 B - AtCoder Markets](https://atcoder.jp/contests/s8pc-6/tasks/s8pc_6_b)|||中央値。see §2.2.4|
 |||§ 1.9.2|exercise|[ABC 107 D - Median of Medians](https://atcoder.jp/contests/abc107/tasks/arc101_b)|||[]()|
@@ -105,6 +108,7 @@ make FILE=0.0.0/abc039_c.cpp
 |o|o|§ 2.1.1|exercise|[ABC 013 C - 節制](https://atcoder.jp/contests/abc013/tasks/abc013_3)||||[消費を後回し、工夫して全探索]()|
 |||§ 2.1.1|exercise|[ABC 031 C - 数列ゲーム](https://atcoder.jp/contests/abc031/tasks/abc031_c)|||[問題文の解釈、全探索](https://atcoder.jp/contests/abc031/submissions/14186421)|
 |||§ 2.1.1|exercise|[ABC 042 C - こだわり者いろはちゃん](https://atcoder.jp/contests/abc042/tasks/arc058_a)|||[全探索](https://atcoder.jp/contests/abc042/submissions/14172165)|
+|||§ 2.1.1|exercise|[ABC 006 A - Prefix and Suffix](https://atcoder.jp/contests/agc006/tasks/agc006_a)||||[考察、全探索](https://atcoder.jp/contests/agc006/submissions/14855436)|
 |||§ 2.1.1|exercise|[ABC 016 C - 友達の友達](https://atcoder.jp/contests/abc016/tasks/abc016_3)||||[制約が小さいので全探索](https://atcoder.jp/contests/abc016/submissions/14782669)|
 |||§ 2.1.1|exercise|[ABC 075 D - Axis-Parallel Rectangle](https://atcoder.jp/contests/abc075/tasks/abc075_d)|||[全探索、ソート](https://atcoder.jp/contests/abc075/submissions/14015617)|
 |||§ 2.1.1|exercise|[ABC 166 D - I hate Factorization](https://atcoder.jp/contests/abc166/tasks/abc166_d)|||[上限決めて全探索](https://atcoder.jp/contests/abc166/submissions/13701621)|
