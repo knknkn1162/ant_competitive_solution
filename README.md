@@ -92,6 +92,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.1.0|exercise|[ABC 015 C - 高橋くんのバグ探し](https://atcoder.jp/contests/abc015/tasks/abc015_3)||||[DFSで全列挙](https://atcoder.jp/contests/abc015/submissions/14716148)|
 |||§ 2.1.1|example|部分和問題|||[]()|
 |||§ 2.1.1|exercise|[ABC 051 B - Sum of Three Integers](https://atcoder.jp/contests/abc051/tasks/abc051_b)|||[全探索](https://atcoder.jp/contests/abc051/submissions/14017300) or [DP, 累積和](https://atcoder.jp/contests/abc051/submissions/12543729)|
+|||§ 2.1.1|exercise|[diverta 2019 Programming Contest B - RGB Boxes](https://atcoder.jp/contests/diverta2019/tasks/diverta2019_b)||||[全探索](https://atcoder.jp/contests/diverta2019/submissions/14854828)|
 |||§ 2.1.1|exercise|[ABC 006 C - スフィンクスのなぞなぞ](https://atcoder.jp/contests/abc006/tasks/abc006_3)||||[方程式をかんたんにして、全探索](https://atcoder.jp/contests/abc006/submissions/14412001)|
 |||§ 2.1.1|exercise|[ABC 043 C - いっしょ](https://atcoder.jp/contests/abc043/tasks/arc059_a)|||[全探索]() or [平均](https://atcoder.jp/contests/abc043/submissions/14216611)|
 |||§ 2.1.1|exercise|[ABC 057 B - Checkpoints](https://atcoder.jp/contests/abc057/tasks/abc057_b)||||[全探索](https://atcoder.jp/contests/abc057/submissions/14848757)|
