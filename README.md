@@ -24,6 +24,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 1.3.1|exercise|[POJ No.1064 Cable Master](http://poj.org/problem?id=1064)|||誤差をなくすため、整数に変換、see § 3.1.2|
 |||§ 1.3.1|exercise|[パナソニックプログラミングコンテスト2020 C - Sqrt Inequality](https://atcoder.jp/contests/panasonic2020/tasks/panasonic2020_c)|||[2乗して整数の形に](https://atcoder.jp/contests/panasonic2020/submissions/13942134)|
 |||§ 1.3.1|exercise|[ABC 010 C - 浮気調査](https://atcoder.jp/contests/abc010/tasks/abc010_3)||||[浮動小数点の比較、EPSを使用](https://atcoder.jp/contests/abc010/submissions/14841638)|
+|||§ 1.3.1|exercise|[ABC 063 C - Bugged](https://atcoder.jp/contests/abc063/tasks/arc075_a)||||[総和 or 総和から一つ引く](https://atcoder.jp/contests/abc063/submissions/14854478)|
 |||§ 1.4.1|exercise|[ABC 133 D - Rain Flows into Dams](https://atcoder.jp/contests/abc133/tasks/abc133_d)||||[総和からの引き算](https://atcoder.jp/contests/abc133/submissions/14473252)|
 |||§ 1.4.1|exercise|[ABC 171 E - Red Scarf](https://atcoder.jp/contests/abc171/tasks/abc171_e)||||[総和からの引き算](https://atcoder.jp/contests/abc171/submissions/14716360)|
 |||§ 1.4.1|exercise|[ABC 017 C - ハイスコア](https://atcoder.jp/contests/abc017/tasks/abc017_3)||||総和からの引き算 see § 2.2.6.1|
