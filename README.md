@@ -37,7 +37,6 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 1.6.1|example|[ABC 082 B - Two Anagrams](https://atcoder.jp/contests/abc082/tasks/abc082_b)|||[2つの文字列をそれぞれ昇順、降順にソート](https://atcoder.jp/contests/abc082/submissions/14002733)|
 |||§ 1.6.1|exercise|[ABC 137 C - Green Bin](https://atcoder.jp/contests/abc137/tasks/abc137_c)||||[文字列をソート、map](https://atcoder.jp/contests/abc137/submissions/14648816)|
 |||§ 1.6.1|exercise|[ABC 094 C - Many Medians](https://atcoder.jp/contests/abc094/tasks/arc095_a)|||[中央値、ソート](https://atcoder.jp/contests/abc094/submissions/13910628)|
-|||§ 1.6.2|exercise|[ABC 100 D - Patisserie ABC](https://atcoder.jp/contests/abc100/tasks/abc100_d)|||[発想問題、符号決め打ちでソート](https://atcoder.jp/contests/abc100/submissions/13889053)|
 ||o|§ 1.6.2|exercise|[ABC 123 D - Cake 123](https://atcoder.jp/contests/abc123/tasks/abc123_d)|||[Kが小さい、解の候補を絞ってソート](https://atcoder.jp/contests/abc123/submissions/13557424) or [max heap](https://atcoder.jp/contests/abc123/submissions/14137799) or [二分探索]() or [min heapでK番目までの値を保存(楽)](https://atcoder.jp/contests/abc123/submissions/14138295)|
 |||§ 1.6.2|exercise|[ABC 097 C - K-th Substring](https://atcoder.jp/contests/abc097/tasks/arc097_a)|||[Kが小さい、解の候補を絞ってソート](https://atcoder.jp/contests/abc097/submissions/13911362)|
 |||§ 1.6.2|exercise|[ABC 045 D - すぬけ君の塗り絵](https://atcoder.jp/contests/abc045/tasks/arc061_b)|||[解の候補を絞ってソート、hash](https://atcoder.jp/contests/abc045/submissions/14127742) or [候補の長方形の個数を数える](https://atcoder.jp/contests/abc045/submissions/14128018)|
@@ -104,7 +103,6 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.1.1|exercise|[ABC 043 C - いっしょ](https://atcoder.jp/contests/abc043/tasks/arc059_a)|||[全探索]() or [平均](https://atcoder.jp/contests/abc043/submissions/14216611)|
 |||§ 2.1.1|exercise|[ABC 057 B - Checkpoints](https://atcoder.jp/contests/abc057/tasks/abc057_b)||||[全探索](https://atcoder.jp/contests/abc057/submissions/14848757)|
 |||§ 2.1.1|exercise|[ABC 066 B - ss](https://atcoder.jp/contests/abc066/tasks/abc066_b)|||[文字列の全探索](https://atcoder.jp/contests/abc066/submissions/14064944)|
-|||§ 2.1.1|exercise|[ABC 016 A - Shrinking](https://atcoder.jp/contests/agc016/tasks/agc016_a)||||[単一の文字を固定して全探索](https://atcoder.jp/contests/agc016/submissions/14880319)|
 |||§ 2.1.1|exercise|[キーエンス プログラミング コンテスト 2019
  B - KEYENCE String](https://atcoder.jp/contests/keyence2019/tasks/keyence2019_b)||||[全探索](https://atcoder.jp/contests/keyence2019/submissions/14854388)|
 |||§ 2.1.1|exercise|[ABC 074 C - Sugar Water](https://atcoder.jp/contests/abc074/tasks/arc083_a)|||[全探索](https://atcoder.jp/contests/abc074/submissions/14021322)|
@@ -117,8 +115,11 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.1.1|exercise|[ABC 016 C - 友達の友達](https://atcoder.jp/contests/abc016/tasks/abc016_3)||||[制約が小さいので全探索](https://atcoder.jp/contests/abc016/submissions/14782669)|
 |||§ 2.1.1|exercise|[ABC 075 D - Axis-Parallel Rectangle](https://atcoder.jp/contests/abc075/tasks/abc075_d)|||[全探索、ソート](https://atcoder.jp/contests/abc075/submissions/14015617)|
 |||§ 2.1.1|exercise|[ABC 166 D - I hate Factorization](https://atcoder.jp/contests/abc166/tasks/abc166_d)|||[上限決めて全探索](https://atcoder.jp/contests/abc166/submissions/13701621)|
+|||§ 2.1.1|exercise|[ABC 016 A - Shrinking](https://atcoder.jp/contests/agc016/tasks/agc016_a)||||[単一の文字を固定して全探索](https://atcoder.jp/contests/agc016/submissions/14880319)|
+|||§ 2.1.1|exercise|[CODE FESTIVAL 2017 Final B - Palindrome-phobia](https://atcoder.jp/contests/cf17-final/tasks/cf17_final_b)||||[先頭2文字を固定して全探索、コーナーケース(N=1)](https://atcoder.jp/contests/cf17-final/submissions/14881765)|
 |||§ 2.1.1|exercise|[ABC 112 C - Pyramid](https://atcoder.jp/contests/abc112/tasks/abc112_c)|||[解を仮定して全探索](https://atcoder.jp/contests/abc112/submissions/13678639)|
 ||o|§ 2.1.1|exercise|[ABC 088 C - Takahashi's Information](https://atcoder.jp/contests/abc088/tasks/abc088_c)|||[解を仮定して全探索]()|
+|||§ 2.1.1|exercise|[ABC 100 D - Patisserie ABC](https://atcoder.jp/contests/abc100/tasks/abc100_d)|||[発想問題、符号を軸に全探索、ソート](https://atcoder.jp/contests/abc100/submissions/13889053)|
 |||§ 2.1.1|exercise|[ABC 060 D - Simple Knapsack](https://atcoder.jp/contests/abc060/tasks/arc073_b)|||[O(N^4)の全探索(4種類なので4乗ループ)](https://atcoder.jp/contests/abc060/submissions/14063654) or [K個を決め打ちで`dp[N][K][weight]`としてDP](https://atcoder.jp/contests/abc060/submissions/14062472)|
 |||§ 2.1.1|exercise|[Square869120Contest #6 B - AtCoder Markets](https://atcoder.jp/contests/s8pc-6/tasks/s8pc_6_b)|||全探索(要工夫) see § 2.4.2|
 ||o|§ 2.1.2|example|[POJ No.2386 Lake Counting](http://poj.org/problem?id=2386)|||[DFS]()|
@@ -277,6 +278,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.3.8.0|exercise|[AOJ DPL_5_K ボールと箱 11](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_K)|||[ボール: 区別不可, 箱:区別不可, 入れ方:1つ以下 : 1 or 0](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_5_K/review/4431814/knknkn1162/C)|
 |||§ 2.3.8.0|exercise|[AOJ DPL_5_L ボールと箱 12](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_L)|||[ボール: 区別不可, 箱:区別不可, 入れ方:1つ以上 : 分割数: P(k, n-k)](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_5_L/review/4431852/knknkn1162/C)|
 |||§ 2.3.8.1|exercise|[ABC 089 C - March](https://atcoder.jp/contests/abc089/tasks/abc089_c)|||[それぞれの組み合わせ(bit全探索)に対して場合の数](https://atcoder.jp/contests/abc089/submissions/13980401)|
+|||§ 2.3.8.1|exercise|[ABC 017 A - Biscuits](https://atcoder.jp/contests/agc017/tasks/agc017_a)||||[考察、コーナーケース、偶奇性を利用した組み合わせ](https://atcoder.jp/contests/agc017/submissions/14882194) or [DP](https://atcoder.jp/contests/agc017/submissions/14882072)|
 |||§ 2.3.8.1|exercise|[ABC 132 D - Blue and Red Balls](https://atcoder.jp/contests/abc132/tasks/abc132_d)|||[組み合わせ](https://atcoder.jp/contests/abc132/submissions/14168523)|
 |||§ 2.3.8.1|exercise|[ABC 066 D - 11](https://atcoder.jp/contests/abc066/tasks/arc077_b)|||[組み合わせ](https://atcoder.jp/contests/abc066/submissions/14028001)|
 |||§ 2.3.8.1|exercise|[ABC 057 D - Maximum Average Sets](https://atcoder.jp/contests/abc057/tasks/abc057_d)|||[組み合わせ(パスカルの三角形)](https://atcoder.jp/contests/abc057/submissions/14083924)|
