@@ -271,8 +271,8 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.3.8.0|exercise|[AOJ DPL_5_A ボールと箱 1](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_A)|||[ボール: 区別可, 箱:区別可, 入れ方:制限なし: k^n](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_5_A/review/4431701/knknkn1162/C)|
 |||§ 2.3.8.0|exercise|[AOJ DPL_5_B ボールと箱 2](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_B)|||[ボール: 区別可, 箱:区別可, 入れ方:一つ以下 : k_P_n](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_5_B/review/4431711/knknkn1162/C)|
 ||o|§ 2.3.8.0|exercise|[AOJ DPL_5_C ボールと箱 3](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_C)|||[ボール: 区別可, 箱:区別可, 入れ方:一つ以上: 包除原理]()|
-||||§ 2.3.8.0|exercise|[ABC 131 C - Anti-Division](https://atcoder.jp/contests/abc131/tasks/abc131_c)||||[包除原理](https://atcoder.jp/contests/abc131/submissions/14869612)|
-||||§ 2.3.8.0|exercise|[AOJ NTL_1_D オイラーのφ関数](https://onlinejudge.u-aizu.ac.jp/problems/NTL_1_D)||||包除原理 see § 2.3.7|
+|||§ 2.3.8.0|exercise|[ABC 131 C - Anti-Division](https://atcoder.jp/contests/abc131/tasks/abc131_c)||||[包除原理](https://atcoder.jp/contests/abc131/submissions/14869612)|
+|||§ 2.3.8.0|exercise|[AOJ NTL_1_D オイラーのφ関数](https://onlinejudge.u-aizu.ac.jp/problems/NTL_1_D)||||包除原理 see § 2.3.7|
 |||§ 2.3.8.0|exercise|[ABC 172 E - NEQ](https://atcoder.jp/contests/abc172/tasks/abc172_e)||||[発想問題、包除原理]()|
 |||§ 2.3.8.0|exercise|[AOJ DPL_5_D ボールと箱 4](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_D)|||[ボール: 区別不可, 箱:区別可, 入れ方:制限なし : k_H_n](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_5_D/review/4431758/knknkn1162/C)|
 |||§ 2.3.8.0|exercise|[AOJ DPL_5_E ボールと箱 5](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_E)|||[ボール: 区別不可, 箱:区別可, 入れ方:1つ以下 : k_C_n](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_5_E/review/4431769/knknkn1162/C)|
