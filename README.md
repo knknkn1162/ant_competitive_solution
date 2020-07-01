@@ -48,6 +48,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 1.7.1|exercise|[ABC 078 C - HSI](https://atcoder.jp/contests/abc078/tasks/arc085_a)|||[期待値](https://atcoder.jp/contests/abc078/submissions/14014840)|
 |||§ 1.7.1|exercise|[Educational DP Contest J - Sushi](https://atcoder.jp/contests/dp/tasks/dp_j)|||期待値 see § 2.3.17|
 |||§ 1.8.0|exercise|[C - X: Yet Another Die Game](https://atcoder.jp/contests/abc053/tasks/arc068_a)|||[考察、実装するだけ](https://atcoder.jp/contests/abc053/submissions/14105131)|
+|||§ 1.8.0|exercise|[ABC 056 C - Go Home](https://atcoder.jp/contests/abc056/tasks/arc070_a)||||[考察、実装問題](https://atcoder.jp/contests/abc056/submissions/14880967)|
 |||§ 1.8.0|exercise|[ABC 024 C - 民族大移動](https://atcoder.jp/contests/abc024/tasks/abc024_c)||||[実装問題](https://atcoder.jp/contests/abc024/submissions/14455435)|
 |||§ 1.8.0|exercise|[ABC 029 A - Irreversible operation](https://atcoder.jp/contests/agc029/tasks/agc029_a)||||[最終形を考える、実装問題](https://atcoder.jp/contests/agc029/submissions/14841263)|
 |||§ 1.8.0|exercise|[ABC 039 C - ピアニスト高橋君](https://atcoder.jp/contests/abc039/tasks/abc039_c)||||[実装問題](https://atcoder.jp/contests/abc039/submissions/14695729)|
@@ -80,6 +81,7 @@ make FILE=0.0.0/abc039_c.cpp
 ||o|§ 1.8.2|exercise|[ABC 101 D - Snuke Numbers](https://atcoder.jp/contests/abc101/tasks/arc099_b)|||[構成問題]()|
 |||§ 1.9.1|exercise|[ARC 073 C - Sentou](https://atcoder.jp/contests/arc073/tasks/arc073_a)||||[https://atcoder.jp/contests/arc073/submissions/14854677](https://atcoder.jp/contests/arc073/submissions/14854677)|
 |||§ 1.9.1|exercise|[ALDS1_1_D 最大の利益](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/1/ALDS1_1_D)|||[min, maxを用いて適宜更新](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_1_D/review/4513248/knknkn1162/C)|
+|||§ 1.9.1|exercise|[ARC 069 C - Scc Puzzle](https://atcoder.jp/contests/arc069/tasks/arc069_a)||||[min, maxの有効利用、MECEに](https://atcoder.jp/contests/arc069/submissions/14881281)|
 |||§ 1.9.1|exercise|[ABC 047 D - 高橋君と見えざる手](https://atcoder.jp/contests/abc047/tasks/arc063_b)|||[maxを用いて末尾から更新](https://atcoder.jp/contests/abc047/submissions/14115299)|
 |||§ 1.9.1|exercise|[ABC 107 C - Candles](https://atcoder.jp/contests/abc107/tasks/arc101_a)|||[長さKの区間を固定して,max,min使用](https://atcoder.jp/contests/abc107/submissions/13697949)|
 |||§ 1.9.1|exercise|[ABC 037 C - 総和](https://atcoder.jp/contests/abc037/tasks/abc037_c)|||[総和総数問題、個数計算にmin使用](https://atcoder.jp/contests/abc037/submissions/14069008)|
@@ -90,6 +92,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 1.9.2|exercise|[Square869120Contest #6 B - AtCoder Markets](https://atcoder.jp/contests/s8pc-6/tasks/s8pc_6_b)|||中央値。see §2.2.4|
 |||§ 1.9.2|exercise|[ABC 107 D - Median of Medians](https://atcoder.jp/contests/abc107/tasks/arc101_b)|||[]()|
 |||§ 1.9.2|exercise|[ABC 127 F - Absolute Minima](https://atcoder.jp/contests/abc127/tasks/abc127_f)|||中央値の更新、see § 2.4.1|
+|||§ 1.10.1|exercise|[AGC 015 B - Evilator](https://atcoder.jp/contests/agc015/tasks/agc015_b)||||[一方を固定すると、O(1)で分かる](https://atcoder.jp/contests/agc015/submissions/14880760)|
 |||§ 2.1.0|exercise|[ABC 114 C - 755](https://atcoder.jp/contests/abc114/tasks/abc114_c)|||[再帰関数(DFS)](https://atcoder.jp/contests/abc114/submissions/13677743)|
 |||§ 2.1.0|exercise|[ABC 161 D - Lunlun Number](https://atcoder.jp/contests/abc161/tasks/abc161_d)|||[DFSで条件を満たす数をstackに](https://atcoder.jp/contests/abc161/submissions/13688600)|
 |||§ 2.1.0|exercise|[ABC 029 C - Brute-force Attack](https://atcoder.jp/contests/abc029/tasks/abc029_c)|||[DFSで全列挙](https://atcoder.jp/contests/abc029/tasks/abc029_c)|
