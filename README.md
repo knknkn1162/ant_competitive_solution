@@ -48,6 +48,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 1.7.1|exercise|[Educational DP Contest J - Sushi](https://atcoder.jp/contests/dp/tasks/dp_j)|||期待値 see § 2.3.17|
 |||§ 1.8.0|exercise|[C - X: Yet Another Die Game](https://atcoder.jp/contests/abc053/tasks/arc068_a)|||[考察、実装するだけ](https://atcoder.jp/contests/abc053/submissions/14105131)|
 |||§ 1.8.0|exercise|[ABC 056 C - Go Home](https://atcoder.jp/contests/abc056/tasks/arc070_a)||||[考察、実装問題](https://atcoder.jp/contests/abc056/submissions/14880967)|
+|||§ 1.8.0|exercise|[ABC 130 C - Rectangle Cutting](https://atcoder.jp/contests/abc130/tasks/abc130_c)||||[考察、実装問題](https://atcoder.jp/contests/abc130/submissions/14885289)|
 |||§ 1.8.0|exercise|[ABC 024 C - 民族大移動](https://atcoder.jp/contests/abc024/tasks/abc024_c)||||[実装問題](https://atcoder.jp/contests/abc024/submissions/14455435)|
 |||§ 1.8.0|exercise|[ABC 029 A - Irreversible operation](https://atcoder.jp/contests/agc029/tasks/agc029_a)||||[最終形を考える、実装問題](https://atcoder.jp/contests/agc029/submissions/14841263)|
 |||§ 1.8.0|exercise|[ABC 039 C - ピアニスト高橋君](https://atcoder.jp/contests/abc039/tasks/abc039_c)||||[実装問題](https://atcoder.jp/contests/abc039/submissions/14695729)|
@@ -91,6 +92,11 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 1.9.2|exercise|[Square869120Contest #6 B - AtCoder Markets](https://atcoder.jp/contests/s8pc-6/tasks/s8pc_6_b)|||中央値。see §2.2.4|
 |||§ 1.9.2|exercise|[ABC 107 D - Median of Medians](https://atcoder.jp/contests/abc107/tasks/arc101_b)|||[]()|
 |||§ 1.9.2|exercise|[ABC 127 F - Absolute Minima](https://atcoder.jp/contests/abc127/tasks/abc127_f)|||中央値の更新、see § 2.4.1|
+|||§ 1.9.3|exercise|[ABC 133 C - Remainder Minimization 2019](https://atcoder.jp/contests/abc133/tasks/abc133_c)||||剰余を先に計算、余りの管理にmapを活用 see § 2.1.1|
+|||§ 1.9.3|exercise|[ABC 030 D - へんてこ辞書](https://atcoder.jp/contests/abc030/tasks/abc030_d)|||剰余(mod) see § 2.1.4|
+|||§ 1.9.3|exercise|[ABC 086 D - Checker](https://atcoder.jp/contests/abc086/tasks/arc089_b)|||剰余 § 2.2.6|
+|||§ 1.9.3|exercise|[ABC 099 D - Good Grid](https://atcoder.jp/contests/abc099/tasks/abc099_d)|||剰余、前処理(map) see § 2.4.2|
+|||§ 1.9.3|exercise|[ABC 096 D - Five, Five Everywhere](https://atcoder.jp/contests/abc096/submissions/13919563)|||同じ剰余の数を集める, map see § 2.4.2|
 |||§ 1.10.1|exercise|[AGC 015 B - Evilator](https://atcoder.jp/contests/agc015/tasks/agc015_b)||||[一方を固定すると、O(1)で分かる](https://atcoder.jp/contests/agc015/submissions/14880760)|
 |||§ 2.1.0|exercise|[ABC 114 C - 755](https://atcoder.jp/contests/abc114/tasks/abc114_c)|||[再帰関数(DFS)](https://atcoder.jp/contests/abc114/submissions/13677743)|
 |||§ 2.1.0|exercise|[ABC 161 D - Lunlun Number](https://atcoder.jp/contests/abc161/tasks/abc161_d)|||[DFSで条件を満たす数をstackに](https://atcoder.jp/contests/abc161/submissions/13688600)|
@@ -115,6 +121,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.1.1|exercise|[ABC 016 C - 友達の友達](https://atcoder.jp/contests/abc016/tasks/abc016_3)||||[制約が小さいので全探索](https://atcoder.jp/contests/abc016/submissions/14782669)|
 |||§ 2.1.1|exercise|[ABC 075 D - Axis-Parallel Rectangle](https://atcoder.jp/contests/abc075/tasks/abc075_d)|||[全探索、ソート](https://atcoder.jp/contests/abc075/submissions/14015617)|
 |||§ 2.1.1|exercise|[ABC 166 D - I hate Factorization](https://atcoder.jp/contests/abc166/tasks/abc166_d)|||[上限決めて全探索](https://atcoder.jp/contests/abc166/submissions/13701621)|
+|||§ 2.1.1|exercise|[ABC 133 C - Remainder Minimization 2019](https://atcoder.jp/contests/abc133/tasks/abc133_c)||||[剰余を先に計算、解を絞って全探索、余りの管理にmapを活用、全探索](https://atcoder.jp/contests/abc133/submissions/14886216)|
 |||§ 2.1.1|exercise|[ABC 112 C - Pyramid](https://atcoder.jp/contests/abc112/tasks/abc112_c)|||[解を仮定して全探索](https://atcoder.jp/contests/abc112/submissions/13678639)|
 ||o|§ 2.1.1|exercise|[ABC 088 C - Takahashi's Information](https://atcoder.jp/contests/abc088/tasks/abc088_c)|||[解を仮定して全探索]()|
 |||§ 2.1.1|exercise|[ABC 060 D - Simple Knapsack](https://atcoder.jp/contests/abc060/tasks/arc073_b)|||[O(N^4)の全探索(4種類なので4乗ループ)](https://atcoder.jp/contests/abc060/submissions/14063654) or [K個を決め打ちで`dp[N][K][weight]`としてDP](https://atcoder.jp/contests/abc060/submissions/14062472)|
@@ -191,7 +198,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.2.6|exercise|[ABC 122 C - GeT AC](https://atcoder.jp/contests/abc122/tasks/abc122_c)|||[累積和](https://atcoder.jp/contests/abc122/submissions/13557759)|
 |||§ 2.2.6|exercise|[ABC 092 C - Traveling Plan](https://atcoder.jp/contests/abc092/tasks/arc093_a)|||[累積和](https://atcoder.jp/contests/abc092/submissions/13956843)|
 |||§ 2.2.6|exercise|[JOI 2010 本選 1 - 旅人](https://atcoder.jp/contests/joi2010ho/tasks/joi2010ho_a)|||累積和 see § 2.2.6.1|
-|||§ 2.2.6|exercise|[ABC 099 D - Good Grid](https://atcoder.jp/contests/abc099/tasks/abc099_d)|||前処理(map) see § 2.4.2|
+|||§ 2.2.6|exercise|[ABC 099 D - Good Grid](https://atcoder.jp/contests/abc099/tasks/abc099_d)|||剰余、前処理(map) see § 2.4.2|
 |||§ 2.2.6|exercise|[ABC 089 D - Practical Skill Test](https://atcoder.jp/contests/abc089/tasks/abc089_d)|||[前処理(累積和)](https://atcoder.jp/contests/abc089/submissions/13964940)|
 |||§ 2.2.6|exercise|[ABC 147 D - Xor Sum 4](https://atcoder.jp/contests/abc147/tasks/abc147_d)|||[xorの性質を利用して累積和](https://atcoder.jp/contests/abc147/submissions/13149768)|
 |||§ 2.2.6|exercise|[ABC 125 C - GCD on Blackboard](https://atcoder.jp/contests/abc125/tasks/abc125_c)|||[累積和、逆累積和](https://atcoder.jp/contests/abc125/submissions/13928488)|
@@ -364,7 +371,8 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.4.2|exercise|[ABC 081 C - Not so Diverse](https://atcoder.jp/contests/abc081/tasks/arc086_a)|||[map, ソート](https://atcoder.jp/contests/abc081/submissions/14003881)|
 |||§ 2.4.2|exercise|[ABC 171 D - Replacing](https://atcoder.jp/contests/abc171/tasks/abc171_d)||||[map, 総和から足し引きする](https://atcoder.jp/contests/abc171/submissions/14716878)|
 |||§ 2.4.2|exercise|[ABC 050 C - Lining Up](https://atcoder.jp/contests/abc050/tasks/arc066_a)|||[考察、map](https://atcoder.jp/contests/abc050/submissions/14105411)|
-|||§ 2.4.2|exercise|[ABC 072 C - Together](https://atcoder.jp/contests/abc072/tasks/arc082_ahttps://atcoder.jp/contests/abc072/tasks/arc082_a)|||[map](https://atcoder.jp/contests/abc072/submissions/14023908)|
+|||§ 2.4.2|exercise|[ARC 081 A - Make a Rectangle](https://atcoder.jp/contests/arc081/tasks/arc081_a)||||[map, ソート、同じ数が4つ以上ある場合も考慮](https://atcoder.jp/contests/arc081/submissions/14885688)|
+|||§ 2.4.2|exercise|[ABC 072 C - Together](https://atcoder.jp/contests/abc072/tasks/arc082_a)|||[map](https://atcoder.jp/contests/abc072/submissions/14023908)|
 |||§ 2.4.2|exercise|[ABC 111 C - /\\/\\/\\/](https://atcoder.jp/contests/abc111/tasks/arc103_a)|||[map](https://atcoder.jp/contests/abc111/submissions/13679666)|
 |||§ 2.4.2|exercise|[ABC 099 D - Good Grid](https://atcoder.jp/contests/abc099/tasks/abc099_d)|||[前処理、colorに対して全探索、map](https://atcoder.jp/contests/abc099/submissions/13838264)|
 |||§ 2.4.2|exercise|[ABC 129 D - Lamp](https://atcoder.jp/contests/abc129/tasks/abc129_d)|||[前処理で累積和の計算](https://atcoder.jp/contests/abc129/submissions/14153175)|
@@ -374,7 +382,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.4.2|exercise|[ABC 082 C - Good Sequence](https://atcoder.jp/contests/abc082/tasks/arc087_a)|||[上限決めてmap](https://atcoder.jp/contests/abc082/submissions/14064051)|
 |||§ 2.4.2|exercise|[ABC 053 D - Card Eater](https://atcoder.jp/contests/abc053/tasks/arc068_b)|||[map, 減らせる枚数は2枚](https://atcoder.jp/contests/abc053/submissions/14095470)|
 |||§ 2.4.2|exercise|[ABC 096 D - Five, Five Everywhere](https://atcoder.jp/contests/abc096/submissions/13919563)|||[構成問題、発想問題、数学的考察、同じ剰余の数を集める, map](https://atcoder.jp/contests/abc096/submissions/13919563)|
-|||§ 2.4.2.1|exercise|[ABC 135 D - Digits Parade](https://atcoder.jp/contests/abc135/tasks/abc135_d)||||[剰余、map(DPっぽい)](https://atcoder.jp/contests/abc135/submissions/14515284)|
+|||§ 2.4.2.1|exercise|[ABC 135 D - Digits Parade](https://atcoder.jp/contests/abc135/tasks/abc135_d)||||[区間上の総和総数問題、剰余、map(DPっぽい)](https://atcoder.jp/contests/abc135/submissions/14515284)|
 |||§ 2.4.2.1|exercise|[AGC 023 A - Zero-Sum Ranges](https://atcoder.jp/contests/agc023/tasks/agc023_a)|||[区間上の総和総数問題、累積和をmap, 一方を固定](https://atcoder.jp/contests/agc023/submissions/14078150)|
 |||§ 2.4.2.1|exercise|[ABC 105 D - Candy Distribution](https://atcoder.jp/contests/abc105/tasks/abc105_d)|||[区間上の総和総数問題、累積和をmap](https://atcoder.jp/contests/abc105/submissions/14068116)|
 |||§ 2.4.2.1|exercise|[ABC 158 E - Divisible Substring](https://atcoder.jp/contests/abc158/tasks/abc158_e)|||[区間上の総和総数問題、剰余、累積和をmap, 一方を固定、P=2,5がコーナーケース](https://atcoder.jp/contests/abc158/submissions/13974521)|
