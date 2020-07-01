@@ -67,7 +67,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 1.8.1|exercise|[ABC 128 D - equeue](https://atcoder.jp/contests/abc128/tasks/abc128_d)|||[実装問題、全通りをシュミレート](https://atcoder.jp/contests/abc128/submissions/13589023)|
 |||§ 1.8.1|exercise|[ABC 084 C - Special Trains](https://atcoder.jp/contests/abc084/tasks/abc084_c)|||[Nが小さいので全てシュミレート](https://atcoder.jp/contests/abc084/submissions/13975934)|
 |||§ 1.8.1|exercise|[ABC 090 D - Remainder Reminder](https://atcoder.jp/contests/abc090/tasks/arc091_b)|||[実装問題、K=0がコーナーケース](https://atcoder.jp/contests/abc090/submissions/13964782)|
-|||§ 1.8.1|exercise|[みんなのプロコン2019 C - When I hit my pocket...](https://atcoder.jp/contests/yahoo-procon2019-qual/tasks/yahoo_procon2019_qual_c)||||[実装問題、MECEに](https://atcoder.jp/contests/yahoo-procon2019-qual/submissions/14879897)|
+|o||§ 1.8.1|exercise|[みんなのプロコン2019 C - When I hit my pocket...](https://atcoder.jp/contests/yahoo-procon2019-qual/tasks/yahoo_procon2019_qual_c)||||[実装問題、MECEに](https://atcoder.jp/contests/yahoo-procon2019-qual/submissions/14879897)|
 |||§ 1.8.1|exercise|[ABC 015 A - A+...+B Problem](https://atcoder.jp/contests/agc015/tasks/agc015_a)||||[各候補間の差は1, コーナーケースに注意](https://atcoder.jp/contests/agc015/submissions/14855212)|
 |||§ 1.8.1|exercise|[ARC 080 C - 4-adjacent](https://atcoder.jp/contests/arc080/tasks/arc080_a)||||[コーナーケース(2の倍数があるかないか)](https://atcoder.jp/contests/arc080/submissions/14855637)|
 |||§ 1.8.1|exercise|[ABC 169 E - Count Median](https://atcoder.jp/contests/abc169/tasks/abc169_e)||||各候補の差は1or0.5 see § 1.9.2|
@@ -101,6 +101,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.1.1|exercise|[ABC 043 C - いっしょ](https://atcoder.jp/contests/abc043/tasks/arc059_a)|||[全探索]() or [平均](https://atcoder.jp/contests/abc043/submissions/14216611)|
 |||§ 2.1.1|exercise|[ABC 057 B - Checkpoints](https://atcoder.jp/contests/abc057/tasks/abc057_b)||||[全探索](https://atcoder.jp/contests/abc057/submissions/14848757)|
 |||§ 2.1.1|exercise|[ABC 066 B - ss](https://atcoder.jp/contests/abc066/tasks/abc066_b)|||[文字列の全探索](https://atcoder.jp/contests/abc066/submissions/14064944)|
+|||§ 2.1.1|exercise|[ABC 016 A - Shrinking](https://atcoder.jp/contests/agc016/tasks/agc016_a)||||[単一の文字を固定して全探索](https://atcoder.jp/contests/agc016/submissions/14880319)|
 |||§ 2.1.1|exercise|[キーエンス プログラミング コンテスト 2019
  B - KEYENCE String](https://atcoder.jp/contests/keyence2019/tasks/keyence2019_b)||||[全探索](https://atcoder.jp/contests/keyence2019/submissions/14854388)|
 |||§ 2.1.1|exercise|[ABC 074 C - Sugar Water](https://atcoder.jp/contests/abc074/tasks/arc083_a)|||[全探索](https://atcoder.jp/contests/abc074/submissions/14021322)|
