@@ -69,7 +69,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 1.8.1|exercise|[ABC 084 C - Special Trains](https://atcoder.jp/contests/abc084/tasks/abc084_c)|||[Nが小さいので全てシュミレート](https://atcoder.jp/contests/abc084/submissions/13975934)|
 |||§ 1.8.1|exercise|[ABC 090 D - Remainder Reminder](https://atcoder.jp/contests/abc090/tasks/arc091_b)|||[実装問題、K=0がコーナーケース](https://atcoder.jp/contests/abc090/submissions/13964782)|
 |o||§ 1.8.1|exercise|[みんなのプロコン2019 C - When I hit my pocket...](https://atcoder.jp/contests/yahoo-procon2019-qual/tasks/yahoo_procon2019_qual_c)||||[実装問題、MECEに](https://atcoder.jp/contests/yahoo-procon2019-qual/submissions/14879897)|
-|o||§ 1.8.1|exercise|[ABC 034 A - Kenken Race](https://atcoder.jp/contests/agc034/tasks/agc034_a)||||[MECEに(ややこしい)、場合分け(AがBを飛び越える場合)](https://atcoder.jp/contests/agc034/submissions/14895627)|
+|o||§ 1.8.1|exercise|[AGC 034 A - Kenken Race](https://atcoder.jp/contests/agc034/tasks/agc034_a)||||[MECEに(ややこしい)、場合分け(AがBを飛び越える場合)](https://atcoder.jp/contests/agc034/submissions/14895627)|
 |||§ 1.8.1|exercise|[ABC 076 D - AtCoder Express](https://atcoder.jp/contests/abc076/tasks/abc076_d)||||[MECEに(ややこしい)]()|
 |||§ 1.8.1|exercise|[ABC 015 A - A+...+B Problem](https://atcoder.jp/contests/agc015/tasks/agc015_a)||||[各候補間の差は1, コーナーケースに注意](https://atcoder.jp/contests/agc015/submissions/14855212)|
 |||§ 1.8.1|exercise|[ARC 080 C - 4-adjacent](https://atcoder.jp/contests/arc080/tasks/arc080_a)||||[コーナーケース(2の倍数があるかないか)](https://atcoder.jp/contests/arc080/submissions/14855637)|
@@ -371,6 +371,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.4.2|exercise|[CODE FESTIVAL 2017 qual B - Problem Set](https://atcoder.jp/contests/code-festival-2017-qualb/tasks/code_festival_2017_qualb_b)||||[map](https://atcoder.jp/contests/code-festival-2017-qualb/submissions/14879592)|
 |||§ 2.4.2|exercise|[ABC 064 C - Colorful Leaderboard](https://atcoder.jp/contests/abc064/tasks/abc064_c)||||[map, コーナーケース(すべて3200以上だった場合)](https://atcoder.jp/contests/abc064/submissions/14848187)|
 |||§ 2.4.2|exercise|[ABC 091 B Two Colors Card Game](https://atcoder.jp/contests/abc091/tasks/abc091_b)|||[文字列のmap](https://atcoder.jp/contests/abc091/submissions/8001652)|
+|||§ 2.4.2|exercise|[AGC 028 A - Two Abbreviations](https://atcoder.jp/contests/agc028/tasks/agc028_a)||||[文字列のmap](https://atcoder.jp/contests/agc028/submissions/14895895)|
 |||§ 2.4.2|exercise|[ABC 098 B - Cut and Count](https://atcoder.jp/contests/abc098/tasks/abc098_b)|||[map](https://atcoder.jp/contests/abc098/submissions/13929585)|
 |||§ 2.4.2|exercise|[ABC 081 C - Not so Diverse](https://atcoder.jp/contests/abc081/tasks/arc086_a)|||[map, ソート](https://atcoder.jp/contests/abc081/submissions/14003881)|
 |||§ 2.4.2|exercise|[ABC 171 D - Replacing](https://atcoder.jp/contests/abc171/tasks/abc171_d)||||[map, 総和から足し引きする](https://atcoder.jp/contests/abc171/submissions/14716878)|
