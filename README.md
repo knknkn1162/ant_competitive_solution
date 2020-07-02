@@ -65,6 +65,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 1.8.1|exercise|[ABC 069 D - Grid Coloring](https://atcoder.jp/contests/abc069/tasks/arc080_b)|||[構成問題、グリッド実装問題](https://atcoder.jp/contests/abc069/submissions/14026602)|
 |||§ 1.8.1|exercise|[ABC 051 C - Back and Forth](https://atcoder.jp/contests/abc051/tasks/abc051_c)|||[実装問題、構成問題](https://atcoder.jp/contests/abc051/submissions/14099716)|
 |||§ 1.8.1|exercise|[ABC 109 D - Make Them Even](https://atcoder.jp/contests/abc109/tasks/abc109_d)|||[構成問題、問題文を解釈、実装問題, 右端に寄せる](https://atcoder.jp/contests/abc109/submissions/13685267)|
+|||§ 1.8.1|exercise|[CODE FESTIVAL 2017 qual A B - fLIP](https://atcoder.jp/contests/abc109/tasks/abc109_d)||||[端に寄せて全探索](https://atcoder.jp/contests/code-festival-2017-quala/submissions/14904352)|
 |||§ 1.8.1|exercise|[ABC 131 E - Friendships](https://atcoder.jp/contests/abc131/tasks/abc131_e)|||[グラフ構成問題、Kが最大となるグラフを考える](https://atcoder.jp/contests/abc131/submissions/14167798)|
 ||o|§ 1.8.1|exercise|[ABC 108 D - All Your Paths are Different Lengths](https://atcoder.jp/contests/abc108/tasks/arc102_b)|||[グラフ構成問題]()|
 |||§ 1.8.1|exercise|[ABC 062 C - Chocolate Bar](https://atcoder.jp/contests/abc062/tasks/arc074_a)|||[全ケースを列挙](https://atcoder.jp/contests/abc062/submissions/14054023)|
@@ -124,6 +125,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.1.1|exercise|[ABC 074 C - Sugar Water](https://atcoder.jp/contests/abc074/tasks/arc083_a)|||[全探索](https://atcoder.jp/contests/abc074/submissions/14021322)|
 |||§ 2.1.1|exercise|[ABC 011 D - 大ジャンプ](https://atcoder.jp/contests/abc011/tasks/abc011_4)||||確率問題、一方向の回数を決め打ちで全列挙 see § 2.3.8.1|
 |||§ 2.1.1|exercise|[ABC 099 D - Good Grid](https://atcoder.jp/contests/abc099/tasks/abc099_d)|||colorに対して全探索 see § 2.4.2|
+|||§ 2.1.1|exercise|[CODE FESTIVAL 2017 qual A B - fLIP](https://atcoder.jp/contests/abc109/tasks/abc109_d)||||端に寄せて全探索、see § 1.8.1|
 |o|o|§ 2.1.1|exercise|[ABC 013 C - 節制](https://atcoder.jp/contests/abc013/tasks/abc013_3)||||[消費を後回し、工夫して全探索]()|
 |||§ 2.1.1|exercise|[ABC 031 C - 数列ゲーム](https://atcoder.jp/contests/abc031/tasks/abc031_c)|||[問題文の解釈、全探索](https://atcoder.jp/contests/abc031/submissions/14186421)|
 |||§ 2.1.1|exercise|[ABC 042 C - こだわり者いろはちゃん](https://atcoder.jp/contests/abc042/tasks/arc058_a)|||[全探索](https://atcoder.jp/contests/abc042/submissions/14172165)|
@@ -185,7 +187,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.2.3|exercise|[ABC 007 B - 辞書式順序](https://atcoder.jp/contests/abc007/tasks/abc007_2)|||['a' or -1を出力](https://atcoder.jp/contests/abc007/submissions/12324882)|
 ||o|§ 2.2.3|exercise|[ABC 009 C - 辞書式順序ふたたび](https://atcoder.jp/contests/abc009/tasks/abc009_3)|||[]()|
 |||§ 2.2.3|exercise|[ABC 160 E - Red and Green Apples](https://atcoder.jp/contests/abc160/tasks/abc160_e)|||[ソート -> 貪欲法](https://atcoder.jp/contests/abc160/submissions/11773599)|
-|||§ 2.2.3|exercise|[キーエンス プログラミング コンテスト 2019 C - Exam and Wizard](https://atcoder.jp/contests/keyence2019/tasks/keyence2019_c)||||[ソートして貪欲に](https://atcoder.jp/contests/keyence2019/submissions/14904022)|
+|||§ 2.2.3|exercise|[キーエンス プログラミング コンテスト 2019 C - Exam and Wizard](https://atcoder.jp/contests/keyence2019/tasks/keyence2019_c)||||[ソートして貪欲に、不足分をまとめる](https://atcoder.jp/contests/keyence2019/submissions/14904022)|
 |||§ 2.2.4|example|[POJ 3069 Saruman's Army](http://poj.org/problem?id=3069)|||[線上の点問題、昇順にソート->貪欲](./2.2.4/poj3069.c)|
 |||§ 2.2.4|exercise|[Square869120Contest #6 B - AtCoder Markets](https://atcoder.jp/contests/s8pc-6/tasks/s8pc_6_b)|||[線上の点問題、発想問題、全探索(要工夫),中央値](https://atcoder.jp/contests/s8pc-6/submissions/10662359)|
 |||§ 2.2.4|exercise|[ABC 107 C - Candles](https://atcoder.jp/contests/abc107/tasks/arc101_a)|||線上の点問題、see §1.9.1|
@@ -371,6 +373,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.4.1|exercise|[ABC 127 D - Integer Cards](https://atcoder.jp/contests/abc127/tasks/abc127_d)|||[操作を最後に消費する(not 二分探索)](https://atcoder.jp/contests/abc127/submissions/13570674)|
 |||§ 2.4.1|exercise|[ABC 013 C - 節制](https://atcoder.jp/contests/abc013/tasks/abc013_3)||||消費を後回し see § 2.1.1|
 |||§ 2.4.1|exercise|[ABC 085 D - Katana Thrower](https://atcoder.jp/contests/abc085/tasks/abc085_d)|||[操作の順序の変更で不変, ソート](https://atcoder.jp/contests/abc085/submissions/13971067)|
+|||§ 2.4.1|exercise|[キーエンス プログラミング コンテスト 2019 C - Exam and Wizard](https://atcoder.jp/contests/keyence2019/tasks/keyence2019_c)||||不足分をまとめる see § 2.2.3|
 |||§ 2.4.1|exercise|[ALDS1_9_C priority queue](https://onlinejudge.u-aizu.ac.jp/problems/ALDS1_9_C)|||[max heap](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_9_C/review/4495302/knknkn1162/C)|
 |||§ 2.4.1|exercise|[ABC 141 D - Powerful Discount Tickets](https://atcoder.jp/contests/abc141/tasks/abc141_d)||||[max heap](https://atcoder.jp/contests/abc141/submissions/14690404)|
 |||§ 2.4.1|exercise|[2017 CODE FESTIVAL THANKS C - Factory](https://atcoder.jp/contests/code-thanks-festival-2017-open/tasks/code_thanks_festival_2017_c)|||[min heap](https://atcoder.jp/contests/code-thanks-festival-2017-open/submissions/12522002)|
