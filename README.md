@@ -28,6 +28,8 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 1.4.1|exercise|[ABC 067 C - Splitting Pile](https://atcoder.jp/contests/abc067/tasks/arc078_a)||||[総和を先に求めておく](https://atcoder.jp/contests/abc067/submissions/14898778)|
 |||§ 1.4.1|exercise|[ABC 133 D - Rain Flows into Dams](https://atcoder.jp/contests/abc133/tasks/abc133_d)||||[総和からの引き算](https://atcoder.jp/contests/abc133/submissions/14473252)|
 |||§ 1.4.1|exercise|[ABC 171 E - Red Scarf](https://atcoder.jp/contests/abc171/tasks/abc171_e)||||[総和からの引き算](https://atcoder.jp/contests/abc171/submissions/14716360)|
+|||§ 1.4.1|exercise|[ABC 056 C - Go Home](https://atcoder.jp/contests/abc056/tasks/arc070_a)||||[考察、実装問題、総和](https://atcoder.jp/contests/abc056/submissions/14880967)|
+|||§ 1.4.1|exercise|[CODE FESTIVAL 2016 Final B - Exactly N points](https://atcoder.jp/contests/cf16-final/tasks/codefestival_2016_final_b)||||[総和からの引き算](https://atcoder.jp/contests/cf16-final/submissions/14908024) or [lower bound](https://atcoder.jp/contests/cf16-final/submissions/14907770)|
 |||§ 1.4.1|exercise|[ABC 017 C - ハイスコア](https://atcoder.jp/contests/abc017/tasks/abc017_3)||||総和からの引き算 see § 2.2.6.1|
 |||§ 1.4.2|exercise|[ABC 171 D - Replacing](https://atcoder.jp/contests/abc171/tasks/abc171_d)||||総和をメモ see § 2.4.2|
 |||§ 1.4.2|exercise|[AGC 009 A - Multiple Array](https://atcoder.jp/contests/agc009/tasks/agc009_a)||||[総和をメモ、逆順に走査](https://atcoder.jp/contests/agc009/submissions/14896708)|
@@ -50,7 +52,6 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 1.7.1|exercise|[ABC 078 C - HSI](https://atcoder.jp/contests/abc078/tasks/arc085_a)|||[期待値](https://atcoder.jp/contests/abc078/submissions/14014840)|
 |||§ 1.7.1|exercise|[Educational DP Contest J - Sushi](https://atcoder.jp/contests/dp/tasks/dp_j)|||期待値 see § 2.3.17|
 |||§ 1.8.0|exercise|[C - X: Yet Another Die Game](https://atcoder.jp/contests/abc053/tasks/arc068_a)|||[考察、実装するだけ](https://atcoder.jp/contests/abc053/submissions/14105131)|
-|||§ 1.8.0|exercise|[ABC 056 C - Go Home](https://atcoder.jp/contests/abc056/tasks/arc070_a)||||[考察、実装問題](https://atcoder.jp/contests/abc056/submissions/14880967)|
 |||§ 1.8.0|exercise|[ABC 130 C - Rectangle Cutting](https://atcoder.jp/contests/abc130/tasks/abc130_c)||||[考察、実装問題](https://atcoder.jp/contests/abc130/submissions/14885289)|
 |||§ 1.8.0|exercise|[ABC 024 C - 民族大移動](https://atcoder.jp/contests/abc024/tasks/abc024_c)||||[実装問題](https://atcoder.jp/contests/abc024/submissions/14455435)|
 |||§ 1.8.0|exercise|[ABC 029 A - Irreversible operation](https://atcoder.jp/contests/agc029/tasks/agc029_a)||||[最終形を考える、実装問題](https://atcoder.jp/contests/agc029/submissions/14841263)|
