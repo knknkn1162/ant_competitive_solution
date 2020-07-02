@@ -75,6 +75,7 @@ make FILE=0.0.0/abc039_c.cpp
 |o||§ 1.8.1|exercise|[みんなのプロコン2019 C - When I hit my pocket...](https://atcoder.jp/contests/yahoo-procon2019-qual/tasks/yahoo_procon2019_qual_c)||||[MECEに](https://atcoder.jp/contests/yahoo-procon2019-qual/submissions/14879897)|
 |o||§ 1.8.1|exercise|[AGC 034 A - Kenken Race](https://atcoder.jp/contests/agc034/tasks/agc034_a)||||[MECEに(ややこしい)、場合分け(AがBを飛び越える場合)](https://atcoder.jp/contests/agc034/submissions/14895627)|
 |||§ 1.8.1|exercise|[AGC 039 A - Connection and Disconnection](https://atcoder.jp/contests/agc039/tasks/agc039_a)||||[MECEに](https://atcoder.jp/contests/agc039/submissions/14901194)|
+|||§ 1.8.1|exercise|[AGC 035 A - XOR Circle](https://atcoder.jp/contests/agc035/tasks/agc035_a)||||[同じ数のxorは0になる、set.size()についてMECEに(ややこしい)](https://atcoder.jp/contests/agc035/submissions/14903511)|
 |||§ 1.8.1|exercise|[ABC 076 D - AtCoder Express](https://atcoder.jp/contests/abc076/tasks/abc076_d)||||[MECEに(ややこしい)]()|
 |||§ 1.8.1|exercise|[ABC 015 A - A+...+B Problem](https://atcoder.jp/contests/agc015/tasks/agc015_a)||||[各候補間の差は1, コーナーケースに注意](https://atcoder.jp/contests/agc015/submissions/14855212)|
 |||§ 1.8.1|exercise|[ARC 080 C - 4-adjacent](https://atcoder.jp/contests/arc080/tasks/arc080_a)||||[コーナーケース(2の倍数があるかないか)](https://atcoder.jp/contests/arc080/submissions/14855637)|
@@ -184,6 +185,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.2.3|exercise|[ABC 007 B - 辞書式順序](https://atcoder.jp/contests/abc007/tasks/abc007_2)|||['a' or -1を出力](https://atcoder.jp/contests/abc007/submissions/12324882)|
 ||o|§ 2.2.3|exercise|[ABC 009 C - 辞書式順序ふたたび](https://atcoder.jp/contests/abc009/tasks/abc009_3)|||[]()|
 |||§ 2.2.3|exercise|[ABC 160 E - Red and Green Apples](https://atcoder.jp/contests/abc160/tasks/abc160_e)|||[ソート -> 貪欲法](https://atcoder.jp/contests/abc160/submissions/11773599)|
+|||§ 2.2.3|exercise|[キーエンス プログラミング コンテスト 2019 C - Exam and Wizard](https://atcoder.jp/contests/keyence2019/tasks/keyence2019_c)||||[ソートして貪欲に](https://atcoder.jp/contests/keyence2019/submissions/14904022)|
 |||§ 2.2.4|example|[POJ 3069 Saruman's Army](http://poj.org/problem?id=3069)|||[線上の点問題、昇順にソート->貪欲](./2.2.4/poj3069.c)|
 |||§ 2.2.4|exercise|[Square869120Contest #6 B - AtCoder Markets](https://atcoder.jp/contests/s8pc-6/tasks/s8pc_6_b)|||[線上の点問題、発想問題、全探索(要工夫),中央値](https://atcoder.jp/contests/s8pc-6/submissions/10662359)|
 |||§ 2.2.4|exercise|[ABC 107 C - Candles](https://atcoder.jp/contests/abc107/tasks/arc101_a)|||線上の点問題、see §1.9.1|
