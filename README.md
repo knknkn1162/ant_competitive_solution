@@ -71,8 +71,9 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 1.8.1|exercise|[ABC 128 D - equeue](https://atcoder.jp/contests/abc128/tasks/abc128_d)|||[実装問題、全通りをシュミレート](https://atcoder.jp/contests/abc128/submissions/13589023)|
 |||§ 1.8.1|exercise|[ABC 084 C - Special Trains](https://atcoder.jp/contests/abc084/tasks/abc084_c)|||[Nが小さいので全てシュミレート](https://atcoder.jp/contests/abc084/submissions/13975934)|
 |||§ 1.8.1|exercise|[ABC 090 D - Remainder Reminder](https://atcoder.jp/contests/abc090/tasks/arc091_b)|||[実装問題、K=0がコーナーケース](https://atcoder.jp/contests/abc090/submissions/13964782)|
-|o||§ 1.8.1|exercise|[みんなのプロコン2019 C - When I hit my pocket...](https://atcoder.jp/contests/yahoo-procon2019-qual/tasks/yahoo_procon2019_qual_c)||||[実装問題、MECEに](https://atcoder.jp/contests/yahoo-procon2019-qual/submissions/14879897)|
+|o||§ 1.8.1|exercise|[みんなのプロコン2019 C - When I hit my pocket...](https://atcoder.jp/contests/yahoo-procon2019-qual/tasks/yahoo_procon2019_qual_c)||||[MECEに](https://atcoder.jp/contests/yahoo-procon2019-qual/submissions/14879897)|
 |o||§ 1.8.1|exercise|[AGC 034 A - Kenken Race](https://atcoder.jp/contests/agc034/tasks/agc034_a)||||[MECEに(ややこしい)、場合分け(AがBを飛び越える場合)](https://atcoder.jp/contests/agc034/submissions/14895627)|
+|||§ 1.8.1|exercise|[AGC 039 A - Connection and Disconnection](https://atcoder.jp/contests/agc039/tasks/agc039_a)||||[MECEに](https://atcoder.jp/contests/agc039/submissions/14901194)|
 |||§ 1.8.1|exercise|[ABC 076 D - AtCoder Express](https://atcoder.jp/contests/abc076/tasks/abc076_d)||||[MECEに(ややこしい)]()|
 |||§ 1.8.1|exercise|[ABC 015 A - A+...+B Problem](https://atcoder.jp/contests/agc015/tasks/agc015_a)||||[各候補間の差は1, コーナーケースに注意](https://atcoder.jp/contests/agc015/submissions/14855212)|
 |||§ 1.8.1|exercise|[ARC 080 C - 4-adjacent](https://atcoder.jp/contests/arc080/tasks/arc080_a)||||[コーナーケース(2の倍数があるかないか)](https://atcoder.jp/contests/arc080/submissions/14855637)|
@@ -296,6 +297,8 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.3.8.0|exercise|[AOJ DPL_5_K ボールと箱 11](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_K)|||[ボール: 区別不可, 箱:区別不可, 入れ方:1つ以下 : 1 or 0](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_5_K/review/4431814/knknkn1162/C)|
 |||§ 2.3.8.0|exercise|[AOJ DPL_5_L ボールと箱 12](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_5_L)|||[ボール: 区別不可, 箱:区別不可, 入れ方:1つ以上 : 分割数: P(k, n-k)](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_5_L/review/4431852/knknkn1162/C)|
 |||§ 2.3.8.1|exercise|[ABC 089 C - March](https://atcoder.jp/contests/abc089/tasks/abc089_c)|||[それぞれの組み合わせ(bit全探索)に対して場合の数](https://atcoder.jp/contests/abc089/submissions/13980401)|
+|o||§ 2.3.8.1|exercise|[ABC 065 C - Reconciled?](https://atcoder.jp/contests/abc065/tasks/arc076_a)||||[考察、場合の数、MECEに](https://atcoder.jp/contests/abc065/submissions/14901397)|
+|o||§ 2.3.8.1|exercise|[AGC 031 A - Colorful Subsequence](https://atcoder.jp/contests/agc031/tasks/agc031_a)||||[場合の数(約数の個数の数え方に似てる), 文字列のmap](https://atcoder.jp/contests/agc031/submissions/14901849)|
 |||§ 2.3.8.1|exercise|[ABC 017 A - Biscuits](https://atcoder.jp/contests/agc017/tasks/agc017_a)||||[考察、コーナーケース、偶奇性を利用した組み合わせ](https://atcoder.jp/contests/agc017/submissions/14882194) or [DP](https://atcoder.jp/contests/agc017/submissions/14882072)|
 |||§ 2.3.8.1|exercise|[ABC 132 D - Blue and Red Balls](https://atcoder.jp/contests/abc132/tasks/abc132_d)|||[組み合わせ](https://atcoder.jp/contests/abc132/submissions/14168523)|
 |||§ 2.3.8.1|exercise|[ABC 066 D - 11](https://atcoder.jp/contests/abc066/tasks/arc077_b)|||[組み合わせ](https://atcoder.jp/contests/abc066/submissions/14028001)|
