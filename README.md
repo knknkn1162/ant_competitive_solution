@@ -25,6 +25,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 1.3.1|exercise|[パナソニックプログラミングコンテスト2020 C - Sqrt Inequality](https://atcoder.jp/contests/panasonic2020/tasks/panasonic2020_c)|||[2乗して整数の形に](https://atcoder.jp/contests/panasonic2020/submissions/13942134)|
 |||§ 1.3.1|exercise|[ABC 010 C - 浮気調査](https://atcoder.jp/contests/abc010/tasks/abc010_3)||||[浮動小数点の比較、EPSを使用](https://atcoder.jp/contests/abc010/submissions/14841638)|
 |||§ 1.4.1|exercise|[ABC 063 C - Bugged](https://atcoder.jp/contests/abc063/tasks/arc075_a)||||[総和 or 総和から一つ引く](https://atcoder.jp/contests/abc063/submissions/14854478)|
+|||§ 1.4.1|exercise|[ABC 067 C - Splitting Pile](https://atcoder.jp/contests/abc067/tasks/arc078_a)||||[総和を先に求めておく](https://atcoder.jp/contests/abc067/submissions/14898778)|
 |||§ 1.4.1|exercise|[ABC 133 D - Rain Flows into Dams](https://atcoder.jp/contests/abc133/tasks/abc133_d)||||[総和からの引き算](https://atcoder.jp/contests/abc133/submissions/14473252)|
 |||§ 1.4.1|exercise|[ABC 171 E - Red Scarf](https://atcoder.jp/contests/abc171/tasks/abc171_e)||||[総和からの引き算](https://atcoder.jp/contests/abc171/submissions/14716360)|
 |||§ 1.4.1|exercise|[ABC 017 C - ハイスコア](https://atcoder.jp/contests/abc017/tasks/abc017_3)||||総和からの引き算 see § 2.2.6.1|
@@ -438,6 +439,7 @@ make FILE=0.0.0/abc039_c.cpp
 ||o|§ 2.6.1|example|線分上の格子点の個数|||[]()|
 |||§ 2.6.1|exercise|[ABC 109 C - Skip](https://atcoder.jp/contests/abc109/tasks/abc109_c)|||[GCD](https://atcoder.jp/contests/abc109/submissions/13680345)|
 |||§ 2.6.1|exercise|[ABC 118 C - Monsters Battle Royale](https://atcoder.jp/contests/abc118/tasks/abc118_c)|||[GCD](https://atcoder.jp/contests/abc118/submissions/13571050)|
+|||§ 2.6.1|exercise|[ABC 070 C - Multiple Clocks](https://atcoder.jp/contests/abc070/tasks/abc070_c)||||[順にlcm](https://atcoder.jp/contests/abc070/submissions/14899383)|
 |||§ 2.6.2|exercise|[AOJ NTL_1_E - 拡張ユークリッドの互除法](https://onlinejudge.u-aizu.ac.jp/problems/NTL_1_E)|||[拡張ユークリッド法そのまま](https://onlinejudge.u-aizu.ac.jp/solutions/problem/NTL_1_E/review/4433567/knknkn1162/C)|
 ||o|§ 2.6.3|example|素数判定|||[]()|
 |||§ 2.6.3|exercise|[ABC 112 D - Partition](https://atcoder.jp/contests/abc112/tasks/abc112_d)|||[約数](https://atcoder.jp/contests/abc112/tasks/abc112_d)|
