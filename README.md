@@ -456,6 +456,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.6.3|exercise|[ABC 112 D - Partition](https://atcoder.jp/contests/abc112/tasks/abc112_d)|||[約数](https://atcoder.jp/contests/abc112/tasks/abc112_d)|
 |||§ 2.6.3|exercise|[ABC 134 D - Preparing Boxes](https://atcoder.jp/contests/abc134/tasks/abc134_d)||||[逆順から貪欲法で、約数](https://atcoder.jp/contests/abc134/submissions/14474915)|
 |||§ 2.6.3|exercise|[ABC 136 E - Max GCD](https://atcoder.jp/contests/abc136/tasks/abc136_e)||||[約数、ソート](https://atcoder.jp/contests/abc136/submissions/14520534)|
+|||§ 2.6.3|exercise|[CADDi 2018 C - Product and GCD](https://atcoder.jp/contests/caddi2018/tasks/caddi2018_a)||||[約数](https://atcoder.jp/contests/caddi2018/submissions/14907219)|
 |||§ 2.6.3|exercise|[ABC 052 C - Factors of Factorial](https://atcoder.jp/contests/abc052/tasks/arc067_a)|||[素因数分解、約数の個数](https://atcoder.jp/contests/abc052/submissions/12487335)|
 |||§ 2.6.3|exercise|[ABC 142 D - Disjoint Set of Common Divisors](https://atcoder.jp/contests/abc142/tasks/abc142_d)||||[GCD, 素因数分解、型に注意](https://atcoder.jp/contests/abc142/tasks/abc142_d)|
 |||§ 2.6.3|exercise|[ABC 114 D - 756](https://atcoder.jp/contests/abc114/tasks/abc114_d)|||[素因数分解、再帰関数](https://atcoder.jp/contests/abc114/submissions/13678388)|
