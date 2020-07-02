@@ -86,6 +86,7 @@ make FILE=0.0.0/abc039_c.cpp
 ||o|§ 1.8.2|exercise|[ABC 101 D - Snuke Numbers](https://atcoder.jp/contests/abc101/tasks/arc099_b)|||[構成問題]()|
 |||§ 1.9.1|exercise|[ARC 073 C - Sentou](https://atcoder.jp/contests/arc073/tasks/arc073_a)||||[https://atcoder.jp/contests/arc073/submissions/14854677](https://atcoder.jp/contests/arc073/submissions/14854677)|
 |||§ 1.9.1|exercise|[ALDS1_1_D 最大の利益](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/1/ALDS1_1_D)|||[min, maxを用いて適宜更新](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_1_D/review/4513248/knknkn1162/C)|
+|||§ 1.9.1|exercise|[AGC 008 A - Simple Calculator](https://atcoder.jp/contests/agc008/tasks/agc008_a)||||[minを活用](https://atcoder.jp/contests/agc008/submissions/14898387)|
 |||§ 1.9.1|exercise|[ARC 069 C - Scc Puzzle](https://atcoder.jp/contests/arc069/tasks/arc069_a)||||[min, maxの有効利用、MECEに](https://atcoder.jp/contests/arc069/submissions/14881281)|
 |||§ 1.9.1|exercise|[ABC 047 D - 高橋君と見えざる手](https://atcoder.jp/contests/abc047/tasks/arc063_b)|||[maxを用いて末尾から更新](https://atcoder.jp/contests/abc047/submissions/14115299)|
 |||§ 1.9.1|exercise|[ABC 107 C - Candles](https://atcoder.jp/contests/abc107/tasks/arc101_a)|||[長さKの区間を固定して,max,min使用](https://atcoder.jp/contests/abc107/submissions/13697949)|
