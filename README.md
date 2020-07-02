@@ -69,6 +69,8 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 1.8.1|exercise|[ABC 084 C - Special Trains](https://atcoder.jp/contests/abc084/tasks/abc084_c)|||[Nが小さいので全てシュミレート](https://atcoder.jp/contests/abc084/submissions/13975934)|
 |||§ 1.8.1|exercise|[ABC 090 D - Remainder Reminder](https://atcoder.jp/contests/abc090/tasks/arc091_b)|||[実装問題、K=0がコーナーケース](https://atcoder.jp/contests/abc090/submissions/13964782)|
 |o||§ 1.8.1|exercise|[みんなのプロコン2019 C - When I hit my pocket...](https://atcoder.jp/contests/yahoo-procon2019-qual/tasks/yahoo_procon2019_qual_c)||||[実装問題、MECEに](https://atcoder.jp/contests/yahoo-procon2019-qual/submissions/14879897)|
+|o||§ 1.8.1|exercise|[ABC 034 A - Kenken Race](https://atcoder.jp/contests/agc034/tasks/agc034_a)||||[MECEに(ややこしい)、場合分け(AがBを飛び越える場合)](https://atcoder.jp/contests/agc034/submissions/14895627)|
+|||§ 1.8.1|exercise|[ABC 076 D - AtCoder Express](https://atcoder.jp/contests/abc076/tasks/abc076_d)||||[MECEに(ややこしい)]()|
 |||§ 1.8.1|exercise|[ABC 015 A - A+...+B Problem](https://atcoder.jp/contests/agc015/tasks/agc015_a)||||[各候補間の差は1, コーナーケースに注意](https://atcoder.jp/contests/agc015/submissions/14855212)|
 |||§ 1.8.1|exercise|[ARC 080 C - 4-adjacent](https://atcoder.jp/contests/arc080/tasks/arc080_a)||||[コーナーケース(2の倍数があるかないか)](https://atcoder.jp/contests/arc080/submissions/14855637)|
 |||§ 1.8.1|exercise|[ABC 169 E - Count Median](https://atcoder.jp/contests/abc169/tasks/abc169_e)||||各候補の差は1or0.5 see § 1.9.2|
@@ -76,6 +78,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 1.8.1|exercise|[ABC 090 C - Flip,Flip, and Flip......](https://atcoder.jp/contests/abc090/tasks/arc091_a)|||[N,Mが2以下の場合のコーナーケースに注意して実装](https://atcoder.jp/contests/abc090/submissions/14058987)|
 |||§ 1.8.1|exercise|[AOJ 1149 - ケーキカット](https://onlinejudge.u-aizu.ac.jp/problems/1149)|||[実装問題、連結リスト](https://onlinejudge.u-aizu.ac.jp/solutions/problem/1149/review/4321489/knknkn1162/C)|
 |||§ 1.8.2|exercise|[ABC 092 D - Grid Components](https://atcoder.jp/contests/abc092/tasks/arc093_b)|||[構成問題、発想問題(パズル)](https://atcoder.jp/contests/abc092/submissions/13970569)|
+|||§ 1.8.2|exercise|[キーエンス プログラミング コンテスト 2020 C - Subarray Sum](https://atcoder.jp/contests/keyence2020/tasks/keyence2020_c)||||[構成問題、考察](https://atcoder.jp/contests/keyence2020/submissions/14894946)|
 |||§ 1.8.2|exercise|[D - Decrease (Contestant ver.)](https://atcoder.jp/contests/abc068/tasks/arc079_b)|||[構成問題、(パズル)](https://atcoder.jp/contests/abc068/submissions/14043921)|
 |||§ 1.8.2|exercise|[Tenka1 Programmer Beginner Contest D - Crossing](https://atcoder.jp/contests/tenka1-2018-beginner/tasks/tenka1_2018_d)|||[構成問題、部分集合の要素数を決める, n=1も考慮](https://atcoder.jp/contests/tenka1-2018-beginner/submissions/11702203)|
 ||o|§ 1.8.2|exercise|[ABC 101 D - Snuke Numbers](https://atcoder.jp/contests/abc101/tasks/arc099_b)|||[構成問題]()|
@@ -104,6 +107,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.1.0|exercise|[ABC 015 C - 高橋くんのバグ探し](https://atcoder.jp/contests/abc015/tasks/abc015_3)||||[DFSで全列挙](https://atcoder.jp/contests/abc015/submissions/14716148)|
 |||§ 2.1.1|example|部分和問題|||[]()|
 |||§ 2.1.1|exercise|[ABC 051 B - Sum of Three Integers](https://atcoder.jp/contests/abc051/tasks/abc051_b)|||[全探索](https://atcoder.jp/contests/abc051/submissions/14017300) or [DP, 累積和](https://atcoder.jp/contests/abc051/submissions/12543729)|
+|||§ 2.1.1|exercise|[EX17 - 果物屋さんでお買い物](https://atcoder.jp/contests/apg4b/tasks/APG4b_cf)||||全探索 see misc|
 |||§ 2.1.1|exercise|[diverta 2019 Programming Contest B - RGB Boxes](https://atcoder.jp/contests/diverta2019/tasks/diverta2019_b)||||[全探索](https://atcoder.jp/contests/diverta2019/submissions/14854828)|
 |||§ 2.1.1|exercise|[ABC 006 C - スフィンクスのなぞなぞ](https://atcoder.jp/contests/abc006/tasks/abc006_3)||||[方程式をかんたんにして、全探索](https://atcoder.jp/contests/abc006/submissions/14412001)|
 |||§ 2.1.1|exercise|[ABC 043 C - いっしょ](https://atcoder.jp/contests/abc043/tasks/arc059_a)|||[全探索]() or [平均](https://atcoder.jp/contests/abc043/submissions/14216611)|
@@ -362,6 +366,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.4.1|exercise|[ABC 123 D - Cake 123](https://atcoder.jp/contests/abc123/tasks/abc123_d)|||min heapでK番目までの値を保存 see § 1.6.2|
 |||§ 2.4.1|exercise|[ABC 127 F - Absolute Minima](https://atcoder.jp/contests/abc127/tasks/abc127_f)|||[中央値の更新、max heapとmin heap](https://atcoder.jp/contests/abc127/submissions/14134394)|
 |||§ 2.4.2|exercise|[ABC 085 B Kagami Mochi](https://atcoder.jp/contests/abc085/tasks/abc085_b)|||[map](https://atcoder.jp/contests/abc085/submissions/7997905)|[set](https://atcoder.jp/contests/abc085/submissions/14410228)|
+|||§ 2.4.2|exercise|[ABC 068 C - Cat Snuke and a Voyage](https://atcoder.jp/contests/abc068/tasks/arc079_a)||||[set](https://atcoder.jp/contests/abc068/submissions/14894855)|
 |||§ 2.4.2|exercise|[ABC 019 C - 高橋くんと魔法の箱](https://atcoder.jp/contests/abc019/tasks/abc019_3)||||[map](https://atcoder.jp/contests/abc019/submissions/14636261)|
 |||§ 2.4.2|exercise|[CODE FESTIVAL 2017 qual B - Problem Set](https://atcoder.jp/contests/code-festival-2017-qualb/tasks/code_festival_2017_qualb_b)||||[map](https://atcoder.jp/contests/code-festival-2017-qualb/submissions/14879592)|
 |||§ 2.4.2|exercise|[ABC 064 C - Colorful Leaderboard](https://atcoder.jp/contests/abc064/tasks/abc064_c)||||[map, コーナーケース(すべて3200以上だった場合)](https://atcoder.jp/contests/abc064/submissions/14848187)|
