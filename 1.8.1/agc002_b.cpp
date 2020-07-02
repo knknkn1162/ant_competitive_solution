@@ -37,7 +37,26 @@ void cins(vector<T>& arr) { for(T& e: arr) cin >> e; }
 #define ps(arr)
 #endif
 
-
 int main(void) {
+    int num, ops;
+    cin >> num >> ops;
+    vector<int> map(num+1, 1);
+    set<int> reds;
+    reds.insert(0);
+    for(int i = 0; i < ops; i++) {
+        int src, dst;
+        cin >> src >> dst;
+        src--; dst--;
+        map[src]--;
+        map[dst]++;
+        if(reds.count(src)) {
+            reds.insert(dst);
+            if(!map[src]) {
+                reds.erase(src);
+            }
+        }
+        ps(reds);
+    }
+    cout << reds.size() << endl;
     return 0;
 }

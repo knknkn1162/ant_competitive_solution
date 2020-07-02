@@ -39,5 +39,38 @@ void cins(vector<T>& arr) { for(T& e: arr) cin >> e; }
 
 
 int main(void) {
+    string str;
+    cin >> str;
+    int len = str.length();
+    vector<int> map(26);
+    for(int i = 0; i < len; i++) {
+        map[str[i]-'a']++;
+    }
+    char next = -1;
+    for(int i = 0; i < 26; i++) {
+        if(!map[i]) {
+            next = i;
+            break;
+        }
+    }
+    if(next>-1) {
+        cout << str << (char)(next + 'a') << endl;
+        return 0;
+    }
+    vector<int> arr(len);
+    vector<int> old(len);
+    for(int i = 0; i < len; i++) {
+        arr[i] = str[i]-'a';
+        old[i] = arr[i];
+    }
+    if(!next_permutation(arr.begin(), arr.end())) {
+        cout << -1 << endl;
+    } else {
+        for(int i = 0; i < len; i++) {
+            putchar(arr[i]+'a');
+            if(arr[i] != old[i]) break;
+        }
+        putchar('\n');
+    }
     return 0;
 }

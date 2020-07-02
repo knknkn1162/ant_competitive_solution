@@ -69,6 +69,7 @@ make FILE=0.0.0/abc039_c.cpp
 ||o|§ 1.8.1|exercise|[ABC 108 D - All Your Paths are Different Lengths](https://atcoder.jp/contests/abc108/tasks/arc102_b)|||[グラフ構成問題]()|
 |||§ 1.8.1|exercise|[ABC 062 C - Chocolate Bar](https://atcoder.jp/contests/abc062/tasks/arc074_a)|||[全ケースを列挙](https://atcoder.jp/contests/abc062/submissions/14054023)|
 |||§ 1.8.1|exercise|[ABC 128 D - equeue](https://atcoder.jp/contests/abc128/tasks/abc128_d)|||[実装問題、全通りをシュミレート](https://atcoder.jp/contests/abc128/submissions/13589023)|
+|||§ 1.8.1|exercise|[AGC 002 B - Box and Ball](https://atcoder.jp/contests/agc002/tasks/agc002_b)||||[考察(やや難)](https://atcoder.jp/contests/agc002/submissions/14902254)|
 |||§ 1.8.1|exercise|[ABC 084 C - Special Trains](https://atcoder.jp/contests/abc084/tasks/abc084_c)|||[Nが小さいので全てシュミレート](https://atcoder.jp/contests/abc084/submissions/13975934)|
 |||§ 1.8.1|exercise|[ABC 090 D - Remainder Reminder](https://atcoder.jp/contests/abc090/tasks/arc091_b)|||[実装問題、K=0がコーナーケース](https://atcoder.jp/contests/abc090/submissions/13964782)|
 |o||§ 1.8.1|exercise|[みんなのプロコン2019 C - When I hit my pocket...](https://atcoder.jp/contests/yahoo-procon2019-qual/tasks/yahoo_procon2019_qual_c)||||[MECEに](https://atcoder.jp/contests/yahoo-procon2019-qual/submissions/14879897)|
@@ -163,6 +164,7 @@ make FILE=0.0.0/abc039_c.cpp
 ||o|§ 2.1.4|exercise|[AOJ ITP2_5_D Permutation Enumeration](https://onlinejudge.u-aizu.ac.jp/courses/lesson/8/ITP2/all/ITP2_5_D)|||[permutation]()|
 |||§ 2.1.4|exercise|[ABC 167 D - Teleporter](https://atcoder.jp/contests/abc167/tasks/abc167_d)|||[permutation](https://atcoder.jp/contests/abc167/submissions/13702242)|
 |||§ 2.1.4|exercise|[ABC 030 D - へんてこ辞書](https://atcoder.jp/contests/abc030/tasks/abc030_d)|||[permutation, 剰余(mod)](https://atcoder.jp/contests/abc030/submissions/14205526)|
+|||§ 2.1.4|exercise|[AGC 022 A - Diverse Word](https://atcoder.jp/contests/agc022/tasks/agc022_a)||||[辞書順最小、MECEに、next_permutation](https://atcoder.jp/contests/agc022/submissions/14902731)|
 ||o|§ 2.1.4|exercise|[yukicoder No.133 カードゲーム](https://yukicoder.me/problems/199)||||
 |||§ 2.2.1|example|硬貨の問題|||[]()|
 |||§ 2.2.1|exercise|[ABC 099 C - Strange Bank](https://atcoder.jp/contests/abc099/tasks/abc099_c)|||[貰うDP](https://atcoder.jp/contests/abc099/submissions/13764174) or [配るDP](https://atcoder.jp/contests/abc099/submissions/13765196)|
@@ -383,7 +385,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.4.2|exercise|[ABC 064 C - Colorful Leaderboard](https://atcoder.jp/contests/abc064/tasks/abc064_c)||||[map, コーナーケース(すべて3200以上だった場合)](https://atcoder.jp/contests/abc064/submissions/14848187)|
 |||§ 2.4.2|exercise|[ABC 091 B Two Colors Card Game](https://atcoder.jp/contests/abc091/tasks/abc091_b)|||[文字列のmap](https://atcoder.jp/contests/abc091/submissions/8001652)|
 |||§ 2.4.2|exercise|[AGC 028 A - Two Abbreviations](https://atcoder.jp/contests/agc028/tasks/agc028_a)||||[文字列のmap](https://atcoder.jp/contests/agc028/submissions/14895895)|
-|||§ 2.4.2|exercise|[ABC 058 C - 怪文書](https://atcoder.jp/contests/abc058/tasks/arc071_a)||||[文字列のmap](https://atcoder.jp/contests/abc058/submissions/14899773)|
+|||§ 2.4.2|exercise|[ABC 058 C - 怪文書](https://atcoder.jp/contests/abc058/tasks/arc071_a)||||[辞書順最小、文字列のmap](https://atcoder.jp/contests/abc058/submissions/14899773)|
 |||§ 2.4.2|exercise|[ABC 098 B - Cut and Count](https://atcoder.jp/contests/abc098/tasks/abc098_b)|||[map](https://atcoder.jp/contests/abc098/submissions/13929585)|
 |||§ 2.4.2|exercise|[ABC 081 C - Not so Diverse](https://atcoder.jp/contests/abc081/tasks/arc086_a)|||[map, ソート](https://atcoder.jp/contests/abc081/submissions/14003881)|
 |||§ 2.4.2|exercise|[ABC 171 D - Replacing](https://atcoder.jp/contests/abc171/tasks/abc171_d)||||[map, 総和をメモ](https://atcoder.jp/contests/abc171/submissions/14716878)|
