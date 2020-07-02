@@ -138,6 +138,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.1.2|exercise|[ABC 026 C - 高橋君の給料](https://atcoder.jp/contests/abc026/tasks/abc026_c)||||[木上のDFS](https://atcoder.jp/contests/abc026/submissions/14523900)|
 |||§ 2.1.2|exercise|[ABC 031 B - 埋め立て](https://atcoder.jp/contests/arc031/tasks/arc031_2)|||[stack版DFS](https://atcoder.jp/contests/arc031/submissions/8516977)|
 |||§ 2.1.2|exercise|[AOJ #1160 Problem B: 島はいくつある？](https://onlinejudge.u-aizu.ac.jp/problems/1160)|||[DFS](https://onlinejudge.u-aizu.ac.jp/solutions/problem/1160/review/4359287/knknkn1162/C)|
+|||§ 2.1.2|exercise|[AGC 007 A - Shik and Stone](https://atcoder.jp/contests/agc007/tasks/agc007_a)||||[DFS](https://atcoder.jp/contests/agc007/submissions/14897253)|
 ||o(BFSで)|§ 2.1.2|exercise|[ABC 146 D - Coloring Edges on Tree](https://atcoder.jp/contests/abc146/tasks/abc146_d)||||[木上のDFS](https://atcoder.jp/contests/abc146/submissions/14795961) or [BFS]()|
 |||§ 2.1.2|exercise|[ABC 067 D - Fennec VS. Snuke](https://atcoder.jp/contests/abc067/tasks/arc078_b)|||[木上のDFS](https://atcoder.jp/contests/abc067/submissions/14047474)|
 ||o|§ 2.1.2|exercise|[JOI 2009 予選 4 - 薄氷渡り](https://atcoder.jp/contests/joi2009yo/tasks/joi2009yo_d)|||[]()|
@@ -152,7 +153,8 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.1.3|exercise|[E - チーズ (Cheese)](https://atcoder.jp/contests/joi2011yo/tasks/joi2011yo_e)|||[複数回BFS](https://atcoder.jp/contests/joi2011yo/submissions/11007756)|
 |||§ 2.1.3|exercise|[ABC 132 E - Hopscotch Addict](https://atcoder.jp/contests/abc132/tasks/abc132_e)||||[頂点を3倍化して`u_(i)->v_(i+1)`のように結ぶ、BFS](https://atcoder.jp/contests/abc132/submissions/14514887)|
 ||o|§ 2.1.3|exercise|[ARC 005 C 器物損壊！高橋君](https://atcoder.jp/contests/arc005/tasks/arc005_3)|||[BFS](https://atcoder.jp/contests/arc005/submissions/8570403) or [Dijkstra]() or [deque]()|[BFS](https://atcoder.jp/contests/arc005/submissions/14708240)|
-|||§ 2.1.3|exercise|[ABC 005 C - おいしいたこ焼きの売り方](https://atcoder.jp/contests/abc005/tasks/abc005_3)|||一本化してソート、queue see § 2.2.4.1|
+|||§ 2.1.3.1|exercise|[ABC 005 C - おいしいたこ焼きの売り方](https://atcoder.jp/contests/abc005/tasks/abc005_3)|||一本化してソート、queue see § 2.2.4.1|
+|||§ 2.1.3.1|exercise|[ABC 045 B - 3人でカードゲームイージー](https://atcoder.jp/contests/abc045/tasks/abc045_b)|||||[queueでシュミレート](https://atcoder.jp/contests/abc045/submissions/14896890)|
 |||§ 2.1.4|example|特別な状態の列挙|||[next_permutationの実装](./2.1.4/)|
 ||o|§ 2.1.4|exercise|[AOJ ITP2_5_C Permutation](https://onlinejudge.u-aizu.ac.jp/courses/lesson/8/ITP2/all/ITP2_5_C)|||[next_permutationの実装]()|
 ||o|§ 2.1.4|exercise|[AOJ ITP2_5_D Permutation Enumeration](https://onlinejudge.u-aizu.ac.jp/courses/lesson/8/ITP2/all/ITP2_5_D)|||[permutation]()|
