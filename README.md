@@ -27,6 +27,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 1.4.1|exercise|[ABC 063 C - Bugged](https://atcoder.jp/contests/abc063/tasks/arc075_a)||||[総和 or 総和から一つ引く](https://atcoder.jp/contests/abc063/submissions/14854478)|
 |||§ 1.4.1|exercise|[ABC 067 C - Splitting Pile](https://atcoder.jp/contests/abc067/tasks/arc078_a)||||[総和を先に求めておく](https://atcoder.jp/contests/abc067/submissions/14898778)|
 |||§ 1.4.1|exercise|[ABC 133 D - Rain Flows into Dams](https://atcoder.jp/contests/abc133/tasks/abc133_d)||||[総和からの引き算](https://atcoder.jp/contests/abc133/submissions/14473252)|
+|||§ 1.4.1|exercise|[ABC 093 C - Same Integers](https://atcoder.jp/contests/abc093/tasks/arc094_a)||||[総和からの偶奇性](https://atcoder.jp/contests/abc093/submissions/14923960)|
 |||§ 1.4.1|exercise|[ABC 171 E - Red Scarf](https://atcoder.jp/contests/abc171/tasks/abc171_e)||||[総和からの引き算](https://atcoder.jp/contests/abc171/submissions/14716360)|
 |||§ 1.4.1|exercise|[ABC 056 C - Go Home](https://atcoder.jp/contests/abc056/tasks/arc070_a)||||[考察、実装問題、総和](https://atcoder.jp/contests/abc056/submissions/14880967)|
 |||§ 1.4.1|exercise|[CODE FESTIVAL 2016 Final B - Exactly N points](https://atcoder.jp/contests/cf16-final/tasks/codefestival_2016_final_b)||||[総和からの引き算](https://atcoder.jp/contests/cf16-final/submissions/14908024) or [lower bound](https://atcoder.jp/contests/cf16-final/submissions/14907770)|
@@ -113,6 +114,11 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 1.9.3|exercise|[ABC 086 D - Checker](https://atcoder.jp/contests/abc086/tasks/arc089_b)|||剰余 § 2.2.6|
 |||§ 1.9.3|exercise|[ABC 099 D - Good Grid](https://atcoder.jp/contests/abc099/tasks/abc099_d)|||剰余、前処理(map) see § 2.4.2|
 |||§ 1.9.3|exercise|[ABC 096 D - Five, Five Everywhere](https://atcoder.jp/contests/abc096/submissions/13919563)|||同じ剰余の数を集める, map see § 2.4.2|
+|||§ 1.9.3|exercise|[ABC 086 C - Traveling](https://atcoder.jp/contests/abc086/tasks/arc089_a)||||[偶奇性で判定](https://atcoder.jp/contests/abc086/submissions/14923663)|
+|||§ 1.9.3|exercise|[AGC 020 A - Move and Win](https://atcoder.jp/contests/agc020/tasks/agc020_a)||||[偶奇性]()|
+|||§ 1.9.3|exercise|[AGC 010 A - Addition](https://atcoder.jp/contests/agc010/tasks/agc010_a)||||[map, 偶奇性](https://atcoder.jp/contests/agc010/submissions/14924122)|
+|||§ 1.9.3|exercise|[ABC 093 C - Same Integers](https://atcoder.jp/contests/abc093/tasks/arc094_a)||||偶奇性 see § 1.4.1|
+|||§ 1.9.3|exercise|[AGC 017 A - Biscuits](https://atcoder.jp/contests/agc017/tasks/agc017_a)||||偶奇性を利用 see § 2.3.8.1|
 |||§ 1.10.1|exercise|[AGC 015 B - Evilator](https://atcoder.jp/contests/agc015/tasks/agc015_b)||||[一方を固定すると、O(1)で分かる](https://atcoder.jp/contests/agc015/submissions/14880760)|
 |||§ 2.1.0|exercise|[ABC 114 C - 755](https://atcoder.jp/contests/abc114/tasks/abc114_c)|||[再帰関数(DFS)](https://atcoder.jp/contests/abc114/submissions/13677743)|
 |||§ 2.1.0|exercise|[ABC 161 D - Lunlun Number](https://atcoder.jp/contests/abc161/tasks/abc161_d)|||[DFSで条件を満たす数をstackに](https://atcoder.jp/contests/abc161/submissions/13688600)|
@@ -335,7 +341,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.3.8.1|exercise|[ABC 089 C - March](https://atcoder.jp/contests/abc089/tasks/abc089_c)|||[それぞれの組み合わせ(bit全探索)に対して場合の数](https://atcoder.jp/contests/abc089/submissions/13980401)|
 |o||§ 2.3.8.1|exercise|[ABC 065 C - Reconciled?](https://atcoder.jp/contests/abc065/tasks/arc076_a)||||[考察、場合の数、MECEに](https://atcoder.jp/contests/abc065/submissions/14901397)|
 |o||§ 2.3.8.1|exercise|[AGC 031 A - Colorful Subsequence](https://atcoder.jp/contests/agc031/tasks/agc031_a)||||[場合の数(約数の個数の数え方に似てる), 文字列のmap](https://atcoder.jp/contests/agc031/submissions/14901849)|
-|||§ 2.3.8.1|exercise|[ABC 017 A - Biscuits](https://atcoder.jp/contests/agc017/tasks/agc017_a)||||[考察、コーナーケース、偶奇性を利用した組み合わせ](https://atcoder.jp/contests/agc017/submissions/14882194) or [DP](https://atcoder.jp/contests/agc017/submissions/14882072)|
+|||§ 2.3.8.1|exercise|[AGC 017 A - Biscuits](https://atcoder.jp/contests/agc017/tasks/agc017_a)||||[考察、コーナーケース、偶奇性を利用した組み合わせ](https://atcoder.jp/contests/agc017/submissions/14882194) or [DP](https://atcoder.jp/contests/agc017/submissions/14882072)|
 |||§ 2.3.8.1|exercise|[ABC 132 D - Blue and Red Balls](https://atcoder.jp/contests/abc132/tasks/abc132_d)|||[組み合わせ](https://atcoder.jp/contests/abc132/submissions/14168523)|
 |||§ 2.3.8.1|exercise|[ABC 066 D - 11](https://atcoder.jp/contests/abc066/tasks/arc077_b)|||[組み合わせ](https://atcoder.jp/contests/abc066/submissions/14028001)|
 |||§ 2.3.8.1|exercise|[ABC 057 D - Maximum Average Sets](https://atcoder.jp/contests/abc057/tasks/abc057_d)|||[組み合わせ(パスカルの三角形)](https://atcoder.jp/contests/abc057/submissions/14083924)|
