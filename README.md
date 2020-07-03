@@ -63,6 +63,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 1.8.1|exercise|[AOJ 1193 - 連鎖消滅パズル](https://onlinejudge.u-aizu.ac.jp/problems/1193)|||[落ちゲー、実装問題、解くだけ](https://onlinejudge.u-aizu.ac.jp/solutions/problem/1193/review/4320693/knknkn1162/C)|
 |||§ 1.8.1|exercise|[Square869120Contest #3 B - 石落としゲーム](https://atcoder.jp/contests/s8pc-3/tasks/s8pc_3_b)|||[落ちゲー, 実装問題、(WIDTH)×(HEIGHT-1)個シュミレート](https://atcoder.jp/contests/s8pc-3/submissions/11477560)|
 |||§ 1.8.1|exercise|[ABC 107 B - Grid Compression](https://atcoder.jp/contests/abc107/tasks/abc107_b)|||[グリッド実装問題](https://atcoder.jp/contests/abc107/submissions/13689326)|
+|||§ 1.8.1|exercise|[ABC 075 B - Minesweeper](https://atcoder.jp/contests/abc075/tasks/abc075_b)||||[グリッド実装問題](https://atcoder.jp/contests/abc075/submissions/14923287)|
 |||§ 1.8.1|exercise|[ABC 054 B - Template Matching](https://atcoder.jp/contests/abc054/tasks/abc054_b)|||[グリッド実装問題、bufferを2倍にしておく](https://atcoder.jp/contests/abc054/submissions/14082029)|
 |||§ 1.8.1|exercise|[ABC 039 D - 画像処理高橋君](https://atcoder.jp/contests/abc039/tasks/abc039_d)|||[グリッド実装問題、チェックを入れるタイミングに注意](https://atcoder.jp/contests/abc039/submissions/14180749)|
 |||§ 1.8.1|exercise|[ABC 069 D - Grid Coloring](https://atcoder.jp/contests/abc069/tasks/arc080_b)|||[構成問題、グリッド実装問題](https://atcoder.jp/contests/abc069/submissions/14026602)|
@@ -124,11 +125,13 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.1.1|exercise|[ABC 006 C - スフィンクスのなぞなぞ](https://atcoder.jp/contests/abc006/tasks/abc006_3)||||[方程式をかんたんにして、全探索](https://atcoder.jp/contests/abc006/submissions/14412001)|
 |||§ 2.1.1|exercise|[ABC 043 C - いっしょ](https://atcoder.jp/contests/abc043/tasks/arc059_a)|||[平均](https://atcoder.jp/contests/abc043/submissions/14216611)|[全探索](https://atcoder.jp/contests/arc059/submissions/14912801)|
 |||§ 2.1.1|exercise|[ABC 057 B - Checkpoints](https://atcoder.jp/contests/abc057/tasks/abc057_b)||||[全探索](https://atcoder.jp/contests/abc057/submissions/14848757)|
+|||§ 2.1.1|exercise|[ABC 060 B - Choose Integers](https://atcoder.jp/contests/abc060/tasks/abc060_b)||||[A,Bが小さいので、候補を全探索](https://atcoder.jp/contests/abc060/submissions/14923023)|
 |||§ 2.1.1|exercise|[ABC 066 B - ss](https://atcoder.jp/contests/abc066/tasks/abc066_b)|||[文字列の全探索](https://atcoder.jp/contests/abc066/submissions/14064944)|
 |||§ 2.1.1|exercise|[キーエンス プログラミング コンテスト 2019 B - KEYENCE String](https://atcoder.jp/contests/keyence2019/tasks/keyence2019_b)||||[全探索](https://atcoder.jp/contests/keyence2019/submissions/14854388)|
 |||§ 2.1.1|exercise|[ABC 074 C - Sugar Water](https://atcoder.jp/contests/abc074/tasks/arc083_a)|||[全探索](https://atcoder.jp/contests/abc074/submissions/14021322)|
 |||§ 2.1.1|exercise|[ABC 011 D - 大ジャンプ](https://atcoder.jp/contests/abc011/tasks/abc011_4)||||確率問題、一方向の回数を決め打ちで全列挙 see § 2.3.8.1|
 |||§ 2.1.1|exercise|[ABC 099 D - Good Grid](https://atcoder.jp/contests/abc099/tasks/abc099_d)|||colorに対して全探索 see § 2.4.2|
+|||§ 2.1.1|exercise|[ABC 096 C - Grid Repainting 2](https://atcoder.jp/contests/abc096/tasks/abc096_c)||||[グリッド実装問題、各マスに対して全探索](https://atcoder.jp/contests/abc096/submissions/14922846)|
 |||§ 2.1.1|exercise|[CODE FESTIVAL 2017 qual A B - fLIP](https://atcoder.jp/contests/abc109/tasks/abc109_d)||||端に寄せて全探索、see § 1.8.1|
 |o|o|§ 2.1.1|exercise|[ABC 013 C - 節制](https://atcoder.jp/contests/abc013/tasks/abc013_3)||||[消費を後回し、工夫して全探索]()|
 |||§ 2.1.1|exercise|[ABC 031 C - 数列ゲーム](https://atcoder.jp/contests/abc031/tasks/abc031_c)|||[問題文の解釈、全探索](https://atcoder.jp/contests/abc031/submissions/14186421)|
@@ -186,6 +189,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.1.4|example|特別な状態の列挙|||[next_permutationの実装](./2.1.4/)|
 ||o|§ 2.1.4|exercise|[AOJ ITP2_5_C Permutation](https://onlinejudge.u-aizu.ac.jp/courses/lesson/8/ITP2/all/ITP2_5_C)|||[next_permutationの実装]()|
 ||o|§ 2.1.4|exercise|[AOJ ITP2_5_D Permutation Enumeration](https://onlinejudge.u-aizu.ac.jp/courses/lesson/8/ITP2/all/ITP2_5_D)|||[permutation]()|
+|||§ 2.1.4|exercise|[ABC 065 B - Trained?](https://atcoder.jp/contests/abc065/tasks/abc065_b)||||[permutation, 十分な数までloop](https://atcoder.jp/contests/abc065/submissions/14923141)|
 |||§ 2.1.4|exercise|[ABC 167 D - Teleporter](https://atcoder.jp/contests/abc167/tasks/abc167_d)|||[permutation](https://atcoder.jp/contests/abc167/submissions/13702242)|
 |||§ 2.1.4|exercise|[ABC 030 D - へんてこ辞書](https://atcoder.jp/contests/abc030/tasks/abc030_d)|||[permutation, 剰余(mod)](https://atcoder.jp/contests/abc030/submissions/14205526)|
 |||§ 2.1.4|exercise|[AGC 022 A - Diverse Word](https://atcoder.jp/contests/agc022/tasks/agc022_a)||||[辞書順最小、MECEに、next_permutation](https://atcoder.jp/contests/agc022/submissions/14902731)|
@@ -253,7 +257,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.2.6|exercise|[ABC 086 D - Checker](https://atcoder.jp/contests/abc086/tasks/arc089_b)|||[剰余、二次元累積和](https://atcoder.jp/contests/abc086/submissions/14002453)|
 |||§ 2.2.6|exercise|[ABC 106 D - AtCoder Express 2](https://atcoder.jp/contests/abc106/tasks/abc106_d)|||[二次元と解釈して、二次元累積和](https://atcoder.jp/contests/abc106/submissions/11348226) or [区間DP](https://atcoder.jp/contests/abc106/submissions/11346781)|
 |||§ 2.2.7|exercise|[AOJ DSL_5_A The Maximum Number of Customers](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_5_A)|||[いもす法](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_5_A/review/4467956/knknkn1162/C)|
-|||§ 2.2.7|exercise|[AOJ DSL_5_B The Maximum Number of Overlaps](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_5_B)|||[2次元上のいもす法](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_5_B/review/4467993/knknkn1162/C)|
+|||§ 2.2.7|exercise|[AOJ DSL_5_B The Maximum Number of Overlaps](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_5_B)|||[二次元上のいもす法](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_5_B/review/4467993/knknkn1162/C)|
 |||§ 2.2.7|exercise|[ABC 014 C - AtColor](https://atcoder.jp/contests/abc014/tasks/abc014_3)|||[いもす法](https://atcoder.jp/contests/abc014/submissions/11362928)|
 |||§ 2.2.7|exercise|[ABC 017 C - ハイスコア](https://atcoder.jp/contests/abc017/tasks/abc017_3)||||[総和からの引き算、いもす法](https://atcoder.jp/contests/abc017/submissions/14696344)|
 |||§ 2.2.7|exercise|[ABC 035 C - オセロ](https://atcoder.jp/contests/abc035/tasks/abc035_c)|||[いもす法](https://atcoder.jp/contests/abc035/submissions/14185638)|
@@ -288,7 +292,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.3.1.0|exercise|[ABC 155 E - Payment](https://atcoder.jp/contests/abc155/tasks/abc155_e)|||[DP(桁)(繰り上がる?)](https://atcoder.jp/contests/abc155/tasks/abc155_e)|
 |||§ 2.3.1.0|exercise|[ABC 154 E - Almost Everywhere Zero](https://atcoder.jp/contests/abc154/tasks/abc154_e)|||[桁DP](https://atcoder.jp/contests/abc154/submissions/12545187)|
 |o||§ 2.3.1.0|exercise|[ABC 129 E - Sum Equals Xor](https://atcoder.jp/contests/abc129/tasks/abc129_e)|||[桁DP](https://atcoder.jp/contests/abc129/submissions/14211169)|
-|||§ 2.3.2|example|[AOJ ALDS1_10_C 最長共通部分列問題(LCS)](https://onlinejudge.u-aizu.ac.jp/problems/ALDS1_10_C)|||[2次元DP](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_10_C/review/4408455/knknkn1162/C)|
+|||§ 2.3.2|example|[AOJ ALDS1_10_C 最長共通部分列問題(LCS)](https://onlinejudge.u-aizu.ac.jp/problems/ALDS1_10_C)|||[二次元DP](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_10_C/review/4408455/knknkn1162/C)|
 |||§ 2.3.2|example|[ABC 130 E - Common Subsequence](https://atcoder.jp/contests/abc130/tasks/abc130_e)|||[LCSの応用、重複分を消してDP](https://atcoder.jp/contests/abc130/submissions/14268154)|
 |||§ 2.3.2|exercise|[AOJ DPL_1_E 編集距離](https://onlinejudge.u-aizu.ac.jp/problems/DPL_1_E)|||[DP](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_1_E/review/4427482/knknkn1162/C)|
 |||§ 2.3.2|exercise|[AOJ DPL_3_A 最大正方形](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_3_A)|||[DP](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_3_A/review/4517230/knknkn1162/C)|
@@ -472,7 +476,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.5.5|exercise|[ABC 012 D - バスと避けられない運命](https://atcoder.jp/contests/abc012/tasks/abc012_4)|||[Warshal Fyold](https://atcoder.jp/contests/abc012/submissions/11640675)|
 |||§ 2.5.5|exercise|[ABC 073 D - joisino's travel](https://atcoder.jp/contests/abc073/tasks/abc073_d)|||[ワーシャルフロイド法, permutation](https://atcoder.jp/contests/abc073/submissions/12688097)|
 |||§ 2.5.5|exercise|[ABC 051 D - Candidates of No Shortest Paths](https://atcoder.jp/contests/abc051/tasks/abc051_d)|||[ワーシャルフロイド法](https://atcoder.jp/contests/abc051/submissions/14096890)|
-|||§ 2.5.5|exercise|[ABC 079 D - Wall](https://atcoder.jp/contests/abc079/tasks/abc079_d)|||[2次元をgraphに見立ててワーシャルフロイド法, map](https://atcoder.jp/contests/abc079/submissions/11641009)|
+|||§ 2.5.5|exercise|[ABC 079 D - Wall](https://atcoder.jp/contests/abc079/tasks/abc079_d)|||[二次元をgraphに見立ててワーシャルフロイド法, map](https://atcoder.jp/contests/abc079/submissions/11641009)|
 |||§ 2.5.5|exercise|[ABC 022 C - Blue Bird](https://atcoder.jp/contests/abc022/tasks/abc022_c)||||[start, goalを決めてワーシャルフロイド](https://atcoder.jp/contests/abc022/submissions/14523636)|
 ||o|§ 2.5.5|exercise|[AOJ DPL_2_B 中国人郵便配達問題](https://onlinejudge.u-aizu.ac.jp/courses/library/7/DPL/all/DPL_2_B)|||[ワーシャルフロイド法、bitDP]()|
 ||o|§ 2.6.1|example|線分上の格子点の個数|||[]()|
@@ -660,7 +664,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||misc|example|[EX15 - 三人兄弟へのプレゼント](https://atcoder.jp/contests/apg4b/tasks/APG4b_ch)||||[sum関数の作成](https://atcoder.jp/contests/apg4b/submissions/14390640)|
 |||misc|example|[EX16 - 隣り合う同じ値を探す](https://atcoder.jp/contests/apg4b/tasks/APG4b_cg)||||[for](https://atcoder.jp/contests/apg4b/submissions/14390813)|
 |||misc|example|[EX17 - 果物屋さんでお買い物](https://atcoder.jp/contests/apg4b/tasks/APG4b_cf)||||[全探索](https://atcoder.jp/contests/apg4b/submissions/14391042)|
-|||misc|example|[EX18 - ゲーム大会](https://atcoder.jp/contests/apg4b/tasks/APG4b_ce)||||[2次元配列](https://atcoder.jp/contests/apg4b/submissions/14391507)|
+|||misc|example|[EX18 - ゲーム大会](https://atcoder.jp/contests/apg4b/tasks/APG4b_ce)||||[二次元配列](https://atcoder.jp/contests/apg4b/submissions/14391507)|
 |||misc|example|[EX19 - 九九の採点](https://atcoder.jp/contests/apg4b/tasks/APG4b_cd)||||[数え上げ](https://atcoder.jp/contests/apg4b/submissions/14392089)|
 |||misc|example|[EX20 - 報告書の枚数](https://atcoder.jp/contests/apg4b/tasks/APG4b_cc)||||[隣接リスト、DFS](https://atcoder.jp/contests/apg4b/submissions/14393560)|
 |||misc|example|[EX21 - 計算量の見積もり](https://atcoder.jp/contests/apg4b/tasks/APG4b_cb)||||[計算量](https://atcoder.jp/contests/apg4b/submissions/14393689)|
