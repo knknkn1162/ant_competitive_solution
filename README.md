@@ -196,6 +196,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.2.4|exercise|[ABC 153 F - Silver Fox vs Monster](https://atcoder.jp/contests/abc153/tasks/abc153_f)|||線上の点問題、see § 3.3.1|
 |||§ 2.2.4|exercise|[AOJ ALDS1_15_B 有理ナップサック問題](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/all/ALDS1_15_B)|||[貪欲法](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_15_B/review/3980743/knknkn1162/C)|
 |||§ 2.2.4|exercise|[ABC 055 D - Menagerie](https://atcoder.jp/contests/abc055/tasks/arc069_b)|||[構成問題、貪欲法](https://atcoder.jp/contests/abc055/submissions/14089231)|
+|||§ 2.2.4|exercise|[AGC 032 A - Limited Insertion](https://atcoder.jp/contests/agc032/tasks/agc032_a)||||[シュミレート、後ろから貪欲に削除する](https://atcoder.jp/contests/agc032/submissions/14912395)|
 |||§ 2.2.4|exercise|[ABC 083 C - Multiple Gift](https://atcoder.jp/contests/abc083/tasks/arc088_a)|||[貪欲](https://atcoder.jp/contests/abc083/submissions/12356089)|
 |||§ 2.2.4|exercise|[ABC 046 C - AtCoDeerくんと選挙速報](https://atcoder.jp/contests/abc046/tasks/arc062_a)|||[貪欲に値を更新](https://atcoder.jp/contests/abc046/submissions/14110210)|
 |||§ 2.2.4|exercise|[ABC 046 D - AtCoDeerくんと変なじゃんけん](https://atcoder.jp/contests/abc046/tasks/arc062_b)|||[貪欲に値を更新](https://atcoder.jp/contests/abc046/submissions/14113004)|
