@@ -177,10 +177,12 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.2.2|exercise|[AOJ ALDS1_15_C 活動選択問題](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/all/ALDS1_15_C)|||[end起点に昇順](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_15_C/review/4495678/knknkn1162/C)|
 |||§ 2.2.2|exercise|[キーエンス プログラミング コンテスト 2020 B - Robot Arms](https://atcoder.jp/contests/keyence2020/tasks/keyence2020_b)|||[end起点に昇順](https://atcoder.jp/contests/keyence2020/submissions/12551527)|
 |||§ 2.2.2|exercise|[ABC 131 D - Megalomania](https://atcoder.jp/contests/abc131/tasks/abc131_d)|||[deadlineを昇順にソート](https://atcoder.jp/contests/abc131/submissions/14154636)|
+|o||§ 2.2.2|exercise|[AGC 011 A - Airport Bus](https://atcoder.jp/contests/agc011/tasks/agc011_a)||||[deadlineを昇順にソート](https://atcoder.jp/contests/agc011/submissions/14918950)|
 |||§ 2.2.2|exercise|[京都大学プログラミングコンテスト2015 A - 東京都](https://atcoder.jp/contests/kupc2015/tasks/kupc2015_a)|||[前から探索](https://atcoder.jp/contests/kupc2015/submissions/12313760)|
 |||§ 2.2.2|exercise|[ABC 103 D - Islands War](https://atcoder.jp/contests/abc103/tasks/abc103_d)|||[start起点にソート->貪欲法](https://atcoder.jp/contests/abc103/submissions/12316726)|
 |||§ 2.2.2|exercise|[Codeforces Round #296 B. Clique Problem](http://codeforces.com/contest/528/problem/B)|||[区間スケジューリング問題に帰着, 貪欲法](http://codeforces.com/contest/528/submission/78082567)|
 |||§ 2.2.3|example|[POJ 3617 Best Cow Line](http://poj.org/problem?id=3617)|||[予め反転した文字列も用意して貪欲法](./2.2.3/poj3617.c)|
+|o||§ 2.2.3|exercise|[ABC 149 D - Prediction and Restriction](https://atcoder.jp/contests/abc149/tasks/abc149_d)|||[勝敗は貪欲に決まる](https://atcoder.jp/contests/abc149/submissions/12818514)|
 |||§ 2.2.3|exercise|[ABC 076 C - Dubious Document 2](https://atcoder.jp/contests/abc076/tasks/abc076_c)|||[逆順に走査](https://atcoder.jp/contests/abc076/submissions/12324748)|
 |||§ 2.2.3|exercise|[ABC 049 C - 白昼夢](https://atcoder.jp/contests/abc049/tasks/arc065_a)|||[逆順に走査](https://atcoder.jp/contests/abc049/submissions/12314491)|
 |||§ 2.2.3|exercise|[AGC 009 A - Multiple Array](https://atcoder.jp/contests/agc009/tasks/agc009_a)||||逆順に走査 see § 1.4.2|
@@ -224,6 +226,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.2.6|exercise|[ABC 147 D - Xor Sum 4](https://atcoder.jp/contests/abc147/tasks/abc147_d)|||[xorの性質を利用して累積和](https://atcoder.jp/contests/abc147/submissions/13149768)|
 |||§ 2.2.6|exercise|[ABC 125 C - GCD on Blackboard](https://atcoder.jp/contests/abc125/tasks/abc125_c)|||[累積和、逆累積和](https://atcoder.jp/contests/abc125/submissions/13928488)|
 |||§ 2.2.6|exercise|[ABC 095 D - Static Sushi](https://atcoder.jp/contests/abc095/tasks/arc096_b)|||[環状、累積和、逆累積和](https://atcoder.jp/contests/abc095/submissions/13928203)|
+|||§ 2.2.6|exercise|[ARC 098 C - Attention](https://atcoder.jp/contests/arc098/tasks/arc098_a)||||[逆累積和](https://atcoder.jp/contests/arc098/submissions/14916234) or [累積和](https://atcoder.jp/contests/arc098/submissions/14916725)|
 ||o|§ 2.2.6|exercise|[ABC 005 D - おいしいたこ焼きの焼き方](https://atcoder.jp/contests/abc005/tasks/abc005_4)|||[二次元累積和]()|
 |||§ 2.2.6|exercise|[JOI 2011 本選 1 - 惑星探査](https://atcoder.jp/contests/joi2011ho/tasks/joi2011ho1)|||[二次元累積和](https://atcoder.jp/contests/joi2011ho/submissions/11340451)|
 |||§ 2.2.6|exercise|[GigaCode 2019 D - 家の建設](https://atcoder.jp/contests/gigacode-2019/tasks/gigacode_2019_d)|||[二次元累積和](https://atcoder.jp/contests/gigacode-2019/submissions/11350327)|
@@ -429,6 +432,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.4.3|exercise|[ABC 040 D - 道路の老朽化対策について](https://atcoder.jp/contests/abc040/tasks/abc040_d)|||[ソートして、Union find, 尺取法っぽく](https://atcoder.jp/contests/abc040/submissions/14172996) or [一本化してソート](https://atcoder.jp/contests/abc040/submissions/14173646)|
 |||§ 2.4.3|exercise|[AOJ DSL_1_B 重み付きUnion Find木](https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/1/DSL_1_B)|||[重み付きUnion Find木](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_1_B/review/4432248/knknkn1162/C)|
 |||§ 2.4.3|exercise|[ABC 087 D People on a Line](https://atcoder.jp/contests/abc087/tasks/arc090_b)|||[重み付きUnion Find木](https://atcoder.jp/contests/abc087/submissions/12848387)|
+|||§ 2.4.3|exercise|[ABC 058 D - String Formation](https://atcoder.jp/contests/abc158/tasks/abc158_d)||||[list(STL)](https://atcoder.jp/contests/abc158/submissions/14918438)|
 |||§ 2.5.1|example|二部グラフ判定|||[DFS](./2.5.1/example.c)|
 |||§ 2.5.1|exercise|[ABC 126 D - Even Relation](https://atcoder.jp/contests/abc126/tasks/abc126_d)|||[DFS](https://atcoder.jp/contests/abc126/submissions/12559729)|
 |||§ 2.5.1|exercise|[CODE FESTIVAL 2017 qual B C - 3 Steps](https://atcoder.jp/contests/code-festival-2017-qualb/tasks/code_festival_2017_qualb_c)|||[考察、union find](https://atcoder.jp/contests/code-festival-2017-qualb/submissions/12826017)|
