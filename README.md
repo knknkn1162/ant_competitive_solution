@@ -139,7 +139,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.1.1|exercise|[ABC 166 D - I hate Factorization](https://atcoder.jp/contests/abc166/tasks/abc166_d)|||[上限決めて全探索](https://atcoder.jp/contests/abc166/submissions/13701621)|
 |||§ 2.1.1|exercise|[ABC 133 C - Remainder Minimization 2019](https://atcoder.jp/contests/abc133/tasks/abc133_c)||||[剰余を先に計算、解を絞って全探索、余りの管理にmapを活用、全探索](https://atcoder.jp/contests/abc133/submissions/14886216)|
 |||§ 2.1.1|exercise|[ABC 112 C - Pyramid](https://atcoder.jp/contests/abc112/tasks/abc112_c)|||[解を仮定して全探索](https://atcoder.jp/contests/abc112/submissions/13678639)|
-||o|§ 2.1.1|exercise|[ABC 088 C - Takahashi's Information](https://atcoder.jp/contests/abc088/tasks/abc088_c)|||[解を仮定して全探索]()|
+|||§ 2.1.1|exercise|[ABC 088 C - Takahashi's Information](https://atcoder.jp/contests/abc088/tasks/abc088_c)|||[解(`a_i`)を仮定して全探索](https://atcoder.jp/contests/abc088/submissions/14922236)|
 |||§ 2.1.1|exercise|[ABC 060 D - Simple Knapsack](https://atcoder.jp/contests/abc060/tasks/arc073_b)|||[O(N^4)の全探索(4種類なので4乗ループ)](https://atcoder.jp/contests/abc060/submissions/14063654) or [K個を決め打ちで`dp[N][K][weight]`としてDP](https://atcoder.jp/contests/abc060/submissions/14062472)|
 |||§ 2.1.1|exercise|[Square869120Contest #6 B - AtCoder Markets](https://atcoder.jp/contests/s8pc-6/tasks/s8pc_6_b)|||全探索(要工夫) see § 2.4.2|
 |||§ 2.1.1|exercise|[ABC 165 C - Many Requirements](https://atcoder.jp/contests/abc165/tasks/abc165_c)|||[発想問題、組み合わせの列挙、全探索](https://atcoder.jp/contests/abc165/submissions/12851420)|
@@ -412,6 +412,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.4.2|exercise|[ABC 085 B Kagami Mochi](https://atcoder.jp/contests/abc085/tasks/abc085_b)|||[map](https://atcoder.jp/contests/abc085/submissions/7997905)|[set](https://atcoder.jp/contests/abc085/submissions/14410228)|
 |||§ 2.4.2|exercise|[ABC 068 C - Cat Snuke and a Voyage](https://atcoder.jp/contests/abc068/tasks/arc079_a)||||[set](https://atcoder.jp/contests/abc068/submissions/14894855)|
 |||§ 2.4.2|exercise|[ABC 019 C - 高橋くんと魔法の箱](https://atcoder.jp/contests/abc019/tasks/abc019_3)||||[map](https://atcoder.jp/contests/abc019/submissions/14636261)|
+|||§ 2.4.2|exercise|[ABC 073 C - Write and Erase](https://atcoder.jp/contests/abc073/tasks/abc073_c)||||[map](https://atcoder.jp/contests/abc073/submissions/14921841)|
 |||§ 2.4.2|exercise|[CODE FESTIVAL 2017 qual B - Problem Set](https://atcoder.jp/contests/code-festival-2017-qualb/tasks/code_festival_2017_qualb_b)||||[map](https://atcoder.jp/contests/code-festival-2017-qualb/submissions/14879592)|
 |||§ 2.4.2|exercise|[ABC 064 C - Colorful Leaderboard](https://atcoder.jp/contests/abc064/tasks/abc064_c)||||[map, コーナーケース(すべて3200以上だった場合)](https://atcoder.jp/contests/abc064/submissions/14848187)|
 |||§ 2.4.2|exercise|[ABC 091 B Two Colors Card Game](https://atcoder.jp/contests/abc091/tasks/abc091_b)|||[文字列のmap](https://atcoder.jp/contests/abc091/submissions/8001652)|
