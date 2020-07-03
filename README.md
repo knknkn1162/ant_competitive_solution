@@ -119,7 +119,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.1.1|exercise|[EX17 - 果物屋さんでお買い物](https://atcoder.jp/contests/apg4b/tasks/APG4b_cf)||||全探索 see misc|
 |||§ 2.1.1|exercise|[diverta 2019 Programming Contest B - RGB Boxes](https://atcoder.jp/contests/diverta2019/tasks/diverta2019_b)||||[全探索](https://atcoder.jp/contests/diverta2019/submissions/14854828)|
 |||§ 2.1.1|exercise|[ABC 006 C - スフィンクスのなぞなぞ](https://atcoder.jp/contests/abc006/tasks/abc006_3)||||[方程式をかんたんにして、全探索](https://atcoder.jp/contests/abc006/submissions/14412001)|
-|||§ 2.1.1|exercise|[ABC 043 C - いっしょ](https://atcoder.jp/contests/abc043/tasks/arc059_a)|||[全探索]() or [平均](https://atcoder.jp/contests/abc043/submissions/14216611)|
+|||§ 2.1.1|exercise|[ABC 043 C - いっしょ](https://atcoder.jp/contests/abc043/tasks/arc059_a)|||[平均](https://atcoder.jp/contests/abc043/submissions/14216611)|[全探索](https://atcoder.jp/contests/arc059/submissions/14912801)|
 |||§ 2.1.1|exercise|[ABC 057 B - Checkpoints](https://atcoder.jp/contests/abc057/tasks/abc057_b)||||[全探索](https://atcoder.jp/contests/abc057/submissions/14848757)|
 |||§ 2.1.1|exercise|[ABC 066 B - ss](https://atcoder.jp/contests/abc066/tasks/abc066_b)|||[文字列の全探索](https://atcoder.jp/contests/abc066/submissions/14064944)|
 |||§ 2.1.1|exercise|[キーエンス プログラミング コンテスト 2019 B - KEYENCE String](https://atcoder.jp/contests/keyence2019/tasks/keyence2019_b)||||[全探索](https://atcoder.jp/contests/keyence2019/submissions/14854388)|
