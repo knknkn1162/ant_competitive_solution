@@ -37,32 +37,10 @@ void cins(vector<T>& arr) { for(T& e: arr) cin >> e; }
 #define ps(arr)
 #endif
 
-bool is_contain(pii p1, pii p2) {
-    return p1.first <= p2.first && p2.second <= p1.second;
-}
-bool is_overlap(pii p1, pii p2) {
-    return p1.first <= p2.second && p2.first <= p1.second;
-}
-pii intersect(pii p1, pii p2) {
-    if(is_contain(p1, p2)) { // p2 \in p1
-        return p2;
-    } else if (is_contain(p2, p1)) {
-        return p1;
-    } else if(is_overlap(p1, p2)) {
-        int v1 = p1.second - p2.first;
-        int v2 = p2.second - p1.first;
-        if(v1 >= v2) {
-            return make_pair(p1.first, p2.second);
-        } else {
-            return make_pair(p2.first, p1.second);
-        }
-    }
-    return make_pair(0, 0);
-}
-
 int get_area(pii p1, pii p2) {
     int diff1 = p1.second - p1.first;
     int diff2 = p2.second - p2.first;
+    if(diff1 <= 0 || diff2 <= 0) return 0;
     return diff2*diff1;
 }
 
@@ -74,23 +52,18 @@ int main(void) {
     for(int i = 0; i < qs; i++) {
         int x, y, a;
         cin >> x >> y >> a;
-        pii white;
         switch(a) {
             case 1: // x < x_i
-                white = make_pair(x, width);
-                range_x = intersect(range_x, white);
+                range_x.first = max(range_x.first, x);
                 break;
             case 2:
-                white = make_pair(0, x);
-                range_x = intersect(range_x, white);
+                range_x.second = min(range_x.second, x);
                 break;
             case 3:
-                white = make_pair(y, height);
-                range_y = intersect(range_y, white);
+                range_y.first = max(range_y.first, y);
                 break;
             case 4:
-                white = make_pair(0, y);
-                range_y = intersect(range_y, white);
+                range_y.second = min(range_y.second, y);
                 break;
             default:
                 break;
