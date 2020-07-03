@@ -50,6 +50,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 1.7.1|exercise|[Educational DP Contest I - Coins](https://atcoder.jp/contests/dp/tasks/dp_i)|||確率問題、see § 2.3.1|
 |||§ 1.7.1|exercise|[TDPC D サイコロ](https://atcoder.jp/contests/tdpc/tasks/tdpc_dice)|||確率問題、underflowに注意 see § 2.3.19|
 |||§ 1.7.1|exercise|[ABC 078 C - HSI](https://atcoder.jp/contests/abc078/tasks/arc085_a)|||[期待値](https://atcoder.jp/contests/abc078/submissions/14014840)|
+|||§ 1.7.1|exercise|[ABC 154 D - Dice in Line](https://atcoder.jp/contests/abc154/tasks/abc154_d)||||[期待値](https://atcoder.jp/contests/abc154/submissions/14919863)|
 |||§ 1.7.1|exercise|[Educational DP Contest J - Sushi](https://atcoder.jp/contests/dp/tasks/dp_j)|||期待値 see § 2.3.17|
 |||§ 1.8.0|exercise|[C - X: Yet Another Die Game](https://atcoder.jp/contests/abc053/tasks/arc068_a)|||[考察、実装するだけ](https://atcoder.jp/contests/abc053/submissions/14105131)|
 |||§ 1.8.0|exercise|[ABC 130 C - Rectangle Cutting](https://atcoder.jp/contests/abc130/tasks/abc130_c)||||[考察、実装問題](https://atcoder.jp/contests/abc130/submissions/14885289)|
