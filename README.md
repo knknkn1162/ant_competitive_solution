@@ -155,6 +155,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.1.1|exercise|[Square869120Contest #6 B - AtCoder Markets](https://atcoder.jp/contests/s8pc-6/tasks/s8pc_6_b)|||全探索(要工夫) see § 2.4.2|
 |||§ 2.1.1|exercise|[ABC 165 C - Many Requirements](https://atcoder.jp/contests/abc165/tasks/abc165_c)|||[発想問題、組み合わせの列挙、全探索](https://atcoder.jp/contests/abc165/submissions/12851420)|
 |||§ 2.1.1|exercise|[ABC 157 C - Guess The Number](https://atcoder.jp/contests/abc157/tasks/abc157_c)||||[Nが小さいので全探索](https://atcoder.jp/contests/abc157/submissions/14920392)|
+|||§ 2.1.1|exercise|[三井住友信託銀行プログラミングコンテスト 2019 D - Lucky PIN](https://atcoder.jp/contests/sumitrust2019/tasks/sumitb2019_d)|||[全探索(要工夫), skip](https://atcoder.jp/contests/sumitrust2019/submissions/11724674) or [累積和](https://atcoder.jp/contests/sumitrust2019/submissions/11754202)|
 ||o|§ 2.1.1|exercise|[Judge System Update Test Contest 202004 C - Numbering Blocks](https://atcoder.jp/contests/judge-update-202004/tasks/judge_update_202004_c)|||[組み合わせの列挙 -> 全探索]()|
 |||§ 2.1.1|exercise|[square869120Contest #4 B - Buildings are Colorful!](https://atcoder.jp/contests/s8pc-4/tasks/s8pc_4_b)|||[組み合わせの列挙 -> bit全探索](https://atcoder.jp/contests/s8pc-4/submissions/10738108)|
 |||§ 2.1.1|example|[Fliptile (POJ No.3279)](http://poj.org/problem?id=3279)|||[bit全探索、貪欲法(実装重)](./3.2.4/poj3279.c)|
