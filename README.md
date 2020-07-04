@@ -84,9 +84,11 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 1.8.1|exercise|[AGC 035 A - XOR Circle](https://atcoder.jp/contests/agc035/tasks/agc035_a)||||[同じ数のxorは0になる、set.size()についてMECEに(ややこしい)](https://atcoder.jp/contests/agc035/submissions/14903511)|
 |||§ 1.8.1|exercise|[ABC 076 D - AtCoder Express](https://atcoder.jp/contests/abc076/tasks/abc076_d)||||[MECEに(ややこしい)]()|
 |||§ 1.8.1|exercise|[ABC 015 A - A+...+B Problem](https://atcoder.jp/contests/agc015/tasks/agc015_a)||||[各候補間の差は1, コーナーケースに注意](https://atcoder.jp/contests/agc015/submissions/14855212)|
+|||§ 1.8.1|exercise|[ABC 148 B - Between a and b ...](https://atcoder.jp/contests/abc048/tasks/abc048_b)||||[全体-範囲外、コーナーケース(a=0)](https://atcoder.jp/contests/abc048/submissions/14935429)|
 |||§ 1.8.1|exercise|[ARC 080 C - 4-adjacent](https://atcoder.jp/contests/arc080/tasks/arc080_a)||||[コーナーケース(2の倍数があるかないか)](https://atcoder.jp/contests/arc080/submissions/14855637)|
 |||§ 1.8.1|exercise|[ABC 169 E - Count Median](https://atcoder.jp/contests/abc169/tasks/abc169_e)||||各候補の差は1or0.5 see § 1.9.2|
 |||§ 1.8.1|exercise|[ABC 093 D - Worst Case](https://atcoder.jp/contests/abc093/tasks/arc094_b)|||[コーナーケースに注意して実装](https://atcoder.jp/contests/abc093/submissions/13979986) or [二分探索]()|
+|||§ 1.8.1|exercise|[第二回全国統一プログラミング王決定戦予選 B - Counting of Trees](https://atcoder.jp/contests/nikkei2019-2-qual/tasks/nikkei2019_2_qual_b)||||コーナーケースに注意して実装 see § 2.4.2|
 |||§ 1.8.1|exercise|[ABC 090 C - Flip,Flip, and Flip......](https://atcoder.jp/contests/abc090/tasks/arc091_a)|||[N,Mが2以下の場合のコーナーケースに注意して実装](https://atcoder.jp/contests/abc090/submissions/14058987)|
 |||§ 1.8.1|exercise|[AOJ 1149 - ケーキカット](https://onlinejudge.u-aizu.ac.jp/problems/1149)|||[実装問題、連結リスト](https://onlinejudge.u-aizu.ac.jp/solutions/problem/1149/review/4321489/knknkn1162/C)|
 |||§ 1.8.2|exercise|[ABC 092 D - Grid Components](https://atcoder.jp/contests/abc092/tasks/arc093_b)|||[構成問題、発想問題(パズル)](https://atcoder.jp/contests/abc092/submissions/13970569)|
@@ -183,13 +185,14 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.1.3|exercise|[AOJ ALDS_11_C - 幅優先探索](https://onlinejudge.u-aizu.ac.jp/problems/ALDS1_11_C)|||[BFS](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_11_C/review/4275470/knknkn1162/C)|
 |||§ 2.1.3|exercise|[ABC 007 C - 幅優先探索](https://atcoder.jp/contests/abc007/tasks/abc007_3)|||[最短経路問題、BFS](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_11_C/review/4275470/knknkn1162/C)|
 |||§ 2.1.3|exercise|[ABC 020 C - 壁抜け](https://atcoder.jp/contests/abc020/tasks/abc020_c)||||BFSで迷路探索 see § 3.1.4|
+||o|§ 2.1.3|exercise|[ARC 005 C 器物損壊！高橋君](https://atcoder.jp/contests/arc005/tasks/arc005_3)|||[BFS](https://atcoder.jp/contests/arc005/submissions/8570403) or [Dijkstra]() or [deque]()|[BFS](https://atcoder.jp/contests/arc005/submissions/14708240)|
+|||§ 2.1.3|exercise|[AGC 043 A - Range Flip Find Route](https://atcoder.jp/contests/agc043/tasks/agc043_a)||||[問題文の解釈、Dijkstra](https://atcoder.jp/contests/agc043/submissions/14935274) or [0-1 BFS]()|
 |||§ 2.1.3|exercise|[ABC 018 C - 菱型カウント](https://atcoder.jp/contests/abc018/tasks/abc018_3)||||[xを起点とした最短経路問題に帰着、BFS](https://atcoder.jp/contests/abc018/submissions/14691223)|
 |||§ 2.1.3|exercise|[JOI 2012 予選 5 - イルミネーション](https://atcoder.jp/contests/joi2012yo/tasks/joi2012yo_e)|||[BFS, 配列の添字に注意](https://atcoder.jp/contests/joi2012yo/submissions/11017433)|
 |||§ 2.1.3|exercise|[AOJ #1166 - 迷図と命ず](https://onlinejudge.u-aizu.ac.jp/problems/1166)|||[BFS](https://onlinejudge.u-aizu.ac.jp/solutions/problem/1166/review/4279325/knknkn1162/C)|
 |||§ 2.1.3|exercise|[ABC 088 D - Grid Repainting](https://atcoder.jp/contests/abc088/tasks/abc088_d)|||[BFS](https://atcoder.jp/contests/abc088/submissions/11023795)|
 |||§ 2.1.3|exercise|[E - チーズ (Cheese)](https://atcoder.jp/contests/joi2011yo/tasks/joi2011yo_e)|||[複数回BFS](https://atcoder.jp/contests/joi2011yo/submissions/11007756)|
 |||§ 2.1.3|exercise|[ABC 132 E - Hopscotch Addict](https://atcoder.jp/contests/abc132/tasks/abc132_e)||||[頂点を3倍化して`u_(i)->v_(i+1)`のように結ぶ、BFS](https://atcoder.jp/contests/abc132/submissions/14514887)|
-||o|§ 2.1.3|exercise|[ARC 005 C 器物損壊！高橋君](https://atcoder.jp/contests/arc005/tasks/arc005_3)|||[BFS](https://atcoder.jp/contests/arc005/submissions/8570403) or [Dijkstra]() or [deque]()|[BFS](https://atcoder.jp/contests/arc005/submissions/14708240)|
 |||§ 2.1.3.1|exercise|[ABC 005 C - おいしいたこ焼きの売り方](https://atcoder.jp/contests/abc005/tasks/abc005_3)|||一本化してソート、queue see § 2.2.4.1|
 |||§ 2.1.3.1|exercise|[ABC 045 B - 3人でカードゲームイージー](https://atcoder.jp/contests/abc045/tasks/abc045_b)|||||[queueでシュミレート](https://atcoder.jp/contests/abc045/submissions/14896890)|
 |||§ 2.1.4|example|特別な状態の列挙|||[next_permutationの実装](./2.1.4/)|
@@ -442,6 +445,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.4.2|exercise|[ABC 143 D - Triangles](https://atcoder.jp/contests/abc143/tasks/abc143_d)|||[map, 累積和](https://atcoder.jp/contests/abc143/submissions/13893107)|
 |||§ 2.4.2|exercise|[ABC 082 C - Good Sequence](https://atcoder.jp/contests/abc082/tasks/arc087_a)|||[上限決めてmap](https://atcoder.jp/contests/abc082/submissions/14064051)|
 |||§ 2.4.2|exercise|[ABC 053 D - Card Eater](https://atcoder.jp/contests/abc053/tasks/arc068_b)|||[map, 減らせる枚数は2枚](https://atcoder.jp/contests/abc053/submissions/14095470)|
+|||§ 2.4.2|exercise|[第二回全国統一プログラミング王決定戦予選 B - Counting of Trees](https://atcoder.jp/contests/nikkei2019-2-qual/tasks/nikkei2019_2_qual_b)||||[map, 場合の数、コーナーケース](https://atcoder.jp/contests/nikkei2019-2-qual/submissions/14936209)|
 |||§ 2.4.2|exercise|[ABC 096 D - Five, Five Everywhere](https://atcoder.jp/contests/abc096/submissions/13919563)|||[構成問題、発想問題、数学的考察、同じ剰余の数を集める, map](https://atcoder.jp/contests/abc096/submissions/13919563)|
 |||§ 2.4.2.1|exercise|[ABC 135 D - Digits Parade](https://atcoder.jp/contests/abc135/tasks/abc135_d)||||[区間上の総和総数問題、剰余、map(DPっぽい)](https://atcoder.jp/contests/abc135/submissions/14515284)|
 |||§ 2.4.2.1|exercise|[AGC 023 A - Zero-Sum Ranges](https://atcoder.jp/contests/agc023/tasks/agc023_a)|||[区間上の総和総数問題、累積和をmap, 一方を固定](https://atcoder.jp/contests/agc023/submissions/14078150)|
@@ -615,6 +619,7 @@ make FILE=0.0.0/abc039_c.cpp
 ||o|§ 3.3.1|exercise|[JOI 2011 本選 5 - 微生物実験]()|||[]()|
 |||§ 3.3.2|example|[バブルソートの交換回数(反転数)](https://onlinejudge.u-aizu.ac.jp/problems/ALDS1_5_D)|||[反転数、座標圧縮、セグメント木](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_5_D/review/4478150/knknkn1162/C) or [配列の逆順に反転数を導出](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_5_D/review/4521670/knknkn1162/C)|
 |||§ 3.3.2|exercise|[Indeedなう 2015 E Line up!](https://atcoder.jp/contests/indeednow-finalb-open/tasks/indeednow_2015_finalb_e)|||[座標圧縮, 転倒数、セグメント木](https://atcoder.jp/contests/indeednow-finalb-open/submissions/13257883)|
+|||§ 3.3.2|exercise|[第一回日本最強プログラマー学生選手権-予選- B - Kleene Inversion](https://atcoder.jp/contests/jsc2019-qual/tasks/jsc2019_qual_b)||||[配列数の2倍、転倒数、セグメント木](https://atcoder.jp/contests/jsc2019-qual/submissions/14933433)|
 ||o|§ 3.3.2|exercise|[AOJ 0365 - 文字列スワップ](https://onlinejudge.u-aizu.ac.jp/problems/0365)|||[スワップ問題、]()|
 ||o|§ 3.3.2|exercise|[Tenka1 2017 E CARtesian Coodinate](https://atcoder.jp/contests/tenka1-2017/tasks/tenka1_2017_e)|||[]()|
 ||o|§ 3.3.2|exercise|[ARC 088 E Papple Sort](https://atcoder.jp/contests/arc088/tasks/arc088_c)|||[]()|
