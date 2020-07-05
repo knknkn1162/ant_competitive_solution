@@ -262,6 +262,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.2.6|exercise|[ABC 099 D - Good Grid](https://atcoder.jp/contests/abc099/tasks/abc099_d)|||剰余、前処理(map) see § 2.4.2|
 |||§ 2.2.6|exercise|[ABC 089 D - Practical Skill Test](https://atcoder.jp/contests/abc089/tasks/abc089_d)|||[前処理(累積和)](https://atcoder.jp/contests/abc089/submissions/13964940)|
 |||§ 2.2.6|exercise|[ABC 147 D - Xor Sum 4](https://atcoder.jp/contests/abc147/tasks/abc147_d)|||[xorの性質を利用して累積和](https://atcoder.jp/contests/abc147/submissions/13149768)|
+|||§ 2.2.6|exercise|[AGC 011 B - Colorful Creatures](https://atcoder.jp/contests/agc011/tasks/agc011_b)||||[ソートして、累積和](https://atcoder.jp/contests/agc011/submissions/14956894)|
 |||§ 2.2.6|exercise|[ABC 125 C - GCD on Blackboard](https://atcoder.jp/contests/abc125/tasks/abc125_c)|||[累積和、逆累積和](https://atcoder.jp/contests/abc125/submissions/13928488)|
 |||§ 2.2.6|exercise|[ABC 095 D - Static Sushi](https://atcoder.jp/contests/abc095/tasks/arc096_b)|||[環状、累積和、逆累積和](https://atcoder.jp/contests/abc095/submissions/13928203)|
 |||§ 2.2.6|exercise|[ARC 098 C - Attention](https://atcoder.jp/contests/arc098/tasks/arc098_a)||||[逆累積和](https://atcoder.jp/contests/arc098/submissions/14916234) or [累積和](https://atcoder.jp/contests/arc098/submissions/14916725)|
@@ -349,7 +350,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.3.8.1|exercise|[ABC 089 C - March](https://atcoder.jp/contests/abc089/tasks/abc089_c)|||[それぞれの組み合わせ(bit全探索)に対して場合の数](https://atcoder.jp/contests/abc089/submissions/13980401)|
 |o||§ 2.3.8.1|exercise|[ABC 065 C - Reconciled?](https://atcoder.jp/contests/abc065/tasks/arc076_a)||||[考察、場合の数、MECEに](https://atcoder.jp/contests/abc065/submissions/14901397)|
 |o||§ 2.3.8.1|exercise|[AGC 031 A - Colorful Subsequence](https://atcoder.jp/contests/agc031/tasks/agc031_a)||||[場合の数(約数の個数の数え方に似てる), 文字列のmap](https://atcoder.jp/contests/agc031/submissions/14901849)|
-|o|||§ 2.3.8.1|exercise|[CODE FESTIVAL 2016 qual C B - K個のケーキ](https://atcoder.jp/contests/code-festival-2016-qualc/tasks/codefestival_2016_qualC_b)||||[問題文の解釈、構成問題、場合の数っぽく考える](https://atcoder.jp/contests/code-festival-2016-qualc/submissions/14955267)|
+|o|||§ 2.3.8.1|exercise|[CODE FESTIVAL 2016 qual C B - K個のケーキ](https://atcoder.jp/contests/code-festival-2016-qualc/tasks/codefestival_2016_qualC_b)||||[問題文の解釈、構成問題、ソート、場合の数っぽく考える](https://atcoder.jp/contests/code-festival-2016-qualc/submissions/14955267)|
 |||§ 2.3.8.1|exercise|[AGC 017 A - Biscuits](https://atcoder.jp/contests/agc017/tasks/agc017_a)||||[考察、コーナーケース、偶奇性を利用した組み合わせ](https://atcoder.jp/contests/agc017/submissions/14882194) or [DP](https://atcoder.jp/contests/agc017/submissions/14882072)|
 |||§ 2.3.8.1|exercise|[ABC 132 D - Blue and Red Balls](https://atcoder.jp/contests/abc132/tasks/abc132_d)|||[組み合わせ](https://atcoder.jp/contests/abc132/submissions/14168523)|
 |||§ 2.3.8.1|exercise|[ABC 066 D - 11](https://atcoder.jp/contests/abc066/tasks/arc077_b)|||[組み合わせ](https://atcoder.jp/contests/abc066/submissions/14028001)|
