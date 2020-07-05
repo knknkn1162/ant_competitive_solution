@@ -349,11 +349,13 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.3.8.1|exercise|[ABC 089 C - March](https://atcoder.jp/contests/abc089/tasks/abc089_c)|||[それぞれの組み合わせ(bit全探索)に対して場合の数](https://atcoder.jp/contests/abc089/submissions/13980401)|
 |o||§ 2.3.8.1|exercise|[ABC 065 C - Reconciled?](https://atcoder.jp/contests/abc065/tasks/arc076_a)||||[考察、場合の数、MECEに](https://atcoder.jp/contests/abc065/submissions/14901397)|
 |o||§ 2.3.8.1|exercise|[AGC 031 A - Colorful Subsequence](https://atcoder.jp/contests/agc031/tasks/agc031_a)||||[場合の数(約数の個数の数え方に似てる), 文字列のmap](https://atcoder.jp/contests/agc031/submissions/14901849)|
+|o|||§ 2.3.8.1|exercise|[CODE FESTIVAL 2016 qual C B - K個のケーキ](https://atcoder.jp/contests/code-festival-2016-qualc/tasks/codefestival_2016_qualC_b)||||[問題文の解釈、構成問題、場合の数っぽく考える](https://atcoder.jp/contests/code-festival-2016-qualc/submissions/14955267)|
 |||§ 2.3.8.1|exercise|[AGC 017 A - Biscuits](https://atcoder.jp/contests/agc017/tasks/agc017_a)||||[考察、コーナーケース、偶奇性を利用した組み合わせ](https://atcoder.jp/contests/agc017/submissions/14882194) or [DP](https://atcoder.jp/contests/agc017/submissions/14882072)|
 |||§ 2.3.8.1|exercise|[ABC 132 D - Blue and Red Balls](https://atcoder.jp/contests/abc132/tasks/abc132_d)|||[組み合わせ](https://atcoder.jp/contests/abc132/submissions/14168523)|
 |||§ 2.3.8.1|exercise|[ABC 066 D - 11](https://atcoder.jp/contests/abc066/tasks/arc077_b)|||[組み合わせ](https://atcoder.jp/contests/abc066/submissions/14028001)|
 |||§ 2.3.8.1|exercise|[ABC 057 D - Maximum Average Sets](https://atcoder.jp/contests/abc057/tasks/abc057_d)|||[組み合わせ(パスカルの三角形)](https://atcoder.jp/contests/abc057/submissions/14083924)|
 |||§ 2.3.8.1|exercise|[ABC 011 D - 大ジャンプ](https://atcoder.jp/contests/abc011/tasks/abc011_4)||||[確率問題、一方向の回数を決め打ちで全列挙、underflowの対処をパスカルの三角形(確率版)で](https://atcoder.jp/contests/abc011/submissions/14797848)|
+|||§ 2.3.8.1|exercise|[ABC 094 D - Binomial Coefficients](https://atcoder.jp/contests/abc094/tasks/arc095_b)|||[パスカルの三角形`(n+1)_C_r > n_C_r`](https://atcoder.jp/contests/abc094/submissions/13923844)|
 |||§ 2.3.8.1|exercise|[ABC 042 D - いろはちゃんとマス目](https://atcoder.jp/contests/abc042/tasks/arc058_b)|||[組み合わせ、実装問題](https://atcoder.jp/contests/abc042/submissions/14223492)|
 |||§ 2.3.8.1|example|重複組み合わせ|||[DP + 累積和](./2.3.8/example.c)|
 |||§ 2.3.8.1|exercise|[Educational DP Contest M - Candies](https://atcoder.jp/contests/dp/tasks/dp_m)|||[DP + 累積和](https://atcoder.jp/contests/dp/submissions/12038653)|
@@ -452,6 +454,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.4.2|exercise|[ABC 053 D - Card Eater](https://atcoder.jp/contests/abc053/tasks/arc068_b)|||[map, 減らせる枚数は2枚](https://atcoder.jp/contests/abc053/submissions/14095470)|
 |||§ 2.4.2|exercise|[第二回全国統一プログラミング王決定戦予選 B - Counting of Trees](https://atcoder.jp/contests/nikkei2019-2-qual/tasks/nikkei2019_2_qual_b)||||[map, 場合の数、コーナーケース](https://atcoder.jp/contests/nikkei2019-2-qual/submissions/14936209)|
 |||§ 2.4.2|exercise|[ABC 096 D - Five, Five Everywhere](https://atcoder.jp/contests/abc096/submissions/13919563)|||[構成問題、発想問題、数学的考察、同じ剰余の数を集める, map](https://atcoder.jp/contests/abc096/submissions/13919563)|
+|||§ 2.4.2|exercise|[ABC 113 C - ID](https://atcoder.jp/contests/abc113/tasks/abc113_c)|||[map, hash(座標圧縮)](https://atcoder.jp/contests/abc113/submissions/13151102)|[map](https://atcoder.jp/contests/abc113/submissions/14953169)|
 |||§ 2.4.2.1|exercise|[ABC 135 D - Digits Parade](https://atcoder.jp/contests/abc135/tasks/abc135_d)||||[区間上の総和総数問題、剰余、map(DPっぽい)](https://atcoder.jp/contests/abc135/submissions/14515284)|
 |||§ 2.4.2.1|exercise|[AGC 023 A - Zero-Sum Ranges](https://atcoder.jp/contests/agc023/tasks/agc023_a)|||[区間上の総和総数問題、累積和をmap, 一方を固定](https://atcoder.jp/contests/agc023/submissions/14078150)|
 |||§ 2.4.2.1|exercise|[ABC 105 D - Candy Distribution](https://atcoder.jp/contests/abc105/tasks/abc105_d)|||[区間上の総和総数問題、累積和をmap](https://atcoder.jp/contests/abc105/submissions/14068116)|
@@ -527,7 +530,6 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.6.7|exercise|[ABC 148 E - Double Factorial](https://atcoder.jp/contests/abc148/submissions/14795165)||||[5が何回登場するかを考える](https://atcoder.jp/contests/abc148/submissions/14795165)|
 |||§ 2.6.7|exercise|[ABC 120 C - Unification](https://atcoder.jp/contests/abc120/tasks/abc120_c)|||[発想問題、考察](https://atcoder.jp/contests/abc120/submissions/13689906)|
 |||§ 2.6.7|exercise|[ABC 139 D - ModSum](https://atcoder.jp/contests/abc139/tasks/abc139_d)|||[数学的考察](https://atcoder.jp/contests/abc139/submissions/11487225)|
-|||§ 2.6.7|exercise|[ABC 094 D - Binomial Coefficients](https://atcoder.jp/contests/abc094/tasks/arc095_b)|||[数学的考察, `(n+1)_C_r > n_C_r`](https://atcoder.jp/contests/abc094/submissions/13923844)|
 |||§ 2.6.7|exercise|[ABC 101 C - Minimization](https://atcoder.jp/contests/abc101/tasks/arc099_a)|||[考察(数列の形によらない)](https://atcoder.jp/contests/abc101/submissions/13770626)|
 |||§ 2.6.7|exercise|[DDCC2020 予選 D - Digit Sum Replace](https://atcoder.jp/contests/ddcc2020-qual/tasks/ddcc2020_qual_d)|||[数学的考察(数字の遷移方法は2パターンのうちどれか)](https://atcoder.jp/contests/ddcc2020-qual/submissions/11700593)|
 |||§ 2.6.7|exercise|[ABC 126 F - XOR Matching](https://atcoder.jp/contests/abc126/tasks/abc126_f)|||[構成問題、数学的考察](https://atcoder.jp/contests/abc126/submissions/13534345)|
@@ -598,8 +600,8 @@ make FILE=0.0.0/abc039_c.cpp
 ||o|§ 3.2.7|exercise|[DPL_4_B コインの組み合わせ II](https://onlinejudge.u-aizu.ac.jp/problems/DPL_4_B)|||[半分全列挙]()|
 ||o|§ 3.2.7|example|[C - String Coloring](https://atcoder.jp/contests/agc026/tasks/agc026_c)|||[]()|
 |||§ 3.2.8|example|座標圧縮|||[座標圧縮](./3.2.8/example.c)|
+|||§ 3.2.8|exercise|[ABC 113 C - ID](https://atcoder.jp/contests/abc113/tasks/abc113_c)|||座標圧縮、see § 2.4.2|
 |||§ 3.2.8|exercise|[ABC 036 C - 座圧](https://atcoder.jp/contests/abc036/tasks/abc036_c)|||[map, hash(座標圧縮)](https://atcoder.jp/contests/abc036/submissions/13150217)|
-|||§ 3.2.8|exercise|[ABC 113 C - ID](https://atcoder.jp/contests/abc113/tasks/abc113_c)|||[map, hash(座標圧縮)](https://atcoder.jp/contests/abc113/submissions/13151102)|
 |||§ 3.2.8|exercise|[DSL_4_A Union of Rectangles](https://onlinejudge.u-aizu.ac.jp/problems/DSL_4_A)|||[座標圧縮, imos法](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DSL_4_A/review/4464721/knknkn1162/C)|
 |||§ 3.2.8|exercise|[JOI 2007 本選 E ペンキの色](https://atcoder.jp/contests/joi2008ho/tasks/joi2008ho_e)|||[座標圧縮、imos法, BFS](https://atcoder.jp/contests/joi2008ho/submissions/13122755)|
 ||o|§ 3.2.8|exercise|[JOI 2012 予選 E 魚の生息範囲](https://atcoder.jp/contests/joi2013yo/tasks/joi2013yo_e)|||[3次元]()|
