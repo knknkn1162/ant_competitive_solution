@@ -69,6 +69,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 1.8.1|exercise|[ABC 054 B - Template Matching](https://atcoder.jp/contests/abc054/tasks/abc054_b)|||[グリッド実装問題、bufferを2倍にしておく](https://atcoder.jp/contests/abc054/submissions/14082029)|
 |||§ 1.8.1|exercise|[ABC 039 D - 画像処理高橋君](https://atcoder.jp/contests/abc039/tasks/abc039_d)|||[グリッド実装問題、チェックを入れるタイミングに注意](https://atcoder.jp/contests/abc039/submissions/14180749)|
 |||§ 1.8.1|exercise|[ABC 069 D - Grid Coloring](https://atcoder.jp/contests/abc069/tasks/arc080_b)|||[構成問題、グリッド実装問題](https://atcoder.jp/contests/abc069/submissions/14026602)|
+|||§ 1.8.1|exercise|[DISCO presents ディスカバリーチャンネル コードコンテスト2020 予選 C - Strawberry Cakes](https://atcoder.jp/contests/ddcc2020-qual/tasks/ddcc2020_qual_c)||||[構成問題、列を固定して走査](https://atcoder.jp/contests/ddcc2020-qual/submissions/14959867)|
 |||§ 1.8.1|exercise|[ABC 051 C - Back and Forth](https://atcoder.jp/contests/abc051/tasks/abc051_c)|||[実装問題、構成問題](https://atcoder.jp/contests/abc051/submissions/14099716)|
 |||§ 1.8.1|exercise|[ABC 109 D - Make Them Even](https://atcoder.jp/contests/abc109/tasks/abc109_d)|||[構成問題、問題文を解釈、実装問題, 右端に寄せる](https://atcoder.jp/contests/abc109/submissions/13685267)|
 |||§ 1.8.1|exercise|[CODE FESTIVAL 2017 qual A B - fLIP](https://atcoder.jp/contests/abc109/tasks/abc109_d)||||[端に寄せて全探索](https://atcoder.jp/contests/code-festival-2017-quala/submissions/14904352)|
