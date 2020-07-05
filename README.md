@@ -28,6 +28,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 1.4.1|exercise|[ABC 067 C - Splitting Pile](https://atcoder.jp/contests/abc067/tasks/arc078_a)||||[総和を先に求めておく](https://atcoder.jp/contests/abc067/submissions/14898778)|
 |||§ 1.4.1|exercise|[ABC 133 D - Rain Flows into Dams](https://atcoder.jp/contests/abc133/tasks/abc133_d)||||[総和からの引き算](https://atcoder.jp/contests/abc133/submissions/14473252)|
 |||§ 1.4.1|exercise|[ABC 093 C - Same Integers](https://atcoder.jp/contests/abc093/tasks/arc094_a)||||[総和からの偶奇性](https://atcoder.jp/contests/abc093/submissions/14923960)|
+|||§ 1.4.1|exercise|[ABC 125 D - Flipping Signs](https://atcoder.jp/contests/abc125/tasks/abc125_d)||||[総和からの引き算](https://atcoder.jp/contests/abc125/submissions/14951305)|
 |||§ 1.4.1|exercise|[ABC 171 E - Red Scarf](https://atcoder.jp/contests/abc171/tasks/abc171_e)||||[総和からの引き算](https://atcoder.jp/contests/abc171/submissions/14716360)|
 |||§ 1.4.1|exercise|[ABC 056 C - Go Home](https://atcoder.jp/contests/abc056/tasks/arc070_a)||||[考察、実装問題、総和](https://atcoder.jp/contests/abc056/submissions/14880967)|
 |||§ 1.4.1|exercise|[CODE FESTIVAL 2016 Final B - Exactly N points](https://atcoder.jp/contests/cf16-final/tasks/codefestival_2016_final_b)||||[総和からの引き算](https://atcoder.jp/contests/cf16-final/submissions/14908024) or [lower bound](https://atcoder.jp/contests/cf16-final/submissions/14907770)|
@@ -137,6 +138,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.1.1|exercise|[ABC 066 B - ss](https://atcoder.jp/contests/abc066/tasks/abc066_b)|||[文字列の全探索](https://atcoder.jp/contests/abc066/submissions/14064944)|
 |||§ 2.1.1|exercise|[キーエンス プログラミング コンテスト 2019 B - KEYENCE String](https://atcoder.jp/contests/keyence2019/tasks/keyence2019_b)||||[全探索](https://atcoder.jp/contests/keyence2019/submissions/14854388)|
 |||§ 2.1.1|exercise|[ABC 074 C - Sugar Water](https://atcoder.jp/contests/abc074/tasks/arc083_a)|||[全探索](https://atcoder.jp/contests/abc074/submissions/14021322)|
+|||§ 2.1.1|exercise|[ABC 057 C - Digits in Multiplication](https://atcoder.jp/contests/abc057/tasks/abc057_c)||||[全探索](https://atcoder.jp/contests/abc057/submissions/14951173)|
 |||§ 2.1.1|exercise|[ABC 011 D - 大ジャンプ](https://atcoder.jp/contests/abc011/tasks/abc011_4)||||確率問題、一方向の回数を決め打ちで全列挙 see § 2.3.8.1|
 |||§ 2.1.1|exercise|[ABC 099 D - Good Grid](https://atcoder.jp/contests/abc099/tasks/abc099_d)|||colorに対して全探索 see § 2.4.2|
 |||§ 2.1.1|exercise|[ABC 096 C - Grid Repainting 2](https://atcoder.jp/contests/abc096/tasks/abc096_c)||||[グリッド実装問題、各マスに対して全探索](https://atcoder.jp/contests/abc096/submissions/14922846)|

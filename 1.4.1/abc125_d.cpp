@@ -39,6 +39,27 @@ void cins(vector<T>& arr) { for(T& e: arr) cin >> e; }
 #endif
 
 
+#define INF (1e+9)
 int main(void) {
+    int num;
+    cin >> num;
+    int signs = 0;
+    int mmin = INF+1;
+    int64_t sum = 0;
+    for(int i = 0; i < num; i++) {
+        int val;
+        cin >> val;
+        if(val < 0) signs++;
+        val = abs(val);
+        mmin = min(val, mmin);
+        sum += val;
+    }
+
+    if(signs%2 == 0) {
+        cout << sum << endl;
+    } else {
+        sum -= 2*mmin;
+        cout << sum << endl;
+    }
     return 0;
 }

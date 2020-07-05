@@ -38,7 +38,25 @@ void cins(vector<T>& arr) { for(T& e: arr) cin >> e; }
 #define ps(arr)
 #endif
 
+int get_digits(int num) {
+    int ans = 0;
+    while(num) {
+        num /= 10;
+        ans++;
+    }
+    return ans;
+}
 
+#define INF 100
 int main(void) {
+    int64_t num;
+    cin >> num;
+    int num_2 = sqrt(0.5 + num);
+    for(int val = num_2; val >= 1; val--) {
+        if(num%val) continue;
+        int val2 = num/val;
+        cout << max(get_digits(val), get_digits(val2)) << endl;
+        return 0;
+    }
     return 0;
 }
