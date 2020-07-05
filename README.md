@@ -174,6 +174,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.1.1|exercise|[JOI 2007 予選 E おせんべい](https://atcoder.jp/contests/joi2008yo/tasks/joi2008yo_e)|||[bit全探索、貪欲法](https://atcoder.jp/contests/joi2008yo/submissions/10734695)|
 |||§ 2.1.1|exercise|[ABC 159 E - Dividing Chocolate](https://atcoder.jp/contests/abc159/tasks/abc159_e)|||[bit全探索、貪欲法](https://atcoder.jp/contests/abc159/submissions/11922152)|
 |||§ 2.1.1|exercise|[ABC 018 D バレンタインデー](https://atcoder.jp/contests/abc018/tasks/abc018_4)|||[bit全探索、貪欲法](https://atcoder.jp/contests/abc018/submissions/12980160)|
+|||§ 2.1.1|exercise|[ABC 147 C - HonestOrUnkind2](https://atcoder.jp/contests/abc147/tasks/abc147_c)||||[bit全探索](https://atcoder.jp/contests/abc147/submissions/15023434)|
 |||§ 2.1.1|exercise|[ABC 031 D - 語呂合わせ](https://atcoder.jp/contests/abc031/tasks/abc031_d)|||[文字列の長さでbit全探索](https://atcoder.jp/contests/abc031/submissions/14197042)|
 |||§ 2.1.1|exercise|[ABC 054 C One-stroke Path](https://atcoder.jp/contests/abc054/tasks/abc054_c)|||[順列全探索](https://atcoder.jp/contests/abc054/submissions/12291613)|
 ||o|§ 2.1.2|example|[POJ No.2386 Lake Counting](http://poj.org/problem?id=2386)|||[DFS]()|
