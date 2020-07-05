@@ -501,6 +501,7 @@ make FILE=0.0.0/abc039_c.cpp
 ||o|§ 2.6.1|example|線分上の格子点の個数|||[]()|
 |||§ 2.6.1|exercise|[ABC 109 C - Skip](https://atcoder.jp/contests/abc109/tasks/abc109_c)|||[GCD](https://atcoder.jp/contests/abc109/submissions/13680345)|
 |||§ 2.6.1|exercise|[ABC 118 C - Monsters Battle Royale](https://atcoder.jp/contests/abc118/tasks/abc118_c)|||[GCD](https://atcoder.jp/contests/abc118/submissions/13571050)|
+|||§ 2.6.1|exercise|[AGC 018 A - Getting Difference](https://atcoder.jp/contests/agc018/tasks/agc018_a)||||[GCD, コーナーケース(K>max)](https://atcoder.jp/contests/agc018/submissions/14957349)|
 |||§ 2.6.1|exercise|[ABC 070 C - Multiple Clocks](https://atcoder.jp/contests/abc070/tasks/abc070_c)||||[順にlcm](https://atcoder.jp/contests/abc070/submissions/14899383)|
 |||§ 2.6.2|exercise|[AOJ NTL_1_E - 拡張ユークリッドの互除法](https://onlinejudge.u-aizu.ac.jp/problems/NTL_1_E)|||[拡張ユークリッド法そのまま](https://onlinejudge.u-aizu.ac.jp/solutions/problem/NTL_1_E/review/4433567/knknkn1162/C)|
 ||o|§ 2.6.3|example|素数判定|||[]()|
