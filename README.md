@@ -653,6 +653,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 3.3.6|exercise|[ABC 142 E - Get Everything](https://atcoder.jp/contests/abc142/tasks/abc142_e)||||[bitDP、配るDP](https://atcoder.jp/contests/abc142/submissions/14794931)|
 |||§ 3.6.1|example|[Jack Straws (POJ No.1127)](http://poj.org/problem?id=1127)|||[]()|
 |||§ 3.6.1|exercise|[ABC 100 D - Patisserie ABC](https://atcoder.jp/contests/abc100/tasks/abc100_d)|||重心計算、see §2.2.4|
+|o||§ 3.6.1|exercise|[AGC 036 A - Triangle](https://atcoder.jp/contests/agc036/tasks/agc036_a)||||[構成問題、座標から三角形の面積、数値誤差に注意](https://atcoder.jp/contests/agc036/submissions/14959015)|
 |||§ 4.2|example|[ABC 048 D - An Ordinary Game](https://atcoder.jp/contests/abc048/tasks/arc064_b)|||[ゲームの必勝法(両端が同じ)](https://atcoder.jp/contests/abc048/submissions/14114061)|
 |||§ 4.2|exercise|[ABC 027 C - 倍々ゲーム](https://atcoder.jp/contests/abc027/tasks/abc027_c)|||[ゲームの必勝法、桁数で戦略が決める](https://atcoder.jp/contests/abc027/submissions/14209748)|
 |||§ 4.4.1|example|[DPL_3_C ヒストグラムの中の最大長方形](https://onlinejudge.u-aizu.ac.jp/problems/DPL_3_C)|||[stack](https://onlinejudge.u-aizu.ac.jp/solutions/problem/DPL_3_C/review/4517877/knknkn1162/C)|
