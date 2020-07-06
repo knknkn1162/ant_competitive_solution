@@ -92,6 +92,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 1.8.1|exercise|[ABC 093 D - Worst Case](https://atcoder.jp/contests/abc093/tasks/arc094_b)|||[コーナーケースに注意して実装](https://atcoder.jp/contests/abc093/submissions/13979986) or [二分探索]()|
 |||§ 1.8.1|exercise|[第二回全国統一プログラミング王決定戦予選 B - Counting of Trees](https://atcoder.jp/contests/nikkei2019-2-qual/tasks/nikkei2019_2_qual_b)||||コーナーケースに注意して実装 see § 2.4.2|
 |||§ 1.8.1|exercise|[ABC 090 C - Flip,Flip, and Flip......](https://atcoder.jp/contests/abc090/tasks/arc091_a)|||[N,Mが2以下の場合のコーナーケースに注意して実装](https://atcoder.jp/contests/abc090/submissions/14058987)|
+|||§ 1.8.1|exercise|[CODE FESTIVAL 2017 qual C C - Inserting 'x'](https://atcoder.jp/contests/code-festival-2017-qualc/tasks/code_festival_2017_qualc_c)||||コーナーケース see § 2.4.2|
 |||§ 1.8.1|exercise|[AOJ 1149 - ケーキカット](https://onlinejudge.u-aizu.ac.jp/problems/1149)|||[実装問題、連結リスト](https://onlinejudge.u-aizu.ac.jp/solutions/problem/1149/review/4321489/knknkn1162/C)|
 |||§ 1.8.2|exercise|[ABC 092 D - Grid Components](https://atcoder.jp/contests/abc092/tasks/arc093_b)|||[構成問題、発想問題(パズル)](https://atcoder.jp/contests/abc092/submissions/13970569)|
 |||§ 1.8.2|exercise|[キーエンス プログラミング コンテスト 2020 C - Subarray Sum](https://atcoder.jp/contests/keyence2020/tasks/keyence2020_c)||||[構成問題、考察](https://atcoder.jp/contests/keyence2020/submissions/14894946)|
@@ -357,6 +358,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.3.8.1|exercise|[AGC 017 A - Biscuits](https://atcoder.jp/contests/agc017/tasks/agc017_a)||||[考察、コーナーケース、偶奇性を利用した組み合わせ](https://atcoder.jp/contests/agc017/submissions/14882194) or [DP](https://atcoder.jp/contests/agc017/submissions/14882072)|
 |||§ 2.3.8.1|exercise|[ABC 132 D - Blue and Red Balls](https://atcoder.jp/contests/abc132/tasks/abc132_d)|||[組み合わせ](https://atcoder.jp/contests/abc132/submissions/14168523)|
 |||§ 2.3.8.1|exercise|[ABC 066 D - 11](https://atcoder.jp/contests/abc066/tasks/arc077_b)|||[組み合わせ](https://atcoder.jp/contests/abc066/submissions/14028001)|
+|||§ 2.3.8.1|exercise|[ABC 145 D - Knight](https://atcoder.jp/contests/abc145/tasks/abc145_d)||||[一方を固定して全探索、組み合わせ、逆元](https://atcoder.jp/contests/abc145/submissions/15044358)|
 |||§ 2.3.8.1|exercise|[ABC 057 D - Maximum Average Sets](https://atcoder.jp/contests/abc057/tasks/abc057_d)|||[組み合わせ(パスカルの三角形)](https://atcoder.jp/contests/abc057/submissions/14083924)|
 |||§ 2.3.8.1|exercise|[ABC 011 D - 大ジャンプ](https://atcoder.jp/contests/abc011/tasks/abc011_4)||||[確率問題、一方向の回数を決め打ちで全列挙、underflowの対処をパスカルの三角形(確率版)で](https://atcoder.jp/contests/abc011/submissions/14797848)|
 |||§ 2.3.8.1|exercise|[ABC 094 D - Binomial Coefficients](https://atcoder.jp/contests/abc094/tasks/arc095_b)|||[パスカルの三角形`(n+1)_C_r > n_C_r`](https://atcoder.jp/contests/abc094/submissions/13923844)|
@@ -442,6 +444,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.4.2|exercise|[ABC 091 B Two Colors Card Game](https://atcoder.jp/contests/abc091/tasks/abc091_b)|||[文字列のmap](https://atcoder.jp/contests/abc091/submissions/8001652)|
 |||§ 2.4.2|exercise|[AGC 028 A - Two Abbreviations](https://atcoder.jp/contests/agc028/tasks/agc028_a)||||[文字列のmap](https://atcoder.jp/contests/agc028/submissions/14895895)|
 |||§ 2.4.2|exercise|[ABC 058 C - 怪文書](https://atcoder.jp/contests/abc058/tasks/arc071_a)||||[辞書順最小、文字列のmap](https://atcoder.jp/contests/abc058/submissions/14899773)|
+|o||§ 2.4.2|exercise|[CODE FESTIVAL 2017 qual C C - Inserting 'x'](https://atcoder.jp/contests/code-festival-2017-qualc/tasks/code_festival_2017_qualc_c)||||[文字列のmap、コーナーケース(xx)](https://atcoder.jp/contests/code-festival-2017-qualc/submissions/15043853)|
 |||§ 2.4.2|exercise|[ABC 098 B - Cut and Count](https://atcoder.jp/contests/abc098/tasks/abc098_b)|||[map](https://atcoder.jp/contests/abc098/submissions/13929585)|
 |||§ 2.4.2|exercise|[ABC 081 C - Not so Diverse](https://atcoder.jp/contests/abc081/tasks/arc086_a)|||[map, ソート](https://atcoder.jp/contests/abc081/submissions/14003881)|
 |||§ 2.4.2|exercise|[ABC 171 D - Replacing](https://atcoder.jp/contests/abc171/tasks/abc171_d)||||[map, 総和をメモ](https://atcoder.jp/contests/abc171/submissions/14716878)|
