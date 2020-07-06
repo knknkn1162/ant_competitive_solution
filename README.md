@@ -268,6 +268,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.2.6|exercise|[ABC 125 C - GCD on Blackboard](https://atcoder.jp/contests/abc125/tasks/abc125_c)|||[累積和、逆累積和](https://atcoder.jp/contests/abc125/submissions/13928488)|
 |||§ 2.2.6|exercise|[ABC 095 D - Static Sushi](https://atcoder.jp/contests/abc095/tasks/arc096_b)|||[環状、累積和、逆累積和](https://atcoder.jp/contests/abc095/submissions/13928203)|
 |||§ 2.2.6|exercise|[ARC 098 C - Attention](https://atcoder.jp/contests/arc098/tasks/arc098_a)||||[逆累積和](https://atcoder.jp/contests/arc098/submissions/14916234) or [累積和](https://atcoder.jp/contests/arc098/submissions/14916725)|
+|o||§ 2.2.6|exercise|[Tenka1 Programmer Beginner Contest 2019 C - Stones](https://atcoder.jp/contests/tenka1-2019-beginner/tasks/tenka1_2019_c)||||[累積和](https://atcoder.jp/contests/tenka1-2019-beginner/submissions/15042707) or [逆累積和]()|
 ||o|§ 2.2.6|exercise|[ABC 005 D - おいしいたこ焼きの焼き方](https://atcoder.jp/contests/abc005/tasks/abc005_4)|||[二次元累積和]()|
 |||§ 2.2.6|exercise|[JOI 2011 本選 1 - 惑星探査](https://atcoder.jp/contests/joi2011ho/tasks/joi2011ho1)|||[二次元累積和](https://atcoder.jp/contests/joi2011ho/submissions/11340451)|
 |||§ 2.2.6|exercise|[GigaCode 2019 D - 家の建設](https://atcoder.jp/contests/gigacode-2019/tasks/gigacode_2019_d)|||[二次元累積和](https://atcoder.jp/contests/gigacode-2019/submissions/11350327)|
