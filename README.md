@@ -236,6 +236,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.2.4|exercise|[Square869120Contest #6 B - AtCoder Markets](https://atcoder.jp/contests/s8pc-6/tasks/s8pc_6_b)|||[線上の点問題、発想問題、全探索(要工夫),中央値](https://atcoder.jp/contests/s8pc-6/submissions/10662359)|
 |||§ 2.2.4|exercise|[ABC 107 C - Candles](https://atcoder.jp/contests/abc107/tasks/arc101_a)|||線上の点問題、see §1.9.1|
 |||§ 2.2.4|exercise|[ABC 117 C - Streamline](https://atcoder.jp/contests/abc117/tasks/abc117_c)|||[線上の点問題、発想問題、区間のソート -> 貪欲](https://atcoder.jp/contests/abc117/submissions/13594719)|
+||||2.2.4|exercise|[ARC 067 D - Walk and Teleport](https://atcoder.jp/contests/arc067/tasks/arc067_b)||||[線上の点問題、ソート、貪欲](https://atcoder.jp/contests/arc067/submissions/15044531)
 |||§ 2.2.4|exercise|[ABC 153 F - Silver Fox vs Monster](https://atcoder.jp/contests/abc153/tasks/abc153_f)|||線上の点問題、see § 3.3.1|
 |||§ 2.2.4|exercise|[AOJ ALDS1_15_B 有理ナップサック問題](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/all/ALDS1_15_B)|||[貪欲法](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_15_B/review/3980743/knknkn1162/C)|
 |||§ 2.2.4|exercise|[ABC 055 D - Menagerie](https://atcoder.jp/contests/abc055/tasks/arc069_b)|||[構成問題、貪欲法](https://atcoder.jp/contests/abc055/submissions/14089231)|
@@ -359,6 +360,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.3.8.1|exercise|[ABC 132 D - Blue and Red Balls](https://atcoder.jp/contests/abc132/tasks/abc132_d)|||[組み合わせ](https://atcoder.jp/contests/abc132/submissions/14168523)|
 |||§ 2.3.8.1|exercise|[ABC 066 D - 11](https://atcoder.jp/contests/abc066/tasks/arc077_b)|||[組み合わせ](https://atcoder.jp/contests/abc066/submissions/14028001)|
 |||§ 2.3.8.1|exercise|[ABC 145 D - Knight](https://atcoder.jp/contests/abc145/tasks/abc145_d)||||[一方を固定して全探索、組み合わせ、逆元](https://atcoder.jp/contests/abc145/submissions/15044358)|
+|||§ 2.3.8.1|exercise|[ABC 156 D - Bouquet](https://atcoder.jp/contests/abc156/tasks/abc156_d)||||[組み合わせ](https://atcoder.jp/contests/abc156/submissions/11999620)|
 |||§ 2.3.8.1|exercise|[ABC 057 D - Maximum Average Sets](https://atcoder.jp/contests/abc057/tasks/abc057_d)|||[組み合わせ(パスカルの三角形)](https://atcoder.jp/contests/abc057/submissions/14083924)|
 |||§ 2.3.8.1|exercise|[ABC 011 D - 大ジャンプ](https://atcoder.jp/contests/abc011/tasks/abc011_4)||||[確率問題、一方向の回数を決め打ちで全列挙、underflowの対処をパスカルの三角形(確率版)で](https://atcoder.jp/contests/abc011/submissions/14797848)|
 |||§ 2.3.8.1|exercise|[ABC 094 D - Binomial Coefficients](https://atcoder.jp/contests/abc094/tasks/arc095_b)|||[パスカルの三角形`(n+1)_C_r > n_C_r`](https://atcoder.jp/contests/abc094/submissions/13923844)|
