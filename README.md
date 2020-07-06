@@ -592,6 +592,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 3.2.3|exercise|[C - 一次元リバーシ](https://atcoder.jp/contests/abc047/tasks/arc063_a)|||[ランレングス圧縮](https://atcoder.jp/contests/abc047/submissions/14109887)|
 |||§ 3.2.3|exercise|[JOI 2008 本選 1 - 碁石ならべ](https://atcoder.jp/contests/joi2008ho/tasks/joi2008ho_a)|||[stack, ランレングス圧縮](https://atcoder.jp/contests/joi2008ho/submissions/11465819)|
 |||§ 3.2.3|exercise|[JOI 2012 本選 A 電飾](https://atcoder.jp/contests/joi2013ho/tasks/joi2013ho1)|||[stack, ランレングス圧縮](https://atcoder.jp/contests/joi2013ho/submissions/11466663)|
+|o||§ 3.2.3|exercise|[AGC 005 A - STring](https://atcoder.jp/contests/agc005/tasks/agc005_a)||||[stack](https://atcoder.jp/contests/agc005/submissions/15045986)|
 |||§ 3.2.3|exercise|[ABC 140 D - Face Produces Unhappiness](https://atcoder.jp/contests/abc140/submissions/14690147)||||[ランレングス圧縮](https://atcoder.jp/contests/abc140/submissions/14690147)|
 |o||§ 3.2.3|exercise|[ABC 040 A - `><`](https://atcoder.jp/contests/agc040/tasks/agc040_a)||||[ランレングス圧縮、最小の列の考察](https://atcoder.jp/contests/agc040/submissions/14842427)|
 |||§ 3.2.3|exercise|[ABC 124 D - Handstand](https://atcoder.jp/contests/abc124/tasks/abc124_d)|||[ランレングス圧縮](https://atcoder.jp/contests/abc124/submissions/13535422)|
