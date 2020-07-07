@@ -184,6 +184,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.1.2|exercise|[ABC 037 B - バウムテスト](https://atcoder.jp/contests/arc037/tasks/arc037_b)|||[木上のDFS](https://atcoder.jp/contests/arc037/submissions/14048531) or [Union Find木](https://atcoder.jp/contests/arc037/submissions/8527737)|
 |||§ 2.1.2|exercise|[EX20 - 報告書の枚数](https://atcoder.jp/contests/apg4b/tasks/APG4b_cc)||||木上のDFS see misc|
 |||§ 2.1.2|exercise|[ABC 026 C - 高橋君の給料](https://atcoder.jp/contests/abc026/tasks/abc026_c)||||[木上のDFS](https://atcoder.jp/contests/abc026/submissions/14523900)|
+|||§ 2.1.2|exercise|[ABC 075 C - Bridge](https://atcoder.jp/contests/abc075/tasks/abc075_c)|||[複数回DFS](https://atcoder.jp/contests/abc075/submissions/11444607) or [再帰版DFS](https://atcoder.jp/contests/abc075/submissions/11951689) or [複数回Union Find](https://atcoder.jp/contests/abc075/submissions/11441154)|
 |||§ 2.1.2|exercise|[ABC 031 B - 埋め立て](https://atcoder.jp/contests/arc031/tasks/arc031_2)|||[stack版DFS](https://atcoder.jp/contests/arc031/submissions/8516977)|
 |||§ 2.1.2|exercise|[AOJ #1160 Problem B: 島はいくつある？](https://onlinejudge.u-aizu.ac.jp/problems/1160)|||[DFS](https://onlinejudge.u-aizu.ac.jp/solutions/problem/1160/review/4359287/knknkn1162/C)|
 |||§ 2.1.2|exercise|[AGC 007 A - Shik and Stone](https://atcoder.jp/contests/agc007/tasks/agc007_a)||||[DFS](https://atcoder.jp/contests/agc007/submissions/14897253)|
@@ -475,6 +476,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.4.3|exercise|[ATC 001 B Union Find](https://atcoder.jp/contests/atc001/tasks/unionfind_a)|||[Union Find](https://atcoder.jp/contests/atc001/submissions/12844290)|
 |||§ 2.4.3|exercise|[ABC 049 D 連結](https://atcoder.jp/contests/abc049/tasks/arc065_b)|||[union find, hashmap](https://atcoder.jp/contests/abc049/submissions/12697315)|
 |||§ 2.4.3|exercise|[ABC 037 B - バウムテスト](https://atcoder.jp/contests/arc037/tasks/arc037_b)|||see § 2.1.2|
+|||§ 2.4.3|exercise|[ABC 075 C - Bridge](https://atcoder.jp/contests/abc075/tasks/abc075_c)|||複数回Union Find see § 2.1.2|
 |||§ 2.4.3|exercise|[ABC 157 D - Friend Suggestions](https://atcoder.jp/contests/abc157/tasks/abc157_d)|||[Union Find](https://atcoder.jp/contests/abc157/submissions/11931508)|
 |||§ 2.4.3|exercise|[ARC 097 D Equals](https://atcoder.jp/contests/arc097/tasks/arc097_b)|||[スワップ問題、Union Find](https://atcoder.jp/contests/arc097/submissions/12697803)|
 |||§ 2.4.3|exercise|[ARC 036 D 偶数メートル](https://atcoder.jp/contests/arc036/tasks/arc036_d)|||[2×num のUnion Find](https://atcoder.jp/contests/arc036/submissions/12701345)|
