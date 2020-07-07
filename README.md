@@ -96,7 +96,8 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 1.8.1|exercise|[AOJ 1149 - ケーキカット](https://onlinejudge.u-aizu.ac.jp/problems/1149)|||[実装問題、連結リスト](https://onlinejudge.u-aizu.ac.jp/solutions/problem/1149/review/4321489/knknkn1162/C)|
 |||§ 1.8.2|exercise|[ABC 092 D - Grid Components](https://atcoder.jp/contests/abc092/tasks/arc093_b)|||[構成問題、発想問題(パズル)](https://atcoder.jp/contests/abc092/submissions/13970569)|
 |||§ 1.8.2|exercise|[キーエンス プログラミング コンテスト 2020 C - Subarray Sum](https://atcoder.jp/contests/keyence2020/tasks/keyence2020_c)||||[構成問題、考察](https://atcoder.jp/contests/keyence2020/submissions/14894946)|
-|||§ 1.8.2|exercise|[D - Decrease (Contestant ver.)](https://atcoder.jp/contests/abc068/tasks/arc079_b)|||[構成問題、(パズル)](https://atcoder.jp/contests/abc068/submissions/14043921)|
+|||§ 1.8.2|exercise|[ABC 068 D - Decrease (Contestant ver.)](https://atcoder.jp/contests/abc068/tasks/arc079_b)|||[構成問題、(パズル)](https://atcoder.jp/contests/abc068/submissions/14043921)|
+|o||§ 1.8.2|exercise|[AtCoder Petrozavodsk Contest 001 B - Two Arrays](https://atcoder.jp/contests/apc001/tasks/apc001_b)||||[構成問題、bを+1する](https://atcoder.jp/contests/apc001/submissions/15070549)|
 |||§ 1.8.2|exercise|[Tenka1 Programmer Beginner Contest D - Crossing](https://atcoder.jp/contests/tenka1-2018-beginner/tasks/tenka1_2018_d)|||[構成問題、部分集合の要素数を決める, n=1も考慮](https://atcoder.jp/contests/tenka1-2018-beginner/submissions/11702203)|
 ||o|§ 1.8.2|exercise|[ABC 101 D - Snuke Numbers](https://atcoder.jp/contests/abc101/tasks/arc099_b)|||[構成問題]()|
 |||§ 1.9.1|exercise|[ARC 073 C - Sentou](https://atcoder.jp/contests/arc073/tasks/arc073_a)||||[https://atcoder.jp/contests/arc073/submissions/14854677](https://atcoder.jp/contests/arc073/submissions/14854677)|
@@ -518,7 +519,8 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.6.3|exercise|[ABC 134 D - Preparing Boxes](https://atcoder.jp/contests/abc134/tasks/abc134_d)||||[逆順から貪欲法で、約数](https://atcoder.jp/contests/abc134/submissions/14474915)|
 |||§ 2.6.3|exercise|[ABC 136 E - Max GCD](https://atcoder.jp/contests/abc136/tasks/abc136_e)||||[約数、ソート](https://atcoder.jp/contests/abc136/submissions/14520534)|
 |||§ 2.6.3|exercise|[CADDi 2018 C - Product and GCD](https://atcoder.jp/contests/caddi2018/tasks/caddi2018_a)||||[約数](https://atcoder.jp/contests/caddi2018/submissions/14907219)|
-|||§ 2.6.3|exercise|[ABC 052 C - Factors of Factorial](https://atcoder.jp/contests/abc052/tasks/arc067_a)|||[素因数分解、約数の個数](https://atcoder.jp/contests/abc052/submissions/12487335)|
+|||§ 2.6.3|exercise|[diverta 2019 Programming Contest D - DivRem Number](https://atcoder.jp/contests/diverta2019/tasks/diverta2019_d)||||[約数](https://atcoder.jp/contests/diverta2019/submissions/15070797)|
+|o||§ 2.6.3|exercise|[ABC 052 C - Factors of Factorial](https://atcoder.jp/contests/abc052/tasks/arc067_a)|||[素因数分解、約数の個数](https://atcoder.jp/contests/abc052/submissions/12487335)|
 |||§ 2.6.3|exercise|[ABC 142 D - Disjoint Set of Common Divisors](https://atcoder.jp/contests/abc142/tasks/abc142_d)||||[GCD, 素因数分解、型に注意](https://atcoder.jp/contests/abc142/tasks/abc142_d)|
 |||§ 2.6.3|exercise|[ABC 114 D - 756](https://atcoder.jp/contests/abc114/tasks/abc114_d)|||[素因数分解、再帰関数](https://atcoder.jp/contests/abc114/submissions/13678388)|
 |||§ 2.6.3|exercise|[ABC 172 D - Sum of Divisors](https://atcoder.jp/contests/abc172/tasks/abc172_d)||||[発想問題、横方向に見る、約数を横に数え上げ](https://atcoder.jp/contests/abc172/submissions/14779546) or [エラトステネスのふるいの応用](https://atcoder.jp/contests/abc172/submissions/14766353)|

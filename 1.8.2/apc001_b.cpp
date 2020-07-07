@@ -15,7 +15,6 @@
 #include <unordered_set> // unordered_set
 #include <bitset> // bitset
 #include <cctype> // isupper, islower, isdigit, toupper, tolower
-#include <cmath> // sqrt
 #define _GLIBCXX_DEBUG // check []
 #define DIVISOR 1000000007
 
@@ -40,5 +39,23 @@ void cins(vector<T>& arr) { for(T& e: arr) cin >> e; }
 
 
 int main(void) {
+    int num;
+    cin >> num;
+    vector<int> arr(num);
+    vector<int> brr(num);
+    cins(arr);
+    cins(brr);
+
+    int64_t as = 0;
+    int64_t bs = 0;
+    for(int i = 0; i < num; i++) {
+        if(arr[i] < brr[i]) {
+            bs += (brr[i] - arr[i])/2;
+        } else {
+            as += (arr[i] - brr[i]);
+        }
+    }
+    debug("%ld <- %ld\n", bs, as);
+    cout << (bs - as >= 0 ? "Yes" : "No") << endl;
     return 0;
 }
