@@ -245,6 +245,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.2.4|exercise|[AGC 032 A - Limited Insertion](https://atcoder.jp/contests/agc032/tasks/agc032_a)||||[シュミレート、後ろから貪欲に削除する](https://atcoder.jp/contests/agc032/submissions/14912395)|
 |||§ 2.2.4|exercise|[ABC 083 C - Multiple Gift](https://atcoder.jp/contests/abc083/tasks/arc088_a)|||[貪欲](https://atcoder.jp/contests/abc083/submissions/12356089)|
 |||§ 2.2.4|exercise|[AGC 013 A - Sorted Arrays](https://atcoder.jp/contests/agc013/tasks/agc013_a)||||[貪欲に処理](https://atcoder.jp/contests/agc013/submissions/14920098)|
+|||§ 2.2.4|exercise|[CODE FESTIVAL 2016 qual A C - 次のアルファベット](https://atcoder.jp/contests/code-festival-2016-quala/tasks/codefestival_2016_qualA_c)||||[貪欲に更新](https://atcoder.jp/contests/code-festival-2016-quala/submissions/15080227)|
 |||§ 2.2.4|exercise|[ABC 046 C - AtCoDeerくんと選挙速報](https://atcoder.jp/contests/abc046/tasks/arc062_a)|||[貪欲に値を更新](https://atcoder.jp/contests/abc046/submissions/14110210)|
 |||§ 2.2.4|exercise|[ABC 046 D - AtCoDeerくんと変なじゃんけん](https://atcoder.jp/contests/abc046/tasks/arc062_b)|||[貪欲に値を更新](https://atcoder.jp/contests/abc046/submissions/14113004)|
 |||§ 2.2.4|exercise|[ABC 072 D - Derangement](https://atcoder.jp/contests/abc072/tasks/arc082_b)|||[スワップ問題、貪欲で](https://atcoder.jp/contests/abc072/submissions/14043190)|
