@@ -129,6 +129,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 1.9.3|exercise|[AGC 017 A - Biscuits](https://atcoder.jp/contests/agc017/tasks/agc017_a)||||偶奇性を利用 see § 2.3.8.1|
 |||§ 1.10.1|exercise|[AGC 015 B - Evilator](https://atcoder.jp/contests/agc015/tasks/agc015_b)||||[一方を固定すると、O(1)で分かる](https://atcoder.jp/contests/agc015/submissions/14880760)|
 |||§ 2.1.0|exercise|[ABC 114 C - 755](https://atcoder.jp/contests/abc114/tasks/abc114_c)|||[再帰関数(DFS)](https://atcoder.jp/contests/abc114/submissions/13677743)|
+|||§ 2.1.0|exercise|[パナソニックプログラミングコンテスト2020 D - String Equivalence](https://atcoder.jp/contests/panasonic2020/tasks/panasonic2020_d)||||[規則性を見つける、DFS](https://atcoder.jp/contests/panasonic2020/submissions/15083073)|
 |||§ 2.1.0|exercise|[ABC 161 D - Lunlun Number](https://atcoder.jp/contests/abc161/tasks/abc161_d)|||[DFSで条件を満たす数をstackに](https://atcoder.jp/contests/abc161/submissions/13688600)|
 |||§ 2.1.0|exercise|[ABC 029 C - Brute-force Attack](https://atcoder.jp/contests/abc029/tasks/abc029_c)|||[DFSで全列挙](https://atcoder.jp/contests/abc029/tasks/abc029_c)|
 |||§ 2.1.0|exercise|[ABC 015 C - 高橋くんのバグ探し](https://atcoder.jp/contests/abc015/tasks/abc015_3)||||[DFSで全列挙](https://atcoder.jp/contests/abc015/submissions/14716148)|
