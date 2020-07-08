@@ -40,6 +40,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 1.6.1|exercise|[ABC 121 C - Energy Drink Collector](https://atcoder.jp/contests/abc121/tasks/abc121_c)|||[安い順にソート](https://atcoder.jp/contests/abc121/submissions/13685701)|
 |||§ 1.6.1|exercise|[ABC 115 C - Christmas Eve](https://atcoder.jp/contests/abc115/tasks/abc115_c)|||[ソート](https://atcoder.jp/contests/abc115/submissions/13676383)|
 |||§ 1.6.1|exercise|[ABC 128 B - Guidebook](https://atcoder.jp/contests/abc128/tasks/abc128_b)|||[ソート](https://atcoder.jp/contests/abc128/submissions/13587446)|
+|||§ 1.6.1|exercise|[Tenka1 Programmer Beginner Contest C - Align](https://atcoder.jp/contests/tenka1-2018-beginner/tasks/tenka1_2018_c)||||[ソート](https://atcoder.jp/contests/tenka1-2018-beginner/submissions/15083451)|
 |||§ 1.6.1|exercise|[ABC 003 C - AtCoderプログラミング講座](https://atcoder.jp/contests/abc003/tasks/abc003_3)||||[考察、昇順にソート、`[num-limit, num)`で足し合わせ](https://atcoder.jp/contests/abc003/submissions/14783262)
 |||§ 1.6.1|exercise|[JOI 2011 予選 C 最高のピザ](https://atcoder.jp/contests/joi2012yo/tasks/joi2012yo_c)||||[降順にソート、maxを都度更新](https://atcoder.jp/contests/joi2012yo/submissions/14710157)|
 |||§ 1.6.1|example|[ABC 082 B - Two Anagrams](https://atcoder.jp/contests/abc082/tasks/abc082_b)|||[2つの文字列をそれぞれ昇順、降順にソート](https://atcoder.jp/contests/abc082/submissions/14002733)|
