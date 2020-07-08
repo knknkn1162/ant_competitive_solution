@@ -465,6 +465,8 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.4.2|exercise|[ABC 053 D - Card Eater](https://atcoder.jp/contests/abc053/tasks/arc068_b)|||[map, 減らせる枚数は2枚](https://atcoder.jp/contests/abc053/submissions/14095470)|
 |||§ 2.4.2|exercise|[第二回全国統一プログラミング王決定戦予選 B - Counting of Trees](https://atcoder.jp/contests/nikkei2019-2-qual/tasks/nikkei2019_2_qual_b)||||[map, 場合の数、コーナーケース](https://atcoder.jp/contests/nikkei2019-2-qual/submissions/14936209)|
 |||§ 2.4.2|exercise|[ABC 096 D - Five, Five Everywhere](https://atcoder.jp/contests/abc096/submissions/13919563)|||[構成問題、発想問題、数学的考察、同じ剰余の数を集める, map](https://atcoder.jp/contests/abc096/submissions/13919563)|
+|o||§ 2.4.2|exercise|[diverta 2019 Programming Contest 2 B - Picking Up](https://atcoder.jp/contests/diverta2019-2/tasks/diverta2019_2_b)||||[mapで同じ長さの辺を数える(難)](https://atcoder.jp/contests/diverta2019-2/submissions/15079643)|
+|||§ 2.4.2|exercise|[ABC 152 D - Handstand 2](https://atcoder.jp/contests/abc152/tasks/abc152_d)||||[map](https://atcoder.jp/contests/abc152/submissions/15079986)|
 |||§ 2.4.2|exercise|[ABC 113 C - ID](https://atcoder.jp/contests/abc113/tasks/abc113_c)|||[map, hash(座標圧縮)](https://atcoder.jp/contests/abc113/submissions/13151102)|[map](https://atcoder.jp/contests/abc113/submissions/14953169)|
 |||§ 2.4.2.1|exercise|[ABC 135 D - Digits Parade](https://atcoder.jp/contests/abc135/tasks/abc135_d)||||[区間上の総和総数問題、剰余、map(DPっぽい)](https://atcoder.jp/contests/abc135/submissions/14515284)|
 |||§ 2.4.2.1|exercise|[AGC 023 A - Zero-Sum Ranges](https://atcoder.jp/contests/agc023/tasks/agc023_a)|||[区間上の総和総数問題、累積和をmap, 一方を固定](https://atcoder.jp/contests/agc023/submissions/14078150)|
