@@ -151,6 +151,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||§ 2.1.1|exercise|[ABC 096 C - Grid Repainting 2](https://atcoder.jp/contests/abc096/tasks/abc096_c)||||[グリッド実装問題、各マスに対して全探索](https://atcoder.jp/contests/abc096/submissions/14922846)|
 |||§ 2.1.1|exercise|[CODE FESTIVAL 2017 qual A B - fLIP](https://atcoder.jp/contests/abc109/tasks/abc109_d)||||端に寄せて全探索、see § 1.8.1|
 |o|o|§ 2.1.1|exercise|[ABC 013 C - 節制](https://atcoder.jp/contests/abc013/tasks/abc013_3)||||[消費を後回し、工夫して全探索]()|
+|o||§ 2.1.1|exercise|[Tenka1 Programmer Contest C - 4/N](https://atcoder.jp/contests/tenka1-2017/tasks/tenka1_2017_c)||||[式を展開してO(N^2)の形に](https://atcoder.jp/contests/tenka1-2017/submissions/15090827)|
 |||§ 2.1.1|exercise|[ABC 031 C - 数列ゲーム](https://atcoder.jp/contests/abc031/tasks/abc031_c)|||[問題文の解釈、全探索](https://atcoder.jp/contests/abc031/submissions/14186421)|
 |||§ 2.1.1|exercise|[ABC 042 C - こだわり者いろはちゃん](https://atcoder.jp/contests/abc042/tasks/arc058_a)|||[全探索](https://atcoder.jp/contests/abc042/submissions/14172165)|
 |||§ 2.1.1|exercise|[ABC 006 A - Prefix and Suffix](https://atcoder.jp/contests/agc006/tasks/agc006_a)||||[考察、全探索](https://atcoder.jp/contests/agc006/submissions/14855436)|
