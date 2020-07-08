@@ -644,6 +644,7 @@ make FILE=0.0.0/abc039_c.cpp
 ||o|§ 3.3.1|exercise|[ABC 136 F - Enclosed Points](https://atcoder.jp/contests/abc136/tasks/abc136_f)|||[]()|
 ||o|§ 3.3.1|exercise|[JOI 2011 本選 5 - 微生物実験]()|||[]()|
 |||§ 3.3.2|example|[バブルソートの交換回数(反転数)](https://onlinejudge.u-aizu.ac.jp/problems/ALDS1_5_D)|||[反転数、座標圧縮、セグメント木](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_5_D/review/4478150/knknkn1162/C) or [配列の逆順に反転数を導出](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_5_D/review/4521670/knknkn1162/C)|
+|o||§ 3.3.2|exercise|[AGC 034 B - ABC](https://atcoder.jp/contests/agc034/tasks/agc034_b)||||[転倒数、累積値を利用](https://atcoder.jp/contests/agc034/submissions/15081404)|
 |||§ 3.3.2|exercise|[Indeedなう 2015 E Line up!](https://atcoder.jp/contests/indeednow-finalb-open/tasks/indeednow_2015_finalb_e)|||[座標圧縮, 転倒数、セグメント木](https://atcoder.jp/contests/indeednow-finalb-open/submissions/13257883)|
 |||§ 3.3.2|exercise|[第一回日本最強プログラマー学生選手権-予選- B - Kleene Inversion](https://atcoder.jp/contests/jsc2019-qual/tasks/jsc2019_qual_b)||||[配列数の2倍、転倒数、セグメント木](https://atcoder.jp/contests/jsc2019-qual/submissions/14933433)|
 ||o|§ 3.3.2|exercise|[AOJ 0365 - 文字列スワップ](https://onlinejudge.u-aizu.ac.jp/problems/0365)|||[スワップ問題、]()|
