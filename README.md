@@ -189,7 +189,7 @@ make FILE=0.0.0/abc039_c.cpp
 ||||§ 2.1.1|exercise|[JOI 2007 予選 E おせんべい](https://atcoder.jp/contests/joi2008yo/tasks/joi2008yo_e)|||[bit全探索、貪欲法](https://atcoder.jp/contests/joi2008yo/submissions/10734695)|
 ||||§ 2.1.1|exercise|[ABC 079 C - Train Ticket](https://atcoder.jp/contests/abc079/tasks/abc079_c)||||[bit全探索](https://atcoder.jp/contests/abc079/submissions/15116867)|
 ||||§ 2.1.1|exercise|[ABC 045 C - たくさんの数式](https://atcoder.jp/contests/abc045/tasks/arc061_a)||||[bit全探索](https://atcoder.jp/contests/abc045/submissions/15084325)|
-|30~|o||§ 2.1.1|exercise|[ABC 104 C - All Green](https://atcoder.jp/contests/abc104/tasks/abc104_c)||||[考察、bit全探索](https://atcoder.jp/contests/abc104/submissions/15117588)|
+|30~|o||§ 2.1.1|exercise|[ABC 104 C - All Green](https://atcoder.jp/contests/abc104/tasks/abc104_c)||||[考察、bit全探索、貪欲](https://atcoder.jp/contests/abc104/submissions/15117588)|
 ||||§ 2.1.1|exercise|[ABC 159 E - Dividing Chocolate](https://atcoder.jp/contests/abc159/tasks/abc159_e)|||[bit全探索、貪欲法](https://atcoder.jp/contests/abc159/submissions/11922152)|
 ||||§ 2.1.1|exercise|[ABC 018 D バレンタインデー](https://atcoder.jp/contests/abc018/tasks/abc018_4)|||[bit全探索、貪欲法](https://atcoder.jp/contests/abc018/submissions/12980160)|
 ||||§ 2.1.1|exercise|[ABC 147 C - HonestOrUnkind2](https://atcoder.jp/contests/abc147/tasks/abc147_c)||||[bit全探索](https://atcoder.jp/contests/abc147/submissions/15023434)|
