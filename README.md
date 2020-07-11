@@ -149,6 +149,7 @@ make FILE=0.0.0/abc039_c.cpp
 ||||§ 2.1.1|exercise|[ABC 043 C - いっしょ](https://atcoder.jp/contests/abc043/tasks/arc059_a)|||[平均](https://atcoder.jp/contests/abc043/submissions/14216611)|[全探索](https://atcoder.jp/contests/arc059/submissions/14912801)|
 ||||§ 2.1.1|exercise|[ABC 057 B - Checkpoints](https://atcoder.jp/contests/abc057/tasks/abc057_b)||||[全探索](https://atcoder.jp/contests/abc057/submissions/14848757)|
 ||||§ 2.1.1|exercise|[ABC 060 B - Choose Integers](https://atcoder.jp/contests/abc060/tasks/abc060_b)||||[A,Bが小さいので、候補を全探索](https://atcoder.jp/contests/abc060/submissions/14923023)|
+||||§ 2.1.1|exercise|[ARC 034 B - 方程式](https://atcoder.jp/contests/arc034/tasks/arc034_2)||||[候補を絞って全探索](https://atcoder.jp/contests/arc034/submissions/15131143)|
 ||||§ 2.1.1|exercise|[ARC 002 C - コマンド入力](https://atcoder.jp/contests/arc002/tasks/arc002_3)||||[候補を全探索](https://atcoder.jp/contests/arc002/submissions/15130611)|
 ||||§ 2.1.1|exercise|[ABC 066 B - ss](https://atcoder.jp/contests/abc066/tasks/abc066_b)|||[文字列の全探索](https://atcoder.jp/contests/abc066/submissions/14064944)|
 ||||§ 2.1.1|exercise|[キーエンス プログラミング コンテスト 2019 B - KEYENCE String](https://atcoder.jp/contests/keyence2019/tasks/keyence2019_b)||||[全探索](https://atcoder.jp/contests/keyence2019/submissions/14854388)|
@@ -495,8 +496,9 @@ make FILE=0.0.0/abc039_c.cpp
 ||||§ 2.4.2.1|exercise|[ABC 166 E - This Message Will Self-Destruct in 5s](https://atcoder.jp/contests/abc166/tasks/abc166_e)|||[総和総数問題、上限決めてmap、 一方を固定](https://atcoder.jp/contests/abc166/submissions/14064541)|
 ||||§ 2.4.3|example|[POJ #1182 食物連鎖](http://poj.org/problem?id=1182)|||[3×numberのunion find](./2.4.3/poj1182.c)|
 ||||§ 2.4.3|exercise|[ATC 001 B Union Find](https://atcoder.jp/contests/atc001/tasks/unionfind_a)|||[Union Find](https://atcoder.jp/contests/atc001/submissions/12844290)|
-||||§ 2.4.3|exercise|[ABC 049 D 連結](https://atcoder.jp/contests/abc049/tasks/arc065_b)|||[union find, hashmap](https://atcoder.jp/contests/abc049/submissions/12697315)|
+||||§ 2.4.3|exercise|[ABC 049 D 連結](https://atcoder.jp/contests/abc049/tasks/arc065_b)|||[Union Find, hashmap](https://atcoder.jp/contests/abc049/submissions/12697315)|
 ||||§ 2.4.3|exercise|[ABC 037 B - バウムテスト](https://atcoder.jp/contests/arc037/tasks/arc037_b)|||see § 2.1.2|
+|||§ 2.4.3|exercise|[ARC 032 B - 道路工事](https://atcoder.jp/contests/arc032/tasks/arc032_2)||||[Union Find](https://atcoder.jp/contests/arc032/submissions/15130877)|
 ||||§ 2.4.3|exercise|[ABC 075 C - Bridge](https://atcoder.jp/contests/abc075/tasks/abc075_c)|||複数回Union Find see § 2.1.2|
 ||||§ 2.4.3|exercise|[ABC 157 D - Friend Suggestions](https://atcoder.jp/contests/abc157/tasks/abc157_d)|||[Union Find](https://atcoder.jp/contests/abc157/submissions/11931508)|
 ||||§ 2.4.3|exercise|[ARC 097 D Equals](https://atcoder.jp/contests/arc097/tasks/arc097_b)|||[スワップ問題、Union Find](https://atcoder.jp/contests/arc097/submissions/12697803)|
