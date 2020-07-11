@@ -22,7 +22,7 @@ make FILE=0.0.0/abc039_c.cpp
 # Problems & Solutions
 
 |time|revisit|TODO|idx|type|問題名|難易度|備考|方針/解答例(C)|C++|
-|---|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|---|---|---|
 |||o|§ 1.1.1|example|くじ引き|||[半分全列挙]()|
 ||||§ 1.1.1|exercise|[JOI 2007 本選 C ダーツ](https://atcoder.jp/contests/joi2008ho/tasks/joi2008ho_c)|||see § 3.1.1|
 ||||§ 1.3.1|example|[ABC 169 C - Multiplication 3](https://atcoder.jp/contests/abc169/tasks/abc169_c)|||[100倍して整数として計算](https://atcoder.jp/contests/abc169/submissions/13939660)|
