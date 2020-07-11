@@ -619,8 +619,10 @@ make FILE=0.0.0/abc039_c.cpp
 ||||§ 3.2.3|exercise|[C - 一次元リバーシ](https://atcoder.jp/contests/abc047/tasks/arc063_a)|||[ランレングス圧縮](https://atcoder.jp/contests/abc047/submissions/14109887)|
 ||||§ 3.2.3|exercise|[JOI 2008 本選 1 - 碁石ならべ](https://atcoder.jp/contests/joi2008ho/tasks/joi2008ho_a)|||[stack, ランレングス圧縮](https://atcoder.jp/contests/joi2008ho/submissions/11465819)|
 ||||§ 3.2.3|exercise|[JOI 2012 本選 A 電飾](https://atcoder.jp/contests/joi2013ho/tasks/joi2013ho1)|||[stack, ランレングス圧縮](https://atcoder.jp/contests/joi2013ho/submissions/11466663)|
+||||§ 2.2.3|exercise|[ABC 082 D - FT Robot](https://atcoder.jp/contests/abc082/tasks/arc087_b)|||ランレングス圧縮 see § 2.3.1|
 ||o||§ 3.2.3|exercise|[AGC 005 A - STring](https://atcoder.jp/contests/agc005/tasks/agc005_a)||||[stack](https://atcoder.jp/contests/agc005/submissions/15045986)|
 ||||§ 3.2.3|exercise|[ABC 140 D - Face Produces Unhappiness](https://atcoder.jp/contests/abc140/submissions/14690147)||||[ランレングス圧縮](https://atcoder.jp/contests/abc140/submissions/14690147)|
+||||§ 3.2.3|exercise|[ARC 036 B - 山のデータ](https://atcoder.jp/contests/arc036/tasks/arc036_b)||||[ランレングス圧縮](https://atcoder.jp/contests/arc036/submissions/15131397)|
 ||o||§ 3.2.3|exercise|[ABC 040 A - `><`](https://atcoder.jp/contests/agc040/tasks/agc040_a)||||[ランレングス圧縮、最小の列の考察](https://atcoder.jp/contests/agc040/submissions/14842427)|
 ||||§ 3.2.3|exercise|[ABC 124 D - Handstand](https://atcoder.jp/contests/abc124/tasks/abc124_d)|||[ランレングス圧縮](https://atcoder.jp/contests/abc124/submissions/13535422)|
 |||o|§ 3.2.3|exercise|[JOI 2008 本選 C あみだくじ](https://atcoder.jp/contests/joi2009ho/tasks/joi2009ho_c)|||[]()|
@@ -692,6 +694,7 @@ make FILE=0.0.0/abc039_c.cpp
 ||||§ 3.6.1|example|[Jack Straws (POJ No.1127)](http://poj.org/problem?id=1127)|||[]()|
 ||||§ 3.6.1|exercise|[ABC 100 D - Patisserie ABC](https://atcoder.jp/contests/abc100/tasks/abc100_d)|||重心計算、see §2.2.4|
 ||o||§ 3.6.1|exercise|[AGC 036 A - Triangle](https://atcoder.jp/contests/agc036/tasks/agc036_a)||||[構成問題、座標から三角形の面積、数値誤差に注意](https://atcoder.jp/contests/agc036/submissions/14959015)|
+|||o|§ 3.6.1|exercise|[ARC 042 B - アリの高橋くん](https://atcoder.jp/contests/arc042/tasks/arc042_b)||||[]()|
 ||||§ 4.2|example|[ABC 048 D - An Ordinary Game](https://atcoder.jp/contests/abc048/tasks/arc064_b)|||[ゲームの必勝法(両端が同じ)](https://atcoder.jp/contests/abc048/submissions/14114061)|
 ||||§ 4.2|exercise|[ABC 027 C - 倍々ゲーム](https://atcoder.jp/contests/abc027/tasks/abc027_c)|||[ゲームの必勝法、桁数で戦略が決める](https://atcoder.jp/contests/abc027/submissions/14209748)|
 ||||§ 4.2|exercise|[CADDi 2018 D - Harlequin](https://atcoder.jp/contests/caddi2018/tasks/caddi2018_b)||||[ゲームの必勝法、偶数のみで負け](https://atcoder.jp/contests/caddi2018/submissions/15089626)|
