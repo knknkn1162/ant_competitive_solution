@@ -71,7 +71,6 @@ make FILE=0.0.0/abc039_c.cpp
 ||||§ 1.8.1|exercise|[ABC 033 C - 数式の書き換え](https://atcoder.jp/contests/abc033/tasks/abc033_c)|||[文字列のパース、実装問題](https://atcoder.jp/contests/abc033/submissions/14209297)|
 ||||§ 1.8.1|exercise|[AOJ 1193 - 連鎖消滅パズル](https://onlinejudge.u-aizu.ac.jp/problems/1193)|||[落ちゲー、実装問題、解くだけ](https://onlinejudge.u-aizu.ac.jp/solutions/problem/1193/review/4320693/knknkn1162/C)|
 ||||§ 1.8.1|exercise|[Square869120Contest #3 B - 石落としゲーム](https://atcoder.jp/contests/s8pc-3/tasks/s8pc_3_b)|||[落ちゲー, 実装問題、(WIDTH)×(HEIGHT-1)個シュミレート](https://atcoder.jp/contests/s8pc-3/submissions/11477560)|
-||||§ 1.8.1|exercise|[ARC 040 B - 直線塗り](https://atcoder.jp/contests/arc040/tasks/arc040_b)||||[考察、実装問題、線形に走査](https://atcoder.jp/contests/arc040/submissions/15132852)|
 ||||§ 1.8.1|exercise|[ABC 107 B - Grid Compression](https://atcoder.jp/contests/abc107/tasks/abc107_b)|||[グリッド実装問題](https://atcoder.jp/contests/abc107/submissions/13689326)|
 ||||§ 1.8.1|exercise|[ABC 075 B - Minesweeper](https://atcoder.jp/contests/abc075/tasks/abc075_b)||||[グリッド実装問題](https://atcoder.jp/contests/abc075/submissions/14923287)|
 ||||§ 1.8.1|exercise|[ABC 054 B - Template Matching](https://atcoder.jp/contests/abc054/tasks/abc054_b)|||[グリッド実装問題、bufferを2倍にしておく](https://atcoder.jp/contests/abc054/submissions/14082029)|
@@ -256,6 +255,8 @@ make FILE=0.0.0/abc039_c.cpp
 ||||§ 2.2.4|example|[POJ 3069 Saruman's Army](http://poj.org/problem?id=3069)|||[線上の点問題、昇順にソート->貪欲](./2.2.4/poj3069.c)|
 ||||§ 2.2.4|exercise|[Square869120Contest #6 B - AtCoder Markets](https://atcoder.jp/contests/s8pc-6/tasks/s8pc_6_b)|||[線上の点問題、発想問題、全探索(要工夫),中央値](https://atcoder.jp/contests/s8pc-6/submissions/10662359)|
 ||||§ 2.2.4|exercise|[ABC 107 C - Candles](https://atcoder.jp/contests/abc107/tasks/arc101_a)|||線上の点問題、see §1.9.1|
+||||§ 2.2.4|exercise|[ARC 040 B - 直線塗り](https://atcoder.jp/contests/arc040/tasks/arc040_b)||||[考察、線上の点問題](https://atcoder.jp/contests/arc040/submissions/15132852)|
+||||§ 2.2.4|exercise|[ARC 010 B - 超大型連休](https://atcoder.jp/contests/arc010/tasks/arc010_2)||||[線上の点問題](https://atcoder.jp/contests/arc010/submissions/15191776)|
 ||||§ 2.2.4|exercise|[ABC 117 C - Streamline](https://atcoder.jp/contests/abc117/tasks/abc117_c)|||[線上の点問題、発想問題、区間のソート -> 貪欲](https://atcoder.jp/contests/abc117/submissions/13594719)|
 |||||2.2.4|exercise|[ARC 067 D - Walk and Teleport](https://atcoder.jp/contests/arc067/tasks/arc067_b)||||[線上の点問題、ソート、貪欲](https://atcoder.jp/contests/arc067/submissions/15044531)
 ||||§ 2.2.4|exercise|[ABC 153 F - Silver Fox vs Monster](https://atcoder.jp/contests/abc153/tasks/abc153_f)|||線上の点問題、see § 3.3.1|
@@ -626,6 +627,8 @@ make FILE=0.0.0/abc039_c.cpp
 ||o||§ 3.2.3|exercise|[AGC 005 A - STring](https://atcoder.jp/contests/agc005/tasks/agc005_a)||||[stack](https://atcoder.jp/contests/agc005/submissions/15045986)|
 ||||§ 3.2.3|exercise|[ABC 140 D - Face Produces Unhappiness](https://atcoder.jp/contests/abc140/submissions/14690147)||||[ランレングス圧縮](https://atcoder.jp/contests/abc140/submissions/14690147)|
 ||||§ 3.2.3|exercise|[ARC 036 B - 山のデータ](https://atcoder.jp/contests/arc036/tasks/arc036_b)||||[ランレングス圧縮](https://atcoder.jp/contests/arc036/submissions/15131397)|
+||||§ 3.2.3|exercise|[CODE FESTIVAL 2014 決勝 E - 常ならずグラフ](https://atcoder.jp/contests/code-festival-2014-final/tasks/code_festival_final_e)||||[ランレングス圧縮](https://atcoder.jp/contests/code-festival-2014-final/submissions/15191660)|
+||||§ 3.2.3|exercise|[ARC 017 B - 解像度が低い。](https://atcoder.jp/contests/arc017/tasks/arc017_2)||||[ランレングス圧縮、コーナーケース(K=1)](https://atcoder.jp/contests/arc017/submissions/15191839)|
 ||o||§ 3.2.3|exercise|[ABC 040 A - `><`](https://atcoder.jp/contests/agc040/tasks/agc040_a)||||[ランレングス圧縮、最小の列の考察](https://atcoder.jp/contests/agc040/submissions/14842427)|
 ||||§ 3.2.3|exercise|[ABC 124 D - Handstand](https://atcoder.jp/contests/abc124/tasks/abc124_d)|||[ランレングス圧縮](https://atcoder.jp/contests/abc124/submissions/13535422)|
 |||o|§ 3.2.3|exercise|[JOI 2008 本選 C あみだくじ](https://atcoder.jp/contests/joi2009ho/tasks/joi2009ho_c)|||[]()|
