@@ -151,6 +151,7 @@ make FILE=0.0.0/abc039_c.cpp
 ||||§ 2.1.1|exercise|[ABC 060 B - Choose Integers](https://atcoder.jp/contests/abc060/tasks/abc060_b)||||[A,Bが小さいので、候補を全探索](https://atcoder.jp/contests/abc060/submissions/14923023)|
 ||||§ 2.1.1|exercise|[ARC 034 B - 方程式](https://atcoder.jp/contests/arc034/tasks/arc034_2)||||[候補を絞って全探索](https://atcoder.jp/contests/arc034/submissions/15131143)|
 ||||§ 2.1.1|exercise|[ARC 002 C - コマンド入力](https://atcoder.jp/contests/arc002/tasks/arc002_3)||||[候補を全探索](https://atcoder.jp/contests/arc002/submissions/15130611)|
+||||§ 2.1.1|exercise|[ARC 020 B - 縞模様](https://atcoder.jp/contests/arc020/tasks/arc020_2)||||[候補を全探索](https://atcoder.jp/contests/arc020/submissions/15191890)|
 ||||§ 2.1.1|exercise|[ABC 066 B - ss](https://atcoder.jp/contests/abc066/tasks/abc066_b)|||[文字列の全探索](https://atcoder.jp/contests/abc066/submissions/14064944)|
 ||||§ 2.1.1|exercise|[キーエンス プログラミング コンテスト 2019 B - KEYENCE String](https://atcoder.jp/contests/keyence2019/tasks/keyence2019_b)||||[全探索](https://atcoder.jp/contests/keyence2019/submissions/14854388)|
 ||||§ 2.1.1|exercise|[ABC 074 C - Sugar Water](https://atcoder.jp/contests/abc074/tasks/arc083_a)|||[全探索](https://atcoder.jp/contests/abc074/submissions/14021322)|
