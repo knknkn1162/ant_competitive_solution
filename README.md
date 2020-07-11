@@ -384,6 +384,7 @@ make FILE=0.0.0/abc039_c.cpp
 ||||§ 2.3.8.1|exercise|[ABC 145 D - Knight](https://atcoder.jp/contests/abc145/tasks/abc145_d)||||[一方を固定して全探索、組み合わせ、逆元](https://atcoder.jp/contests/abc145/submissions/15044358)|
 ||||§ 2.3.8.1|exercise|[ABC 156 D - Bouquet](https://atcoder.jp/contests/abc156/tasks/abc156_d)||||[組み合わせ](https://atcoder.jp/contests/abc156/submissions/11999620)|
 ||||§ 2.3.8.1|exercise|[ABC 057 D - Maximum Average Sets](https://atcoder.jp/contests/abc057/tasks/abc057_d)|||[組み合わせ(パスカルの三角形)](https://atcoder.jp/contests/abc057/submissions/14083924)|
+||||§ 2.3.8.1|exercise|[CODE FESTIVAL 2014 決勝 D - パスカルの三角形](https://atcoder.jp/contests/code-festival-2014-final/tasks/code_festival_final_d)||||[パスカルの三角形、考察、`n_C_1`だけ考える](https://atcoder.jp/contests/code-festival-2014-final/submissions/15132061)|
 ||||§ 2.3.8.1|exercise|[ABC 011 D - 大ジャンプ](https://atcoder.jp/contests/abc011/tasks/abc011_4)||||[確率問題、一方向の回数を決め打ちで全列挙、underflowの対処をパスカルの三角形(確率版)で](https://atcoder.jp/contests/abc011/submissions/14797848)|
 ||||§ 2.3.8.1|exercise|[ABC 094 D - Binomial Coefficients](https://atcoder.jp/contests/abc094/tasks/arc095_b)|||[パスカルの三角形`(n+1)_C_r > n_C_r`](https://atcoder.jp/contests/abc094/submissions/13923844)|
 ||||§ 2.3.8.1|exercise|[ABC 042 D - いろはちゃんとマス目](https://atcoder.jp/contests/abc042/tasks/arc058_b)|||[組み合わせ、実装問題](https://atcoder.jp/contests/abc042/submissions/14223492)|
@@ -696,6 +697,7 @@ make FILE=0.0.0/abc039_c.cpp
 ||||§ 3.6.1|exercise|[ABC 100 D - Patisserie ABC](https://atcoder.jp/contests/abc100/tasks/abc100_d)|||重心計算、see §2.2.4|
 ||o||§ 3.6.1|exercise|[AGC 036 A - Triangle](https://atcoder.jp/contests/agc036/tasks/agc036_a)||||[構成問題、座標から三角形の面積、数値誤差に注意](https://atcoder.jp/contests/agc036/submissions/14959015)|
 |||o|§ 3.6.1|exercise|[ARC 042 B - アリの高橋くん](https://atcoder.jp/contests/arc042/tasks/arc042_b)||||[]()|
+|||o|§ 3.6.1|exercise|[ABC 016 D - 一刀両断](https://atcoder.jp/contests/abc016/tasks/abc016_4)||||[]()|
 ||||§ 4.2|example|[ABC 048 D - An Ordinary Game](https://atcoder.jp/contests/abc048/tasks/arc064_b)|||[ゲームの必勝法(両端が同じ)](https://atcoder.jp/contests/abc048/submissions/14114061)|
 ||||§ 4.2|exercise|[ABC 027 C - 倍々ゲーム](https://atcoder.jp/contests/abc027/tasks/abc027_c)|||[ゲームの必勝法、桁数で戦略が決める](https://atcoder.jp/contests/abc027/submissions/14209748)|
 ||||§ 4.2|exercise|[CADDi 2018 D - Harlequin](https://atcoder.jp/contests/caddi2018/tasks/caddi2018_b)||||[ゲームの必勝法、偶数のみで負け](https://atcoder.jp/contests/caddi2018/submissions/15089626)|
