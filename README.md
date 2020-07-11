@@ -71,6 +71,7 @@ make FILE=0.0.0/abc039_c.cpp
 ||||§ 1.8.1|exercise|[ABC 033 C - 数式の書き換え](https://atcoder.jp/contests/abc033/tasks/abc033_c)|||[文字列のパース、実装問題](https://atcoder.jp/contests/abc033/submissions/14209297)|
 ||||§ 1.8.1|exercise|[AOJ 1193 - 連鎖消滅パズル](https://onlinejudge.u-aizu.ac.jp/problems/1193)|||[落ちゲー、実装問題、解くだけ](https://onlinejudge.u-aizu.ac.jp/solutions/problem/1193/review/4320693/knknkn1162/C)|
 ||||§ 1.8.1|exercise|[Square869120Contest #3 B - 石落としゲーム](https://atcoder.jp/contests/s8pc-3/tasks/s8pc_3_b)|||[落ちゲー, 実装問題、(WIDTH)×(HEIGHT-1)個シュミレート](https://atcoder.jp/contests/s8pc-3/submissions/11477560)|
+||||§ 1.8.1|exercise|[ARC 040 B - 直線塗り](https://atcoder.jp/contests/arc040/tasks/arc040_b)||||[考察、実装問題、線形に走査](https://atcoder.jp/contests/arc040/submissions/15132852)|
 ||||§ 1.8.1|exercise|[ABC 107 B - Grid Compression](https://atcoder.jp/contests/abc107/tasks/abc107_b)|||[グリッド実装問題](https://atcoder.jp/contests/abc107/submissions/13689326)|
 ||||§ 1.8.1|exercise|[ABC 075 B - Minesweeper](https://atcoder.jp/contests/abc075/tasks/abc075_b)||||[グリッド実装問題](https://atcoder.jp/contests/abc075/submissions/14923287)|
 ||||§ 1.8.1|exercise|[ABC 054 B - Template Matching](https://atcoder.jp/contests/abc054/tasks/abc054_b)|||[グリッド実装問題、bufferを2倍にしておく](https://atcoder.jp/contests/abc054/submissions/14082029)|
