@@ -477,7 +477,8 @@ make FILE=0.0.0/abc039_c.cpp
 ||||§ 2.4.2|exercise|[ABC 072 C - Together](https://atcoder.jp/contests/abc072/tasks/arc082_a)|||[map](https://atcoder.jp/contests/abc072/submissions/14023908)|
 ||||§ 2.4.2|exercise|[ABC 111 C - /\\/\\/\\/](https://atcoder.jp/contests/abc111/tasks/arc103_a)|||[map](https://atcoder.jp/contests/abc111/submissions/13679666)|
 ||||§ 2.4.2|exercise|[ABC 099 D - Good Grid](https://atcoder.jp/contests/abc099/tasks/abc099_d)|||[前処理、colorに対して全探索、map](https://atcoder.jp/contests/abc099/submissions/13838264)|
-||||§ 2.4.2|exercise|[ABC 129 D - Lamp](https://atcoder.jp/contests/abc129/tasks/abc129_d)|||[前処理で累積和の計算](https://atcoder.jp/contests/abc129/submissions/14153175)|
+||o||§ 2.4.2|exercise|[ABC 129 D - Lamp](https://atcoder.jp/contests/abc129/tasks/abc129_d)|||[グリッド、前処理で累積和の計算](https://atcoder.jp/contests/abc129/submissions/14153175)|
+||||§ 2.4.2|exercise|[ARC 023 B - 謎の人物X](https://atcoder.jp/contests/arc023/submissions/15131600)||||[グリッド、map](https://atcoder.jp/contests/arc023/tasks/arc023_2)|
 ||||§ 2.4.2|exercise|[ABC 110 C - String Transformation](https://atcoder.jp/contests/abc110/tasks/abc110_c)|||[map2つ(1対1対応のチェック)](https://atcoder.jp/contests/abc110/submissions/13679923)|
 ||||§ 2.4.2|exercise|[ABC 061 C - Big Array](https://atcoder.jp/contests/abc061/tasks/abc061_c)|||[map, 累積和](https://atcoder.jp/contests/abc061/submissions/14114218)|
 ||||§ 2.4.2|exercise|[ABC 143 D - Triangles](https://atcoder.jp/contests/abc143/tasks/abc143_d)|||[map, 累積和](https://atcoder.jp/contests/abc143/submissions/13893107)|
