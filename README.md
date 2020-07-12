@@ -477,6 +477,7 @@ make FILE=0.0.0/abc039_c.cpp
 ||o||§ 2.4.2|exercise|[CODE FESTIVAL 2017 qual C C - Inserting 'x'](https://atcoder.jp/contests/code-festival-2017-qualc/tasks/code_festival_2017_qualc_c)||||[文字列のmap、コーナーケース(xx)](https://atcoder.jp/contests/code-festival-2017-qualc/submissions/15043853)|
 ||||§ 2.4.2|exercise|[ABC 098 B - Cut and Count](https://atcoder.jp/contests/abc098/tasks/abc098_b)|||[map](https://atcoder.jp/contests/abc098/submissions/13929585)|
 ||||§ 2.4.2|exercise|[ABC 081 C - Not so Diverse](https://atcoder.jp/contests/abc081/tasks/arc086_a)|||[map, ソート](https://atcoder.jp/contests/abc081/submissions/14003881)|
+||||§ 2.4.2|exercise|[ARC 063 B - 回文分割](https://atcoder.jp/contests/arc053/tasks/arc053_b)||||[map](https://atcoder.jp/contests/arc053/submissions/15213905)|
 ||||§ 2.4.2|exercise|[ABC 171 D - Replacing](https://atcoder.jp/contests/abc171/tasks/abc171_d)||||[map, 総和をメモ](https://atcoder.jp/contests/abc171/submissions/14716878)|
 ||||§ 2.4.2|exercise|[ABC 050 C - Lining Up](https://atcoder.jp/contests/abc050/tasks/arc066_a)|||[考察、map](https://atcoder.jp/contests/abc050/submissions/14105411)|
 ||||§ 2.4.2|exercise|[ARC 081 A - Make a Rectangle](https://atcoder.jp/contests/arc081/tasks/arc081_a)||||[map, ソート、同じ数が4つ以上ある場合も考慮](https://atcoder.jp/contests/arc081/submissions/14885688)|
