@@ -214,6 +214,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||o|§ 2.1.3|example|迷路の最短路|||[BFS]()|
 ||||§ 2.1.3|exercise|[AOJ ALDS_11_C - 幅優先探索](https://onlinejudge.u-aizu.ac.jp/problems/ALDS1_11_C)|||[BFS](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_11_C/review/4275470/knknkn1162/C)|
 ||||§ 2.1.3|exercise|[ABC 007 C - 幅優先探索](https://atcoder.jp/contests/abc007/tasks/abc007_3)|||[最短経路問題、BFS](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_11_C/review/4275470/knknkn1162/C)|
+||||§ 2.1.3|exercise|[ABC 168 D - .. (Double Dots)](https://atcoder.jp/contests/abc168/tasks/abc168_d)||||[BFS](https://atcoder.jp/contests/abc168/submissions/15203602)|
 ||||§ 2.1.3|exercise|[ABC 020 C - 壁抜け](https://atcoder.jp/contests/abc020/tasks/abc020_c)||||BFSで迷路探索 see § 3.1.4|
 |||o|§ 2.1.3|exercise|[ARC 005 C 器物損壊！高橋君](https://atcoder.jp/contests/arc005/tasks/arc005_3)|||[BFS](https://atcoder.jp/contests/arc005/submissions/8570403) or [Dijkstra]() or [deque]()|[BFS](https://atcoder.jp/contests/arc005/submissions/14708240)|
 ||||§ 2.1.3|exercise|[AGC 043 A - Range Flip Find Route](https://atcoder.jp/contests/agc043/tasks/agc043_a)||||[問題文の解釈、Dijkstra](https://atcoder.jp/contests/agc043/submissions/14935274) or [0-1 BFS]()|
