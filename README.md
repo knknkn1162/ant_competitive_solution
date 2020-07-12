@@ -570,6 +570,7 @@ make FILE=0.0.0/abc039_c.cpp
 ||||§ 2.6.7|exercise|[ABC 165 D - Floor Function](https://atcoder.jp/contests/abc165/tasks/abc165_d)|||[数学的考察](https://atcoder.jp/contests/abc165/submissions/12889778)|
 ||||§ 2.6.7|exercise|[ABC 108 C - Triangular Relationship](https://atcoder.jp/contests/abc108/tasks/arc102_a)|||[数学的考察](https://atcoder.jp/contests/abc108/submissions/13687394)|
 ||||§ 2.6.7|exercise|[ABC 105 C - Base -2 Number](https://atcoder.jp/contests/abc105/tasks/abc105_c)|||[数学的考察、普通の2進数表示 -> carry](https://atcoder.jp/contests/abc105/submissions/13712126)|
+||||§ 2.6.7|exercise|[ARC 051 B - 互除法](https://atcoder.jp/contests/arc051/tasks/arc051_b)||||[考察、フィボナッチ数列](https://atcoder.jp/contests/arc051/submissions/15213861)|
 ||||§ 2.6.7|exercise|[ABC 121 D - XOR World](https://atcoder.jp/contests/abc121/tasks/abc121_d)|||[数学的考察](https://atcoder.jp/contests/abc121/submissions/13560004)|
 ||||§ 2.6.7|exercise|[ABC 125 D - Flipping Signs](https://atcoder.jp/contests/abc125/tasks/abc125_d)|||[数学的考察](https://atcoder.jp/contests/abc125/submissions/13467844)|
 ||||§ 2.6.7|exercise|[ABC 148 E - Double Factorial](https://atcoder.jp/contests/abc148/submissions/14795165)||||[5が何回登場するかを考える](https://atcoder.jp/contests/abc148/submissions/14795165)|
