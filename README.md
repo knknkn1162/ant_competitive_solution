@@ -699,7 +699,9 @@ make FILE=0.0.0/abc039_c.cpp
 ||||§ 3.3.6|exercise|[JOI 2016 予選 D ぬいぐるみの整理](https://atcoder.jp/contests/joi2017yo/tasks/joi2017yo_d)|||[bitDP, 累積和](https://atcoder.jp/contests/joi2017yo/submissions/11263795)|
 ||||§ 3.3.6|exercise|[ABC 041 D 徒競走](https://atcoder.jp/contests/abc041/tasks/abc041_d)|||[bitDP](https://atcoder.jp/contests/abc041/submissions/13310523)|
 ||||§ 3.3.6|exercise|[ABC 142 E - Get Everything](https://atcoder.jp/contests/abc142/tasks/abc142_e)||||[bitDP、配るDP](https://atcoder.jp/contests/abc142/submissions/14794931)|
+||||§ 3.6.0|exercise|[ABC 168 C - : (Colon)](https://atcoder.jp/contests/abc168/tasks/abc168_c)||||[余弦定理](https://atcoder.jp/contests/abc168/submissions/15201150)|
 ||||§ 3.6.0|exercise|[AOJ CGL_1_A 射影](https://onlinejudge.u-aizu.ac.jp/problems/CGL_1_A)||||[p1と射影との距離と直線の単位傾き](https://onlinejudge.u-aizu.ac.jp/solutions/problem/CGL_1_A/review/4660335/knknkn1162/C++14)|
+||||§ 3.6.0|exercise|[ARC 042 B - アリの高橋くん](https://atcoder.jp/contests/arc042/tasks/arc042_b)||||[直線の単位傾き、外積](https://atcoder.jp/contests/arc042/submissions/15200890)|
 ||||§ 3.6.0|exercise|[AOJ CGL_1_B 反射](https://onlinejudge.u-aizu.ac.jp/courses/library/4/CGL/all/CGL_1_B)||||[射影を求める -> 2倍](https://onlinejudge.u-aizu.ac.jp/solutions/problem/CGL_1_B/review/4660405/knknkn1162/C++14)|
 ||||§ 3.6.0|exercise|[反時計回り](https://onlinejudge.u-aizu.ac.jp/courses/library/4/CGL/all/CGL_1_C)||||[外積で判定](https://onlinejudge.u-aizu.ac.jp/solutions/problem/CGL_1_C/review/4660505/knknkn1162/C++14)|
 ||||§ 3.6.0|exercise|[AOJ CGL_2_A 平行・垂直](https://onlinejudge.u-aizu.ac.jp/courses/library/4/CGL/all/CGL_2_A)||||[内積(垂直判定)、外積(並行判定)](https://onlinejudge.u-aizu.ac.jp/solutions/problem/CGL_2_A/review/4660192/knknkn1162/C++14)|
