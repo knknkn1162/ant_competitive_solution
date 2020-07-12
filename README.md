@@ -73,6 +73,7 @@ make FILE=0.0.0/abc039_c.cpp
 ||||§ 1.8.1|exercise|[Square869120Contest #3 B - 石落としゲーム](https://atcoder.jp/contests/s8pc-3/tasks/s8pc_3_b)|||[落ちゲー, 実装問題、(WIDTH)×(HEIGHT-1)個シュミレート](https://atcoder.jp/contests/s8pc-3/submissions/11477560)|
 ||||§ 1.8.1|exercise|[ABC 107 B - Grid Compression](https://atcoder.jp/contests/abc107/tasks/abc107_b)|||[グリッド実装問題](https://atcoder.jp/contests/abc107/submissions/13689326)|
 ||||§ 1.8.1|exercise|[ABC 075 B - Minesweeper](https://atcoder.jp/contests/abc075/tasks/abc075_b)||||[グリッド実装問題](https://atcoder.jp/contests/abc075/submissions/14923287)|
+||||§ 1.8.1|exercise|[ARC 041 B - アメーバ](https://atcoder.jp/contests/arc041/tasks/arc041_b)||||[グリッド実装問題](https://atcoder.jp/contests/arc041/submissions/15194328)|
 ||||§ 1.8.1|exercise|[ABC 054 B - Template Matching](https://atcoder.jp/contests/abc054/tasks/abc054_b)|||[グリッド実装問題、bufferを2倍にしておく](https://atcoder.jp/contests/abc054/submissions/14082029)|
 ||||§ 1.8.1|exercise|[ABC 039 D - 画像処理高橋君](https://atcoder.jp/contests/abc039/tasks/abc039_d)|||[グリッド実装問題、チェックを入れるタイミングに注意](https://atcoder.jp/contests/abc039/submissions/14180749)|
 ||||§ 1.8.1|exercise|[ABC 069 D - Grid Coloring](https://atcoder.jp/contests/abc069/tasks/arc080_b)|||[構成問題、グリッド実装問題](https://atcoder.jp/contests/abc069/submissions/14026602)|
@@ -702,6 +703,7 @@ make FILE=0.0.0/abc039_c.cpp
 ||||§ 3.6.0|exercise|[AOJ CGL_1_B 反射](https://onlinejudge.u-aizu.ac.jp/courses/library/4/CGL/all/CGL_1_B)||||[射影を求める -> 2倍](https://onlinejudge.u-aizu.ac.jp/solutions/problem/CGL_1_B/review/4660405/knknkn1162/C++14)|
 ||||§ 3.6.0|exercise|[反時計回り](https://onlinejudge.u-aizu.ac.jp/courses/library/4/CGL/all/CGL_1_C)||||[外積で判定](https://onlinejudge.u-aizu.ac.jp/solutions/problem/CGL_1_C/review/4660505/knknkn1162/C++14)|
 ||||§ 3.6.0|exercise|[AOJ CGL_2_A 平行・垂直](https://onlinejudge.u-aizu.ac.jp/courses/library/4/CGL/all/CGL_2_A)||||[内積(垂直判定)、外積(並行判定)](https://onlinejudge.u-aizu.ac.jp/solutions/problem/CGL_2_A/review/4660192/knknkn1162/C++14)|
+||||§ 3.6.0|exercise|[ARC 004 B - 2点間距離の最大と最小 ( Maximum and Minimum )](https://atcoder.jp/contests/arc004/tasks/arc004_2)||||[三角形の成立条件](https://atcoder.jp/contests/arc004/submissions/15191973)|
 ||||§ 3.6.1|example|[Jack Straws (POJ No.1127)](http://poj.org/problem?id=1127)|||[]()|
 ||||§ 3.6.1|exercise|[ABC 100 D - Patisserie ABC](https://atcoder.jp/contests/abc100/tasks/abc100_d)|||重心計算、see §2.2.4|
 ||o||§ 3.6.1|exercise|[AGC 036 A - Triangle](https://atcoder.jp/contests/agc036/tasks/agc036_a)||||[構成問題、座標から三角形の面積、数値誤差に注意](https://atcoder.jp/contests/agc036/submissions/14959015)|
