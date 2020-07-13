@@ -402,6 +402,7 @@ make FILE=0.0.0/abc039_c.cpp
 ||||§ 2.3.8.1|exercise|[ABC 167 E - Colorful Blocks](https://atcoder.jp/contests/abc167/tasks/abc167_e)|||[重複組み合わせ](https://atcoder.jp/contests/abc167/submissions/13704646)|
 ||||§ 2.3.8.2|exercise|[ABC 162 D - RGB Triplets](https://atcoder.jp/contests/abc162/tasks/abc162_d)|||[(1番目の組み合わせ) - (2番目の条件)](https://atcoder.jp/contests/abc162/submissions/11913543)|
 ||||§ 2.3.8.2|exercise|[ABC 023 C - 収集王](https://atcoder.jp/contests/abc023/tasks/abc023_c)|||[重複や漏れなく数え上げ](https://atcoder.jp/contests/abc023/submissions/14214643)|
+||||§ 2.3.8.2|exercise|[ARC 019 B - こだわりの名前](https://atcoder.jp/contests/arc019/tasks/arc019_2)||||[MECEに数え上げ](https://atcoder.jp/contests/arc019/submissions/15216217)|
 ||||§ 2.3.8.2|exercise|[ABC 028 D - 乱数生成](https://atcoder.jp/contests/abc028/tasks/abc028_d)|||[組み合わせ](https://atcoder.jp/contests/abc028/submissions/14195802)|
 ||||§ 2.3.8.2|exercise|[ABC 071 D - Coloring Dominoes](https://atcoder.jp/contests/abc071/tasks/arc081_b)|||[組み合わせの掛け算](https://atcoder.jp/contests/abc071/submissions/14017043)|
 ||||§ 2.3.8.2|exercise|[ABC 058 D - 井井井](https://atcoder.jp/contests/abc058/tasks/arc071_b)|||[区間上の総和総数問題、2つの積で表せる(X軸とY軸を分離)、組み合わせの掛け算](https://atcoder.jp/contests/abc058/submissions/14112007)|
