@@ -15,13 +15,12 @@
 #include <unordered_set> // unordered_set
 #include <bitset> // bitset
 #include <cctype> // isupper, islower, isdigit, toupper, tolower
-#include <cmath> // sqrt
+#include <cmath>
 #define _GLIBCXX_DEBUG // check []
 #define DIVISOR 1000000007
 
 using namespace std;
 typedef pair<int,int> pii;
-typedef pair<double, double> pdd;
 typedef pair<int64_t, int64_t> pII;
 
 template<typename T>
@@ -41,5 +40,31 @@ void cins(vector<T>& arr) { for(T& e: arr) cin >> e; }
 
 
 int main(void) {
+    int64_t num;
+    cin >> num;
+    if(num == 1) {
+        cout << "Deficient" << endl;
+        return 0;
+    }
+    int64_t num_2 = sqrt(0.5 + num);
+
+    int64_t sum = 1;
+    for(int sval = 2; sval <= num_2; sval++) {
+        if(num%sval) continue;
+        int64_t bval = num/sval;
+        sum += sval;
+        if(sval == bval) continue;
+        sum += bval;
+    }
+    debug("%ld\n", sum);
+    string str;
+    if(sum == num) {
+        str = "Perfect";
+    } else if (sum < num) {
+        str = "Deficient";
+    } else {
+        str = "Abundant";
+    }
+    cout << str << endl;
     return 0;
 }

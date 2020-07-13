@@ -21,7 +21,6 @@
 
 using namespace std;
 typedef pair<int,int> pii;
-typedef pair<double, double> pdd;
 typedef pair<int64_t, int64_t> pII;
 
 template<typename T>
@@ -41,5 +40,40 @@ void cins(vector<T>& arr) { for(T& e: arr) cin >> e; }
 
 
 int main(void) {
+    int num;
+    cin >> num;
+    vector<int> arr(num);
+    cins(arr);
+    if(num == 1) {
+        cout << 1 << endl;
+        return 0;
+    }
+
+    int seq = 0;
+    // plus
+    int prev_sgn = 0;
+    vector<int> cnts;
+    for(int i = 1; i < num; i++) {
+        int diff = arr[i] - arr[i-1];
+        int cur_sgn = (diff<0);
+        if(cur_sgn == prev_sgn) {
+            seq++;
+        } else {
+            cnts.push_back(seq);
+            seq = 1;
+
+        }
+        debug("%d-%d : %d\n", i-1, i,seq);
+        prev_sgn = cur_sgn;
+    }
+    cnts.push_back(seq);
+    cnts.push_back(0);
+
+    int ans = 0;
+    for(int i = 0; i < cnts.size(); i+=2) {
+        ans = max(ans, cnts[i] + cnts[i+1]);
+    }
+
+    cout << ans+1 << endl;
     return 0;
 }

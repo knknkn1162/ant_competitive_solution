@@ -41,5 +41,19 @@ void cins(vector<T>& arr) { for(T& e: arr) cin >> e; }
 
 
 int main(void) {
+    int a, b;
+    int h, m;
+    cin >> a >> b;
+    cin >> h >> m;
+    int mm = h * 60 + m;
+    double argh = (double)mm / (60*12) * 360;
+    double argm = 6 * m;
+    double diff = argh - argm;
+    // to rad
+    diff = min(diff, 360-diff) * (M_PI/180);
+    debug("theta: %lf\n", diff);
+    // Law of cosines
+    double ans = (a*a) + (b*b) - 2*a*b*cos(diff);
+    printf("%.10lf\n", sqrt(ans));
     return 0;
 }

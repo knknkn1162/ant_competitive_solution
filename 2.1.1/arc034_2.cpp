@@ -21,7 +21,6 @@
 
 using namespace std;
 typedef pair<int,int> pii;
-typedef pair<double, double> pdd;
 typedef pair<int64_t, int64_t> pII;
 
 template<typename T>
@@ -39,7 +38,30 @@ void cins(vector<T>& arr) { for(T& e: arr) cin >> e; }
 #define ps(arr)
 #endif
 
+int get_digit_sum(int64_t num) {
+    int ans = 0;
+    while(num) {
+        ans += (num%10);
+        num /= 10;
+    }
+    return ans;
+}
 
+// 9...9 -> 18*9 < 20*9
+#define F_MAX 200
 int main(void) {
+    int64_t num;
+    cin >> num;
+    vector<int64_t> ans;
+    for(int64_t x = num-1; x >= max<int64_t>(num-F_MAX, 0); x--) {
+        int64_t res = get_digit_sum(x) + x;
+        if(res == num) ans.push_back(x);
+    }
+
+    cout << ans.size() << endl;
+    reverse(ans.begin(), ans.end());
+    for(auto e: ans) {
+        cout << e << endl;
+    }
     return 0;
 }

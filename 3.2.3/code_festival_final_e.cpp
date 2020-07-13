@@ -40,6 +40,56 @@ void cins(vector<T>& arr) { for(T& e: arr) cin >> e; }
 #endif
 
 
+void uniq(vector<int>& arr, vector<int>& out) {
+    int prev = arr[0] + 1;
+    for(int i = 0; i < arr.size(); i++) {
+        int cur = arr[i];
+        if(prev == cur) continue;
+        out.push_back(cur);
+        prev = cur;
+    }
+}
+
 int main(void) {
+    int num;
+    cin >> num;
+    vector<int> arr(num);
+    cins(arr);
+
+    vector<int> arr2;
+    uniq(arr, arr2);
+    ps(arr2);
+    if(arr2.size() == 1) {
+        cout << 0 << endl;
+        return 0;
+    }
+
+    int prev = arr[0];
+    bool prev_plus = 1;
+    // +, -, +, -
+    vector<int> cnts;
+    int points = 0;
+    for(int i = 1; i < arr2.size(); i++) {
+        int cur = arr2[i];
+        bool cur_plus = (cur > prev);
+        if(prev_plus != cur_plus) {
+            cnts.push_back(points);
+            points = 1;
+        } else {
+            points++;
+        }
+        prev = cur;
+        prev_plus = cur_plus;
+    }
+    cnts.push_back(points);
+    ps(cnts);
+
+    int ans = 0;
+    for(int i = 0; i < cnts.size(); i++) {
+        if(cnts[i] == 0) continue;
+        ans++;
+    }
+    cout << ((ans+1 >= 3) ? ans+1 : 0) << endl;
+
     return 0;
 }

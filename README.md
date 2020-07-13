@@ -22,7 +22,7 @@ make FILE=0.0.0/abc039_c.cpp
 # Problems & Solutions
 
 |time|revisit|TODO|idx|type|問題名|難易度|備考|方針/解答例(C)|C++|
-|---|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|---|---|---|
 |||o|§ 1.1.1|example|くじ引き|||[半分全列挙]()|
 ||||§ 1.1.1|exercise|[JOI 2007 本選 C ダーツ](https://atcoder.jp/contests/joi2008ho/tasks/joi2008ho_c)|||see § 3.1.1|
 ||||§ 1.3.1|example|[ABC 169 C - Multiplication 3](https://atcoder.jp/contests/abc169/tasks/abc169_c)|||[100倍して整数として計算](https://atcoder.jp/contests/abc169/submissions/13939660)|
@@ -73,6 +73,7 @@ make FILE=0.0.0/abc039_c.cpp
 ||||§ 1.8.1|exercise|[Square869120Contest #3 B - 石落としゲーム](https://atcoder.jp/contests/s8pc-3/tasks/s8pc_3_b)|||[落ちゲー, 実装問題、(WIDTH)×(HEIGHT-1)個シュミレート](https://atcoder.jp/contests/s8pc-3/submissions/11477560)|
 ||||§ 1.8.1|exercise|[ABC 107 B - Grid Compression](https://atcoder.jp/contests/abc107/tasks/abc107_b)|||[グリッド実装問題](https://atcoder.jp/contests/abc107/submissions/13689326)|
 ||||§ 1.8.1|exercise|[ABC 075 B - Minesweeper](https://atcoder.jp/contests/abc075/tasks/abc075_b)||||[グリッド実装問題](https://atcoder.jp/contests/abc075/submissions/14923287)|
+||||§ 1.8.1|exercise|[ARC 041 B - アメーバ](https://atcoder.jp/contests/arc041/tasks/arc041_b)||||[グリッド実装問題](https://atcoder.jp/contests/arc041/submissions/15194328)|
 ||||§ 1.8.1|exercise|[ABC 054 B - Template Matching](https://atcoder.jp/contests/abc054/tasks/abc054_b)|||[グリッド実装問題、bufferを2倍にしておく](https://atcoder.jp/contests/abc054/submissions/14082029)|
 ||||§ 1.8.1|exercise|[ABC 039 D - 画像処理高橋君](https://atcoder.jp/contests/abc039/tasks/abc039_d)|||[グリッド実装問題、チェックを入れるタイミングに注意](https://atcoder.jp/contests/abc039/submissions/14180749)|
 ||||§ 1.8.1|exercise|[ABC 069 D - Grid Coloring](https://atcoder.jp/contests/abc069/tasks/arc080_b)|||[構成問題、グリッド実装問題](https://atcoder.jp/contests/abc069/submissions/14026602)|
@@ -149,6 +150,9 @@ make FILE=0.0.0/abc039_c.cpp
 ||||§ 2.1.1|exercise|[ABC 043 C - いっしょ](https://atcoder.jp/contests/abc043/tasks/arc059_a)|||[平均](https://atcoder.jp/contests/abc043/submissions/14216611)|[全探索](https://atcoder.jp/contests/arc059/submissions/14912801)|
 ||||§ 2.1.1|exercise|[ABC 057 B - Checkpoints](https://atcoder.jp/contests/abc057/tasks/abc057_b)||||[全探索](https://atcoder.jp/contests/abc057/submissions/14848757)|
 ||||§ 2.1.1|exercise|[ABC 060 B - Choose Integers](https://atcoder.jp/contests/abc060/tasks/abc060_b)||||[A,Bが小さいので、候補を全探索](https://atcoder.jp/contests/abc060/submissions/14923023)|
+||||§ 2.1.1|exercise|[ARC 034 B - 方程式](https://atcoder.jp/contests/arc034/tasks/arc034_2)||||[候補を絞って全探索](https://atcoder.jp/contests/arc034/submissions/15131143)|
+||||§ 2.1.1|exercise|[ARC 002 C - コマンド入力](https://atcoder.jp/contests/arc002/tasks/arc002_3)||||[候補を全探索](https://atcoder.jp/contests/arc002/submissions/15130611)|
+||||§ 2.1.1|exercise|[ARC 020 B - 縞模様](https://atcoder.jp/contests/arc020/tasks/arc020_2)||||[候補を全探索](https://atcoder.jp/contests/arc020/submissions/15191890)|
 ||||§ 2.1.1|exercise|[ABC 066 B - ss](https://atcoder.jp/contests/abc066/tasks/abc066_b)|||[文字列の全探索](https://atcoder.jp/contests/abc066/submissions/14064944)|
 ||||§ 2.1.1|exercise|[キーエンス プログラミング コンテスト 2019 B - KEYENCE String](https://atcoder.jp/contests/keyence2019/tasks/keyence2019_b)||||[全探索](https://atcoder.jp/contests/keyence2019/submissions/14854388)|
 ||||§ 2.1.1|exercise|[ABC 074 C - Sugar Water](https://atcoder.jp/contests/abc074/tasks/arc083_a)|||[全探索](https://atcoder.jp/contests/abc074/submissions/14021322)|
@@ -210,6 +214,7 @@ make FILE=0.0.0/abc039_c.cpp
 |||o|§ 2.1.3|example|迷路の最短路|||[BFS]()|
 ||||§ 2.1.3|exercise|[AOJ ALDS_11_C - 幅優先探索](https://onlinejudge.u-aizu.ac.jp/problems/ALDS1_11_C)|||[BFS](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_11_C/review/4275470/knknkn1162/C)|
 ||||§ 2.1.3|exercise|[ABC 007 C - 幅優先探索](https://atcoder.jp/contests/abc007/tasks/abc007_3)|||[最短経路問題、BFS](https://onlinejudge.u-aizu.ac.jp/solutions/problem/ALDS1_11_C/review/4275470/knknkn1162/C)|
+||||§ 2.1.3|exercise|[ABC 168 D - .. (Double Dots)](https://atcoder.jp/contests/abc168/tasks/abc168_d)||||[BFS](https://atcoder.jp/contests/abc168/submissions/15203602)|
 ||||§ 2.1.3|exercise|[ABC 020 C - 壁抜け](https://atcoder.jp/contests/abc020/tasks/abc020_c)||||BFSで迷路探索 see § 3.1.4|
 |||o|§ 2.1.3|exercise|[ARC 005 C 器物損壊！高橋君](https://atcoder.jp/contests/arc005/tasks/arc005_3)|||[BFS](https://atcoder.jp/contests/arc005/submissions/8570403) or [Dijkstra]() or [deque]()|[BFS](https://atcoder.jp/contests/arc005/submissions/14708240)|
 ||||§ 2.1.3|exercise|[AGC 043 A - Range Flip Find Route](https://atcoder.jp/contests/agc043/tasks/agc043_a)||||[問題文の解釈、Dijkstra](https://atcoder.jp/contests/agc043/submissions/14935274) or [0-1 BFS]()|
@@ -253,6 +258,8 @@ make FILE=0.0.0/abc039_c.cpp
 ||||§ 2.2.4|example|[POJ 3069 Saruman's Army](http://poj.org/problem?id=3069)|||[線上の点問題、昇順にソート->貪欲](./2.2.4/poj3069.c)|
 ||||§ 2.2.4|exercise|[Square869120Contest #6 B - AtCoder Markets](https://atcoder.jp/contests/s8pc-6/tasks/s8pc_6_b)|||[線上の点問題、発想問題、全探索(要工夫),中央値](https://atcoder.jp/contests/s8pc-6/submissions/10662359)|
 ||||§ 2.2.4|exercise|[ABC 107 C - Candles](https://atcoder.jp/contests/abc107/tasks/arc101_a)|||線上の点問題、see §1.9.1|
+||||§ 2.2.4|exercise|[ARC 040 B - 直線塗り](https://atcoder.jp/contests/arc040/tasks/arc040_b)||||[考察、線上の点問題](https://atcoder.jp/contests/arc040/submissions/15132852)|
+||||§ 2.2.4|exercise|[ARC 010 B - 超大型連休](https://atcoder.jp/contests/arc010/tasks/arc010_2)||||[線上の点問題](https://atcoder.jp/contests/arc010/submissions/15191776)|
 ||||§ 2.2.4|exercise|[ABC 117 C - Streamline](https://atcoder.jp/contests/abc117/tasks/abc117_c)|||[線上の点問題、発想問題、区間のソート -> 貪欲](https://atcoder.jp/contests/abc117/submissions/13594719)|
 |||||2.2.4|exercise|[ARC 067 D - Walk and Teleport](https://atcoder.jp/contests/arc067/tasks/arc067_b)||||[線上の点問題、ソート、貪欲](https://atcoder.jp/contests/arc067/submissions/15044531)
 ||||§ 2.2.4|exercise|[ABC 153 F - Silver Fox vs Monster](https://atcoder.jp/contests/abc153/tasks/abc153_f)|||線上の点問題、see § 3.3.1|
@@ -382,6 +389,7 @@ make FILE=0.0.0/abc039_c.cpp
 ||||§ 2.3.8.1|exercise|[ABC 145 D - Knight](https://atcoder.jp/contests/abc145/tasks/abc145_d)||||[一方を固定して全探索、組み合わせ、逆元](https://atcoder.jp/contests/abc145/submissions/15044358)|
 ||||§ 2.3.8.1|exercise|[ABC 156 D - Bouquet](https://atcoder.jp/contests/abc156/tasks/abc156_d)||||[組み合わせ](https://atcoder.jp/contests/abc156/submissions/11999620)|
 ||||§ 2.3.8.1|exercise|[ABC 057 D - Maximum Average Sets](https://atcoder.jp/contests/abc057/tasks/abc057_d)|||[組み合わせ(パスカルの三角形)](https://atcoder.jp/contests/abc057/submissions/14083924)|
+||||§ 2.3.8.1|exercise|[CODE FESTIVAL 2014 決勝 D - パスカルの三角形](https://atcoder.jp/contests/code-festival-2014-final/tasks/code_festival_final_d)||||[パスカルの三角形、考察、`n_C_1`だけ考える](https://atcoder.jp/contests/code-festival-2014-final/submissions/15132061)|
 ||||§ 2.3.8.1|exercise|[ABC 011 D - 大ジャンプ](https://atcoder.jp/contests/abc011/tasks/abc011_4)||||[確率問題、一方向の回数を決め打ちで全列挙、underflowの対処をパスカルの三角形(確率版)で](https://atcoder.jp/contests/abc011/submissions/14797848)|
 ||||§ 2.3.8.1|exercise|[ABC 094 D - Binomial Coefficients](https://atcoder.jp/contests/abc094/tasks/arc095_b)|||[パスカルの三角形`(n+1)_C_r > n_C_r`](https://atcoder.jp/contests/abc094/submissions/13923844)|
 ||||§ 2.3.8.1|exercise|[ABC 042 D - いろはちゃんとマス目](https://atcoder.jp/contests/abc042/tasks/arc058_b)|||[組み合わせ、実装問題](https://atcoder.jp/contests/abc042/submissions/14223492)|
@@ -465,17 +473,20 @@ make FILE=0.0.0/abc039_c.cpp
 ||||§ 2.4.2|exercise|[ABC 064 C - Colorful Leaderboard](https://atcoder.jp/contests/abc064/tasks/abc064_c)||||[map, コーナーケース(すべて3200以上だった場合)](https://atcoder.jp/contests/abc064/submissions/14848187)|
 ||||§ 2.4.2|exercise|[ABC 091 B Two Colors Card Game](https://atcoder.jp/contests/abc091/tasks/abc091_b)|||[文字列のmap](https://atcoder.jp/contests/abc091/submissions/8001652)|
 ||||§ 2.4.2|exercise|[AGC 028 A - Two Abbreviations](https://atcoder.jp/contests/agc028/tasks/agc028_a)||||[文字列のmap](https://atcoder.jp/contests/agc028/submissions/14895895)|
+||||§ 2.4.2|exercise|[ARC 011 B - ルイス・キャロルの記憶術](https://atcoder.jp/contests/arc011/tasks/arc011_2)||||[文字列のmap](https://atcoder.jp/contests/arc011/submissions/15214072)|
 ||||§ 2.4.2|exercise|[ABC 058 C - 怪文書](https://atcoder.jp/contests/abc058/tasks/arc071_a)||||[辞書順最小、文字列のmap](https://atcoder.jp/contests/abc058/submissions/14899773)|
 ||o||§ 2.4.2|exercise|[CODE FESTIVAL 2017 qual C C - Inserting 'x'](https://atcoder.jp/contests/code-festival-2017-qualc/tasks/code_festival_2017_qualc_c)||||[文字列のmap、コーナーケース(xx)](https://atcoder.jp/contests/code-festival-2017-qualc/submissions/15043853)|
 ||||§ 2.4.2|exercise|[ABC 098 B - Cut and Count](https://atcoder.jp/contests/abc098/tasks/abc098_b)|||[map](https://atcoder.jp/contests/abc098/submissions/13929585)|
 ||||§ 2.4.2|exercise|[ABC 081 C - Not so Diverse](https://atcoder.jp/contests/abc081/tasks/arc086_a)|||[map, ソート](https://atcoder.jp/contests/abc081/submissions/14003881)|
+||||§ 2.4.2|exercise|[ARC 063 B - 回文分割](https://atcoder.jp/contests/arc053/tasks/arc053_b)||||[map](https://atcoder.jp/contests/arc053/submissions/15213905)|
 ||||§ 2.4.2|exercise|[ABC 171 D - Replacing](https://atcoder.jp/contests/abc171/tasks/abc171_d)||||[map, 総和をメモ](https://atcoder.jp/contests/abc171/submissions/14716878)|
 ||||§ 2.4.2|exercise|[ABC 050 C - Lining Up](https://atcoder.jp/contests/abc050/tasks/arc066_a)|||[考察、map](https://atcoder.jp/contests/abc050/submissions/14105411)|
 ||||§ 2.4.2|exercise|[ARC 081 A - Make a Rectangle](https://atcoder.jp/contests/arc081/tasks/arc081_a)||||[map, ソート、同じ数が4つ以上ある場合も考慮](https://atcoder.jp/contests/arc081/submissions/14885688)|
 ||||§ 2.4.2|exercise|[ABC 072 C - Together](https://atcoder.jp/contests/abc072/tasks/arc082_a)|||[map](https://atcoder.jp/contests/abc072/submissions/14023908)|
 ||||§ 2.4.2|exercise|[ABC 111 C - /\\/\\/\\/](https://atcoder.jp/contests/abc111/tasks/arc103_a)|||[map](https://atcoder.jp/contests/abc111/submissions/13679666)|
 ||||§ 2.4.2|exercise|[ABC 099 D - Good Grid](https://atcoder.jp/contests/abc099/tasks/abc099_d)|||[前処理、colorに対して全探索、map](https://atcoder.jp/contests/abc099/submissions/13838264)|
-||||§ 2.4.2|exercise|[ABC 129 D - Lamp](https://atcoder.jp/contests/abc129/tasks/abc129_d)|||[前処理で累積和の計算](https://atcoder.jp/contests/abc129/submissions/14153175)|
+||o||§ 2.4.2|exercise|[ABC 129 D - Lamp](https://atcoder.jp/contests/abc129/tasks/abc129_d)|||[グリッド、前処理で累積和の計算](https://atcoder.jp/contests/abc129/submissions/14153175)|
+||||§ 2.4.2|exercise|[ARC 023 B - 謎の人物X](https://atcoder.jp/contests/arc023/submissions/15131600)||||[グリッド、map](https://atcoder.jp/contests/arc023/tasks/arc023_2)|
 ||||§ 2.4.2|exercise|[ABC 110 C - String Transformation](https://atcoder.jp/contests/abc110/tasks/abc110_c)|||[map2つ(1対1対応のチェック)](https://atcoder.jp/contests/abc110/submissions/13679923)|
 ||||§ 2.4.2|exercise|[ABC 061 C - Big Array](https://atcoder.jp/contests/abc061/tasks/abc061_c)|||[map, 累積和](https://atcoder.jp/contests/abc061/submissions/14114218)|
 ||||§ 2.4.2|exercise|[ABC 143 D - Triangles](https://atcoder.jp/contests/abc143/tasks/abc143_d)|||[map, 累積和](https://atcoder.jp/contests/abc143/submissions/13893107)|
@@ -494,8 +505,9 @@ make FILE=0.0.0/abc039_c.cpp
 ||||§ 2.4.2.1|exercise|[ABC 166 E - This Message Will Self-Destruct in 5s](https://atcoder.jp/contests/abc166/tasks/abc166_e)|||[総和総数問題、上限決めてmap、 一方を固定](https://atcoder.jp/contests/abc166/submissions/14064541)|
 ||||§ 2.4.3|example|[POJ #1182 食物連鎖](http://poj.org/problem?id=1182)|||[3×numberのunion find](./2.4.3/poj1182.c)|
 ||||§ 2.4.3|exercise|[ATC 001 B Union Find](https://atcoder.jp/contests/atc001/tasks/unionfind_a)|||[Union Find](https://atcoder.jp/contests/atc001/submissions/12844290)|
-||||§ 2.4.3|exercise|[ABC 049 D 連結](https://atcoder.jp/contests/abc049/tasks/arc065_b)|||[union find, hashmap](https://atcoder.jp/contests/abc049/submissions/12697315)|
+||||§ 2.4.3|exercise|[ABC 049 D 連結](https://atcoder.jp/contests/abc049/tasks/arc065_b)|||[Union Find, hashmap](https://atcoder.jp/contests/abc049/submissions/12697315)|
 ||||§ 2.4.3|exercise|[ABC 037 B - バウムテスト](https://atcoder.jp/contests/arc037/tasks/arc037_b)|||see § 2.1.2|
+|||§ 2.4.3|exercise|[ARC 032 B - 道路工事](https://atcoder.jp/contests/arc032/tasks/arc032_2)||||[Union Find](https://atcoder.jp/contests/arc032/submissions/15130877)|
 ||||§ 2.4.3|exercise|[ABC 075 C - Bridge](https://atcoder.jp/contests/abc075/tasks/abc075_c)|||複数回Union Find see § 2.1.2|
 ||||§ 2.4.3|exercise|[ABC 157 D - Friend Suggestions](https://atcoder.jp/contests/abc157/tasks/abc157_d)|||[Union Find](https://atcoder.jp/contests/abc157/submissions/11931508)|
 ||||§ 2.4.3|exercise|[ARC 097 D Equals](https://atcoder.jp/contests/arc097/tasks/arc097_b)|||[スワップ問題、Union Find](https://atcoder.jp/contests/arc097/submissions/12697803)|
@@ -560,6 +572,7 @@ make FILE=0.0.0/abc039_c.cpp
 ||||§ 2.6.7|exercise|[ABC 165 D - Floor Function](https://atcoder.jp/contests/abc165/tasks/abc165_d)|||[数学的考察](https://atcoder.jp/contests/abc165/submissions/12889778)|
 ||||§ 2.6.7|exercise|[ABC 108 C - Triangular Relationship](https://atcoder.jp/contests/abc108/tasks/arc102_a)|||[数学的考察](https://atcoder.jp/contests/abc108/submissions/13687394)|
 ||||§ 2.6.7|exercise|[ABC 105 C - Base -2 Number](https://atcoder.jp/contests/abc105/tasks/abc105_c)|||[数学的考察、普通の2進数表示 -> carry](https://atcoder.jp/contests/abc105/submissions/13712126)|
+||||§ 2.6.7|exercise|[ARC 051 B - 互除法](https://atcoder.jp/contests/arc051/tasks/arc051_b)||||[考察、フィボナッチ数列](https://atcoder.jp/contests/arc051/submissions/15213861)|
 ||||§ 2.6.7|exercise|[ABC 121 D - XOR World](https://atcoder.jp/contests/abc121/tasks/abc121_d)|||[数学的考察](https://atcoder.jp/contests/abc121/submissions/13560004)|
 ||||§ 2.6.7|exercise|[ABC 125 D - Flipping Signs](https://atcoder.jp/contests/abc125/tasks/abc125_d)|||[数学的考察](https://atcoder.jp/contests/abc125/submissions/13467844)|
 ||||§ 2.6.7|exercise|[ABC 148 E - Double Factorial](https://atcoder.jp/contests/abc148/submissions/14795165)||||[5が何回登場するかを考える](https://atcoder.jp/contests/abc148/submissions/14795165)|
@@ -616,8 +629,12 @@ make FILE=0.0.0/abc039_c.cpp
 ||||§ 3.2.3|exercise|[C - 一次元リバーシ](https://atcoder.jp/contests/abc047/tasks/arc063_a)|||[ランレングス圧縮](https://atcoder.jp/contests/abc047/submissions/14109887)|
 ||||§ 3.2.3|exercise|[JOI 2008 本選 1 - 碁石ならべ](https://atcoder.jp/contests/joi2008ho/tasks/joi2008ho_a)|||[stack, ランレングス圧縮](https://atcoder.jp/contests/joi2008ho/submissions/11465819)|
 ||||§ 3.2.3|exercise|[JOI 2012 本選 A 電飾](https://atcoder.jp/contests/joi2013ho/tasks/joi2013ho1)|||[stack, ランレングス圧縮](https://atcoder.jp/contests/joi2013ho/submissions/11466663)|
+||||§ 2.2.3|exercise|[ABC 082 D - FT Robot](https://atcoder.jp/contests/abc082/tasks/arc087_b)|||ランレングス圧縮 see § 2.3.1|
 ||o||§ 3.2.3|exercise|[AGC 005 A - STring](https://atcoder.jp/contests/agc005/tasks/agc005_a)||||[stack](https://atcoder.jp/contests/agc005/submissions/15045986)|
 ||||§ 3.2.3|exercise|[ABC 140 D - Face Produces Unhappiness](https://atcoder.jp/contests/abc140/submissions/14690147)||||[ランレングス圧縮](https://atcoder.jp/contests/abc140/submissions/14690147)|
+||||§ 3.2.3|exercise|[ARC 036 B - 山のデータ](https://atcoder.jp/contests/arc036/tasks/arc036_b)||||[ランレングス圧縮](https://atcoder.jp/contests/arc036/submissions/15131397)|
+||||§ 3.2.3|exercise|[CODE FESTIVAL 2014 決勝 E - 常ならずグラフ](https://atcoder.jp/contests/code-festival-2014-final/tasks/code_festival_final_e)||||[ランレングス圧縮](https://atcoder.jp/contests/code-festival-2014-final/submissions/15191660)|
+||||§ 3.2.3|exercise|[ARC 017 B - 解像度が低い。](https://atcoder.jp/contests/arc017/tasks/arc017_2)||||[ランレングス圧縮、コーナーケース(K=1)](https://atcoder.jp/contests/arc017/submissions/15191839)|
 ||o||§ 3.2.3|exercise|[ABC 040 A - `><`](https://atcoder.jp/contests/agc040/tasks/agc040_a)||||[ランレングス圧縮、最小の列の考察](https://atcoder.jp/contests/agc040/submissions/14842427)|
 ||||§ 3.2.3|exercise|[ABC 124 D - Handstand](https://atcoder.jp/contests/abc124/tasks/abc124_d)|||[ランレングス圧縮](https://atcoder.jp/contests/abc124/submissions/13535422)|
 |||o|§ 3.2.3|exercise|[JOI 2008 本選 C あみだくじ](https://atcoder.jp/contests/joi2009ho/tasks/joi2009ho_c)|||[]()|
@@ -686,9 +703,18 @@ make FILE=0.0.0/abc039_c.cpp
 ||||§ 3.3.6|exercise|[JOI 2016 予選 D ぬいぐるみの整理](https://atcoder.jp/contests/joi2017yo/tasks/joi2017yo_d)|||[bitDP, 累積和](https://atcoder.jp/contests/joi2017yo/submissions/11263795)|
 ||||§ 3.3.6|exercise|[ABC 041 D 徒競走](https://atcoder.jp/contests/abc041/tasks/abc041_d)|||[bitDP](https://atcoder.jp/contests/abc041/submissions/13310523)|
 ||||§ 3.3.6|exercise|[ABC 142 E - Get Everything](https://atcoder.jp/contests/abc142/tasks/abc142_e)||||[bitDP、配るDP](https://atcoder.jp/contests/abc142/submissions/14794931)|
+||||§ 3.6.0|exercise|[ABC 168 C - : (Colon)](https://atcoder.jp/contests/abc168/tasks/abc168_c)||||[余弦定理](https://atcoder.jp/contests/abc168/submissions/15201150)|
+||||§ 3.6.0|exercise|[AOJ CGL_1_A 射影](https://onlinejudge.u-aizu.ac.jp/problems/CGL_1_A)||||[p1と射影との距離と直線の単位傾き](https://onlinejudge.u-aizu.ac.jp/solutions/problem/CGL_1_A/review/4660335/knknkn1162/C++14)|
+||||§ 3.6.0|exercise|[ARC 042 B - アリの高橋くん](https://atcoder.jp/contests/arc042/tasks/arc042_b)||||[直線の単位傾き、外積](https://atcoder.jp/contests/arc042/submissions/15200890)|
+||||§ 3.6.0|exercise|[AOJ CGL_1_B 反射](https://onlinejudge.u-aizu.ac.jp/courses/library/4/CGL/all/CGL_1_B)||||[射影を求める -> 2倍](https://onlinejudge.u-aizu.ac.jp/solutions/problem/CGL_1_B/review/4660405/knknkn1162/C++14)|
+||||§ 3.6.0|exercise|[反時計回り](https://onlinejudge.u-aizu.ac.jp/courses/library/4/CGL/all/CGL_1_C)||||[外積で判定](https://onlinejudge.u-aizu.ac.jp/solutions/problem/CGL_1_C/review/4660505/knknkn1162/C++14)|
+||||§ 3.6.0|exercise|[AOJ CGL_2_A 平行・垂直](https://onlinejudge.u-aizu.ac.jp/courses/library/4/CGL/all/CGL_2_A)||||[内積(垂直判定)、外積(並行判定)](https://onlinejudge.u-aizu.ac.jp/solutions/problem/CGL_2_A/review/4660192/knknkn1162/C++14)|
+||||§ 3.6.0|exercise|[ARC 004 B - 2点間距離の最大と最小 ( Maximum and Minimum )](https://atcoder.jp/contests/arc004/tasks/arc004_2)||||[三角形の成立条件](https://atcoder.jp/contests/arc004/submissions/15191973)|
 ||||§ 3.6.1|example|[Jack Straws (POJ No.1127)](http://poj.org/problem?id=1127)|||[]()|
 ||||§ 3.6.1|exercise|[ABC 100 D - Patisserie ABC](https://atcoder.jp/contests/abc100/tasks/abc100_d)|||重心計算、see §2.2.4|
 ||o||§ 3.6.1|exercise|[AGC 036 A - Triangle](https://atcoder.jp/contests/agc036/tasks/agc036_a)||||[構成問題、座標から三角形の面積、数値誤差に注意](https://atcoder.jp/contests/agc036/submissions/14959015)|
+|||o|§ 3.6.1|exercise|[ARC 042 B - アリの高橋くん](https://atcoder.jp/contests/arc042/tasks/arc042_b)||||[]()|
+|||o|§ 3.6.1|exercise|[ABC 016 D - 一刀両断](https://atcoder.jp/contests/abc016/tasks/abc016_4)||||[]()|
 ||||§ 4.2|example|[ABC 048 D - An Ordinary Game](https://atcoder.jp/contests/abc048/tasks/arc064_b)|||[ゲームの必勝法(両端が同じ)](https://atcoder.jp/contests/abc048/submissions/14114061)|
 ||||§ 4.2|exercise|[ABC 027 C - 倍々ゲーム](https://atcoder.jp/contests/abc027/tasks/abc027_c)|||[ゲームの必勝法、桁数で戦略が決める](https://atcoder.jp/contests/abc027/submissions/14209748)|
 ||||§ 4.2|exercise|[CADDi 2018 D - Harlequin](https://atcoder.jp/contests/caddi2018/tasks/caddi2018_b)||||[ゲームの必勝法、偶数のみで負け](https://atcoder.jp/contests/caddi2018/submissions/15089626)|

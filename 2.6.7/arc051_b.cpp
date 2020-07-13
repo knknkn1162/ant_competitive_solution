@@ -38,8 +38,26 @@ void cins(vector<T>& arr) { for(T& e: arr) cin >> e; }
 #define debug(fmt, ...)
 #define ps(arr)
 #endif
-
+int counter = 0;
+int gcd(int a, int b) {
+    if (b == 0) return a;
+    counter++;
+    return gcd(b, a%b);
+}
 
 int main(void) {
+    int k;
+    cin >> k;
+    vector<int> arr(k+2);
+    arr[0] = 1; arr[1] = 1;
+    for(int i = 2; i <= k+1; i++) {
+        arr[i] = arr[i-1] + arr[i-2];
+    }
+
+    // check
+    gcd(arr[k+1], arr[k]);
+    debug("%d\n", counter);
+
+    cout << arr[k+1] << " " << arr[k] << endl;
     return 0;
 }

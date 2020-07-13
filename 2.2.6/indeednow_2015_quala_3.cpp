@@ -15,13 +15,12 @@
 #include <unordered_set> // unordered_set
 #include <bitset> // bitset
 #include <cctype> // isupper, islower, isdigit, toupper, tolower
-#include <cmath> // sqrt
+#include <cmath>
 #define _GLIBCXX_DEBUG // check []
 #define DIVISOR 1000000007
 
 using namespace std;
 typedef pair<int,int> pii;
-typedef pair<double, double> pdd;
 typedef pair<int64_t, int64_t> pII;
 
 template<typename T>
@@ -40,6 +39,31 @@ void cins(vector<T>& arr) { for(T& e: arr) cin >> e; }
 #endif
 
 
+#define SCORE_MAX 1000000
 int main(void) {
+    int num;
+    cin >> num;
+    vector<int> cum(SCORE_MAX+1);
+    for(int i = 0; i < num; i++) {
+        int val;
+        cin >> val;
+        cum[val]++;
+    }
+    for(int i = 1; i <= SCORE_MAX; i++) {
+        cum[i] += cum[i-1];
+    }
+    int qs;
+    cin >> qs;
+
+    for(int i = 0; i < qs; i++) {
+        int q;
+        cin >> q;
+        int key = num-q;
+        auto pos = lower_bound(cum.begin(), cum.end(), key);
+        debug("%d\n", cum[pos-cum.begin()]);
+        int ans = pos - cum.begin() + 1;
+        if(ans == 1) ans = 0;
+        cout << ans << endl;
+    }
     return 0;
 }

@@ -21,7 +21,6 @@
 
 using namespace std;
 typedef pair<int,int> pii;
-typedef pair<double, double> pdd;
 typedef pair<int64_t, int64_t> pII;
 
 template<typename T>
@@ -39,7 +38,56 @@ void cins(vector<T>& arr) { for(T& e: arr) cin >> e; }
 #define ps(arr)
 #endif
 
+struct line {
+    pii p1;
+    pii incline;
+};
+
+
+enum type {
+    TYPE_NONE,
+    TYPE_ORTHOGONAL,
+    TYPE_PARALLEL,
+};
+
+#define _x first
+#define _y second
+
+int inner_prod(pii p1, pii p2) {
+    return (p1._x * p2._x) + (p1._y * p2._y);
+}
+
+int outer_prod(pii p1, pii p2) {
+    return (p1._x * p2._y) - (p1._y * p2._x);
+}
 
 int main(void) {
+    pii p1;
+    pii p2;
+    int num;
+    cin >> num;
+    for(int n = 0; n < num; n++) {
+        cin >> p1.first >> p1.second;
+        cin >> p2.first >> p2.second;
+        pii inc1 = make_pair(p2.first - p1.first,
+            p2.second - p1.second
+        );
+        cin >> p1.first >> p1.second;
+        cin >> p2.first >> p2.second;
+        pii inc2 = make_pair(
+            p2.first - p1.first,
+            p2.second - p1.second
+        );
+        int type = 0;
+        if(!inner_prod(inc1, inc2)) {
+            type = TYPE_ORTHOGONAL;
+        } else if (!outer_prod(inc1, inc2)) {
+            type = TYPE_PARALLEL;
+        } else {
+            type = TYPE_NONE;
+        }
+        cout << type << endl;
+    }
+
     return 0;
 }

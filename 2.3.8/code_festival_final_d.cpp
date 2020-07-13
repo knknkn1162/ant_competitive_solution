@@ -21,7 +21,6 @@
 
 using namespace std;
 typedef pair<int,int> pii;
-typedef pair<double, double> pdd;
 typedef pair<int64_t, int64_t> pII;
 
 template<typename T>
@@ -39,7 +38,9 @@ void cins(vector<T>& arr) { for(T& e: arr) cin >> e; }
 #define ps(arr)
 #endif
 
-
 int main(void) {
+    int val;
+    cin >> val;
+    cout << val+1 << " " << 2 << endl;
     return 0;
 }

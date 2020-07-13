@@ -41,5 +41,38 @@ void cins(vector<T>& arr) { for(T& e: arr) cin >> e; }
 
 
 int main(void) {
+    int num, k;
+    cin >> num >> k;
+    vector<int> arr(num);
+    cins(arr);
+    if(k == 1) {
+        cout << arr.size() << endl;
+        return 0;
+    }
+
+    int prev = arr[0];
+    bool prev_plus = true;
+    int cnt = 0;
+    vector<int> rle;
+    for(int i = 1; i < num; i++) {
+        int cur = arr[i];
+        bool cur_plus = (cur>prev);
+        if(prev_plus == cur_plus) {
+            cnt++;
+        } else {
+            rle.push_back(cnt+1);
+            cnt = 1;
+        }
+        prev = cur;
+        prev_plus = cur_plus;
+    }
+    rle.push_back(cnt+1);
+    ps(rle);
+
+    int ans = 0;
+    for(int i = 0; i < rle.size(); i+=2) {
+        ans += max(rle[i]-k+1, 0);
+    }
+    cout << ans << endl;
     return 0;
 }

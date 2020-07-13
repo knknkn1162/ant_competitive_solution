@@ -41,5 +41,20 @@ void cins(vector<T>& arr) { for(T& e: arr) cin >> e; }
 
 
 int main(void) {
+    int num;
+    cin >> num;
+    vector<int> arr(num);
+    cins(arr);
+
+    int mmax = 0;
+    int sum = 0;
+    for(int i = 0; i < num; i++) {
+        sum += arr[i];
+        mmax = max(arr[i], mmax);
+    }
+
+    // sum-mmax, mmax
+    cout << sum << endl;
+    cout << max(mmax - (sum-mmax), 0) << endl;
     return 0;
 }

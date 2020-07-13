@@ -39,7 +39,26 @@ void cins(vector<T>& arr) { for(T& e: arr) cin >> e; }
 #define ps(arr)
 #endif
 
-
+#define COLORS 10
+#define INF 1000000
 int main(void) {
+    int num, cost;
+    cin >> num >> cost;
+    vector<int> arr(num);
+    cins(arr);
+    int ans = INF;
+    for(int i = 1; i <= COLORS; i++) {
+        for(int j = 1; j <= COLORS; j++) {
+            if(i == j) continue;
+            vector<int> cs = {i, j};
+            int cnt = 0;
+            for(int k = 0; k < num; k++) {
+                cnt += (cs[k%2] != arr[k]);
+            }
+            ans = min(cnt, ans);
+        }
+    }
+
+    cout << ans*cost << endl;
     return 0;
 }

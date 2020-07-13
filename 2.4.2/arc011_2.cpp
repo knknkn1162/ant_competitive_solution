@@ -39,7 +39,44 @@ void cins(vector<T>& arr) { for(T& e: arr) cin >> e; }
 #define ps(arr)
 #endif
 
+vector<int> table(256);
+
+void init_table(void) {
+    table['b'] = table['c'] = 1;
+    table['d'] = table['w'] = 2;
+    table['t'] = table['j'] = 3;
+    table['f'] = table['q'] = 4;
+    table['l'] = table['v'] = 5;
+    table['s'] = table['x'] = 6;
+    table['p'] = table['m'] = 7;
+    table['h'] = table['k'] = 8;
+    table['n'] = table['g'] = 9;
+    table['z'] = table['r'] = 10;
+}
 
 int main(void) {
+    string str;
+    int num;
+    cin >> num;
+    init_table();
+    vector<string> ans;
+    for(int i = 0; i < num; i++) {
+        string str;
+        cin >> str;
+        int len = str.length();
+        string res;
+        for(int j = 0; j < len; j++) {
+            str[j] = tolower(str[j]);
+            int d = table[str[j]];
+            if(d) res.push_back(d%10 + '0');
+        }
+        if(res.length()) ans.push_back(res);
+    }
+
+    for(int i = 0; i < ans.size(); i++) {
+        cout << ans[i];
+        if(i != ans.size()-1) cout << ' ';
+    }
+    cout << endl;
     return 0;
 }

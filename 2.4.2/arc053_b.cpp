@@ -41,5 +41,27 @@ void cins(vector<T>& arr) { for(T& e: arr) cin >> e; }
 
 
 int main(void) {
+    string str;
+    cin >> str;
+    int len = str.length();
+
+    vector<int> map(26);
+    for(int i = 0; i < len; i++) {
+        map[str[i] - 'a']++;
+    }
+
+    vector<int> cnt_map(2);
+    for(int i = 0; i < 26; i++) {
+        cnt_map[0] += map[i]/2;
+        cnt_map[1] += map[i]%2;
+    }
+
+    if(cnt_map[1] == 0) {
+        cout << len << endl;
+    } else {
+        int cnt = cnt_map[1];
+        int ans = (cnt_map[0] / cnt) * 2 + 1;
+        cout << ans << endl;
+    }
     return 0;
 }

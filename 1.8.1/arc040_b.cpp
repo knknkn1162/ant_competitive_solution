@@ -21,7 +21,6 @@
 
 using namespace std;
 typedef pair<int,int> pii;
-typedef pair<double, double> pdd;
 typedef pair<int64_t, int64_t> pII;
 
 template<typename T>
@@ -41,5 +40,34 @@ void cins(vector<T>& arr) { for(T& e: arr) cin >> e; }
 
 
 int main(void) {
+    int num, rad;
+    cin >> num >> rad;
+    string str;
+    cin >> str;
+    int last = -1;
+    for(int i = 0; i < str.length(); i++) {
+        if(str[i] == '.') last = i;
+    }
+    if(last == -1) {
+        cout << 0 << endl;
+        return 0;
+    }
+
+    debug("last: %d\n", last);
+    int ans = 0;
+    int flag = 0;
+    for(int i = 0; i < num; i++) {
+        int idx = min(num, i+rad)-1;
+        if(str[i] != 'o' || last <= idx) {
+            ans++; // shoot
+            for(int j = i; j <= idx; j++) {
+                str[j] = 'o';
+                if(j == last)  flag = 1;
+            }
+        }
+        if(flag) break;
+        ans++; // go forward
+    }
+    cout << ans << endl;
     return 0;
 }

@@ -39,7 +39,56 @@ void cins(vector<T>& arr) { for(T& e: arr) cin >> e; }
 #define ps(arr)
 #endif
 
-
 int main(void) {
+    vector<int> table = {
+        31, 29, 31,
+        30, 31, 30,
+        31, 31, 30,
+        31, 30, 31
+    };
+    int num;
+    cin >> num;
+    vector<int> days(368);
+    for(int i = 1; i <= 366; i++) {
+        int mod = i%7;
+        // Sunday or Saturday
+        days[i] = (mod == 1 || mod == 0);
+    }
+    days[367] = 0; // for guard
+    
+    for(int i = 0; i < num; i++) {
+        int m, d;
+        scanf("%d/%d", &m, &d);
+        int idx = 0;
+        for(int i = 0; i < m-1; i++) {
+            idx += table[i];
+        }
+        idx += d;
+        debug("%d\n", idx);
+        days[idx]++;
+    }
+
+    int bonus = 0;
+    for(int i = 1; i <= 366; i++) {
+        if(days[i] >= 1) {
+            bonus += (days[i]-1);
+            days[i] = 1;
+        } else {
+            if(bonus) { days[i]++; bonus--; }
+        }
+    }
+
+    int cnt = 0;
+    int ans = 2;
+    for(int i = 1; i <= 367; i++) {
+        if(days[i] == 1) {
+            cnt++;
+        } else {
+            ans = max(cnt, ans);
+            cnt = 0;
+        }
+    }
+
+    cout << ans << endl;
     return 0;
 }

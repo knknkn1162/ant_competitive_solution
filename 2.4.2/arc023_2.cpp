@@ -21,7 +21,6 @@
 
 using namespace std;
 typedef pair<int,int> pii;
-typedef pair<double, double> pdd;
 typedef pair<int64_t, int64_t> pII;
 
 template<typename T>
@@ -39,7 +38,33 @@ void cins(vector<T>& arr) { for(T& e: arr) cin >> e; }
 #define ps(arr)
 #endif
 
+int get_dist(pii p1, pii p2) {
+    return abs(p1.first - p2.first) + abs(p1.second - p2.second);
+}
 
+#define DIST_MAX 2000
 int main(void) {
+    int row, col, cnt;
+    cin >> row >> col >> cnt;
+    vector<vector<int>> map(DIST_MAX+1);
+    pii start = make_pair(1, 1);
+    for(int i = 1; i <= row; i++) {
+        for(int j = 1; j <= col; j++) {
+            pii end = make_pair(i, j);
+            int dist = get_dist(start, end);
+            int val;
+            cin >> val;
+            map[dist].push_back(val);
+        }
+    }
+
+    int ans = 0;
+    for(int i = cnt; i >= 0; i-=2) {
+        for(int val: map[i]) {
+            ans = max(ans, val);
+        }
+    }
+
+    cout << ans << endl;
     return 0;
 }

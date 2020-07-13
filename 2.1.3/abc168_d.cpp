@@ -40,6 +40,49 @@ void cins(vector<T>& arr) { for(T& e: arr) cin >> e; }
 #endif
 
 
+#define INF (1e+9)
 int main(void) {
+    int vs, es;
+    cin >> vs >> es;
+
+    vector<vector<int>> graph(vs);
+    for(int i = 0; i < es; i++) {
+        int v1, v2;
+        cin >> v1 >> v2;
+        v1--; v2--;
+        graph[v1].push_back(v2);
+        graph[v2].push_back(v1);
+    }
+
+    // count, prev
+    vector<pii> table(vs, make_pair(INF, 0));
+    table[0] = make_pair(0, 0);
+    queue<int> queue;
+    queue.push(0);
+
+    while(!queue.empty()) {
+        int src = queue.front(); queue.pop();
+        debug("v: %d\n", src);
+        int count = table[src].first;
+        for(int dst: graph[src]) {
+            if(table[dst].first > count+1) {
+                table[dst] = make_pair(count+1, src);
+                queue.push(dst);
+            }
+        }
+    }
+
+    bool flag = true;
+    for(int i = 0; i < vs; i++) {
+        if(table[i].first == INF) flag = false;
+    }
+    if(flag) {
+        cout << "Yes" << endl;
+        for(int i = 1; i < vs; i++) {
+            cout << table[i].second + 1 << endl;
+        }
+    } else {
+        cout << "No" << endl;
+    }
     return 0;
 }
