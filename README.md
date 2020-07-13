@@ -53,7 +53,8 @@ make FILE=0.0.0/abc039_c.cpp
 ||||§ 1.6.1|exercise|[ABC 137 C - Green Bin](https://atcoder.jp/contests/abc137/tasks/abc137_c)||||[文字列をソート、map](https://atcoder.jp/contests/abc137/submissions/14648816)|
 ||||§ 1.6.1|exercise|[ABC 094 C - Many Medians](https://atcoder.jp/contests/abc094/tasks/arc095_a)|||[中央値、ソート](https://atcoder.jp/contests/abc094/submissions/13910628)|
 |||o|§ 1.6.2|exercise|[ABC 123 D - Cake 123](https://atcoder.jp/contests/abc123/tasks/abc123_d)|||[Kが小さい、解の候補を絞ってソート](https://atcoder.jp/contests/abc123/submissions/13557424) or [max heap](https://atcoder.jp/contests/abc123/submissions/14137799) or [二分探索]() or [min heapでK番目までの値を保存(楽)](https://atcoder.jp/contests/abc123/submissions/14138295)|
-||||§ 1.6.2|exercise|[ABC 097 C - K-th Substring](https://atcoder.jp/contests/abc097/tasks/arc097_a)|||[Kが小さい、解の候補を絞ってソート](https://atcoder.jp/contests/abc097/submissions/13911362)|
+||||§ 1.6.2|exercise|[ABC 097 C - K-th Substring](https://atcoder.jp/contests/abc097/tasks/arc097_a)|||[K番目の数、Kが小さい、解の候補を絞ってソート](https://atcoder.jp/contests/abc097/submissions/13911362)|
+|~50|o||§ 1.6.2|exercise|[ABC 171 C - One Quadrillion and One Dalmatians](https://atcoder.jp/contests/abc171/tasks/abc171_c)||||[K番目の数、桁の導出と似たように](https://atcoder.jp/contests/abc171/submissions/15221350)|
 ||||§ 1.6.2|exercise|[ABC 045 D - すぬけ君の塗り絵](https://atcoder.jp/contests/abc045/tasks/arc061_b)|||[解の候補を絞ってソート、hash](https://atcoder.jp/contests/abc045/submissions/14127742) or [候補の長方形の個数を数える](https://atcoder.jp/contests/abc045/submissions/14128018)|
 ||||§ 1.6.2|exercise|[ABC 136 E - Max GCD](https://atcoder.jp/contests/abc136/tasks/abc136_e)||||約数、ソート see § 2.6.3|
 ||||§ 1.7.1|exercise|[ABC 126 C - Dice and Coin](https://atcoder.jp/contests/abc126/tasks/abc126_c)|||[確率](https://atcoder.jp/contests/abc126/submissions/13467645)|
